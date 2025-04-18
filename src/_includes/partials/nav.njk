@@ -1,0 +1,60 @@
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 py-4 transition-colors duration-300 ease-in-out bg-moone-purple">
+    <div class="container mx-auto px-4 md:px-6 flex justify-between items-center">
+        <div class="flex items-center">
+            <img src="/img/moon/moon-eating.png" alt="Moone Logo" class="h-14">
+            <a href="/">
+                <span class="ml-2 text-xl font-semibold text-white">Moone</span>
+            </a>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center space-x-8">
+            <a href="/#features" class="text-purple-100 hover:text-white">Features</a>
+            <a href="/#how-it-works" class="text-purple-100 hover:text-white">How It Works</a>
+            <a href="/#testimonials" class="text-purple-100 hover:text-white">Testimonials</a>
+            <a href="/blog/" class="text-purple-100 hover:text-white">Blog</a>
+            <a href="/#download" class="bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition duration-300 ml-4">Download</a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden flex justify-center gap-4 items-center">
+            <a href="#download" class="bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100">Download</a>
+            <button id="mobile-menu-button" class="text-white focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-moone-purple pb-4">
+        <a href="/#features" class="block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Features</a>
+        <a href="/#how-it-works" class="block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">How It Works</a>
+        <a href="/#testimonials" class="block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Testimonials</a>
+        <a href="/blog/" class="block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Blog</a>
+    </div>
+</nav>
+
+<style>
+    .site-nav {
+        padding: 1rem 0;
+    }
+
+    .site-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .site-nav a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .site-nav a:hover {
+        text-decoration: underline;
+    }
+</style>

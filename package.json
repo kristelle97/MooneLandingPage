@@ -4,8 +4,8 @@
     "description": "Landing page for Moone personalized nutrition app",
     "main": "index.html",
     "scripts": {
-        "dev": "vite & npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-        "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css && vite build",
+        "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch & eleventy --serve",
+        "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css && eleventy && vite build",
         "preview": "vite preview"
     },
     "keywords": [
@@ -23,6 +23,7 @@
         "vite": "^5.0.0"
     },
     "dependencies": {
+        "@11ty/eleventy": "^3.0.0",
         "@notionhq/client": "^2.3.0",
         "dotenv": "^16.5.0"
     }

@@ -1,0 +1,179 @@
+<!-- Navigation -->
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 py-4 transition-colors duration-300 ease-in-out bg-moone-purple">
+    <div class="container mx-auto px-4 md:px-6 flex justify-between items-center">
+        <a href="/" class="flex items-center"> <!-- Changed href to root -->
+            <img src="img/moon/moon-eating.png" alt="Moone Logo" class="h-14">
+            <span class="ml-2 text-xl font-semibold text-white">Moone</span>
+        </a>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center space-x-8">
+            <a href="/#features" class="text-purple-100 hover:text-white">Features</a> <!-- Added / for root linking -->
+            <a href="/#how-it-works" class="text-purple-100 hover:text-white">How It Works</a> <!-- Added / for root linking -->
+            <a href="/#testimonials" class="text-purple-100 hover:text-white">Testimonials</a> <!-- Added / for root linking -->
+            <a href="/blog/" class="text-purple-100 hover:text-white">Blog</a>
+            <a href="/#download" class="bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition duration-300 ml-4">Download</a> <!-- Added / for root linking -->
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden flex justify-center gap-4 items-center">
+            <a href="/#download" class="bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100">Download</a> <!-- Added / for root linking -->
+            <button id="mobile-menu-button" class="text-white focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-moone-purple pb-4">
+        <a href="/#features" class="block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Features</a> <!-- Added / for root linking -->
+        <a href="/#how-it-works" class="block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">How It Works</a> <!-- Added / for root linking -->
+        <a href="/#testimonials" class="block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Testimonials</a> <!-- Added / for root linking -->
+        <a href="/blog/" class="block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Blog</a>
+        <a href="/#download" class="block py-2 px-4 text-center bg-white text-moone-purple rounded-full font-medium hover:bg-gray-100 transition duration-300 mx-4 mt-2">Download</a> <!-- Added / for root linking -->
+    </div>
+</nav>
+
+<script>
+    // Ensure script runs only once, even if included multiple times
+    if (!window.navbarScriptLoaded) {
+        window.navbarScriptLoaded = true;
+
+        const navbar = document.getElementById('navbar');
+        // Check if navbar exists before proceeding
+        if (navbar) {
+            const logoText = navbar.querySelector('a > span'); // Adjusted selector
+            // Select desktop nav links only
+            const desktopNavLinks = navbar.querySelectorAll('.hidden.md\\:flex > a:not(:last-child)');
+            // Select desktop download button only
+            const desktopDownloadButton = navbar.querySelector('.hidden.md\\:flex > a:last-child');
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileNavLinks = mobileMenu.querySelectorAll('a:not(:last-child)');
+            const mobileDownloadButton = mobileMenu.querySelector('a:last-child');
+            const mobileMenuIcon = mobileMenuButton.querySelector('svg'); // Get the SVG icon
+
+            // Define classes for different states
+            const topClasses = {
+                nav: ['bg-moone-purple'],
+                logo: ['text-white'],
+                links: ['text-purple-100', 'hover:text-white'],
+                button: ['bg-white', 'text-moone-purple', 'hover:bg-gray-100'],
+                mobileMenuBg: ['bg-moone-purple'], // Mobile menu background
+                mobileLinks: ['text-purple-100', 'hover:bg-purple-700', 'hover:text-white'], // Mobile links text/hover
+                mobileButton: ['bg-white', 'text-moone-purple', 'hover:bg-gray-100'], // Mobile download button
+                hamburgerIcon: ['text-white'] // Hamburger icon color
+            };
+
+            const scrolledClasses = {
+                nav: ['bg-white', 'shadow-md'],
+                logo: ['text-moone-purple'],
+                links: ['text-gray-600', 'hover:text-moone-purple'],
+                button: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'],
+                mobileMenuBg: ['bg-white'], // Mobile menu background when scrolled
+                mobileLinks: ['text-gray-600', 'hover:bg-gray-100', 'hover:text-moone-purple'], // Mobile links text/hover when scrolled
+                mobileButton: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'], // Mobile download button when scrolled
+                hamburgerIcon: ['text-moone-purple'] // Hamburger icon color when scrolled
+            };
+
+            function updateNavClasses(isScrolled) {
+                const add = isScrolled ? scrolledClasses : topClasses;
+                const remove = isScrolled ? topClasses : scrolledClasses;
+
+                // Update Navbar background and shadow
+                navbar.classList.remove(...remove.nav);
+                navbar.classList.add(...add.nav);
+
+                // Update Logo text color
+                if (logoText) {
+                    logoText.classList.remove(...remove.logo);
+                    logoText.classList.add(...add.logo);
+                }
+
+
+                // Update Desktop Nav links color
+                desktopNavLinks.forEach(link => {
+                    link.classList.remove(...remove.links);
+                    link.classList.add(...add.links);
+                });
+
+                // Update Desktop Download button styles
+                if (desktopDownloadButton) {
+                    desktopDownloadButton.classList.remove(...remove.button);
+                    desktopDownloadButton.classList.add(...add.button);
+                }
+
+
+                // Update Mobile Menu background
+                if (mobileMenu) {
+                    mobileMenu.classList.remove(...remove.mobileMenuBg);
+                    mobileMenu.classList.add(...add.mobileMenuBg);
+                }
+
+
+                // Update Mobile Nav links color
+                if (mobileNavLinks) {
+                    mobileNavLinks.forEach(link => {
+                        link.classList.remove(...remove.mobileLinks);
+                        link.classList.add(...add.mobileLinks);
+                    });
+                }
+
+
+                 // Update Mobile Download button styles
+                 if (mobileDownloadButton) {
+                    mobileDownloadButton.classList.remove(...remove.mobileButton);
+                    mobileDownloadButton.classList.add(...add.mobileButton);
+                 }
+
+
+                // Update Hamburger Icon color
+                if (mobileMenuIcon) {
+                    mobileMenuIcon.classList.remove(...remove.hamburgerIcon);
+                    mobileMenuIcon.classList.add(...add.hamburgerIcon);
+                }
+
+            }
+
+            // Toggle Mobile Menu
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    // Optional: Change hamburger icon to 'X' when menu is open
+                    if (mobileMenuIcon) {
+                        if (mobileMenu.classList.contains('hidden')) {
+                            mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`;
+                        } else {
+                            mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>`;
+                        }
+                    }
+                });
+            }
+
+
+            // Close mobile menu when a link is clicked
+            if (mobileMenu) {
+                mobileMenu.querySelectorAll('a').forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                         if (mobileMenuIcon) {
+                            mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`; // Reset icon
+                         }
+                    });
+                });
+            }
+
+
+
+            window.addEventListener('scroll', () => {
+                const isScrolled = window.scrollY > 50;
+                updateNavClasses(isScrolled); // Apply styles based on scroll
+            });
+
+            // Initial check in case the page loads already scrolled
+            updateNavClasses(window.scrollY > 50);
+        }
+    }
+</script>

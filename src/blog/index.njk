@@ -1,0 +1,32 @@
+---
+layout: base.njk
+title: Moone Blog - Nutrition & Wellness Tips
+---
+
+<div class="pt-32 pb-20">
+    <div class="container mx-auto px-4 md:px-6">
+        <h1 class="text-4xl font-bold mb-8 text-gray-800">Blog</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {%- for post in collections.posts | reverse -%}
+            <article class="bg-white rounded-xl shadow-md overflow-hidden">
+                {% if post.data.thumbnail %}
+                <img src="{{ post.data.thumbnail }}" alt="{{ post.data.title }}" class="h-48 w-54 object-fill">
+                {% endif %}
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="{{ post.url }}" class="text-moone-purple hover:text-purple-700">{{ post.data.title }}</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">{{ post.date | dateFilter }}</div>
+                    {% if post.data.description %}
+                    <p class="text-gray-600">{{ post.data.description }}</p>
+                    {% endif %}
+                    <a href="{{ post.url }}" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article>
+            {%- endfor -%}
+        </div>
+    </div>
+</div>
