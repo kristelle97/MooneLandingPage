@@ -5,8 +5,7 @@
     "main": "index.html",
     "scripts": {
         "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch & eleventy --serve",
-        "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css && eleventy && vite build",
-        "preview": "vite preview"
+        "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css && eleventy"
     },
     "keywords": [
         "tailwind",
