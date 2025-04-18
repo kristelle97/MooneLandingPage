@@ -77,8 +77,8 @@ const pageTemplate = (title, content) => `
                     <span class="ml-2 text-lg font-semibold">Moone</span>
                 </div>
                 <div class="flex gap-4">
-                    <a href="PrivacyPolicy.html" class="text-purple-200 hover:text-white">Privacy Policy</a>
-                    <a href="TermsAndConditions.html" class="text-purple-200 hover:text-white">Terms & Conditions</a>
+                    <a href="/PrivacyPolicy/" class="text-purple-200 hover:text-white">Privacy Policy</a>
+                    <a href="/TermsandConditions/" class="text-purple-200 hover:text-white">Terms & Conditions</a>
                 </div>
             </div>
             <div class="mt-8 text-purple-200 text-sm">
@@ -240,8 +240,8 @@ async function buildPages() {
     try {
         // Define your Notion page IDs
         const pages = {
-            'Privacy Policy': '1d827d4c1901801db3c5f13fd84b061e', // Replace with actual ID
-            'Terms and Conditions': '1d827d4c1901801db3c5f13fd84b061e' // Replace with actual ID
+            'Privacy Policy': '1d827d4c1901801db3c5f13fd84b061e',
+            'Terms and Conditions': '1d927d4c19018049bf58c1981f97b1ba'
         };
 
         for (const [title, pageId] of Object.entries(pages)) {
