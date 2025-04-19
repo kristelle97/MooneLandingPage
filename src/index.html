@@ -324,8 +324,7 @@
         const desktopDownloadButton = navbar.querySelector('.hidden.md\\:flex > a:last-child');
         const mobileMenuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
-        const mobileNavLinks = mobileMenu.querySelectorAll('a:not(:last-child)');
-        const mobileDownloadButton = mobileMenu.querySelector('a:last-child');
+        const mobileNavLinks = mobileMenu.querySelectorAll('a'); // Select all links in mobile menu
         const mobileMenuIcon = mobileMenuButton.querySelector('svg'); // Get the SVG icon
 
         // Define classes for different states
@@ -382,10 +381,6 @@
                 link.classList.remove(...remove.mobileLinks);
                 link.classList.add(...add.mobileLinks);
             });
-
-             // Update Mobile Download button styles
-            mobileDownloadButton.classList.remove(...remove.mobileButton);
-            mobileDownloadButton.classList.add(...add.mobileButton);
 
             // Update Hamburger Icon color
             mobileMenuIcon.classList.remove(...remove.hamburgerIcon);

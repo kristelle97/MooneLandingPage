@@ -17,7 +17,8 @@ const pageTemplate = (title, content) => `
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${title} - Moone</title>
     <link href="/dist/output.css" rel="stylesheet">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_MEASUREMENT_ID"></script>
@@ -28,6 +29,9 @@ const pageTemplate = (title, content) => `
 
       gtag('config', 'G-2ZSVEQDDT1');
     </script>
+    
+    <!-- Cookie Banner Script -->
+    <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/bcb8f2d8f394d9e54bf16bef90ad28b4.js"></script>
 </head>
 <body class="bg-gray-50">
     <!-- Navigation -->
@@ -98,108 +102,105 @@ const pageTemplate = (title, content) => `
     </footer>
 
     <script>
-        // Add the JavaScript for the mobile menu toggle and scroll behavior here
-        // Note: You might need to adjust paths or logic if this script relies
-        // on elements specific to index.html that aren't present on these generated pages.
-        const navbar = document.getElementById('navbar');
-        const logoText = navbar.querySelector('span');
-        // Select desktop nav links only
-        const desktopNavLinks = navbar.querySelectorAll('.hidden.md\\:flex > a:not(:last-child)');
-        // Select desktop download button only
-        const desktopDownloadButton = navbar.querySelector('.hidden.md\\:flex > a:last-child');
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        const mobileNavLinks = mobileMenu.querySelectorAll('a:not(:last-child)');
-        const mobileDownloadButton = mobileMenu.querySelector('a:last-child');
-        const mobileMenuIcon = mobileMenuButton.querySelector('svg'); // Get the SVG icon
-
-        // Define classes for different states (adjust if needed for non-index pages)
-        const topClasses = {
-            nav: ['bg-moone-purple'],
-            logo: ['text-white'],
-            links: ['text-purple-100', 'hover:text-white'],
-            button: ['bg-white', 'text-moone-purple', 'hover:bg-gray-100'],
-            mobileMenuBg: ['bg-moone-purple'],
-            mobileLinks: ['text-purple-100', 'hover:bg-purple-700', 'hover:text-white'],
-            mobileButton: ['bg-white', 'text-moone-purple', 'hover:bg-gray-100'],
-            hamburgerIcon: ['text-white']
-        };
-
-        const scrolledClasses = {
-            nav: ['bg-white', 'shadow-md'],
-            logo: ['text-moone-purple'],
-            links: ['text-gray-600', 'hover:text-moone-purple'],
-            button: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'],
-            mobileMenuBg: ['bg-white'],
-            mobileLinks: ['text-gray-600', 'hover:bg-gray-100', 'hover:text-moone-purple'],
-            mobileButton: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'],
-            hamburgerIcon: ['text-moone-purple']
-        };
-
-        function updateNavClasses(isScrolled) {
-            const add = isScrolled ? scrolledClasses : topClasses;
-            const remove = isScrolled ? topClasses : scrolledClasses;
-
-            navbar.classList.remove(...remove.nav);
-            navbar.classList.add(...add.nav);
-
-            logoText.classList.remove(...remove.logo);
-            logoText.classList.add(...add.logo);
-
-            desktopNavLinks.forEach(link => {
-                link.classList.remove(...remove.links);
-                link.classList.add(...add.links);
-            });
-
-            desktopDownloadButton.classList.remove(...remove.button);
-            desktopDownloadButton.classList.add(...add.button);
-
-            mobileMenu.classList.remove(...remove.mobileMenuBg);
-            mobileMenu.classList.add(...add.mobileMenuBg);
-
-            mobileNavLinks.forEach(link => {
-                link.classList.remove(...remove.mobileLinks);
-                link.classList.add(...add.mobileLinks);
-            });
-
-            mobileDownloadButton.classList.remove(...remove.mobileButton);
-            mobileDownloadButton.classList.add(...add.mobileButton);
-
-            mobileMenuIcon.classList.remove(...remove.hamburgerIcon);
-            mobileMenuIcon.classList.add(...add.hamburgerIcon);
-        }
-
-        // Toggle Mobile Menu
-        mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-            if (mobileMenu.classList.contains('hidden')) {
-                mobileMenuIcon.innerHTML = \`<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>\`;
-            } else {
-                mobileMenuIcon.innerHTML = \`<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>\`;
-            }
-        });
-
-        // Close mobile menu when a link is clicked (optional, depends on desired behavior)
-        mobileMenu.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                // Check if the link is an internal page link (starts with #)
-                // If not, don't automatically close the menu as it navigates away
-                if (link.getAttribute('href').startsWith('#') || link.getAttribute('href').startsWith('/#')) {
-                    mobileMenu.classList.add('hidden');
-                    mobileMenuIcon.innerHTML = \`<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>\`; // Reset icon
+        // Mobile menu toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileMenuIcon = mobileMenuButton.querySelector('svg');
+            
+            // Toggle mobile menu
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+                if (mobileMenu.classList.contains('hidden')) {
+                    mobileMenuIcon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>';
+                } else {
+                    mobileMenuIcon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>';
                 }
             });
-        });
+            
+            // Close mobile menu when links are clicked
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    if (link.getAttribute('href').startsWith('#') || link.getAttribute('href').startsWith('/#')) {
+                        mobileMenu.classList.add('hidden');
+                        mobileMenuIcon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>';
+                    }
+                });
+            });
+            
+            // Navbar scroll behavior
+            const navbar = document.getElementById('navbar');
+            const logoText = navbar.querySelector('span');
+            const desktopNavLinks = navbar.querySelectorAll('.hidden.md\\:flex > a:not(:last-child)');
+            const desktopDownloadButton = navbar.querySelector('.hidden.md\\:flex > a:last-child');
+            const mobileNavLinks = mobileMenu.querySelectorAll('a:not(:last-child)');
+            const mobileDownloadButton = mobileMenu.querySelector('a:last-child');
+            
+            // Define classes for different states
+            const topClasses = {
+                nav: ['bg-moone-purple'],
+                logo: ['text-white'],
+                links: ['text-purple-100', 'hover:text-white'],
+                button: ['bg-white', 'text-moone-purple', 'hover:bg-gray-100'],
+                mobileMenuBg: ['bg-moone-purple'],
+                mobileLinks: ['text-purple-100', 'hover:bg-purple-700', 'hover:text-white'],
+                mobileButton: ['bg-white', 'text-moone-purple', 'hover:bg-gray-100'],
+                hamburgerIcon: ['text-white']
+            };
 
-        // Scroll behavior (optional for static pages like Privacy Policy)
-        // You might want to remove or adjust this if the scroll effect isn't needed
-        window.addEventListener('scroll', () => {
-            const isScrolled = window.scrollY > 50;
-            updateNavClasses(isScrolled);
-        });
+            const scrolledClasses = {
+                nav: ['bg-white', 'shadow-md'],
+                logo: ['text-moone-purple'],
+                links: ['text-gray-600', 'hover:text-moone-purple'],
+                button: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'],
+                mobileMenuBg: ['bg-white'],
+                mobileLinks: ['text-gray-600', 'hover:bg-gray-100', 'hover:text-moone-purple'],
+                mobileButton: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'],
+                hamburgerIcon: ['text-moone-purple']
+            };
 
-        // Initial check
-        updateNavClasses(window.scrollY > 50);
+            function updateNavClasses(isScrolled) {
+                const add = isScrolled ? scrolledClasses : topClasses;
+                const remove = isScrolled ? topClasses : scrolledClasses;
+
+                navbar.classList.remove(...remove.nav);
+                navbar.classList.add(...add.nav);
+
+                logoText.classList.remove(...remove.logo);
+                logoText.classList.add(...add.logo);
+
+                desktopNavLinks.forEach(link => {
+                    link.classList.remove(...remove.links);
+                    link.classList.add(...add.links);
+                });
+
+                desktopDownloadButton.classList.remove(...remove.button);
+                desktopDownloadButton.classList.add(...add.button);
+
+                mobileMenu.classList.remove(...remove.mobileMenuBg);
+                mobileMenu.classList.add(...add.mobileMenuBg);
+
+                mobileNavLinks.forEach(link => {
+                    link.classList.remove(...remove.mobileLinks);
+                    link.classList.add(...add.mobileLinks);
+                });
+
+                mobileDownloadButton.classList.remove(...remove.mobileButton);
+                mobileDownloadButton.classList.add(...add.mobileButton);
+
+                mobileMenuIcon.classList.remove(...remove.hamburgerIcon);
+                mobileMenuIcon.classList.add(...add.hamburgerIcon);
+            }
+
+            // Scroll behavior
+            window.addEventListener('scroll', () => {
+                const isScrolled = window.scrollY > 50;
+                updateNavClasses(isScrolled);
+            });
+
+            // Initial check
+            updateNavClasses(window.scrollY > 50);
+        });
     </script>
 </body>
 </html>
