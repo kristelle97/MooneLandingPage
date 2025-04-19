@@ -47,6 +47,19 @@
     </div>
 </nav>
 
+<script>
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    // Ensure both elements exist before adding the event listener
+    if (mobileMenuButton && mobileMenu) {
+        mobileMenuButton.addEventListener('click', () => {
+            // Toggle the 'hidden' class to show/hide the menu
+            mobileMenu.classList.toggle('hidden');
+        });
+    }
+</script>
+
 <style>
     .site-nav {
         padding: 1rem 0;
@@ -80,12 +93,75 @@
         </header>
 
         
-        <img src="/img/posts/welcome-to-moone.png" alt="Welcome to Moone" class="w-full h-64 object-cover rounded-xl mb-8">
+        <img src="/img/posts/welcome-to-moone.png" alt="Welcome to Moone" class="w-full h-64 object-fill rounded-xl mb-8">
         
 
         <div class="prose prose-purple max-w-none">
-            <p>Welcome to the Moone blog! Here we'll share nutrition tips, wellness advice, and updates about our app...</p>
-<p>[Continue writing your blog post content here]</p>
+            <p>At Moone, we believe that nutrition should work <em>with</em> your body — not against it. That’s why we built the first nutrition app made specifically for women, designed to support your health in sync with your hormonal cycle. Whether you're dealing with PMS, perimenopause, or just looking to feel better in your body, Moone is your science-backed partner in personalized nutrition.</p>
+<hr>
+<h2>🌿 What We Do</h2>
+<p>Moone is not a calorie-counting app — and that’s intentional. We believe women deserve better than one-size-fits-all diet rules. Instead, Moone offers dynamic, personalized nutrition support that evolves with your cycle and lifestyle.</p>
+<p>Here’s how we help:</p>
+<ul>
+<li>
+<p><strong>1-Click AI Food Logging</strong><br>
+No more tedious tracking. Moone makes logging simple — just snap, type, or speak your meals into the app.</p>
+</li>
+<li>
+<p><strong>Cycle-Aware Nutrition Guidance</strong><br>
+Your needs shift throughout your hormonal cycle. Moone adapts your nutrition recommendations accordingly — with personalized macronutrient and micronutrient guidance to support energy, cravings, digestion, and more.</p>
+</li>
+<li>
+<p><strong>Habit &amp; Symptom Tracking</strong><br>
+Track how your habits, mood, energy, and cycle phases interact. Moone connects the dots so you can better understand your body.</p>
+</li>
+<li>
+<p><strong>Science-Backed, Calorie-Free Insights</strong><br>
+Get evidence-based recommendations tailored to your goals — without calorie counts or restrictive advice.</p>
+</li>
+</ul>
+<hr>
+<h2>✨ Our Values</h2>
+<p>At Moone, we’re not here to tell you to eat less or restrict more. We’re here to help you feel better, stronger, and more in control — on your terms.</p>
+<ul>
+<li>
+<p><strong>Personalization Over Perfection</strong><br>
+No two bodies are the same. Moone adapts to <em>you</em> — not the other way around.</p>
+</li>
+<li>
+<p><strong>Evidence-First</strong><br>
+Our recommendations are rooted in the latest research in women’s health, nutrition science, and hormonal biology.</p>
+</li>
+<li>
+<p><strong>Empowerment Through Education</strong><br>
+When you understand your body, you can work with it — not fight against it.</p>
+</li>
+<li>
+<p><strong>Progress, Not Pressure</strong><br>
+Health isn’t a one-size-fits-all sprint. It’s a journey. We’re with you every step of the way.</p>
+</li>
+</ul>
+<hr>
+<h2>💡 Who’s Behind Moone?</h2>
+<p>We’re a passionate team of women in nutrition, tech, and health — building the tools we wish we had. From engineers to registered nutritionists, we’re combining the best of science and software to make women’s health smarter and more supportive.</p>
+<p>Our mission is simple: help women understand their bodies, make informed choices, and feel better every day.</p>
+<hr>
+<h2>💬 What Women Are Saying</h2>
+<blockquote>
+<p>“I finally feel like my app <em>gets</em> me. I’m not tracking calories — I’m learning about my body.”<br>
+— <em>Moone beta user</em></p>
+</blockquote>
+<blockquote>
+<p>“This is the first time I’ve seen nutrition advice that actually considers my cycle. Game changer.”<br>
+— <em>Community member</em></p>
+</blockquote>
+<hr>
+<h2>🚀 Ready to Join?</h2>
+<p>Thousands of women are already using Moone to tune into their bodies and transform their health. Want in?</p>
+<p>👉 <a href="https://apps.apple.com/fr/app/moone/id6739633389?l=en-US">Download Moone</a></p>
+<p>Let’s make nutrition personal — and hormonal health mainstream.</p>
+<hr>
+<p><strong>Moone — Nutrition designed for women, by women.</strong></p>
 
         </div>
     </div>
@@ -105,7 +181,7 @@
                 <a href="/TermsandConditions" class="text-purple-200 hover:text-white">Terms and Conditions</a>
             </div>
         </div>
-        <div class="mt-8 text-left text-purple-200 text-sm">
+        <div class="mt-8 text-center text-purple-200 text-sm">
             <p>&copy; 2024 Moone. All rights reserved.</p>
         </div>
     </div>

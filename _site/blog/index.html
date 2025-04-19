@@ -47,6 +47,19 @@
     </div>
 </nav>
 
+<script>
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    // Ensure both elements exist before adding the event listener
+    if (mobileMenuButton && mobileMenu) {
+        mobileMenuButton.addEventListener('click', () => {
+            // Toggle the 'hidden' class to show/hide the menu
+            mobileMenu.classList.toggle('hidden');
+        });
+    }
+</script>
+
 <style>
     .site-nav {
         padding: 1rem 0;
@@ -78,7 +91,8 @@
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"><article class="bg-white rounded-xl shadow-md overflow-hidden">
                 
-                <img src="/img/posts/welcome-to-moone.png" alt="Welcome to Moone" class="h-48 w-54 object-fill">
+                <img src="/img/posts/welcome-to-moone.png" alt="Welcome to Moone" class="w-full h-48 object-cover">
+
                 
                 <div class="p-6">
                     <h2 class="text-xl font-semibold mb-2">
@@ -86,9 +100,94 @@
                     </h2>
                     <div class="text-sm text-gray-500 mb-4">March 20, 2024</div>
                     
-                    <p class="text-gray-600">Learn how Moone can help you achieve your nutrition goals</p>
+                    <p class="text-gray-600">Learn how Moone supports your health with cycle-aware guidance, AI-powered food logging, and expert-backed insights — no calorie counting, just real support tailored to your needs.</p>
                     
                     <a href="/blog/posts/welcome-to-moone/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                <img src="/img/posts/cyclesyncing.jpeg" alt="The complete guide to cycle syncing your nutrition" class="w-full h-48 object-cover">
+
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/cycle-syncing-diet-guide/" class="text-moone-purple hover:text-purple-700">The complete guide to cycle syncing your nutrition</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">March 20, 2024</div>
+                    
+                    <p class="text-gray-600">Learn how to align your meals with your menstrual cycle. This cycle syncing diet guide covers all four phases: menstrual, follicular, ovulatory, and luteal.</p>
+                    
+                    <a href="/cycle-syncing-diet-guide/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                <img src="/img/posts/ovulatoryphase.jpeg" alt="Best recipes for the ovulation phase" class="w-full h-48 object-cover">
+
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/ovulation-phase-recipes/" class="text-moone-purple hover:text-purple-700">Best recipes for the ovulation phase</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">March 20, 2024</div>
+                    
+                    <p class="text-gray-600">Support your body during ovulation with hormone-friendly recipes that balance estrogen and boost fertility. Includes easy, antioxidant-rich meal ideas.</p>
+                    
+                    <a href="/ovulation-phase-recipes/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                <img src="/img/posts/menstrualphase.jpeg" alt="Menstrual phase nutrition tips" class="w-full h-48 object-cover">
+
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/menstrual-phase-nutrition/" class="text-moone-purple hover:text-purple-700">Menstrual phase nutrition tips</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">March 20, 2024</div>
+                    
+                    <p class="text-gray-600">Discover what to eat during your period to reduce cramps, boost energy, and replenish iron. Includes hormone-friendly meals and anti-inflammatory foods.</p>
+                    
+                    <a href="/menstrual-phase-nutrition/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                <img src="/img/posts/lutealphase.jpeg" alt="Luteal phase nutrition: what to eat &amp; avoid" class="w-full h-48 object-cover">
+
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/luteal-phase-nutrition/" class="text-moone-purple hover:text-purple-700">Luteal phase nutrition: what to eat &amp; avoid</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">March 20, 2024</div>
+                    
+                    <p class="text-gray-600">Support your body during the luteal phase with the right foods. Learn what to eat to reduce PMS, bloating, and mood swings with this hormone-focused diet guide.</p>
+                    
+                    <a href="/luteal-phase-nutrition/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                <img src="/img/posts/follicularphase.jpeg" alt="Follicular phase diet for energy &amp; clarity" class="w-full h-48 object-cover">
+
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/follicular-phase-diet/" class="text-moone-purple hover:text-purple-700">Follicular phase diet for energy &amp; clarity</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">March 20, 2024</div>
+                    
+                    <p class="text-gray-600">Boost energy and brain clarity during the follicular phase with these hormone-supportive foods and meal ideas. Learn what to eat during days 6–14 of your cycle</p>
+                    
+                    <a href="/follicular-phase-diet/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
                         Read more →
                     </a>
                 </div>
@@ -110,7 +209,7 @@
                 <a href="/TermsandConditions" class="text-purple-200 hover:text-white">Terms and Conditions</a>
             </div>
         </div>
-        <div class="mt-8 text-left text-purple-200 text-sm">
+        <div class="mt-8 text-center text-purple-200 text-sm">
             <p>&copy; 2024 Moone. All rights reserved.</p>
         </div>
     </div>

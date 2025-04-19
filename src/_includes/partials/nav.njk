@@ -36,6 +36,19 @@
     </div>
 </nav>
 
+<script>
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    // Ensure both elements exist before adding the event listener
+    if (mobileMenuButton && mobileMenu) {
+        mobileMenuButton.addEventListener('click', () => {
+            // Toggle the 'hidden' class to show/hide the menu
+            mobileMenu.classList.toggle('hidden');
+        });
+    }
+</script>
+
 <style>
     .site-nav {
         padding: 1rem 0;

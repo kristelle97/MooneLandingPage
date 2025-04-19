@@ -1,4 +1,5 @@
 const { DateTime } = require("luxon");
+const markdownIt = require("markdown-it");
 
 module.exports = function(eleventyConfig) {
     // Add a collection for blog posts
@@ -14,10 +15,19 @@ module.exports = function(eleventyConfig) {
     // Add proper passthrough copies
     eleventyConfig.addPassthroughCopy("src/img");
     eleventyConfig.addPassthroughCopy("src/js");
-    eleventyConfig.addPassthroughCopy("dist");
+    eleventyConfig.addPassthroughCopy("./dist/output.css");
 
     // Watch CSS files for changes
     eleventyConfig.addWatchTarget("./dist/output.css");
+
+    // Configure Markdown-it
+    let options = {
+        html: true,
+        breaks: true,
+        linkify: true
+    };
+
+    eleventyConfig.setLibrary("md", markdownIt(options));
 
     return {
         pathPrefix: "/",
