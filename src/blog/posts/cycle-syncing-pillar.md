@@ -3,6 +3,7 @@ title: "The complete guide to cycle syncing your nutrition"
 description: "Learn how to align your meals with your menstrual cycle. This cycle syncing diet guide covers all four phases: menstrual, follicular, ovulatory, and luteal."
 tags: ["cycle syncing diet", "hormone health", "nutrition for women"]
 thumbnail: /img/posts/cyclesyncing.jpeg
+alt: Sunrise over ocean waves symbolizing the natural rhythm of the menstrual cycle
 layout: post.njk
 date: 2024-03-20
 permalink: "/cycle-syncing-diet-guide/"

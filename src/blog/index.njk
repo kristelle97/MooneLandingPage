@@ -11,7 +11,7 @@ title: Moone Blog - Nutrition & Wellness Tips
             {%- for post in collections.posts | reverse -%}
             <article class="bg-white rounded-xl shadow-md overflow-hidden">
                 {% if post.data.thumbnail %}
-                <img src="{{ post.data.thumbnail }}" alt="{{ post.data.title }}" class="w-full h-48 object-cover">
+                <img src="{{ post.data.thumbnail }}" alt="{{ post.data.alt }}" class="w-full h-48 object-cover">
 
                 {% endif %}
                 <div class="p-6">

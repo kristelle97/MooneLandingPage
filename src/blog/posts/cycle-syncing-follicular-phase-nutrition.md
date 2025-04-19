@@ -3,6 +3,7 @@ title: "Follicular phase diet for energy & clarity"
 description: "Boost energy and brain clarity during the follicular phase with these hormone-supportive foods and meal ideas. Learn what to eat during days 6–14 of your cycle"
 tags: ["follicular phase foods", "cycle syncing meal ideas", "hormone health"]
 thumbnail: /img/posts/follicularphase.jpeg
+alt: Three joyful women outdoors enjoying energy and clarity during follicular phase
 layout: post.njk
 date: 2024-03-20
 permalink: "/follicular-phase-diet/"

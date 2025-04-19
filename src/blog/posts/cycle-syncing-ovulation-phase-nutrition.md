@@ -3,6 +3,7 @@ title: "Best recipes for the ovulation phase"
 description: "Support your body during ovulation with hormone-friendly recipes that balance estrogen and boost fertility. Includes easy, antioxidant-rich meal ideas."
 tags: ["ovulation diet", "hormone-friendly recipes", "fertility nutrition"]
 thumbnail: /img/posts/ovulatoryphase.jpeg
+alt: Single egg on soft pink fabric symbolizing ovulation and fertility
 layout: post.njk
 date: 2024-03-20
 permalink: "/ovulation-phase-recipes/"

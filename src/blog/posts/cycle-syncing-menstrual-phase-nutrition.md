@@ -3,6 +3,7 @@ title: "Menstrual phase nutrition tips"
 description: "Discover what to eat during your period to reduce cramps, boost energy, and replenish iron. Includes hormone-friendly meals and anti-inflammatory foods."
 tags: ["iron-rich foods", "meals to reduce cramps", "cycle syncing diet", "menstrual phase"]
 thumbnail: /img/posts/menstrualphase.jpeg
+alt: Menstrual cup and sanitary pads on colorful background representing period care
 layout: post.njk
 date: 2024-03-20
 permalink: "/menstrual-phase-nutrition/"

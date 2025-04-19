@@ -3,6 +3,7 @@ title: "Luteal phase nutrition: what to eat & avoid"
 description: "Support your body during the luteal phase with the right foods. Learn what to eat to reduce PMS, bloating, and mood swings with this hormone-focused diet guide."
 tags: ["luteal phase diet", "foods for PMS", "bloating", "cycle syncing diet"]
 thumbnail: /img/posts/lutealphase.jpeg
+alt: Tired woman resting on a chair during luteal phase fatigue and mood changes
 layout: post.njk
 date: 2024-03-20
 permalink: "/luteal-phase-nutrition/"
