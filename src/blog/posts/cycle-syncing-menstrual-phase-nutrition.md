@@ -103,7 +103,7 @@ Salmon with sweet potato mash and sautéed greens
 
 ---
 
-## Internal Links
+## Related articles
 
 - [Cycle Syncing Diet Guide](/cycle-syncing-diet-guide)  
 - [Luteal Phase Nutrition: What to Eat & Avoid](/luteal-phase-nutrition)  

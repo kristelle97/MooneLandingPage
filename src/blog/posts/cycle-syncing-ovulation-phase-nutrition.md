@@ -127,7 +127,7 @@ A 2022 meta-analysis found that omega-3 fatty acids significantly reduced PMS sy
 
 ---
 
-## Internal Links
+## Related articles
 
 - [Cycle Syncing Diet Guide](/cycle-syncing-diet-guide)  
 - [Follicular Phase Diet for Energy & Clarity](/follicular-phase-diet)  

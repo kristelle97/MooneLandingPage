@@ -106,7 +106,7 @@ Soothe bloating and calm the nervous system.
 
 ---
 
-## Internal Links
+## Related articles
 
 - [Pillar: The Complete Guide to Cycle Syncing Your Nutrition](/cycle-syncing-diet-guide)  
 - [Menstrual Phase Nutrition Tips](/menstrual-phase-nutrition)  
