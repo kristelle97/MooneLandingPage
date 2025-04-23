@@ -38,7 +38,7 @@ const pageTemplate = (title, content) => `
     <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 py-4 transition-colors duration-300 ease-in-out bg-moone-purple">
         <div class="container mx-auto px-4 md:px-6 flex justify-between items-center">
             <div class="flex items-center">
-                <img src="/img/moon/moon-eating.png" alt="Moone Logo" class="h-14">
+                <img src="/img/moon/moon-eating.gif" alt="Moone Logo" class="h-14">
                 <span class="ml-2 text-xl font-semibold text-white">Moone</span>
             </div>
 

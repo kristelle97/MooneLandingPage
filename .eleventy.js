@@ -4,7 +4,7 @@ const markdownIt = require("markdown-it");
 module.exports = function(eleventyConfig) {
     // Add a collection for blog posts
     eleventyConfig.addCollection("posts", function(collectionApi) {
-        return collectionApi.getFilteredByGlob("src/blog/posts/*.md");
+        return collectionApi.getFilteredByGlob("src/blog/posts/**/*.md");
     });
 
     // Fix the date filter
