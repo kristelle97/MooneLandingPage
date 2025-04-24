@@ -110,4 +110,4 @@ When you feed your hormones what they need, your body responds with more ease, f
 ---
 
 *Want to personalize your hormone nutrition journey?*  
-✨ [Download the Moone App](https://www.getmoone.com) to get meal plans, cycle tracking, and supplement insights tailored to your hormonal needs.
+✨ [Download the Moone App](https://apps.apple.com/fr/app/moone/id6739633389?l=en-US) to get meal plans, cycle tracking, and supplement insights tailored to your hormonal needs.

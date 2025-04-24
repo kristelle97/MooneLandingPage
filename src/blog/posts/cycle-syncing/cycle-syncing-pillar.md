@@ -149,7 +149,7 @@ Track symptoms or use an app to find your personal rhythm.
 
 ## Take the Next Step
 
-Ready to support your cycle naturally? Download the Moone app to track your phases and get personalized nutrition insights.
+Ready to support your cycle naturally? [Download](https://apps.apple.com/fr/app/moone/id6739633389?l=en-US) the Moone app to track your phases and get personalized nutrition insights.
 
 [Start Your Cycle Syncing Journey →](https://www.getmoone.com)
 
