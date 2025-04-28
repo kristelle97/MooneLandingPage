@@ -11,7 +11,11 @@ module.exports = {
     extend: {
       colors: {
         'moone-purple': '#a854f7',
-      }
+      },
+      fontFamily: {
+        'sans': ['Quicksand', 'sans-serif'],
+        'quicksand': ['Quicksand', 'sans-serif'],
+      },
     },
   },
   plugins: [

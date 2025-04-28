@@ -22,27 +22,30 @@
     <!-- Cookie Banner Script -->
     <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/bcb8f2d8f394d9e54bf16bef90ad28b4.js"></script>
 </head>
-<body class="bg-gray-50">
+<body class="bg-gray-50 font-quicksand" style="font-family: 'Quicksand', sans-serif;">
     <!-- Navigation -->
     <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 py-4 transition-colors duration-300 ease-in-out bg-moone-purple">
-        <div class="container mx-auto px-4 md:px-6 flex justify-between items-center">
+        <div class="container mx-auto px-4 flex justify-between items-center">
             <div class="flex items-center">
-                <img src="/img/moon/moon-eating.gif" alt="Moone Logo" class="h-14">
+                <img src="/img/moon/moon-eating.png" alt="Moone Logo" class="h-14">
                 <span class="ml-2 text-xl font-semibold text-white">Moone</span>
             </div>
 
             <!-- Desktop Menu -->
             <div class="hidden md:flex items-center space-x-8">
-                <a href="/#features" class="text-purple-100 hover:text-white">Features</a>
-                <a href="/#how-it-works" class="text-purple-100 hover:text-white">How It Works</a>
-                <a href="/#testimonials" class="text-purple-100 hover:text-white">Testimonials</a>
-                <a href="/blog/" class="text-purple-100 hover:text-white">Blog</a>
-                <a href="https://apps.apple.com/fr/app/moone/id6739633389?l=en-US" class="bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition duration-300 ml-4">Download</a>
+                <a href="/#features" class="nav-link text-purple-100 hover:text-white">Features</a>
+                <a href="/#how-it-works" class="nav-link text-purple-100 hover:text-white">How It Works</a>
+                <a href="/#testimonials" class="nav-link text-purple-100 hover:text-white">Testimonials</a>
+                <a href="/blog/" class="nav-link text-purple-100 hover:text-white">Blog</a>
+                <!-- iOS Download Button -->
+                <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="desktop-download-btn" class="ios-download-btn bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition duration-300 ml-4">Download</a>
+                <!-- Android Download Button -->
+                <button id="desktop-android-btn" class="android-download-btn bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition duration-300 ml-4 hidden">Download</button>
             </div>
 
             <!-- Mobile Menu Button -->
             <div class="md:hidden flex justify-center gap-4 items-center">
-                <a href="https://apps.apple.com/fr/app/moone/id6739633389?l=en-US" class="bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100">Download</a>
+                <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="mobile-download-btn" class="bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100">Download</a>
                 <button id="mobile-menu-button" class="text-white focus:outline-none">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
@@ -53,11 +56,10 @@
 
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-moone-purple pb-4">
-            <a href="/#features" class="block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Features</a>
-            <a href="/#how-it-works" class="block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">How It Works</a>
-            <a href="/#testimonials" class="block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Testimonials</a>
-            <a href="/blog/" class="block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Blog</a>
-            <a href="https://apps.apple.com/fr/app/moone/id6739633389?l=en-US" class="block py-2 px-4 text-center bg-white text-moone-purple rounded-full font-medium hover:bg-gray-100 transition duration-300 mx-4 mt-2">Download</a>
+            <a href="/#features" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Features</a>
+            <a href="/#how-it-works" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">How It Works</a>
+            <a href="/#testimonials" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Testimonials</a>
+            <a href="/blog/" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Blog</a>
         </div>
     </nav>
 
@@ -177,6 +179,50 @@
     </footer>
 
     <script>
+        function detectMobileOS() {
+            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            
+            // iOS detection
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                return 'iOS';
+            }
+            
+            // Android detection
+            if (/android/i.test(userAgent)) {
+                return 'Android';
+            }
+            
+            // Default to desktop
+            return 'desktop';
+        }
+
+        // Call this function when the page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            setupDownloadButtons();
+        });
+
+        function setupDownloadButtons() {
+            const os = detectMobileOS();
+            const iosButtons = document.querySelectorAll('.ios-download-btn');
+            const androidButtons = document.querySelectorAll('.android-download-btn');
+            
+            if (os === 'Android') {
+                // Show Android buttons, hide iOS buttons
+                iosButtons.forEach(btn => btn.classList.add('hidden'));
+                androidButtons.forEach(btn => {
+                    btn.classList.remove('hidden');
+                    btn.addEventListener('click', function() {
+                        document.getElementById('google-play-modal').classList.remove('hidden');
+                        document.body.style.overflow = 'hidden';
+                    });
+                });
+            } else {
+                // For iOS and desktop, show iOS buttons, hide Android buttons
+                androidButtons.forEach(btn => btn.classList.add('hidden'));
+                iosButtons.forEach(btn => btn.classList.remove('hidden'));
+            }
+        }
+
         // Mobile menu toggle functionality
         document.addEventListener('DOMContentLoaded', function() {
             const mobileMenuButton = document.getElementById('mobile-menu-button');
@@ -196,20 +242,18 @@
             // Close mobile menu when links are clicked
             mobileMenu.querySelectorAll('a').forEach(link => {
                 link.addEventListener('click', () => {
-                    if (link.getAttribute('href').startsWith('#') || link.getAttribute('href').startsWith('/#')) {
-                        mobileMenu.classList.add('hidden');
-                        mobileMenuIcon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>';
-                    }
+                    mobileMenu.classList.add('hidden');
+                    mobileMenuIcon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>';
                 });
             });
             
             // Navbar scroll behavior
             const navbar = document.getElementById('navbar');
             const logoText = navbar.querySelector('span');
-            const desktopNavLinks = navbar.querySelectorAll('.hidden.md\:flex > a:not(:last-child)');
-            const desktopDownloadButton = navbar.querySelector('.hidden.md\:flex > a:last-child');
-            const mobileNavLinks = mobileMenu.querySelectorAll('a:not(:last-child)');
-            const mobileDownloadButton = mobileMenu.querySelector('a:last-child');
+            const desktopNavLinks = document.querySelectorAll('.nav-link');
+            const desktopDownloadButton = document.getElementById('desktop-download-btn');
+            const mobileDownloadButton = document.getElementById('mobile-download-btn');
+            const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
             
             // Define classes for different states
             const topClasses = {

@@ -1,7 +1,7 @@
 <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 py-4 transition-colors duration-300 ease-in-out bg-moone-purple">
-    <div class="container mx-auto px-4 md:px-6 flex justify-between items-center">
+    <div class="container mx-auto px-4 flex justify-between items-center">
         <div class="flex items-center">
-            <img src="/img/moon/moon-eating.gif" alt="Moone Logo" class="h-14">
+            <img src="/img/moon/moon-eating.png" alt="Moone Logo" class="h-14">
             <a href="/">
                 <span class="ml-2 text-xl font-semibold text-white">Moone</span>
             </a>
@@ -9,16 +9,19 @@
 
         <!-- Desktop Menu -->
         <div class="hidden md:flex items-center space-x-8">
-            <a href="/#features" class="text-purple-100 hover:text-white">Features</a>
-            <a href="/#how-it-works" class="text-purple-100 hover:text-white">How It Works</a>
-            <a href="/#testimonials" class="text-purple-100 hover:text-white">Testimonials</a>
-            <a href="/blog/" class="text-purple-100 hover:text-white">Blog</a>
-            <a href="https://apps.apple.com/fr/app/moone/id6739633389?l=en-US" class="bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition duration-300 ml-4">Download</a>
+            <a href="/#features" class="nav-link text-purple-100 hover:text-white">Features</a>
+            <a href="/#how-it-works" class="nav-link text-purple-100 hover:text-white">How It Works</a>
+            <a href="/#testimonials" class="nav-link text-purple-100 hover:text-white">Testimonials</a>
+            <a href="/blog/" class="nav-link text-purple-100 hover:text-white">Blog</a>
+            <!-- iOS Download Button -->
+            <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="desktop-download-btn" class="ios-download-btn bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition duration-300 ml-4">Download</a>
+            <!-- Android Download Button -->
+            <button id="desktop-android-btn" class="android-download-btn bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition duration-300 ml-4 hidden">Download</button>
         </div>
 
         <!-- Mobile Menu Button -->
         <div class="md:hidden flex justify-center gap-4 items-center">
-            <a href="https://apps.apple.com/fr/app/moone/id6739633389?l=en-US" class="bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100">Download</a>
+            <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="mobile-download-btn" class="bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100">Download</a>
             <button id="mobile-menu-button" class="text-white focus:outline-none">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
@@ -29,24 +32,164 @@
 
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="hidden md:hidden bg-moone-purple pb-4">
-        <a href="/#features" class="block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Features</a>
-        <a href="/#how-it-works" class="block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">How It Works</a>
-        <a href="/#testimonials" class="block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Testimonials</a>
-        <a href="/blog/" class="block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Blog</a>
+        <a href="/#features" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Features</a>
+        <a href="/#how-it-works" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">How It Works</a>
+        <a href="/#testimonials" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Testimonials</a>
+        <a href="/blog/" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Blog</a>
     </div>
 </nav>
 
 <script>
+    function detectMobileOS() {
+        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        
+        // iOS detection
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            return 'iOS';
+        }
+        
+        // Android detection
+        if (/android/i.test(userAgent)) {
+            return 'Android';
+        }
+        
+        // Default to desktop
+        return 'desktop';
+    }
+
+    // Call this function when the page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        setupDownloadButtons();
+    });
+
+    function setupDownloadButtons() {
+        const os = detectMobileOS();
+        const iosButtons = document.querySelectorAll('.ios-download-btn');
+        const androidButtons = document.querySelectorAll('.android-download-btn');
+        
+        if (os === 'Android') {
+            // Show Android buttons, hide iOS buttons
+            iosButtons.forEach(btn => btn.classList.add('hidden'));
+            androidButtons.forEach(btn => {
+                btn.classList.remove('hidden');
+                btn.addEventListener('click', function() {
+                    document.getElementById('google-play-modal').classList.remove('hidden');
+                    document.body.style.overflow = 'hidden';
+                });
+            });
+        } else {
+            // For iOS and desktop, show iOS buttons, hide Android buttons
+            androidButtons.forEach(btn => btn.classList.add('hidden'));
+            iosButtons.forEach(btn => btn.classList.remove('hidden'));
+        }
+    }
+
+    const navbar = document.getElementById('navbar');
+    const logoText = navbar.querySelector('span');
+    // Select desktop nav links using the new class
+    const desktopNavLinks = document.querySelectorAll('.nav-link');
+    // Select desktop download button using ID
+    const desktopDownloadButton = document.getElementById('desktop-download-btn');
+    // Select mobile download button using ID
+    const mobileDownloadButton = document.getElementById('mobile-download-btn');
     const mobileMenuButton = document.getElementById('mobile-menu-button');
     const mobileMenu = document.getElementById('mobile-menu');
+    const mobileNavLinks = document.querySelectorAll('.mobile-nav-link'); // Select using class
+    const mobileMenuIcon = mobileMenuButton.querySelector('svg'); // Get the SVG icon
 
-    // Ensure both elements exist before adding the event listener
-    if (mobileMenuButton && mobileMenu) {
-        mobileMenuButton.addEventListener('click', () => {
-            // Toggle the 'hidden' class to show/hide the menu
-            mobileMenu.classList.toggle('hidden');
+    // Define classes for different states
+    const topClasses = {
+        nav: ['bg-moone-purple'],
+        logo: ['text-white'],
+        links: ['text-purple-100', 'hover:text-white'],
+        button: ['bg-white', 'text-moone-purple', 'hover:bg-gray-100'],
+        mobileMenuBg: ['bg-moone-purple'], // Mobile menu background
+        mobileLinks: ['text-purple-100', 'hover:bg-purple-700', 'hover:text-white'], // Mobile links text/hover
+        mobileButton: ['bg-white', 'text-moone-purple', 'hover:bg-gray-100'], // Mobile download button
+        hamburgerIcon: ['text-white'], // Hamburger icon color
+    };
+
+    const scrolledClasses = {
+        nav: ['bg-white', 'shadow-md'],
+        logo: ['text-moone-purple'],
+        links: ['text-gray-600', 'hover:text-moone-purple'],
+        button: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'],
+        mobileMenuBg: ['bg-white'], // Mobile menu background when scrolled
+        mobileLinks: ['text-gray-600', 'hover:bg-gray-100', 'hover:text-moone-purple'], // Mobile links text/hover when scrolled
+        mobileButton: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'], // Mobile download button when scrolled
+        hamburgerIcon: ['text-moone-purple'], // Hamburger icon color when scrolled
+    };
+
+    function updateNavClasses(isScrolled) {
+        const add = isScrolled ? scrolledClasses : topClasses;
+        const remove = isScrolled ? topClasses : scrolledClasses;
+
+        // Update Navbar background and shadow
+        navbar.classList.remove(...remove.nav);
+        navbar.classList.add(...add.nav);
+
+        // Update Logo text color
+        logoText.classList.remove(...remove.logo);
+        logoText.classList.add(...add.logo);
+
+        // Update Desktop Nav links color
+        desktopNavLinks.forEach(link => {
+            link.classList.remove(...remove.links);
+            link.classList.add(...add.links);
         });
+
+        // Update Desktop Download button styles
+        if (desktopDownloadButton) {
+            desktopDownloadButton.classList.remove(...remove.button);
+            desktopDownloadButton.classList.add(...add.button);
+        }
+        
+        // Update Mobile Download button styles
+        if (mobileDownloadButton) {
+            mobileDownloadButton.classList.remove(...remove.mobileButton);
+            mobileDownloadButton.classList.add(...add.mobileButton);
+        }
+
+        // Update Mobile Menu background
+        mobileMenu.classList.remove(...remove.mobileMenuBg);
+        mobileMenu.classList.add(...add.mobileMenuBg);
+
+        // Update Mobile Nav links color
+        mobileNavLinks.forEach(link => {
+            link.classList.remove(...remove.mobileLinks);
+            link.classList.add(...add.mobileLinks);
+        });
+
+        // Update Hamburger Icon color
+        mobileMenuIcon.classList.remove(...remove.hamburgerIcon);
+        mobileMenuIcon.classList.add(...add.hamburgerIcon);
     }
+
+    // Toggle Mobile Menu
+    mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+        if (mobileMenu.classList.contains('hidden')) {
+            mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`;
+        } else {
+            mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>`;
+        }
+    });
+
+    // Close mobile menu when a link is clicked
+    mobileMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`; // Reset icon
+        });
+    });
+
+    window.addEventListener('scroll', () => {
+        const isScrolled = window.scrollY > 50;
+        updateNavClasses(isScrolled); // Apply styles based on scroll
+    });
+
+    // Initial check in case the page loads already scrolled
+    updateNavClasses(window.scrollY > 50);
 </script>
 
 <style>
