@@ -56,7 +56,6 @@
 
             <!-- Mobile Menu Button -->
             <div class="md:hidden flex justify-center gap-4 items-center">
-                <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="mobile-download-btn" class="bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100">Download</a>
                 <button id="mobile-menu-button" class="text-white focus:outline-none">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
@@ -66,16 +65,21 @@
         </div>
 
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-moone-purple pb-4">
-            <a href="#how-it-works" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">How It Works</a>
-            <a href="#testimonials" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Testimonials</a>
-            <a href="/blog/" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Blog</a>
+        <div id="mobile-menu" class="hidden md:hidden bg-moone-purple pb-4 flex-1 justify-end">
+            <div class="flex flex-col items-end pr-4">
+                <a href="#how-it-works" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">How It Works</a>
+                <a href="#testimonials" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Testimonials</a>
+                <a href="/blog/" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Blog</a>
+                <div class="px-4 py-2">
+                    <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="mobile-download-btn" class="bg-white text-moone-purple px-4 py-2 rounded-full font-medium hover:bg-gray-100">Download</a>
+                </div>
+            </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="bg-moone-purple text-white pb-16 mt-24">
-        <div class="container mx-auto min-h-screen flex justify-center items-center px-4">
+    <section class="bg-moone-purple text-white pb-16 pt-24 md:pt-28">
+        <div class="container mx-auto min-h-[calc(100vh-6rem)] flex justify-center items-center px-4">
             <div class="flex flex-col md:flex-row justify-center items-center">
                 <div class="md:w-1/2 mb-10 md:mb-0 flex flex-col justify-center">
                     
@@ -105,7 +109,8 @@
                     </div>                  
                 </div>
                 <div class="md:w-1/2 flex justify-center">
-                    <video src="img/appRecordings/hero.mp4" alt="Moone App" class="" autoplay loop muted playsinline></video>
+                    <!-- <video src="img/appRecordings/hero.mp4" alt="Moone App" class="" autoplay loop muted playsinline></video> -->
+                    <img src="img/appScreenshot.gif" alt="Moone App" class=""/>
                 </div>
             </div>
         </div>
@@ -403,6 +408,7 @@
             mobileButton: ['bg-white', 'text-moone-purple', 'hover:bg-gray-100'], // Mobile download button
             hamburgerIcon: ['text-white'], // Hamburger icon color
             desktopDownloadButton: ['bg-moone-purple', 'text-white'],
+            mobileDownloadButton: ['bg-white', 'text-moone-purple']
         };
 
         const scrolledClasses = {
@@ -414,7 +420,7 @@
             mobileLinks: ['text-gray-600', 'hover:bg-gray-100', 'hover:text-moone-purple'], // Mobile links text/hover when scrolled
             mobileButton: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'], // Mobile download button when scrolled
             hamburgerIcon: ['text-moone-purple'], // Hamburger icon color when scrolled
-            mobileDownloadButton: ['bg-moone-purple', 'text-white']
+            mobileDownloadButton: ['bg-moone-purple', 'text-gray-600']
 
         };
 
