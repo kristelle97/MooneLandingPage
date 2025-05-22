@@ -284,6 +284,14 @@ function convertNotionToHtml(blocks) {
                 const h1Text = block.heading_1.rich_text[0]?.text?.content || '';
                 html += `<h2 class="text-2xl font-semibold mt-8 mb-4">${h1Text}</h2>\n`;
                 break;
+            case 'heading_2':
+                if (inList) {
+                    html += '</ul>\n';
+                    inList = false;
+                }
+                const h2Text = block.heading_2.rich_text[0]?.text?.content || '';
+                html += `<h3 class="text-xl font-semibold mt-8 mb-4">${h2Text}</h3>\n`;
+                break;
             case 'bulleted_list_item':
                 if (!inList) {
                     html += '<ul class="list-disc ml-6 mb-6">\n';
