@@ -1,27 +1,26 @@
-<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 py-4 transition-colors duration-300 ease-in-out bg-moone-purple">
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 py-4 transition-colors duration-300 ease-in-out bg-gray-50">
     <div class="container mx-auto px-4 flex justify-between items-center">
         <div class="flex items-center">
             <img src="/img/moon/moon.png" alt="Moone Logo" class="h-14">
             <a href="/">
-                <span class="ml-2 text-xl font-semibold text-white">Moone</span>
+                <span class="ml-2 text-xl font-semibold text-moone-purple">Moone</span>
             </a>
         </div>
 
         <!-- Desktop Menu -->
         <div class="hidden md:flex items-center space-x-8">
-            <a href="/#how-it-works" class="nav-link text-purple-100 hover:text-white">How It Works</a>
-            <a href="/#testimonials" class="nav-link text-purple-100 hover:text-white">Testimonials</a>
-            <a href="/blog/" class="nav-link text-purple-100 hover:text-white">Blog</a>
+            <a href="/#how-it-works" class="nav-link text-gray-600 hover:text-moone-purple">How It Works</a>
+            <a href="/#testimonials" class="nav-link text-gray-600 hover:text-moone-purple">Testimonials</a>
+            <a href="/blog/" class="nav-link text-gray-600 hover:text-moone-purple">Blog</a>
             <!-- iOS Download Button -->
-            <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="desktop-download-btn" class="ios-download-btn bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition duration-300 ml-4">Download</a>
+            <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="desktop-download-btn" class="ios-download-btn bg-moone-purple text-white px-6 py-2 rounded-full font-medium hover:bg-purple-700 transition duration-300 ml-4">Download</a>
             <!-- Android Download Button -->
-            <button id="desktop-android-btn" class="android-download-btn bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition duration-300 ml-4 hidden">Download</button>
+            <button id="desktop-android-btn" class="android-download-btn bg-moone-purple text-white px-6 py-2 rounded-full font-medium hover:bg-purple-700 transition duration-300 ml-4 hidden">Download</button>
         </div>
 
         <!-- Mobile Menu Button -->
         <div class="md:hidden flex justify-center gap-4 items-center">
-            <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="mobile-download-btn" class="bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100">Download</a>
-            <button id="mobile-menu-button" class="text-white focus:outline-none">
+            <button id="mobile-menu-button" class="text-moone-purple focus:outline-none">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
                 </svg>
@@ -30,10 +29,15 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div id="mobile-menu" class="hidden md:hidden bg-moone-purple pb-4">
-        <a href="/#how-it-works" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">How It Works</a>
-        <a href="/#testimonials" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Testimonials</a>
-        <a href="/blog/" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Blog</a>
+    <div id="mobile-menu" class="hidden md:hidden bg-white pb-4 flex-1 justify-end">
+        <div class="flex flex-col items-end pr-4">
+            <a href="/#how-it-works" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">How It Works</a>
+            <a href="/#testimonials" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">Testimonials</a>
+            <a href="/blog/" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">Blog</a>
+            <div class="px-4 py-2">
+                <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="mobile-download-btn" class="bg-moone-purple text-white px-4 py-2 rounded-full font-medium hover:bg-purple-700">Download</a>
+            </div>
+        </div>
     </div>
 </nav>
 
@@ -95,72 +99,40 @@
     const mobileNavLinks = document.querySelectorAll('.mobile-nav-link'); // Select using class
     const mobileMenuIcon = mobileMenuButton.querySelector('svg'); // Get the SVG icon
 
-    // Define classes for different states
-    const topClasses = {
-        nav: ['bg-moone-purple'],
-        logo: ['text-white'],
-        links: ['text-purple-100', 'hover:text-white'],
-        button: ['bg-white', 'text-moone-purple', 'hover:bg-gray-100'],
-        mobileMenuBg: ['bg-moone-purple'], // Mobile menu background
-        mobileLinks: ['text-purple-100', 'hover:bg-purple-700', 'hover:text-white'], // Mobile links text/hover
-        mobileButton: ['bg-white', 'text-moone-purple', 'hover:bg-gray-100'], // Mobile download button
-        hamburgerIcon: ['text-white'], // Hamburger icon color
-    };
-
-    const scrolledClasses = {
-        nav: ['bg-white', 'shadow-md'],
+    // Define classes for a consistent navbar appearance (always white background)
+    const navbarClasses = {
+        nav: ['bg-gray-50'],
         logo: ['text-moone-purple'],
         links: ['text-gray-600', 'hover:text-moone-purple'],
         button: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'],
-        mobileMenuBg: ['bg-white'], // Mobile menu background when scrolled
-        mobileLinks: ['text-gray-600', 'hover:bg-gray-100', 'hover:text-moone-purple'], // Mobile links text/hover when scrolled
-        mobileButton: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'], // Mobile download button when scrolled
-        hamburgerIcon: ['text-moone-purple'], // Hamburger icon color when scrolled
+        mobileMenuBg: ['bg-white'],
+        mobileLinks: ['text-gray-600', 'hover:bg-gray-100', 'hover:text-moone-purple'],
+        mobileButton: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'],
+        hamburgerIcon: ['text-moone-purple']
     };
 
-    function updateNavClasses(isScrolled) {
-        const add = isScrolled ? scrolledClasses : topClasses;
-        const remove = isScrolled ? topClasses : scrolledClasses;
-
-        // Update Navbar background and shadow
-        navbar.classList.remove(...remove.nav);
-        navbar.classList.add(...add.nav);
-
-        // Update Logo text color
-        logoText.classList.remove(...remove.logo);
-        logoText.classList.add(...add.logo);
-
-        // Update Desktop Nav links color
-        desktopNavLinks.forEach(link => {
-            link.classList.remove(...remove.links);
-            link.classList.add(...add.links);
-        });
-
-        // Update Desktop Download button styles
-        if (desktopDownloadButton) {
-            desktopDownloadButton.classList.remove(...remove.button);
-            desktopDownloadButton.classList.add(...add.button);
-        }
+    function updateNavClasses() {
+        // Always apply the same classes (white background with shadow)
+        navbar.classList.add(...navbarClasses.nav);
+        logoText.classList.add(...navbarClasses.logo);
         
-        // Update Mobile Download button styles
-        if (mobileDownloadButton) {
-            mobileDownloadButton.classList.remove(...remove.mobileButton);
-            mobileDownloadButton.classList.add(...add.mobileButton);
-        }
-
-        // Update Mobile Menu background
-        mobileMenu.classList.remove(...remove.mobileMenuBg);
-        mobileMenu.classList.add(...add.mobileMenuBg);
-
-        // Update Mobile Nav links color
-        mobileNavLinks.forEach(link => {
-            link.classList.remove(...remove.mobileLinks);
-            link.classList.add(...add.mobileLinks);
+        desktopNavLinks.forEach(link => {
+            link.classList.add(...navbarClasses.links);
         });
-
-        // Update Hamburger Icon color
-        mobileMenuIcon.classList.remove(...remove.hamburgerIcon);
-        mobileMenuIcon.classList.add(...add.hamburgerIcon);
+        
+        if (desktopDownloadButton) {
+            desktopDownloadButton.classList.add(...navbarClasses.button);
+        }
+        if (mobileDownloadButton) {
+            mobileDownloadButton.classList.add(...navbarClasses.mobileButton);
+        }
+        mobileMenu.classList.add(...navbarClasses.mobileMenuBg);
+        
+        mobileNavLinks.forEach(link => {
+            link.classList.add(...navbarClasses.mobileLinks);
+        });
+        
+        mobileMenuIcon.classList.add(...navbarClasses.hamburgerIcon);
     }
 
     // Toggle Mobile Menu
@@ -181,13 +153,11 @@
         });
     });
 
-    window.addEventListener('scroll', () => {
-        const isScrolled = window.scrollY > 50;
-        updateNavClasses(isScrolled); // Apply styles based on scroll
-    });
-
-    // Initial check in case the page loads already scrolled
-    updateNavClasses(window.scrollY > 50);
+    // Remove the scroll listener since we want consistent styling
+    // The navbar will now always have the white background with shadow
+    
+    // Initial setup - apply the consistent navbar styling
+    updateNavClasses();
 </script>
 
 <style>

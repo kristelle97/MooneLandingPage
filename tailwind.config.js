@@ -11,6 +11,8 @@ module.exports = {
     extend: {
       colors: {
         'moone-purple': '#a854f7',
+        'moone-aubergine': '#4a2c5a',
+        'moone-aubergine-light': '#6b5b7a',
       },
       fontFamily: {
         'sans': ['Quicksand', 'sans-serif'],

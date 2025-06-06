@@ -36,27 +36,27 @@
 </head>
 <body class="bg-moone-purple font-quicksand" style="font-family: 'Quicksand', sans-serif;">
     <!-- Navigation -->
-    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 py-4 transition-colors duration-300 ease-in-out bg-moone-purple">
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 py-4 transition-colors duration-300 ease-in-out bg-gray-50">
         <div class="container mx-auto px-4 flex justify-between items-center">
             <div class="flex items-center">
                 <img src="img/moon/moon.png" alt="Moone Logo" class="h-14">
-                <span class="ml-2 text-xl font-semibold text-white">Moone</span>
+                <span class="ml-2 text-xl font-semibold text-moone-purple">Moone</span>
             </div>
 
             <!-- Desktop Menu -->
             <div class="hidden md:flex items-center space-x-8">
-                <a href="#how-it-works" class="nav-link text-purple-100 hover:text-white">How It Works</a>
-                <a href="#testimonials" class="nav-link text-purple-100 hover:text-white">Testimonials</a>
-                <a href="/blog/" class="nav-link text-purple-100 hover:text-white">Blog</a>
+                <a href="#how-it-works" class="nav-link text-gray-600 hover:text-moone-purple">How It Works</a>
+                <a href="#testimonials" class="nav-link text-gray-600 hover:text-moone-purple">Testimonials</a>
+                <a href="/blog/" class="nav-link text-gray-600 hover:text-moone-purple">Blog</a>
                 <!-- iOS Download Button -->
-                <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="desktop-download-btn" class="ios-download-btn bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition duration-300 ml-4">Download</a>
+                <a href="https://apps.apple.com/en/app/moone-period-cycle-tracker/id6739633389" id="desktop-download-btn" class="ios-download-btn bg-moone-purple text-white px-6 py-2 rounded-full font-medium hover:bg-purple-700 transition duration-300 ml-4">Download</a>
                 <!-- Android Download Button -->
-                <button id="desktop-android-btn" class="android-download-btn bg-white text-moone-purple px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition duration-300 ml-4 hidden">Download</button>
+                <button id="desktop-android-btn" class="android-download-btn bg-moone-purple text-white px-6 py-2 rounded-full font-medium hover:bg-purple-700 transition duration-300 ml-4 hidden">Download</button>
             </div>
 
             <!-- Mobile Menu Button -->
             <div class="md:hidden flex justify-center gap-4 items-center">
-                <button id="mobile-menu-button" class="text-white focus:outline-none">
+                <button id="mobile-menu-button" class="text-moone-purple focus:outline-none">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
                     </svg>
@@ -65,52 +65,69 @@
         </div>
 
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-moone-purple pb-4 flex-1 justify-end">
+        <div id="mobile-menu" class="hidden md:hidden bg-white pb-4 flex-1 justify-end">
             <div class="flex flex-col items-end pr-4">
-                <a href="#how-it-works" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">How It Works</a>
-                <a href="#testimonials" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Testimonials</a>
-                <a href="/blog/" class="mobile-nav-link block py-2 px-4 text-purple-100 hover:bg-purple-700 hover:text-white">Blog</a>
+                <a href="#how-it-works" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">How It Works</a>
+                <a href="#testimonials" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">Testimonials</a>
+                <a href="/blog/" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">Blog</a>
                 <div class="px-4 py-2">
-                    <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="mobile-download-btn" class="bg-white text-moone-purple px-4 py-2 rounded-full font-medium hover:bg-gray-100">Download</a>
+                    <a href="https://apps.apple.com/en/app/moone-period-cycle-tracker/id6739633389" id="mobile-download-btn" class="bg-moone-purple text-white px-4 py-2 rounded-full font-medium hover:bg-purple-700">Download</a>
                 </div>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="bg-moone-purple text-white pb-16 pt-24 md:pt-28">
-        <div class="container mx-auto min-h-[calc(100vh-6rem)] flex justify-center items-center px-4">
-            <div class="flex flex-col md:flex-row justify-center items-center">
-                <div class="md:w-1/2 mb-10 md:mb-0 flex flex-col justify-center">
-                    
-                    <div class="mb-4">
-                        <div class="flex items-center gap-2">
-                            <div class="flex -space-x-2">
-                                <img class="w-12 h-12 object-cover rounded-full border-2 border-white" src="img/users/user1.jpg" alt="User">
-                                <img class="w-12 h-12 object-cover rounded-full border-2 border-white" src="img/users/user2.jpg" alt="User">
-                                <img class="w-12 h-12 object-cover rounded-full border-2 border-white" src="img/users/user3.jpeg" alt="User">
+    <section class="min-h-screen flex items-center bg-gray-50 pt-24 md:pt-28 overflow-hidden">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-stretch justify-between max-w-7xl mx-auto relative gap-8">
+                <!-- Content Section -->
+                <div class="lg:w-3/5 z-10 relative flex">
+                    <div class="bg-gradient-to-br from-orange-300 via-orange-200 to-orange-300 rounded-3xl p-8 md:p-12 text-white shadow-2xl transform lg:-rotate-1 hover:rotate-0 transition-transform duration-300 flex-1">
+                        <div class="mb-6">
+                            <div class="flex items-center gap-2 mb-6">
+                                <div class="flex -space-x-2">
+                                    <img class="w-12 h-12 object-cover rounded-full border border-white" src="img/users/user1.jpg" alt="User">
+                                    <img class="w-12 h-12 object-cover rounded-full border border-white" src="img/users/user2.jpg" alt="User">
+                                    <img class="w-12 h-12 object-cover rounded-full border border-white" src="img/users/user3.jpeg" alt="User">
+                                </div>
+                                <p class="text-moone-aubergine-light font-medium">Trusted by 1000+ women</p>
                             </div>
-                            <p class="text-purple-100 font-medium">Trusted by 1000+ women</p>
+
+                            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight text-moone-aubergine">Period & cycle tracking</h1>
+                            <p class="text-xl mb-8 text-moone-aubergine-light leading-relaxed">
+                                Track periods, spot patterns, and get cycle syncing tips for mood, energy and cravings all powered by AI.
+                            </p>
+                            
+                            <div class="flex flex-col items-center sm:flex-row gap-4 mb-4">
+                                <a href="https://apps.apple.com/en/app/moone-period-cycle-tracker/id6739633389" class="bg-black text-white rounded-full px-6 py-3 flex items-center gap-3 hover:bg-gray-800 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 h-14 min-w-[180px]">
+                                    <svg class="w-6 h-6 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                                    </svg>
+                                    <div class="flex flex-col items-start leading-tight">
+                                        <div class="text-[11px] opacity-80 font-normal">Download on the</div>
+                                        <div class="text-base font-semibold">App Store</div>
+                                    </div>
+                                </a>
+                                <button id="google-play-button" class="bg-black text-white rounded-full px-6 py-3 flex items-center gap-3 hover:bg-gray-800 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 h-14 min-w-[180px]" data-modal-target="google-play-modal" data-modal-toggle="google-play-modal">
+                                    <svg class="w-6 h-6 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.61 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                                    </svg>
+                                    <div class="flex flex-col items-start leading-tight">
+                                        <div class="text-[11px] opacity-80 font-normal">GET IT ON</div>
+                                        <div class="text-base font-semibold">Google Play</div>
+                                    </div>
+                                </button>
+                            </div>
                         </div>
                     </div>
-
-                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Period tracking and cycle syncing</h1>
-                    <p class="text-xl mb-8">
-                        Track periods, spot patterns, and get cycle syncing tips for mood, energy and cravings all powered by AI.
-                    </p>
-                    
-                    <div class="flex justify-start gap-4">
-                        <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" class="inline-block hover:shadow-lg transition duration-300">
-                            <img src="img/appStore/US-black.svg" alt="Download on the App Store" class="h-14 w-auto object-contain">
-                        </a>
-                        <button id="google-play-button" class="inline-block hover:shadow-lg transition duration-300" data-modal-target="google-play-modal" data-modal-toggle="google-play-modal">
-                            <img src="img/googleStore/googleButtonUS.png" alt="Download on Google Play" class="h-14 w-auto object-contain">
-                        </button>
-                    </div>                  
                 </div>
-                <div class="md:w-1/2 flex justify-center">
-                    <!-- <video src="img/appRecordings/hero.mp4" alt="Moone App" class="" autoplay loop muted playsinline></video> -->
-                    <img src="img/appScreenshot.gif" alt="Moone App" class=""/>
+
+                <!-- App Demo Section -->
+                <div class="lg:w-2/5 z-20 flex">
+                    <div class="bg-gradient-to-br from-purple-600 via-purple-500 to-purple-700 rounded-3xl px-2 py-4 shadow-2xl transform lg:rotate-2 hover:rotate-0 transition-transform duration-300 relative z-10 flex-1 flex items-center">
+                        <img src="img/appScreenshot.gif" alt="Moone App" class="w-full h-auto"/>
+                    </div>
                 </div>
             </div>
         </div>
@@ -121,59 +138,32 @@
     <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold text-center mb-16 text-gray-800">How Moone works</h2>
         
-        <div class="flex flex-col items-center justify-center w-full max-w-4xl mx-auto">
-            <!-- Step 1 - Video on left, text on right for lg screens -->
-            <div class="mb-16 lg:mb-24 w-full">
-                <div class="flex flex-col lg:flex-row items-center justify-center">
-                    <div class="w-56 mb-8 lg:mb-0 flex justify-center">
-                        <video src="img/appRecordings/period.mov" alt="Log periods demo" class="rounded-lg shadow-md border-2 border-black w-56" autoplay loop muted playsinline></video>
-                    </div>
-                    <div class="lg:w-1/2 text-center lg:text-left lg:pl-12">
-                        <h3 class="text-2xl font-semibold mb-4 text-gray-800">Log periods & symptoms</h3>
-                        <p class="text-lg text-gray-600">Two taps and today's flow, mood, or cramps are saved.</p>
-                    </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            <div class="bg-gradient-to-br from-purple-600 via-purple-500 to-purple-700 rounded-3xl p-8 text-white shadow-xl">
+                <div class="text-center mb-6">
+                    <img src="img/periodlog.png" alt="Log periods demo" class="w-48 mx-auto mb-6"/>
+                    <h3 class="text-2xl font-bold mb-4">Log periods & symptoms</h3>
+                    <p class="text-purple-100 text-lg">Two taps and today's flow, mood, or cramps are saved.</p>
                 </div>
             </div>
-            
-            <!-- NEW Step 2 - Text on left, video on right for lg screens -->
-            <div class="mb-16 lg:mb-24 w-full">
-                <div class="flex flex-col lg:flex-row items-center justify-center">
-                    <div class="lg:w-1/2 text-center lg:text-right lg:pr-12 order-2 lg:order-1">
-                        <h3 class="text-2xl font-semibold mb-4 text-gray-800">Easily log activities</h3>
-                        <p class="text-lg text-gray-600">Discover how your habits: meals, exercise, sleep and other activities impact your cycle</p>
-                    </div>
-                    <div class="w-56 mb-8 lg:mb-0 flex justify-center order-1 lg:order-2">
-                        <video src="img/appRecordings/meal.mov" alt="Log activities demo" class="rounded-lg shadow-md border-2 border-black w-56" autoplay loop muted playsinline></video>
-                    </div>
+
+            <div class="bg-gradient-to-br from-orange-300 via-orange-200 to-orange-300 rounded-3xl p-8 text-white shadow-xl">
+                <div class="text-center mb-6">
+                    <img src="img/dashboard.png" alt="Log activities demo" class="w-48 mx-auto mb-6"/>
+                    <h3 class="text-2xl font-bold mb-4 text-moone-aubergine">Sync & Thrive</h3>
+                    <p class="text-moone-aubergine-light text-lg">Discover how your habits: meals, exercise, sleep and other activities impact your cycle</p>
                 </div>
             </div>
-            
-            <!-- Step 3 (previously Step 2) - Video on left, text on right for lg screens -->
-            <div class="mb-16 lg:mb-24 w-full">
-                <div class="flex flex-col lg:flex-row items-center justify-center">
-                    <div class="w-56 mb-8 lg:mb-0 flex justify-center">
-                        <video src="img/appRecordings/report.mov" alt="AI patterns demo" class="rounded-lg shadow-md border-2 border-black w-56" autoplay loop muted playsinline></video>
-                    </div>
-                    <div class="lg:w-1/2 text-center lg:text-left lg:pl-12">
-                        <h3 class="text-2xl font-semibold mb-4 text-gray-800">Moone's AI spots patterns</h3>
-                        <p class="text-lg text-gray-600">We crunch the data and reveal how your habits help or not your menstrual symptoms.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Step 4 (previously Step 3) - Text on left, video on right for lg screens -->
-            <div class="w-full">
-                <div class="flex flex-col lg:flex-row items-center justify-center">
-                    <div class="lg:w-1/2 text-center lg:text-right lg:pr-12 order-2 lg:order-1">
-                        <h3 class="text-2xl font-semibold mb-4 text-gray-800">Get phase‑based insights</h3>
-                        <p class="text-lg text-gray-600">Instant personalized tips for food, exercise, self-care and mood.</p>
-                    </div>
-                    <div class="w-56 mb-8 lg:mb-0 flex justify-center order-1 lg:order-2">
-                        <video src="img/appRecordings/dashboard.mov" alt="Phase insights demo" class="rounded-lg shadow-md border-2 border-black w-56" autoplay loop muted playsinline></video>
-                    </div>
+
+            <div class="bg-gradient-to-br from-purple-600 via-purple-500 to-purple-700 rounded-3xl p-8 text-white shadow-xl md:col-span-2 lg:col-span-1">
+                <div class="text-center mb-6">
+                    <img src="img/report.png" alt="Phase insights demo" class="w-48 mx-auto mb-6" />
+                    <h3 class="text-2xl font-bold mb-4">Moone's AI spots patterns</h3>
+                    <p class="text-gray-300 text-lg">We crunch the data and reveal how your habits help or not your menstrual symptoms.</p>
                 </div>
             </div>
         </div>
+
     </div>
 </section>
 
@@ -225,72 +215,36 @@
                         </li>
                     </ul>
                     
-                    <div class="flex justify-start gap-4">
-                        <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" class="inline-block hover:shadow-lg transition duration-300">
-                            <img src="img/appStore/US-black.svg" alt="Download on the App Store" class="h-14 w-auto object-contain">
+                    <div class="flex flex-col items-center sm:flex-row sm:justify-start gap-4">
+                        <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" class="bg-black text-white rounded-full px-6 py-3 flex items-center gap-3 hover:bg-gray-800 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 h-14 min-w-[180px]">
+                            <svg class="w-6 h-6 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                            </svg>
+                            <div class="flex flex-col items-start leading-tight">
+                                <div class="text-[11px] opacity-80 font-normal">Download on the</div>
+                                <div class="text-base font-semibold">App Store</div>
+                            </div>
                         </a>
-                        <button id="google-play-button" class="inline-block hover:shadow-lg transition duration-300" data-modal-target="google-play-modal" data-modal-toggle="google-play-modal">
-                            <img src="img/googleStore/googleButtonUS.png" alt="Download on Google Play" class="h-14 w-auto object-contain">
+                        <button id="google-play-button-2" class="bg-black text-white rounded-full px-6 py-3 flex items-center gap-3 hover:bg-gray-800 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 h-14 min-w-[180px]" data-modal-target="google-play-modal" data-modal-toggle="google-play-modal">
+                            <svg class="w-6 h-6 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.61 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                            </svg>
+                            <div class="flex flex-col items-start leading-tight">
+                                <div class="text-[11px] opacity-80 font-normal">GET IT ON</div>
+                                <div class="text-base font-semibold">Google Play</div>
+                            </div>
                         </button>
                     </div>  
                 </div>
                 <div class="lg:w-1/2 flex justify-center">
-                    <img src="img/period.png" alt="Cycle Phases" class="bg-moone-purple rounded-xl shadow-lg">
+                    <img src="img/period.png" alt="Cycle Phases" class="bg-gradient-to-br from-orange-300 via-orange-200 to-orange-300 rounded-3xl shadow-lg">
                 </div>
             </div>
         </div>
-    </section>
-
-
-     <!-- Meet Our Founder Section -->
-     <section id="team" class="py-20 relative overflow-hidden bg-gradient-to-br from-purple-100 via-pink-50 to-yellow-50">
-        <!-- Decorative Stars and Moons -->
-        <div class="absolute top-4 left-8 opacity-40 pointer-events-none z-0">
-            <svg width="32" height="32" fill="none"><circle cx="16" cy="16" r="16" fill="#C4B5FD"/><text x="8" y="22" font-size="18" fill="#fff">★</text></svg>
-        </div>
-        <div class="absolute bottom-8 right-12 opacity-30 pointer-events-none z-0">
-            <svg width="40" height="40" fill="none"><circle cx="20" cy="20" r="20" fill="#FDE68A"/><text x="10" y="30" font-size="22" fill="#fff">🌙</text></svg>
-        </div>
-        <div class="container mx-auto px-4 text-center relative z-10">
-            <h2 class="text-3xl md:text-4xl font-extrabold mb-4 text-moone-purple drop-shadow">Meet the Founder</h2>
-            <p class="text-lg text-gray-700 mb-12 font-medium">Moone is built by women, for women.</p>
-            <div class="bg-white rounded-3xl shadow-xl overflow-visible p-6 md:p-10 relative">
-                <div class="md:flex items-center gap-8">
-                    <div class="md:flex-shrink-0 flex flex-col items-center p-4">
-                        <div class="relative">
-                            <img class="w-36 h-36 object-cover rounded-full border-4 border-moone-purple shadow-lg animate-bounce-slow" src="img/Kristelle.jpg" alt="Kristelle Feghali">
-                            <span class="absolute -bottom-2 left-1/2 -translate-x-1/2 bg-moone-purple text-white text-xs px-3 py-1 rounded-full font-bold shadow-md">Founder</span>
-                        </div>
-                    </div>
-                    <div class="p-4 text-center md:text-left flex-1">
-                        <h3 class="block mt-1 text-2xl leading-tight font-bold text-moone-purple mb-2">Kristelle Feghali</h3>
-                        <div class="relative">
-                            <div class="bg-purple-50 border-l-4 border-moone-purple rounded-xl p-5 text-gray-700 text-base md:text-lg shadow-inner mb-4 speech-bubble">
-                                <p class="block">
-                                    Hi, I'm Kristelle. My journey with Moone began with my own struggle: I have endometriosis, and it took years to finally get a diagnosis. Along the way, I realized that what I do (eat, exercise, self-care, etc) was closely linked to my flare ups and how I felt day to day.<br><br>
-                                    Discovering cycle syncing was a turning point for me, it helped me understand my body and manage my symptoms better. I was also fortunate to meet Lea Thourain, a brilliant dietitian-nutritionist, who showed me how nutrition for women is unique and can make a real difference in managing conditions like mine.<br><br>
-                                    Moone was born from my desire to share these insights and empower other women to feel their best, every day of the month.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <style>
-            /* Add a slow bounce animation for the founder's image */
-            @keyframes bounce-slow {
-                0%, 100% { transform: translateY(0);}
-                50% { transform: translateY(-10px);}
-            }
-            .animate-bounce-slow {
-                animation: bounce-slow 3s infinite;
-            }
-        </style>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-moone-purple text-white py-8">
+    <footer class="bg-gradient-to-br from-purple-600 via-purple-500 to-purple-700 text-white py-8">
         <div class="container mx-auto p-4">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="flex items-center mb-6 md:mb-0">
@@ -397,72 +351,36 @@
         const mobileNavLinks = document.querySelectorAll('.mobile-nav-link'); // Select using class
         const mobileMenuIcon = mobileMenuButton.querySelector('svg'); // Get the SVG icon
 
-        // Define classes for different states
-        const topClasses = {
-            nav: ['bg-moone-purple'],
-            logo: ['text-white'],
-            links: ['text-purple-100', 'hover:text-white'],
-            button: ['bg-white', 'text-moone-purple', 'hover:bg-gray-100'],
-            mobileMenuBg: ['bg-moone-purple'], // Mobile menu background
-            mobileLinks: ['text-purple-100', 'hover:bg-purple-700', 'hover:text-white'], // Mobile links text/hover
-            mobileButton: ['bg-white', 'text-moone-purple', 'hover:bg-gray-100'], // Mobile download button
-            hamburgerIcon: ['text-white'], // Hamburger icon color
-            desktopDownloadButton: ['bg-moone-purple', 'text-white'],
-            mobileDownloadButton: ['bg-white', 'text-moone-purple']
-        };
-
-        const scrolledClasses = {
-            nav: ['bg-white', 'shadow-md'],
+        // Define classes for a consistent navbar appearance (always white background)
+        const navbarClasses = {
+            nav: ['bg-gray-50'],
             logo: ['text-moone-purple'],
             links: ['text-gray-600', 'hover:text-moone-purple'],
             button: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'],
-            mobileMenuBg: ['bg-white'], // Mobile menu background when scrolled
-            mobileLinks: ['text-gray-600', 'hover:bg-gray-100', 'hover:text-moone-purple'], // Mobile links text/hover when scrolled
-            mobileButton: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'], // Mobile download button when scrolled
-            hamburgerIcon: ['text-moone-purple'], // Hamburger icon color when scrolled
-            mobileDownloadButton: ['bg-moone-purple', 'text-gray-600']
-
+            mobileMenuBg: ['bg-white'],
+            mobileLinks: ['text-gray-600', 'hover:bg-gray-100', 'hover:text-moone-purple'],
+            mobileButton: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'],
+            hamburgerIcon: ['text-moone-purple']
         };
 
-        function updateNavClasses(isScrolled) {
-            const add = isScrolled ? scrolledClasses : topClasses;
-            const remove = isScrolled ? topClasses : scrolledClasses;
-
-            // Update Navbar background and shadow
-            navbar.classList.remove(...remove.nav);
-            navbar.classList.add(...add.nav);
-
-            // Update Logo text color
-            logoText.classList.remove(...remove.logo);
-            logoText.classList.add(...add.logo);
-
-            // Update Desktop Nav links color
-            desktopNavLinks.forEach(link => {
-                link.classList.remove(...remove.links);
-                link.classList.add(...add.links);
-            });
-
-            // Update Desktop Download button styles
-            desktopDownloadButton.classList.remove(...remove.button);
-            desktopDownloadButton.classList.add(...add.button);
+        function updateNavClasses() {
+            // Always apply the same classes (white background with shadow)
+            navbar.classList.add(...navbarClasses.nav);
+            logoText.classList.add(...navbarClasses.logo);
             
-            // Update Mobile Download button styles
-            mobileDownloadButton.classList.remove(...remove.mobileButton);
-            mobileDownloadButton.classList.add(...add.mobileButton);
-
-            // Update Mobile Menu background
-            mobileMenu.classList.remove(...remove.mobileMenuBg);
-            mobileMenu.classList.add(...add.mobileMenuBg);
-
-            // Update Mobile Nav links color
-            mobileNavLinks.forEach(link => {
-                link.classList.remove(...remove.mobileLinks);
-                link.classList.add(...add.mobileLinks);
+            desktopNavLinks.forEach(link => {
+                link.classList.add(...navbarClasses.links);
             });
-
-            // Update Hamburger Icon color
-            mobileMenuIcon.classList.remove(...remove.hamburgerIcon);
-            mobileMenuIcon.classList.add(...add.hamburgerIcon);
+            
+            desktopDownloadButton.classList.add(...navbarClasses.button);
+            mobileDownloadButton.classList.add(...navbarClasses.mobileButton);
+            mobileMenu.classList.add(...navbarClasses.mobileMenuBg);
+            
+            mobileNavLinks.forEach(link => {
+                link.classList.add(...navbarClasses.mobileLinks);
+            });
+            
+            mobileMenuIcon.classList.add(...navbarClasses.hamburgerIcon);
         }
 
         // Toggle Mobile Menu
@@ -483,17 +401,11 @@
             });
         });
 
-
-        window.addEventListener('scroll', () => {
-            const isScrolled = window.scrollY > 50;
-            updateNavClasses(isScrolled); // Apply styles based on scroll
-
-            // Ensure mobile menu background matches navbar background on scroll change
-            // This is handled within updateNavClasses now
-        });
-
-        // Initial check in case the page loads already scrolled
-        updateNavClasses(window.scrollY > 50);
+        // Remove the scroll listener since we want consistent styling
+        // The navbar will now always have the white background with shadow
+        
+        // Initial setup - apply the consistent navbar styling
+        updateNavClasses();
 
         // Modal functionality
         document.addEventListener('DOMContentLoaded', function() {
