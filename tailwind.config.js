@@ -13,11 +13,16 @@ module.exports = {
         'moone-purple': '#a854f7',
         'moone-aubergine': '#4a2c5a',
         'moone-aubergine-light': '#6b5b7a',
+        'moone-peach-light': '#fff1ec',
+        'moone-peach':'#f8c3a0'
       },
       fontFamily: {
         'sans': ['Quicksand', 'sans-serif'],
         'quicksand': ['Quicksand', 'sans-serif'],
       },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      }
     },
   },
   plugins: [
