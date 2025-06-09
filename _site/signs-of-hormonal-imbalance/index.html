@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signs of Hormonal Imbalance in Women: What to Watch For</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-2ZSVEQDDT1');
+    </script>
+
+    <!-- Cookie Banner Script -->
+    <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/bcb8f2d8f394d9e54bf16bef90ad28b4.js"></script>
+
+    <!-- Crisp Chat Widget -->
+    <script type="text/javascript">
+        window.$crisp=[];
+        window.CRISP_WEBSITE_ID="c638e7df-d51a-4454-8b59-69d62961774d";
+        (function(){
+            d=document;
+            s=d.createElement("script");
+            s.src="https://client.crisp.chat/l.js";
+            s.async=1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
+    </script>
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 py-4 transition-colors duration-300 ease-in-out bg-gray-50">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+        <div class="flex items-center">
+            <img src="/img/moon/moon.png" alt="Moone Logo" class="h-14">
+            <a href="/">
+                <span class="ml-2 text-xl font-semibold text-moone-purple">Moone</span>
+            </a>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center space-x-8">
+            <a href="/#how-it-works" class="nav-link text-gray-600 hover:text-moone-purple">How It Works</a>
+            <a href="/#testimonials" class="nav-link text-gray-600 hover:text-moone-purple">Testimonials</a>
+            <a href="/blog/" class="nav-link text-gray-600 hover:text-moone-purple">Blog</a>
+            <!-- iOS Download Button -->
+            <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="desktop-download-btn" class="ios-download-btn bg-moone-purple text-white px-6 py-2 rounded-full font-medium hover:bg-purple-700 transition duration-300 ml-4">Download</a>
+            <!-- Android Download Button -->
+            <button id="desktop-android-btn" class="android-download-btn bg-moone-purple text-white px-6 py-2 rounded-full font-medium hover:bg-purple-700 transition duration-300 ml-4 hidden">Download</button>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden flex justify-center gap-4 items-center">
+            <button id="mobile-menu-button" class="text-moone-purple focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white pb-4 flex-1 justify-end">
+        <div class="flex flex-col items-end pr-4">
+            <a href="/#how-it-works" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">How It Works</a>
+            <a href="/#testimonials" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">Testimonials</a>
+            <a href="/blog/" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">Blog</a>
+            <div class="px-4 py-2">
+                <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="mobile-download-btn" class="bg-moone-purple text-white px-4 py-2 rounded-full font-medium hover:bg-purple-700">Download</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function detectMobileOS() {
+        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        
+        // iOS detection
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            return 'iOS';
+        }
+        
+        // Android detection
+        if (/android/i.test(userAgent)) {
+            return 'Android';
+        }
+        
+        // Default to desktop
+        return 'desktop';
+    }
+
+    // Call this function when the page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        setupDownloadButtons();
+    });
+
+    function setupDownloadButtons() {
+        const os = detectMobileOS();
+        const iosButtons = document.querySelectorAll('.ios-download-btn');
+        const androidButtons = document.querySelectorAll('.android-download-btn');
+        
+        if (os === 'Android') {
+            // Show Android buttons, hide iOS buttons
+            iosButtons.forEach(btn => btn.classList.add('hidden'));
+            androidButtons.forEach(btn => {
+                btn.classList.remove('hidden');
+                btn.addEventListener('click', function() {
+                    document.getElementById('google-play-modal').classList.remove('hidden');
+                    document.body.style.overflow = 'hidden';
+                });
+            });
+        } else {
+            // For iOS and desktop, show iOS buttons, hide Android buttons
+            androidButtons.forEach(btn => btn.classList.add('hidden'));
+            iosButtons.forEach(btn => btn.classList.remove('hidden'));
+        }
+    }
+
+    const navbar = document.getElementById('navbar');
+    const logoText = navbar.querySelector('span');
+    // Select desktop nav links using the new class
+    const desktopNavLinks = document.querySelectorAll('.nav-link');
+    // Select desktop download button using ID
+    const desktopDownloadButton = document.getElementById('desktop-download-btn');
+    // Select mobile download button using ID
+    const mobileDownloadButton = document.getElementById('mobile-download-btn');
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileNavLinks = document.querySelectorAll('.mobile-nav-link'); // Select using class
+    const mobileMenuIcon = mobileMenuButton.querySelector('svg'); // Get the SVG icon
+
+    // Define classes for a consistent navbar appearance (always white background)
+    const navbarClasses = {
+        nav: ['bg-gray-50'],
+        logo: ['text-moone-purple'],
+        links: ['text-gray-600', 'hover:text-moone-purple'],
+        button: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'],
+        mobileMenuBg: ['bg-white'],
+        mobileLinks: ['text-gray-600', 'hover:bg-gray-100', 'hover:text-moone-purple'],
+        mobileButton: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'],
+        hamburgerIcon: ['text-moone-purple']
+    };
+
+    function updateNavClasses() {
+        // Always apply the same classes (white background with shadow)
+        navbar.classList.add(...navbarClasses.nav);
+        logoText.classList.add(...navbarClasses.logo);
+        
+        desktopNavLinks.forEach(link => {
+            link.classList.add(...navbarClasses.links);
+        });
+        
+        if (desktopDownloadButton) {
+            desktopDownloadButton.classList.add(...navbarClasses.button);
+        }
+        if (mobileDownloadButton) {
+            mobileDownloadButton.classList.add(...navbarClasses.mobileButton);
+        }
+        mobileMenu.classList.add(...navbarClasses.mobileMenuBg);
+        
+        mobileNavLinks.forEach(link => {
+            link.classList.add(...navbarClasses.mobileLinks);
+        });
+        
+        mobileMenuIcon.classList.add(...navbarClasses.hamburgerIcon);
+    }
+
+    // Toggle Mobile Menu
+    mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+        if (mobileMenu.classList.contains('hidden')) {
+            mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`;
+        } else {
+            mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>`;
+        }
+    });
+
+    // Close mobile menu when a link is clicked
+    mobileMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`; // Reset icon
+        });
+    });
+
+    // Remove the scroll listener since we want consistent styling
+    // The navbar will now always have the white background with shadow
+    
+    // Initial setup - apply the consistent navbar styling
+    updateNavClasses();
+</script>
+
+<style>
+    .site-nav {
+        padding: 1rem 0;
+    }
+
+    .site-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .site-nav a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .site-nav a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+    <main class="flex-grow">
+        
+<article class="pt-32 pb-20">
+    <div class="container mx-auto px-4 md:px-6">
+        <header class="mb-8">
+            <h1 class="text-4xl font-bold mb-4 text-gray-800">Signs of Hormonal Imbalance in Women: What to Watch For</h1>
+            <div class="text-gray-500">June 9, 2025</div>
+        </header>
+
+        
+        <img src="/img/posts/hormonalimbalance.png" alt="Woman holding her lower abdomen, reflecting on hormonal imbalance symptoms" class="w-full h-64 object-cover rounded-xl mb-8">
+        
+
+        <div class="prose prose-purple max-w-none">
+            <p><strong>Primary Keywords:</strong> hormonal imbalance in women, signs of hormonal imbalance</p>
+<p>Hormones influence everything — from energy and mood to skin health and digestion. When your hormones are out of balance, your body sends signals. Recognizing these signs early can help you take proactive steps to support your well-being.</p>
+<hr>
+<h2>What Is Hormonal Imbalance?</h2>
+<p>Hormonal imbalance occurs when there’s <strong>too much or too little of one or more hormones</strong> in your body. These chemical messengers (like estrogen, progesterone, cortisol, insulin, and thyroid hormones) need to stay in harmony to keep you feeling your best.</p>
+<p>Common causes of imbalance include:</p>
+<ul>
+<li>Stress and poor sleep</li>
+<li>Gut health issues</li>
+<li>Nutrient deficiencies</li>
+<li>Coming off hormonal birth control</li>
+<li>Perimenopause and natural aging</li>
+</ul>
+<hr>
+<h2>Common Signs of Hormonal Imbalance in Women</h2>
+<h3>⚖️ Mood Swings &amp; Anxiety</h3>
+<ul>
+<li>Irritability, low mood, or feeling on edge</li>
+<li>Increased anxiety before your period (PMS)</li>
+<li>Difficulty coping with everyday stress</li>
+</ul>
+<h3>😴 Fatigue &amp; Sleep Disturbances</h3>
+<ul>
+<li>Constant tiredness despite rest</li>
+<li>Difficulty falling asleep or staying asleep</li>
+<li>Waking up feeling unrefreshed</li>
+</ul>
+<h3>⚖️ Weight Fluctuations</h3>
+<ul>
+<li>Unexplained weight gain, especially around the belly</li>
+<li>Difficulty losing weight even with diet and exercise</li>
+<li>Sugar cravings</li>
+</ul>
+<h3>🩸 Irregular Periods &amp; Cycle Changes</h3>
+<ul>
+<li>Missed, delayed, or very short cycles</li>
+<li>Heavier or lighter periods</li>
+<li>Spotting between cycles</li>
+</ul>
+<h3>🌟 Skin &amp; Hair Changes</h3>
+<ul>
+<li>Hormonal acne (often around chin and jawline)</li>
+<li>Thinning hair or hair loss</li>
+<li>Dry, dull skin</li>
+</ul>
+<h3>🚶‍♀️ Low Libido</h3>
+<ul>
+<li>Reduced sexual desire</li>
+<li>Vaginal dryness</li>
+</ul>
+<h3>🌿 Digestive Issues</h3>
+<ul>
+<li>Bloating, gas, or irregular bowel movements</li>
+<li>Food sensitivities increasing over time</li>
+</ul>
+<hr>
+<h2>What Causes Hormonal Imbalance?</h2>
+<p>Understanding the root causes can guide your healing:</p>
+<ul>
+<li><strong>Chronic stress</strong> → elevated cortisol disrupts sex hormone production</li>
+<li><strong>Poor gut health</strong> → impairs estrogen detoxification</li>
+<li><strong>Blood sugar instability</strong> → impacts insulin and sex hormones</li>
+<li><strong>Environmental toxins</strong> (xenoestrogens) → mimic hormones and disrupt balance</li>
+<li><strong>Sleep deprivation</strong> → alters melatonin and cortisol rhythms</li>
+</ul>
+<hr>
+<h2>Natural Ways to Support Hormone Balance</h2>
+<h3>🥗 Nourish with Hormone-Supportive Foods</h3>
+<ul>
+<li>Cruciferous vegetables (broccoli, cauliflower) for estrogen detox</li>
+<li>Omega-3 rich foods (salmon, chia seeds) to lower inflammation</li>
+<li>Fiber to support gut health and hormone clearance</li>
+</ul>
+<h3>🧘‍♀️ Manage Stress &amp; Support Cortisol</h3>
+<ul>
+<li>Daily breathwork or meditation</li>
+<li>Gentle movement (walking, yoga) during high-stress phases</li>
+<li>Cycle-sync workouts to match your energy</li>
+</ul>
+<h3>🌙 Prioritize Sleep Hygiene</h3>
+<ul>
+<li>Regular sleep-wake times</li>
+<li>Reducing blue light at night</li>
+<li>Supporting melatonin naturally</li>
+</ul>
+<h3>🌸 Consider Supportive Supplements</h3>
+<p><em>Always consult your healthcare provider first.</em></p>
+<ul>
+<li>Magnesium glycinate</li>
+<li>B-complex vitamins</li>
+<li>Adaptogenic herbs (ashwagandha, rhodiola)</li>
+</ul>
+<hr>
+<h2>When to Seek Professional Support</h2>
+<p>If symptoms are persistent, severe, or impacting daily life, consider consulting:</p>
+<ul>
+<li>Functional medicine practitioner</li>
+<li>Integrative nutritionist</li>
+<li>Endocrinologist</li>
+<li>Gynecologist with hormone expertise</li>
+</ul>
+<hr>
+<h2>Related Articles</h2>
+<ul>
+<li><a href="/how-to-balance-hormones/">How to Balance Hormones Naturally</a></li>
+<li><a href="/gut-health-hormones/">Gut Health and Hormone Connection</a></li>
+<li><a href="/hormonal-acne/">Hormonal Acne: Causes &amp; Solutions for Clearer Skin</a></li>
+<li><a href="/birth-control-hormonal-imbalance/">The Impact of Birth Control on Hormone Health</a></li>
+</ul>
+
+        </div>
+    </div>
+</article>
+    </main>
+
+    <script src="/js/nav.js"></script>
+    <footer class="bg-gradient-to-br from-purple-600 via-purple-500 to-purple-700 text-white py-8">
+    <div class="container mx-auto px-4 md:px-6 py-4">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-6 md:mb-0">
+                <img src="/img/moon/moon.png" alt="Moone Logo" class="h-14">
+                <span class="ml-2 text-lg font-semibold">Moone</span>
+            </div>
+            <div class="flex flex-col md:flex-row items-center gap-4">
+                <a href="/PrivacyPolicy" class="text-purple-200 hover:text-white">Privacy Policy</a>
+                <a href="/TermsandConditions" class="text-purple-200 hover:text-white">Terms and Conditions</a>
+            </div>
+        </div>
+        <div class="mt-8 text-center text-purple-200 text-sm">
+            <p>&copy; 2024 Moone. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

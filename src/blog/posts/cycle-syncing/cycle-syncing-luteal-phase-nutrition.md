@@ -112,6 +112,3 @@ Soothe bloating and calm the nervous system.
 - [Menstrual Phase Nutrition Tips](/menstrual-phase-nutrition)  
 - [Ovulation Phase Recipes](/ovulation-phase-recipes)
 - [Follicular Phase Diet for Energy & Clarity](/follicular-phase-diet)
----
-
-*Optimized for: luteal phase diet, foods for PMS, PMS meal plan, nutrition for bloating, hormone-balancing foods*

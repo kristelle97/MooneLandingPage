@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hormonal Acne: Causes &amp; Solutions for Clearer Skin</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-2ZSVEQDDT1');
+    </script>
+
+    <!-- Cookie Banner Script -->
+    <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/bcb8f2d8f394d9e54bf16bef90ad28b4.js"></script>
+
+    <!-- Crisp Chat Widget -->
+    <script type="text/javascript">
+        window.$crisp=[];
+        window.CRISP_WEBSITE_ID="c638e7df-d51a-4454-8b59-69d62961774d";
+        (function(){
+            d=document;
+            s=d.createElement("script");
+            s.src="https://client.crisp.chat/l.js";
+            s.async=1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
+    </script>
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 py-4 transition-colors duration-300 ease-in-out bg-gray-50">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+        <div class="flex items-center">
+            <img src="/img/moon/moon.png" alt="Moone Logo" class="h-14">
+            <a href="/">
+                <span class="ml-2 text-xl font-semibold text-moone-purple">Moone</span>
+            </a>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center space-x-8">
+            <a href="/#how-it-works" class="nav-link text-gray-600 hover:text-moone-purple">How It Works</a>
+            <a href="/#testimonials" class="nav-link text-gray-600 hover:text-moone-purple">Testimonials</a>
+            <a href="/blog/" class="nav-link text-gray-600 hover:text-moone-purple">Blog</a>
+            <!-- iOS Download Button -->
+            <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="desktop-download-btn" class="ios-download-btn bg-moone-purple text-white px-6 py-2 rounded-full font-medium hover:bg-purple-700 transition duration-300 ml-4">Download</a>
+            <!-- Android Download Button -->
+            <button id="desktop-android-btn" class="android-download-btn bg-moone-purple text-white px-6 py-2 rounded-full font-medium hover:bg-purple-700 transition duration-300 ml-4 hidden">Download</button>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden flex justify-center gap-4 items-center">
+            <button id="mobile-menu-button" class="text-moone-purple focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white pb-4 flex-1 justify-end">
+        <div class="flex flex-col items-end pr-4">
+            <a href="/#how-it-works" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">How It Works</a>
+            <a href="/#testimonials" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">Testimonials</a>
+            <a href="/blog/" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">Blog</a>
+            <div class="px-4 py-2">
+                <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="mobile-download-btn" class="bg-moone-purple text-white px-4 py-2 rounded-full font-medium hover:bg-purple-700">Download</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function detectMobileOS() {
+        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        
+        // iOS detection
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            return 'iOS';
+        }
+        
+        // Android detection
+        if (/android/i.test(userAgent)) {
+            return 'Android';
+        }
+        
+        // Default to desktop
+        return 'desktop';
+    }
+
+    // Call this function when the page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        setupDownloadButtons();
+    });
+
+    function setupDownloadButtons() {
+        const os = detectMobileOS();
+        const iosButtons = document.querySelectorAll('.ios-download-btn');
+        const androidButtons = document.querySelectorAll('.android-download-btn');
+        
+        if (os === 'Android') {
+            // Show Android buttons, hide iOS buttons
+            iosButtons.forEach(btn => btn.classList.add('hidden'));
+            androidButtons.forEach(btn => {
+                btn.classList.remove('hidden');
+                btn.addEventListener('click', function() {
+                    document.getElementById('google-play-modal').classList.remove('hidden');
+                    document.body.style.overflow = 'hidden';
+                });
+            });
+        } else {
+            // For iOS and desktop, show iOS buttons, hide Android buttons
+            androidButtons.forEach(btn => btn.classList.add('hidden'));
+            iosButtons.forEach(btn => btn.classList.remove('hidden'));
+        }
+    }
+
+    const navbar = document.getElementById('navbar');
+    const logoText = navbar.querySelector('span');
+    // Select desktop nav links using the new class
+    const desktopNavLinks = document.querySelectorAll('.nav-link');
+    // Select desktop download button using ID
+    const desktopDownloadButton = document.getElementById('desktop-download-btn');
+    // Select mobile download button using ID
+    const mobileDownloadButton = document.getElementById('mobile-download-btn');
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileNavLinks = document.querySelectorAll('.mobile-nav-link'); // Select using class
+    const mobileMenuIcon = mobileMenuButton.querySelector('svg'); // Get the SVG icon
+
+    // Define classes for a consistent navbar appearance (always white background)
+    const navbarClasses = {
+        nav: ['bg-gray-50'],
+        logo: ['text-moone-purple'],
+        links: ['text-gray-600', 'hover:text-moone-purple'],
+        button: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'],
+        mobileMenuBg: ['bg-white'],
+        mobileLinks: ['text-gray-600', 'hover:bg-gray-100', 'hover:text-moone-purple'],
+        mobileButton: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'],
+        hamburgerIcon: ['text-moone-purple']
+    };
+
+    function updateNavClasses() {
+        // Always apply the same classes (white background with shadow)
+        navbar.classList.add(...navbarClasses.nav);
+        logoText.classList.add(...navbarClasses.logo);
+        
+        desktopNavLinks.forEach(link => {
+            link.classList.add(...navbarClasses.links);
+        });
+        
+        if (desktopDownloadButton) {
+            desktopDownloadButton.classList.add(...navbarClasses.button);
+        }
+        if (mobileDownloadButton) {
+            mobileDownloadButton.classList.add(...navbarClasses.mobileButton);
+        }
+        mobileMenu.classList.add(...navbarClasses.mobileMenuBg);
+        
+        mobileNavLinks.forEach(link => {
+            link.classList.add(...navbarClasses.mobileLinks);
+        });
+        
+        mobileMenuIcon.classList.add(...navbarClasses.hamburgerIcon);
+    }
+
+    // Toggle Mobile Menu
+    mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+        if (mobileMenu.classList.contains('hidden')) {
+            mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`;
+        } else {
+            mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>`;
+        }
+    });
+
+    // Close mobile menu when a link is clicked
+    mobileMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`; // Reset icon
+        });
+    });
+
+    // Remove the scroll listener since we want consistent styling
+    // The navbar will now always have the white background with shadow
+    
+    // Initial setup - apply the consistent navbar styling
+    updateNavClasses();
+</script>
+
+<style>
+    .site-nav {
+        padding: 1rem 0;
+    }
+
+    .site-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .site-nav a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .site-nav a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+    <main class="flex-grow">
+        
+<article class="pt-32 pb-20">
+    <div class="container mx-auto px-4 md:px-6">
+        <header class="mb-8">
+            <h1 class="text-4xl font-bold mb-4 text-gray-800">Hormonal Acne: Causes &amp; Solutions for Clearer Skin</h1>
+            <div class="text-gray-500">June 9, 2025</div>
+        </header>
+
+        
+        <img src="/img/posts/hormonalacne.jpeg" alt="Woman looking at her reflection in a mirror, managing hormonal acne naturally" class="w-full h-64 object-cover rounded-xl mb-8">
+        
+
+        <div class="prose prose-purple max-w-none">
+            <p><strong>Primary Keywords:</strong> hormonal acne, hormonal acne causes, hormonal acne solutions</p>
+<p>If you struggle with <strong>stubborn breakouts around your chin, jawline, or cheeks — especially around your period — it could be hormonal acne</strong>.</p>
+<p>Hormonal acne isn’t just a skin-deep issue — it reflects <strong>what’s happening inside your body</strong>. The good news? By supporting your hormones and making targeted lifestyle shifts, you can help clear your skin naturally.</p>
+<hr>
+<h2>What Is Hormonal Acne?</h2>
+<p>Hormonal acne is triggered by <strong>fluctuations or imbalances in hormones</strong> like:</p>
+<ul>
+<li><strong>Estrogen</strong></li>
+<li><strong>Progesterone</strong></li>
+<li><strong>Androgens</strong> (like testosterone)</li>
+<li><strong>Cortisol</strong> (stress hormone)</li>
+<li><strong>Insulin</strong></li>
+</ul>
+<p>It typically shows up:</p>
+<ul>
+<li>Around the <strong>chin, jawline, and lower cheeks</strong></li>
+<li><strong>Before your period</strong> (during luteal phase)</li>
+<li>As deep, cystic breakouts or clusters of inflamed pimples</li>
+</ul>
+<hr>
+<h2>What Causes Hormonal Acne?</h2>
+<h3>⚖️ 1. Estrogen-Progesterone Imbalance</h3>
+<ul>
+<li><strong>Low estrogen + high androgens</strong> → increased oil (sebum) production → clogged pores</li>
+<li><strong>Low progesterone</strong> → inflammation and slowed skin healing</li>
+</ul>
+<hr>
+<h3>🍬 2. Blood Sugar Dysregulation</h3>
+<ul>
+<li>Blood sugar spikes → <strong>high insulin</strong> → triggers excess <strong>androgen</strong> production → more oil + acne</li>
+</ul>
+<hr>
+<h3>😰 3. Chronic Stress &amp; Elevated Cortisol</h3>
+<ul>
+<li>Chronic stress → <strong>cortisol imbalances</strong> → worsens inflammation and disrupts hormone rhythms</li>
+<li>Also contributes to <strong>gut issues</strong> → increased acne risk</li>
+</ul>
+<hr>
+<h3>💊 4. Coming Off Birth Control</h3>
+<ul>
+<li>Hormones fluctuate after stopping the pill → skin may purge as <strong>natural hormone cycles re-establish</strong></li>
+</ul>
+<hr>
+<h3>💥 5. Gut &amp; Liver Imbalances</h3>
+<ul>
+<li>Poor gut health impairs <strong>estrogen clearance</strong> → estrogen dominance</li>
+<li>Liver overload prevents detox of hormone metabolites → skin breakouts</li>
+</ul>
+<hr>
+<h2>How to Clear Hormonal Acne Naturally</h2>
+<h3>🥦 1. Support Estrogen Detox &amp; Hormone Balance</h3>
+<p><strong>Eat:</strong></p>
+<ul>
+<li>Cruciferous veggies (broccoli, kale, cauliflower)</li>
+<li>Flaxseeds (lignans support estrogen metabolism)</li>
+<li>High-fiber foods to aid elimination</li>
+</ul>
+<hr>
+<h3>🍋 2. Balance Blood Sugar</h3>
+<ul>
+<li>Pair carbs with <strong>protein and healthy fats</strong></li>
+<li>Limit refined sugar and high-glycemic foods</li>
+<li>Eat <strong>regular meals</strong> to avoid blood sugar crashes</li>
+</ul>
+<hr>
+<h3>🧘‍♀️ 3. Manage Stress Daily</h3>
+<ul>
+<li>Breathwork, meditation, gentle yoga</li>
+<li>Adaptogenic herbs (ashwagandha, rhodiola — with practitioner guidance)</li>
+</ul>
+<hr>
+<h3>🥒 4. Heal &amp; Support Gut Health</h3>
+<ul>
+<li>Add fermented foods (sauerkraut, kimchi)</li>
+<li>Include prebiotic fibers (onion, garlic, asparagus)</li>
+<li>Reduce inflammatory foods (processed, refined oils)</li>
+</ul>
+<hr>
+<h3>🧴 5. Use Cycle-Syncing Skincare</h3>
+<p><strong>Follicular phase (post-period):</strong></p>
+<ul>
+<li>Light exfoliation, hydrating serums</li>
+</ul>
+<p><strong>Ovulation:</strong></p>
+<ul>
+<li>Antioxidants (vitamin C), sun protection</li>
+</ul>
+<p><strong>Luteal phase (PMS week):</strong></p>
+<ul>
+<li>Gentle cleansers, calming ingredients (niacinamide)</li>
+<li>Spot treatment with sulfur or salicylic acid</li>
+</ul>
+<p><strong>Menstrual phase:</strong></p>
+<ul>
+<li>Focus on skin barrier support — rich moisturizers</li>
+</ul>
+<hr>
+<h2>When to Seek Professional Support</h2>
+<p>If hormonal acne persists or is severe, consider seeing:</p>
+<ul>
+<li>Functional medicine doctor</li>
+<li>Naturopathic doctor</li>
+<li>Integrative dermatologist</li>
+<li>Hormone specialist</li>
+</ul>
+<p>They can test:</p>
+<ul>
+<li>Estrogen, progesterone, testosterone levels</li>
+<li>Cortisol rhythm (via DUTCH test or salivary testing)</li>
+<li>Gut health (stool analysis)</li>
+</ul>
+<hr>
+<h2>Key Takeaway</h2>
+<p><strong>Hormonal acne is a sign of internal imbalance — not just a skin issue.</strong><br>
+Supporting your gut, balancing blood sugar, managing stress, and syncing skincare with your cycle can <strong>transform your skin from within</strong>.</p>
+<hr>
+<h2>Related Articles</h2>
+<ul>
+<li><a href="/signs-of-hormonal-imbalance/">Signs of Hormonal Imbalance in Women</a></li>
+<li><a href="/how-to-balance-hormones/">How to Balance Hormones Naturally</a></li>
+<li><a href="/gut-health-hormones/">Gut Health and Hormones: The Connection Explained</a></li>
+<li><a href="/birth-control-hormonal-imbalance/">The Impact of Birth Control on Hormone Health</a></li>
+</ul>
+
+        </div>
+    </div>
+</article>
+    </main>
+
+    <script src="/js/nav.js"></script>
+    <footer class="bg-gradient-to-br from-purple-600 via-purple-500 to-purple-700 text-white py-8">
+    <div class="container mx-auto px-4 md:px-6 py-4">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-6 md:mb-0">
+                <img src="/img/moon/moon.png" alt="Moone Logo" class="h-14">
+                <span class="ml-2 text-lg font-semibold">Moone</span>
+            </div>
+            <div class="flex flex-col md:flex-row items-center gap-4">
+                <a href="/PrivacyPolicy" class="text-purple-200 hover:text-white">Privacy Policy</a>
+                <a href="/TermsandConditions" class="text-purple-200 hover:text-white">Terms and Conditions</a>
+            </div>
+        </div>
+        <div class="mt-8 text-center text-purple-200 text-sm">
+            <p>&copy; 2024 Moone. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
