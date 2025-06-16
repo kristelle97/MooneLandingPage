@@ -363,38 +363,49 @@
     <!-- Privacy Section -->
     <section class="py-10 bg-gray-50">
         <div class="container mx-auto px-4">
-            <div class="flex gap-4 flex-col lg:flex-row items-center">
-                <div class="lg:w-1/2 mb-10 lg:mb-0">
-                    <h2 class="text-center text-4xl font-bold mb-6 text-gray-800">Your Privacy Matters</h2>
-                    <p class="text-gray-600 mb-6">
-                        We understand how personal and sensitive your health data is. That's why we've built Moone with privacy at its core:
-                    </p>
-                    <ul class="space-y-4">
-                        <li class="flex items-center">
-                            <div class="bg-purple-100 p-2 rounded-full mr-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-moone-purple" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                                </svg>
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-4xl font-bold mb-6 text-gray-800">Your Privacy Matters</h2>
+                <p class="text-gray-600 text-lg">We understand how personal and sensitive your health data is. That's why we've built Moone with privacy at its core.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+                <!-- End-to-End Encryption Card -->
+                <div class="transform hover:-translate-y-2 transition-all duration-300">
+                    <div class="bg-gradient-to-br from-purple-600 via-purple-500 to-purple-700 rounded-3xl p-8 shadow-xl h-full relative overflow-hidden">
+                        <div class="relative h-full flex flex-col">
+                            <div class="flex justify-center mb-8">
+                                <img src="img/moon/endToEnd.png" alt="Security Lock" class="w-24 h-24">
                             </div>
-                            <span class="text-gray-700">End-to-end encryption for all your data</span>
-                        </li>
-                        <li class="flex items-center">
-                            <div class="bg-purple-100 p-2 rounded-full mr-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-moone-purple" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                                </svg>
+                            <h3 class="text-2xl font-bold mb-4 text-white text-center">End-to-End Encryption</h3>
+                            <p class="text-purple-100 text-center mb-6">Your data is encrypted before it leaves your device, ensuring only you can access your sensitive information.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Protection Card -->
+                <div class="transform hover:-translate-y-2 transition-all duration-300">
+                    <div class="bg-gradient-radial from-moone-peach-light to-moone-peach rounded-3xl p-8 shadow-xl h-full relative overflow-hidden">
+                        <div class="relative h-full flex flex-col">
+                            <div class="flex justify-center mb-8">
+                                <img src="img/moon/lock.png" alt="Security Lock" class="w-24 h-24">
                             </div>
-                            <span class="text-gray-700">Encryption at rest</span>
-                        </li>
-                        <li class="flex items-center">
-                            <div class="bg-purple-100 p-2 rounded-full mr-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-moone-purple" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                                </svg>
+                            <h3 class="text-2xl font-bold mb-4 text-moone-aubergine text-center">Encryption at Rest</h3>
+                            <p class="text-moone-aubergine-light text-center mb-6">All your data is stored using industry-standard encryption, protecting your information even when it's not in use.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- No Data Sharing Card -->
+                <div class="transform hover:-translate-y-2 transition-all duration-300">
+                    <div class="bg-gradient-to-br from-purple-600 via-purple-500 to-purple-700 rounded-3xl p-8 shadow-xl h-full relative overflow-hidden">
+                        <div class="relative h-full flex flex-col">
+                            <div class="flex justify-center mb-8">
+                                <img src="img/moon/x.png" alt="Security Lock" class="w-24 h-24">
                             </div>
-                            <span class="text-gray-700">No third-party data sharing</span>
-                        </li>
-                    </ul>
+                            <h3 class="text-2xl font-bold mb-4 text-white text-center">No Third-Party Sharing</h3>
+                            <p class="text-purple-100 text-center mb-6">We never share or sell your data to third parties. Your privacy is our priority.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -411,30 +422,30 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
                 <!-- Free Plan -->
                 <div class="transform hover:-translate-y-2 transition-all duration-300">
-                    <div class="bg-gradient-to-br from-purple-600 via-purple-500 to-purple-700 rounded-3xl p-8 shadow-xl h-full relative overflow-hidden">
+                    <div class="bg-gradient-radial from-moone-peach-light to-moone-peach rounded-3xl p-8 shadow-xl h-full relative overflow-hidden">
                         <div class="relative h-full flex flex-col">
                             <div>
-                            <h3 class="text-2xl font-bold mb-4 text-white">Free</h3>
+                            <h3 class="text-2xl font-bold mb-4 text-moone-aubergine">Free</h3>
                             <div class="mb-6">
-                                <span class="text-4xl font-bold text-white">$0</span>
-                                <span class="text-purple-200">/month</span>
+                                <span class="text-4xl font-bold text-moone-aubergine">$0</span>
+                                <span class="text-moone-aubergine-light">/month</span>
                             </div>
                             
                             <ul class="space-y-4 mb-8">
-                                <li class="flex items-center text-white">
-                                    <svg class="w-5 h-5 text-purple-200 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <li class="flex items-center text-moone-aubergine-light">
+                                    <svg class="w-5 h-5 text-moone-aubergine mr-3" fill="currentColor" viewBox="0 0 20 20">
                                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                                     </svg>
                                     Period tracking
                                 </li>
-                                <li class="flex items-center text-white">
-                                    <svg class="w-5 h-5 text-purple-200 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <li class="flex items-center text-moone-aubergine-light">
+                                    <svg class="w-5 h-5 text-moone-aubergine mr-3" fill="currentColor" viewBox="0 0 20 20">
                                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                                     </svg>
                                     Basic predictions
                                 </li>
-                                <li class="flex items-center text-white">
-                                    <svg class="w-5 h-5 text-purple-200 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <li class="flex items-center text-moone-aubergine-light">
+                                    <svg class="w-5 h-5 text-moone-aubergine mr-3" fill="currentColor" viewBox="0 0 20 20">
                                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                                     </svg>
                                     Symptom logging
@@ -442,7 +453,7 @@
                             </ul>
                             </div>
                             
-                            <a href="https://apps.apple.com/en/app/moone-period-cycle-tracker/id6739633389" class="mt-auto block text-center bg-white text-purple-600 rounded-full px-6 py-3 font-medium hover:bg-gray-100 transition duration-300">
+                            <a href="https://apps.apple.com/en/app/moone-period-cycle-tracker/id6739633389" class="mt-auto block text-center bg-moone-aubergine text-white rounded-full px-6 py-3 font-medium hover:bg-moone-aubergine/90 transition duration-300">
                                 Download Now
                             </a>
                         </div>
@@ -451,39 +462,39 @@
 
                 <!-- Premium Plan -->
                 <div class="transform hover:-translate-y-2 transition-all duration-300">
-                    <div class="bg-gradient-radial from-moone-peach-light to-moone-peach rounded-3xl p-8 shadow-xl h-full relative overflow-hidden">
+                    <div class="bg-gradient-to-br from-purple-600 via-purple-500 to-purple-700 rounded-3xl p-8 shadow-xl h-full relative overflow-hidden">
                         <div class="absolute top-4 right-4">
-                            <span class="bg-moone-aubergine/20 text-moone-aubergine px-3 py-1 rounded-full text-sm">Popular</span>
+                            <span class="bg-white/20 text-white px-3 py-1 rounded-full text-sm">Popular</span>
                         </div>
                         <div class="relative h-full flex flex-col">
                             <div>
-                                <h3 class="text-2xl font-bold mb-4 text-moone-aubergine">Premium</h3>
+                                <h3 class="text-2xl font-bold mb-4 text-white">Premium</h3>
                                 <div class="mb-6">
-                                    <span class="text-4xl font-bold text-moone-aubergine">$9.99</span>
-                                    <span class="text-moone-aubergine-light">/month</span>
+                                    <span class="text-4xl font-bold text-white">$9.99</span>
+                                    <span class="text-purple-200">/month</span>
                                 </div>
                                 
                                 <ul class="space-y-4 mb-8">
-                                    <li class="flex items-center text-moone-aubergine-light">
-                                        <svg class="w-5 h-5 text-moone-aubergine mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                    <li class="flex items-center text-white">
+                                        <svg class="w-5 h-5 text-purple-200 mr-3" fill="currentColor" viewBox="0 0 20 20">
                                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                                         </svg>
                                         Everything in Free
                                     </li>
-                                    <li class="flex items-center text-moone-aubergine-light">
-                                        <svg class="w-5 h-5 text-moone-aubergine mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                    <li class="flex items-center text-white">
+                                        <svg class="w-5 h-5 text-purple-200 mr-3" fill="currentColor" viewBox="0 0 20 20">
                                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                                         </svg>
                                         AI-powered insights
                                     </li>
-                                    <li class="flex items-center text-moone-aubergine-light">
-                                        <svg class="w-5 h-5 text-moone-aubergine mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                    <li class="flex items-center text-white">
+                                        <svg class="w-5 h-5 text-purple-200 mr-3" fill="currentColor" viewBox="0 0 20 20">
                                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                                         </svg>
                                         Personalized recommendations
                                     </li>
-                                    <li class="flex items-center text-moone-aubergine-light">
-                                        <svg class="w-5 h-5 text-moone-aubergine mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                    <li class="flex items-center text-white">
+                                        <svg class="w-5 h-5 text-purple-200 mr-3" fill="currentColor" viewBox="0 0 20 20">
                                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                                         </svg>
                                         Personalized AI weekly report
@@ -491,7 +502,7 @@
                                 </ul>
                             </div>
                             
-                            <a href="https://apps.apple.com/en/app/moone-period-cycle-tracker/id6739633389" class="mt-auto block text-center bg-moone-aubergine text-white rounded-full px-6 py-3 font-medium hover:bg-moone-aubergine/90 transition duration-300">
+                            <a href="https://apps.apple.com/en/app/moone-period-cycle-tracker/id6739633389" class="mt-auto block text-center bg-white text-purple-600 rounded-full px-6 py-3 font-medium hover:bg-gray-100 transition duration-300">
                                 Get Premium
                             </a>
                         </div>
@@ -500,27 +511,27 @@
 
                 <!-- Annual Plan -->
                 <div class="transform hover:-translate-y-2 transition-all duration-300">
-                    <div class="bg-gradient-to-br from-purple-600 via-purple-500 to-purple-700 rounded-3xl p-8 shadow-xl h-full relative overflow-hidden">
+                    <div class="bg-gradient-radial from-moone-peach-light to-moone-peach rounded-3xl p-8 shadow-xl h-full relative overflow-hidden">
                         <div class="absolute top-4 right-4">
-                            <span class="bg-white/20 text-white px-3 py-1 rounded-full text-sm">Best Value</span>
+                            <span class="bg-moone-aubergine/20 text-moone-aubergine px-3 py-1 rounded-full text-sm">Best Value</span>
                         </div>
                         <div class="relative h-full flex flex-col">
                             <div>
-                                <h3 class="text-2xl font-bold mb-4 text-white">Annual</h3>
+                                <h3 class="text-2xl font-bold mb-4 text-moone-aubergine">Annual</h3>
                                 <div class="mb-6">
-                                    <span class="text-4xl font-bold text-white">$39.99</span>
-                                    <span class="text-purple-200">/year</span>
+                                    <span class="text-4xl font-bold text-moone-aubergine">$39.99</span>
+                                    <span class="text-moone-aubergine-light">/year</span>
                                 </div>
                                 
                                 <ul class="space-y-4 mb-8">
-                                    <li class="flex items-center text-white">
-                                        <svg class="w-5 h-5 text-purple-200 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                    <li class="flex items-center text-moone-aubergine-light">
+                                        <svg class="w-5 h-5 text-moone-aubergine mr-3" fill="currentColor" viewBox="0 0 20 20">
                                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                                         </svg>
                                         Everything in Premium
                                     </li>
-                                    <li class="flex items-center text-white">
-                                        <svg class="w-5 h-5 text-purple-200 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                    <li class="flex items-center text-moone-aubergine-light">
+                                        <svg class="w-5 h-5 text-moone-aubergine mr-3" fill="currentColor" viewBox="0 0 20 20">
                                             <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                                         </svg>
                                         Save 33%
@@ -528,7 +539,7 @@
                                 </ul>
                             </div>
                             
-                            <a href="https://apps.apple.com/en/app/moone-period-cycle-tracker/id6739633389" class="mt-auto block text-center bg-white text-purple-600 rounded-full px-6 py-3 font-medium hover:bg-gray-100 transition duration-300">
+                            <a href="https://apps.apple.com/en/app/moone-period-cycle-tracker/id6739633389" class="mt-auto block text-center bg-moone-aubergine text-white rounded-full px-6 py-3 font-medium hover:bg-moone-aubergine/90 transition duration-300">
                                 Get Annual Plan
                             </a>
                         </div>
