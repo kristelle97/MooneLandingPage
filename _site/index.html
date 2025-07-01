@@ -52,6 +52,7 @@
             <div class="hidden md:flex items-center space-x-8">
                 <a href="#how-it-works" class="nav-link text-gray-600 hover:text-moone-purple">How It Works</a>
                 <a href="#testimonials" class="nav-link text-gray-600 hover:text-moone-purple">Testimonials</a>
+                <a href="#pricing" class="nav-link text-gray-600 hover:text-moone-purple">Pricing</a>
                 <a href="/blog/" class="nav-link text-gray-600 hover:text-moone-purple">Blog</a>
                 <!-- iOS Download Button -->
                 <a href="https://apps.apple.com/en/app/moone-period-cycle-tracker/id6739633389" id="desktop-download-btn" class="ios-download-btn bg-moone-purple text-white px-6 py-2 rounded-full font-medium hover:bg-purple-700 transition duration-300 ml-4">Download</a>
@@ -74,6 +75,7 @@
             <div class="flex flex-col items-end pr-4">
                 <a href="#how-it-works" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">How It Works</a>
                 <a href="#testimonials" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">Testimonials</a>
+                <a href="#pricing" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">Pricing</a>
                 <a href="/blog/" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">Blog</a>
                 <div class="px-4 py-2">
                     <a href="https://apps.apple.com/en/app/moone-period-cycle-tracker/id6739633389" id="mobile-download-btn" class="bg-moone-purple text-white px-4 py-2 rounded-full font-medium hover:bg-purple-700">Download</a>
@@ -539,7 +541,7 @@
 
 
     <!-- Pricing Section -->
-    <section class="py-10 bg-gray-50">
+    <section id="pricing" class="py-10 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <h2 class="text-4xl font-bold mb-6 text-gray-800">Simple Pricing</h2>
@@ -735,41 +737,117 @@
             return 'desktop';
         }
 
-        // Call this function when the page loads
-        document.addEventListener('DOMContentLoaded', function() {
-            setupDownloadButtons();
-        });
+        // Track clicks with Google Analytics
+        function trackClick(eventName, eventParams = {}) {
+            gtag('event', eventName, eventParams);
+        }
 
+        // Update your setupDownloadButtons function to include tracking
         function setupDownloadButtons() {
             const os = detectMobileOS();
             const iosButtons = document.querySelectorAll('.ios-download-btn');
             const androidButtons = document.querySelectorAll('.android-download-btn');
             
             if (os === 'Android') {
-                // Show Android buttons, hide iOS buttons
                 iosButtons.forEach(btn => btn.classList.add('hidden'));
                 androidButtons.forEach(btn => {
                     btn.classList.remove('hidden');
-                    btn.addEventListener('click', function() {
+                    btn.addEventListener('click', function(e) {
+                        // Track Android download click
+                        trackClick('download_android_click', {
+                            platform: 'android',
+                            button_location: this.id || 'unknown',
+                            user_os: os
+                        });
+                        
                         document.getElementById('google-play-modal').classList.remove('hidden');
                         document.body.style.overflow = 'hidden';
                     });
                 });
             } else {
-                // For iOS and desktop, show iOS buttons, hide Android buttons
                 androidButtons.forEach(btn => btn.classList.add('hidden'));
-                iosButtons.forEach(btn => btn.classList.remove('hidden'));
+                iosButtons.forEach(btn => {
+                    btn.classList.remove('hidden');
+                    btn.addEventListener('click', function(e) {
+                        // Track iOS download click
+                        trackClick('download_ios_click', {
+                            platform: 'ios',
+                            button_location: this.id || 'unknown',
+                            user_os: os
+                        });
+                    });
+                });
             }
             
-            // Also handle the Google Play button in the hero section
+            // Track Google Play button clicks
             const googlePlayButton = document.getElementById('google-play-button');
             if (googlePlayButton) {
                 googlePlayButton.addEventListener('click', function() {
+                    trackClick('download_android_click', {
+                        platform: 'android',
+                        button_location: 'hero_google_play',
+                        user_os: os
+                    });
+                    
                     document.getElementById('google-play-modal').classList.remove('hidden');
                     document.body.style.overflow = 'hidden';
                 });
             }
         }
+
+        // Track navigation clicks
+        document.addEventListener('DOMContentLoaded', function() {
+            setupDownloadButtons();
+            
+            // Track navigation clicks
+            document.querySelectorAll('.nav-link, .mobile-nav-link').forEach(link => {
+                link.addEventListener('click', function() {
+                    // Create specific event names based on navigation item
+                    const navText = this.textContent.trim().toLowerCase();
+                    const href = this.getAttribute('href');
+                    
+                    let eventName = 'nav_click'; // fallback
+                    
+                    if (navText.includes('how it works') || href === '#how-it-works') {
+                        eventName = 'features_nav_click';
+                    } else if (navText.includes('testimonials') || href === '#testimonials') {
+                        eventName = 'testimonials_nav_click';
+                    } else if (navText.includes('pricing') || href === '#pricing') {
+                        eventName = 'pricing_nav_click';
+                    } else if (navText.includes('blog') || href === '/blog/') {
+                        eventName = 'blog_nav_click';
+                    }
+                    
+                    trackClick(eventName, {
+                        nav_item: this.textContent.trim(),
+                        nav_type: this.classList.contains('mobile-nav-link') ? 'mobile' : 'desktop'
+                    });
+                });
+            });
+            
+            // Track pricing plan clicks
+            document.querySelectorAll('a[href*="apps.apple.com"]').forEach(link => {
+                if (link.textContent.includes('Download Now') || link.textContent.includes('Get Premium') || link.textContent.includes('Get Annual')) {
+                    link.addEventListener('click', function() {
+                        trackClick('pricing_click', {
+                            plan_type: this.textContent.includes('Premium') ? 'premium' : 
+                                      this.textContent.includes('Annual') ? 'annual' : 'free',
+                            button_location: 'pricing_section'
+                        });
+                    });
+                }
+            });
+            
+            // Track modal form submissions
+            const form = document.querySelector('#my-form-1lhu04');
+            if (form) {
+                form.addEventListener('submit', function() {
+                    trackClick('waitlist_signup', {
+                        form_type: 'google_play_waitlist'
+                    });
+                });
+            }
+        });
 
         const navbar = document.getElementById('navbar');
         const logoText = navbar.querySelector('span');
