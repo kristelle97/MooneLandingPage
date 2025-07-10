@@ -1,8 +1,12 @@
 ---
-title: "The Vaginal Ring: A Guide to Hormonal Birth Control Rings"
-description: "Learn about the vaginal ring, its effectiveness, how to get it, side effects, pros and cons, and who should avoid it."
+title: 'The Vaginal Ring: A Guide to Hormonal Birth Control Rings'
+description: Learn about the vaginal ring, its effectiveness, how to get it, side
+  effects, pros and cons, and who should avoid it.
 date: 2025-06-08
 category: Hormonal Contraception
+thumbnail: /img/posts/the-vaginal-ring:-a-guide-to-hormonal-birth-control-rings.png
+alt: 'Illustration for The Vaginal Ring: A Guide to Hormonal Birth Control Rings'
+layout: post.njk
 ---
 
 ## Description of the Method

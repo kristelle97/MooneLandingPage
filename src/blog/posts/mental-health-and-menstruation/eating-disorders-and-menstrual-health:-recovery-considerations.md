@@ -1,11 +1,18 @@
 ---
-title: "Eating Disorders and Menstrual Health: Recovery Considerations"
-description: "A detailed article about Eating Disorders and Menstrual Health: Recovery Considerations."
-tags: ["eating disorders menstrual health", "eating disorders and periods", "menstrual health recovery", "eating disorders recovery tips", "menstrual cycle and eating disorders"]
-alt: "Cartoon-style illustration for Eating Disorders and Menstrual Health: Recovery Considerations"
+title: 'Eating Disorders and Menstrual Health: Recovery Considerations'
+description: 'A detailed article about Eating Disorders and Menstrual Health: Recovery
+  Considerations.'
+tags:
+- eating disorders menstrual health
+- eating disorders and periods
+- menstrual health recovery
+- eating disorders recovery tips
+- menstrual cycle and eating disorders
+alt: 'Illustration for Eating Disorders and Menstrual Health: Recovery Considerations'
 layout: post.njk
 date: 2025-07-10
-permalink: "/eating-disorders-and-menstrual-health:-recovery-considerations/"
+permalink: /eating-disorders-and-menstrual-health:-recovery-considerations/
+thumbnail: /img/posts/eating-disorders-and-menstrual-health:-recovery-considerations.png
 ---
 
 # Eating Disorders and Menstrual Health: Recovery Considerations

@@ -1,11 +1,14 @@
 ---
-title: "The Environmental Impact of Menstrual Products: Facts and Solutions"
-description: "A detailed article about The Environmental Impact of Menstrual Products: Facts and Solutions."
-tags: ["the-environmental-impact-of-menstrual-products:-facts-and-solutions"]
-alt: "Cartoon-style illustration for The Environmental Impact of Menstrual Products: Facts and Solutions"
+title: 'The Environmental Impact of Menstrual Products: Facts and Solutions'
+description: 'A detailed article about The Environmental Impact of Menstrual Products:
+  Facts and Solutions.'
+tags:
+- the-environmental-impact-of-menstrual-products:-facts-and-solutions
+alt: 'Illustration for The Environmental Impact of Menstrual Products: Facts and Solutions'
 layout: post.njk
 date: 2025-07-10
-permalink: "/the-environmental-impact-of-menstrual-products:-facts-and-solutions/"
+permalink: /the-environmental-impact-of-menstrual-products:-facts-and-solutions/
+thumbnail: /img/posts/the-environmental-impact-of-menstrual-products:-facts-and-solutions.png
 ---
 
 # The Environmental Impact of Menstrual Products: Facts and Solutions

@@ -1,8 +1,14 @@
 ---
-title: "Eco-Friendly Menstrual Products: Sustainable Choices for a Greener Period"
-description: "Discover sustainable and eco-friendly menstrual products, including organic, reusable, and biodegradable options. Learn how to make greener choices for your period."
+title: 'Eco-Friendly Menstrual Products: Sustainable Choices for a Greener Period'
+description: Discover sustainable and eco-friendly menstrual products, including organic,
+  reusable, and biodegradable options. Learn how to make greener choices for your
+  period.
 date: 2025-06-08
 category: Menstrual Hygiene
+thumbnail: /img/posts/eco-friendly-menstrual-products:-sustainable-choices-for-a-greener-period.png
+alt: 'Illustration for Eco-Friendly Menstrual Products: Sustainable Choices for a
+  Greener Period'
+layout: post.njk
 ---
 
 # Eco-Friendly Menstrual Products: Sustainable Choices for a Greener Period

@@ -1,8 +1,11 @@
 ---
-title: "The Role of Insulin Resistance in PCOS and Women's Health"
-description: "Explore the connection between insulin resistance, PCOS, and women's health, including causes, symptoms, and management strategies."
+title: The Role of Insulin Resistance in PCOS and Women's Health
+description: Explore the connection between insulin resistance, PCOS, and women's
+  health, including causes, symptoms, and management strategies.
 layout: post.njk
 date: 2024-06-09
+thumbnail: /img/posts/the-role-of-insulin-resistance-in-pcos-and-women's-health.png
+alt: Illustration for The Role of Insulin Resistance in PCOS and Women's Health
 ---
 
 # The Role of Insulin Resistance in PCOS and Women's Health

@@ -1,8 +1,11 @@
 ---
-title: "Understanding PCOS: Causes, Symptoms, and Treatment Options"
-description: "Learn about the causes, symptoms, and treatment options for Polycystic Ovary Syndrome (PCOS) in this comprehensive guide."
+title: 'Understanding PCOS: Causes, Symptoms, and Treatment Options'
+description: Learn about the causes, symptoms, and treatment options for Polycystic
+  Ovary Syndrome (PCOS) in this comprehensive guide.
 layout: post.njk
 date: 2024-06-09
+thumbnail: /img/posts/understanding-pcos:-causes,-symptoms,-and-treatment-options.png
+alt: 'Illustration for Understanding PCOS: Causes, Symptoms, and Treatment Options'
 ---
 
 # Understanding PCOS: Causes, Symptoms, and Treatment Options

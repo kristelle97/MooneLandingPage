@@ -1,8 +1,13 @@
 ---
-title: "Personal Hygiene During Menstruation: Best Practices for Comfort and Health"
-description: "A complete guide to personal hygiene during menstruation, including washing practices, genital care, and tips for preventing odor and irritation."
+title: 'Personal Hygiene During Menstruation: Best Practices for Comfort and Health'
+description: A complete guide to personal hygiene during menstruation, including washing
+  practices, genital care, and tips for preventing odor and irritation.
 date: 2025-06-08
 category: Menstrual Hygiene
+thumbnail: /img/posts/personal-hygiene-during-menstruation:-best-practices-for-comfort-and-health.png
+alt: 'Illustration for Personal Hygiene During Menstruation: Best Practices for Comfort
+  and Health'
+layout: post.njk
 ---
 
 # Personal Hygiene During Menstruation: Best Practices for Comfort and Health

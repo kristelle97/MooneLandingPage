@@ -1,8 +1,12 @@
 ---
-title: "Hormonal IUD: Long-Acting Birth Control Explained"
-description: "Find out how the hormonal IUD works, its effectiveness, how to get it, side effects, pros and cons, and who should avoid it."
+title: 'Hormonal IUD: Long-Acting Birth Control Explained'
+description: Find out how the hormonal IUD works, its effectiveness, how to get it,
+  side effects, pros and cons, and who should avoid it.
 date: 2025-06-08
 category: Hormonal Contraception
+thumbnail: /img/posts/hormonal-iud:-long-acting-birth-control-explained.png
+alt: 'Illustration for Hormonal IUD: Long-Acting Birth Control Explained'
+layout: post.njk
 ---
 
 ## Description of the Method

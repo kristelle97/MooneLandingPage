@@ -1,8 +1,12 @@
 ---
-title: "Gonorrhea: Symptoms, Diagnosis, Treatment, and Prevention"
-description: "Discover everything about Gonorrhea, including symptoms, diagnosis, treatment, and prevention. Stay informed about this common STI."
+title: 'Gonorrhea: Symptoms, Diagnosis, Treatment, and Prevention'
+description: Discover everything about Gonorrhea, including symptoms, diagnosis, treatment,
+  and prevention. Stay informed about this common STI.
 date: 2025-06-08
 category: Sexually Transmitted Infections
+thumbnail: /img/posts/gonorrhea:-symptoms,-diagnosis,-treatment,-and-prevention.png
+alt: 'Illustration for Gonorrhea: Symptoms, Diagnosis, Treatment, and Prevention'
+layout: post.njk
 ---
 
 ## Description

@@ -1,8 +1,12 @@
 ---
-title: "The Science of Menstrual Blood: What Your Period Tells You About Your Health"
-description: "Explore the science behind menstrual blood—its composition, color, and what changes can reveal about your health."
+title: 'The Science of Menstrual Blood: What Your Period Tells You About Your Health'
+description: "Explore the science behind menstrual blood\u2014its composition, color,\
+  \ and what changes can reveal about your health."
 layout: post.njk
 date: 2024-06-09
+thumbnail: /img/posts/the-science-of-menstrual-blood:-what-your-period-tells-you-about-your-health.png
+alt: 'Illustration for The Science of Menstrual Blood: What Your Period Tells You
+  About Your Health'
 ---
 
 # The Science of Menstrual Blood: What Your Period Tells You About Your Health

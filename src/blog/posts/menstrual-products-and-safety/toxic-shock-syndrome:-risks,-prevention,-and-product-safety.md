@@ -1,11 +1,14 @@
 ---
-title: "Toxic Shock Syndrome: Risks, Prevention, and Product Safety"
-description: "A detailed article about Toxic Shock Syndrome: Risks, Prevention, and Product Safety."
-tags: ["toxic-shock-syndrome:-risks,-prevention,-and-product-safety"]
-alt: "Cartoon-style illustration for Toxic Shock Syndrome: Risks, Prevention, and Product Safety"
+title: 'Toxic Shock Syndrome: Risks, Prevention, and Product Safety'
+description: 'A detailed article about Toxic Shock Syndrome: Risks, Prevention, and
+  Product Safety.'
+tags:
+- toxic-shock-syndrome:-risks,-prevention,-and-product-safety
+alt: 'Illustration for Toxic Shock Syndrome: Risks, Prevention, and Product Safety'
 layout: post.njk
 date: 2025-07-10
-permalink: "/toxic-shock-syndrome:-risks,-prevention,-and-product-safety/"
+permalink: /toxic-shock-syndrome:-risks,-prevention,-and-product-safety/
+thumbnail: /img/posts/toxic-shock-syndrome:-risks,-prevention,-and-product-safety.png
 ---
 
 # Toxic Shock Syndrome: Risks, Prevention, and Product Safety

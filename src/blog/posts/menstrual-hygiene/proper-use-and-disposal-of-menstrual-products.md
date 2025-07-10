@@ -1,8 +1,13 @@
 ---
-title: "Proper Use and Disposal of Menstrual Products: Hygiene, Safety, and the Environment"
-description: "Learn how to use menstrual products safely, how often to change them, and the best practices for environmentally safe disposal."
+title: 'Proper Use and Disposal of Menstrual Products: Hygiene, Safety, and the Environment'
+description: Learn how to use menstrual products safely, how often to change them,
+  and the best practices for environmentally safe disposal.
 date: 2025-06-08
 category: Menstrual Hygiene
+thumbnail: /img/posts/proper-use-and-disposal-of-menstrual-products:-hygiene,-safety,-and-the-environment.png
+alt: 'Illustration for Proper Use and Disposal of Menstrual Products: Hygiene, Safety,
+  and the Environment'
+layout: post.njk
 ---
 
 # Proper Use and Disposal of Menstrual Products: Hygiene, Safety, and the Environment

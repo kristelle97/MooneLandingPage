@@ -1,8 +1,11 @@
 ---
-title: "Endometriosis: Causes, Symptoms, and Modern Treatments"
-description: "Discover the causes, symptoms, and latest treatments for endometriosis in this comprehensive, science-backed guide."
+title: 'Endometriosis: Causes, Symptoms, and Modern Treatments'
+description: Discover the causes, symptoms, and latest treatments for endometriosis
+  in this comprehensive, science-backed guide.
 layout: post.njk
 date: 2024-06-09
+thumbnail: /img/posts/endometriosis:-causes,-symptoms,-and-modern-treatments.png
+alt: 'Illustration for Endometriosis: Causes, Symptoms, and Modern Treatments'
 ---
 
 # Endometriosis: Causes, Symptoms, and Modern Treatments

@@ -1,8 +1,12 @@
 ---
-title: "Syphilis: Symptoms, Diagnosis, Treatment, and Prevention"
-description: "A complete guide to Syphilis: symptoms, diagnosis, treatment, and prevention. Learn how to protect yourself and others from this STI."
+title: 'Syphilis: Symptoms, Diagnosis, Treatment, and Prevention'
+description: 'A complete guide to Syphilis: symptoms, diagnosis, treatment, and prevention.
+  Learn how to protect yourself and others from this STI.'
 date: 2025-06-08
 category: Sexually Transmitted Infections
+thumbnail: /img/posts/syphilis:-symptoms,-diagnosis,-treatment,-and-prevention.png
+alt: 'Illustration for Syphilis: Symptoms, Diagnosis, Treatment, and Prevention'
+layout: post.njk
 ---
 
 ## Description

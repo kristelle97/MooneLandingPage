@@ -1,8 +1,11 @@
 ---
-title: "Endometriosis and Fertility: Scientific Insights and Options"
-description: "Learn how endometriosis affects fertility, the latest scientific insights, and available options for women trying to conceive."
+title: 'Endometriosis and Fertility: Scientific Insights and Options'
+description: Learn how endometriosis affects fertility, the latest scientific insights,
+  and available options for women trying to conceive.
 layout: post.njk
 date: 2024-06-09
+thumbnail: /img/posts/endometriosis-and-fertility:-scientific-insights-and-options.png
+alt: 'Illustration for Endometriosis and Fertility: Scientific Insights and Options'
 ---
 
 # Endometriosis and Fertility: Scientific Insights and Options

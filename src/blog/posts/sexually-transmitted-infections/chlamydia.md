@@ -1,8 +1,12 @@
 ---
-title: "Chlamydia: Symptoms, Diagnosis, Treatment, and Prevention"
-description: "Learn about Chlamydia, its symptoms, how to know if you have it, treatment options, and prevention tips. Comprehensive guide for sexual health awareness."
+title: 'Chlamydia: Symptoms, Diagnosis, Treatment, and Prevention'
+description: Learn about Chlamydia, its symptoms, how to know if you have it, treatment
+  options, and prevention tips. Comprehensive guide for sexual health awareness.
 date: 2025-06-08
 category: Sexually Transmitted Infections
+thumbnail: /img/posts/chlamydia:-symptoms,-diagnosis,-treatment,-and-prevention.png
+alt: 'Illustration for Chlamydia: Symptoms, Diagnosis, Treatment, and Prevention'
+layout: post.njk
 ---
 
 ## Description

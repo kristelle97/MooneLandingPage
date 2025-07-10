@@ -1,8 +1,12 @@
 ---
-title: "The Contraceptive Patch: How It Works and What to Expect"
-description: "Explore the contraceptive patch, its effectiveness, how to get it, side effects, pros and cons, and who should avoid it."
+title: 'The Contraceptive Patch: How It Works and What to Expect'
+description: Explore the contraceptive patch, its effectiveness, how to get it, side
+  effects, pros and cons, and who should avoid it.
 date: 2025-06-08
 category: Hormonal Contraception
+thumbnail: /img/posts/the-contraceptive-patch:-how-it-works-and-what-to-expect.png
+alt: 'Illustration for The Contraceptive Patch: How It Works and What to Expect'
+layout: post.njk
 ---
 
 ## Description of the Method

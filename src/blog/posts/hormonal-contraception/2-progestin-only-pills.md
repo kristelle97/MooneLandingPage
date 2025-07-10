@@ -1,8 +1,12 @@
 ---
-title: "Progestin-Only Pills: The Mini-Pill Explained"
-description: "Discover how progestin-only pills work, their effectiveness, how to get them, side effects, pros and cons, and who should avoid them."
+title: 'Progestin-Only Pills: The Mini-Pill Explained'
+description: Discover how progestin-only pills work, their effectiveness, how to get
+  them, side effects, pros and cons, and who should avoid them.
 date: 2025-06-08
 category: Hormonal Contraception
+thumbnail: /img/posts/progestin-only-pills:-the-mini-pill-explained.png
+alt: 'Illustration for Progestin-Only Pills: The Mini-Pill Explained'
+layout: post.njk
 ---
 
 ## Description of the Method

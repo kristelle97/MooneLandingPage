@@ -1,8 +1,11 @@
 ---
-title: "Diagnosing Endometriosis: Why Early Detection Matters"
-description: "Learn why early detection of endometriosis is crucial, how it is diagnosed, and the benefits of timely intervention."
+title: 'Diagnosing Endometriosis: Why Early Detection Matters'
+description: Learn why early detection of endometriosis is crucial, how it is diagnosed,
+  and the benefits of timely intervention.
 layout: post.njk
 date: 2024-06-09
+thumbnail: /img/posts/diagnosing-endometriosis:-why-early-detection-matters.png
+alt: 'Illustration for Diagnosing Endometriosis: Why Early Detection Matters'
 ---
 
 # Diagnosing Endometriosis: Why Early Detection Matters

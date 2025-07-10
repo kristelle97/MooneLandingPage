@@ -1,8 +1,14 @@
 ---
-title: "Comprehensive Guide to Menstrual Products: Pads, Tampons, and Menstrual Cups"
-description: "Explore the full range of menstrual products, including pads, tampons, and menstrual cups. Learn how each works, their pros and cons, and tips for choosing the right product for your needs."
+title: 'Comprehensive Guide to Menstrual Products: Pads, Tampons, and Menstrual Cups'
+description: Explore the full range of menstrual products, including pads, tampons,
+  and menstrual cups. Learn how each works, their pros and cons, and tips for choosing
+  the right product for your needs.
 date: 2025-06-08
 category: Menstrual Hygiene
+thumbnail: /img/posts/comprehensive-guide-to-menstrual-products:-pads,-tampons,-and-menstrual-cups.png
+alt: 'Illustration for Comprehensive Guide to Menstrual Products: Pads, Tampons, and
+  Menstrual Cups'
+layout: post.njk
 ---
 
 # Comprehensive Guide to Menstrual Products: Pads, Tampons, and Menstrual Cups
