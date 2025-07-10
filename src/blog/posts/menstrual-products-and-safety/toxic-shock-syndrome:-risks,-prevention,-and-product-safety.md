@@ -8,7 +8,7 @@ alt: 'Illustration for Toxic Shock Syndrome: Risks, Prevention, and Product Safe
 layout: post.njk
 date: 2025-07-10
 permalink: /toxic-shock-syndrome:-risks,-prevention,-and-product-safety/
-thumbnail: /img/posts/toxic-shock-syndrome:-risks,-prevention,-and-product-safety.png
+thumbnail: /img/posts/toxic-shock-syndrome:-risks,-prevention,-and-product-safety.webp
 ---
 
 # Toxic Shock Syndrome: Risks, Prevention, and Product Safety

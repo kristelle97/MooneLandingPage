@@ -2,7 +2,7 @@
 title: "How Physical Activity Influences Hormones in Women"
 description: "A detailed article about How Physical Activity Influences Hormones in Women."
 tags: ["physical activity and hormones", "exercise effects on women's hormones", "hormone balance through physical activity", "impact of exercise on female hormones", "women's health and fitness hormones"]
-thumbnail: /img/posts/how-physical-activity-influences-hormones-in-women.png
+thumbnail: /img/posts/how-physical-activity-influences-hormones-in-women.webp
 alt: "Cartoon-style illustration for How Physical Activity Influences Hormones in Women"
 layout: post.njk
 date: 2025-07-10

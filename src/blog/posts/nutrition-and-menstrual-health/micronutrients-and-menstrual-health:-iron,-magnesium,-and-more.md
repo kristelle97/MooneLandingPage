@@ -2,7 +2,7 @@
 title: "Micronutrients and Menstrual Health: Iron, Magnesium, and More"
 description: "A detailed article about Micronutrients and Menstrual Health: Iron, Magnesium, and More."
 tags: ["micronutrients menstrual health", "iron magnesium menstruation", "micronutrients for menstrual cycle", "menstrual health supplements", "nutrients for menstrual health"]
-thumbnail: /img/posts/micronutrients-and-menstrual-health:-iron,-magnesium,-and-more.png
+thumbnail: /img/posts/micronutrients-and-menstrual-health:-iron,-magnesium,-and-more.webp
 alt: "Cartoon-style illustration for Micronutrients and Menstrual Health: Iron, Magnesium, and More"
 layout: post.njk
 date: 2025-07-10

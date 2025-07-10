@@ -2,7 +2,7 @@
 title: "Preserving Fertility: What Women Need to Know"
 description: "A detailed article about Preserving Fertility: What Women Need to Know."
 tags: ["fertility preservation", "women's fertility tips", "egg freezing options", "fertility health for women", "preserving fertility methods"]
-thumbnail: /img/posts/preserving-fertility:-what-women-need-to-know.png
+thumbnail: /img/posts/preserving-fertility:-what-women-need-to-know.webp
 alt: "Cartoon-style illustration for Preserving Fertility: What Women Need to Know"
 layout: post.njk
 date: 2025-07-10

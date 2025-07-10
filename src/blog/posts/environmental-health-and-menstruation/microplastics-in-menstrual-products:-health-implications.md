@@ -2,7 +2,7 @@
 title: "Microplastics in Menstrual Products: Health Implications"
 description: "A detailed article about Microplastics in Menstrual Products: Health Implications."
 tags: ["microplastics in menstrual products", "menstrual products health risks", "microplastics health effects", "menstrual product safety", "microplastics environmental impact"]
-thumbnail: /img/posts/microplastics-in-menstrual-products:-health-implications.png
+thumbnail: /img/posts/microplastics-in-menstrual-products:-health-implications.webp
 alt: "Cartoon-style illustration for Microplastics in Menstrual Products: Health Implications"
 layout: post.njk
 date: 2025-07-10

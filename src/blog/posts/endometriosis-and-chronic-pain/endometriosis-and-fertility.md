@@ -4,7 +4,7 @@ description: Learn how endometriosis affects fertility, the latest scientific in
   and available options for women trying to conceive.
 layout: post.njk
 date: 2024-06-09
-thumbnail: /img/posts/endometriosis-and-fertility:-scientific-insights-and-options.png
+thumbnail: /img/posts/endometriosis-and-fertility:-scientific-insights-and-options.webp
 alt: 'Illustration for Endometriosis and Fertility: Scientific Insights and Options'
 ---
 

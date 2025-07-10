@@ -2,7 +2,7 @@
 title: "Innovations in Menstrual Hygiene: What’s New and What Works"
 description: "A detailed article about Innovations in Menstrual Hygiene: What’s New and What Works."
 tags: ["innovations-in-menstrual-hygiene:-what\u2019s-new-and-what-works"]
-thumbnail: /img/posts/innovations-in-menstrual-hygiene:-what’s-new-and-what-works.png
+thumbnail: /img/posts/innovations-in-menstrual-hygiene:-what’s-new-and-what-works.webp
 alt: "Cartoon-style illustration for Innovations in Menstrual Hygiene: What’s New and What Works"
 layout: post.njk
 date: 2025-07-10

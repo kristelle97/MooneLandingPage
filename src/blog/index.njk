@@ -11,8 +11,11 @@ title: Moone Blog - Nutrition & Wellness Tips
             {%- for post in collections.posts | reverse -%}
             <article class="bg-white rounded-xl shadow-md overflow-hidden">
                 {% if post.data.thumbnail %}
-                <img src="{{ post.data.thumbnail }}" alt="{{ post.data.alt }}" class="w-full h-48 object-cover">
-
+                <img src="{{ post.data.thumbnail }}" 
+                     alt="{{ post.data.alt or post.data.title or 'Blog post featured image' }}" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
                 {% endif %}
                 <div class="p-6">
                     <h2 class="text-xl font-semibold mb-2">

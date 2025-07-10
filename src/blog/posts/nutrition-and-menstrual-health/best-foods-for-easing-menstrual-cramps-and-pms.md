@@ -2,7 +2,7 @@
 title: "Best Foods for Easing Menstrual Cramps and PMS"
 description: "A detailed article about Best Foods for Easing Menstrual Cramps and PMS."
 tags: ["menstrual cramps relief", "foods for PMS symptoms", "diet for menstrual pain", "best foods for period cramps", "natural remedies for PMS"]
-thumbnail: /img/posts/best-foods-for-easing-menstrual-cramps-and-pms.png
+thumbnail: /img/posts/best-foods-for-easing-menstrual-cramps-and-pms.webp
 alt: "Cartoon-style illustration for Best Foods for Easing Menstrual Cramps and PMS"
 layout: post.njk
 date: 2025-07-10

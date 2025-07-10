@@ -2,7 +2,7 @@
 title: "Exercise and the Menstrual Cycle: Benefits and Best Practices"
 description: "A detailed article about Exercise and the Menstrual Cycle: Benefits and Best Practices."
 tags: ["exercise during menstrual cycle", "benefits of exercise on menstrual cycle", "best exercises for menstrual cycle", "menstrual cycle workout tips", "exercise and menstruation benefits"]
-thumbnail: /img/posts/exercise-and-the-menstrual-cycle:-benefits-and-best-practices.png
+thumbnail: /img/posts/exercise-and-the-menstrual-cycle:-benefits-and-best-practices.webp
 alt: "Cartoon-style illustration for Exercise and the Menstrual Cycle: Benefits and Best Practices"
 layout: post.njk
 date: 2025-07-10

@@ -2,7 +2,7 @@
 title: "Managing Menopausal Symptoms Naturally: Evidence-Based Tips"
 description: "A detailed article about Managing Menopausal Symptoms Naturally: Evidence-Based Tips."
 tags: ["menopausal symptoms relief", "natural menopause management", "evidence-based menopause tips", "menopause natural remedies", "managing menopause naturally"]
-thumbnail: /img/posts/managing-menopausal-symptoms-naturally:-evidence-based-tips.png
+thumbnail: /img/posts/managing-menopausal-symptoms-naturally:-evidence-based-tips.webp
 alt: "Cartoon-style illustration for Managing Menopausal Symptoms Naturally: Evidence-Based Tips"
 layout: post.njk
 date: 2025-07-10

@@ -2,7 +2,7 @@
 title: "Weight Gain in Perimenopause: Hormonal Factors and Management"
 description: "A detailed article about Weight Gain in Perimenopause: Hormonal Factors and Management."
 tags: ["perimenopause weight gain", "hormonal changes in perimenopause", "managing weight in perimenopause", "perimenopause and metabolism", "weight management during perimenopause"]
-thumbnail: /img/posts/weight-gain-in-perimenopause:-hormonal-factors-and-management.png
+thumbnail: /img/posts/weight-gain-in-perimenopause:-hormonal-factors-and-management.webp
 alt: "Cartoon-style illustration for Weight Gain in Perimenopause: Hormonal Factors and Management"
 layout: post.njk
 date: 2025-07-10

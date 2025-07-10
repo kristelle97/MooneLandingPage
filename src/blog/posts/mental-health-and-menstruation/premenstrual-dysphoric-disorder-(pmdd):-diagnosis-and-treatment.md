@@ -2,7 +2,7 @@
 title: "Premenstrual Dysphoric Disorder (PMDD): Diagnosis and Treatment"
 description: "A detailed article about Premenstrual Dysphoric Disorder (PMDD): Diagnosis and Treatment."
 tags: ["PMDD diagnosis", "PMDD treatment", "premenstrual dysphoric disorder", "PMDD symptoms", "managing PMDD"]
-thumbnail: /img/posts/premenstrual-dysphoric-disorder-(pmdd):-diagnosis-and-treatment.png
+thumbnail: /img/posts/premenstrual-dysphoric-disorder-(pmdd):-diagnosis-and-treatment.webp
 alt: "Cartoon-style illustration for Premenstrual Dysphoric Disorder (PMDD): Diagnosis and Treatment"
 layout: post.njk
 date: 2025-07-10

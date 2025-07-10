@@ -4,7 +4,7 @@ description: Learn about Chlamydia, its symptoms, how to know if you have it, tr
   options, and prevention tips. Comprehensive guide for sexual health awareness.
 date: 2025-06-08
 category: Sexually Transmitted Infections
-thumbnail: /img/posts/chlamydia:-symptoms,-diagnosis,-treatment,-and-prevention.png
+thumbnail: /img/posts/chlamydia:-symptoms,-diagnosis,-treatment,-and-prevention.webp
 alt: 'Illustration for Chlamydia: Symptoms, Diagnosis, Treatment, and Prevention'
 layout: post.njk
 ---

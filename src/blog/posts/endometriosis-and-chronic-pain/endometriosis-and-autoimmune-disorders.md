@@ -4,7 +4,7 @@ description: Explore the scientific connection between endometriosis and autoimm
   disorders, including shared risk factors and management strategies.
 layout: post.njk
 date: 2024-06-09
-thumbnail: /img/posts/the-link-between-endometriosis-and-autoimmune-disorders.png
+thumbnail: /img/posts/the-link-between-endometriosis-and-autoimmune-disorders.webp
 alt: Illustration for The Link Between Endometriosis and Autoimmune Disorders
 ---
 

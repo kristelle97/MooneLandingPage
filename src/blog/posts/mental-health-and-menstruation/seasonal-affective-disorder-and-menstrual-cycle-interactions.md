@@ -2,7 +2,7 @@
 title: "Seasonal Affective Disorder and Menstrual Cycle Interactions"
 description: "A detailed article about Seasonal Affective Disorder and Menstrual Cycle Interactions."
 tags: ["seasonal affective disorder", "menstrual cycle interactions", "SAD and menstruation", "hormonal changes and SAD", "menstrual cycle mood swings"]
-thumbnail: /img/posts/seasonal-affective-disorder-and-menstrual-cycle-interactions.png
+thumbnail: /img/posts/seasonal-affective-disorder-and-menstrual-cycle-interactions.webp
 alt: "Cartoon-style illustration for Seasonal Affective Disorder and Menstrual Cycle Interactions"
 layout: post.njk
 date: 2025-07-10

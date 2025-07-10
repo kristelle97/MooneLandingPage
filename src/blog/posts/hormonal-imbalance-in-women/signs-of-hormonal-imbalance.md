@@ -2,7 +2,7 @@
 title: "Signs of Hormonal Imbalance in Women: What to Watch For"
 description: "Learn the most common signs of hormonal imbalance in women, including mood swings, fatigue, weight changes, skin issues, and more. Understand your body's signals and how to support hormone health naturally."
 tags: ["hormonal imbalance", "women's hormone health", "natural hormone balance"]
-thumbnail: /img/posts/hormonalimbalance.png
+thumbnail: /img/posts/hormonalimbalance.webp
 alt: Woman holding her lower abdomen, reflecting on hormonal imbalance symptoms
 layout: post.njk
 date: 2025-06-09

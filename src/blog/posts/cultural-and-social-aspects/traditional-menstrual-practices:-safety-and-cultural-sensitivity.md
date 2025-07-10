@@ -2,7 +2,7 @@
 title: "Traditional Menstrual Practices: Safety and Cultural Sensitivity"
 description: "A detailed article about Traditional Menstrual Practices: Safety and Cultural Sensitivity."
 tags: ["traditional menstrual practices", "menstrual health cultural sensitivity", "menstrual practices safety", "cultural menstrual practices", "traditional menstrual safety"]
-thumbnail: /img/posts/traditional-menstrual-practices:-safety-and-cultural-sensitivity.png
+thumbnail: /img/posts/traditional-menstrual-practices:-safety-and-cultural-sensitivity.webp
 alt: "Cartoon-style illustration for Traditional Menstrual Practices: Safety and Cultural Sensitivity"
 layout: post.njk
 date: 2025-07-10

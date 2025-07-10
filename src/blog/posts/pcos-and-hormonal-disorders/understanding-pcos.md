@@ -4,7 +4,7 @@ description: Learn about the causes, symptoms, and treatment options for Polycys
   Ovary Syndrome (PCOS) in this comprehensive guide.
 layout: post.njk
 date: 2024-06-09
-thumbnail: /img/posts/understanding-pcos:-causes,-symptoms,-and-treatment-options.png
+thumbnail: /img/posts/understanding-pcos:-causes,-symptoms,-and-treatment-options.webp
 alt: 'Illustration for Understanding PCOS: Causes, Symptoms, and Treatment Options'
 ---
 

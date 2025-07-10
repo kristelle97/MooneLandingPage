@@ -2,7 +2,7 @@
 title: "The Impact of Menopause on Bone and Heart Health"
 description: "A detailed article about The Impact of Menopause on Bone and Heart Health."
 tags: ["menopause bone health", "menopause heart health", "impact of menopause on bones", "menopause cardiovascular effects", "menopause osteoporosis risk"]
-thumbnail: /img/posts/the-impact-of-menopause-on-bone-and-heart-health.png
+thumbnail: /img/posts/the-impact-of-menopause-on-bone-and-heart-health.webp
 alt: "Cartoon-style illustration for The Impact of Menopause on Bone and Heart Health"
 layout: post.njk
 date: 2025-07-10

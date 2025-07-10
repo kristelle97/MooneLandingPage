@@ -2,7 +2,7 @@
 title: "The Science of Egg Quality: How Age and Lifestyle Matter"
 description: "A detailed article about The Science of Egg Quality: How Age and Lifestyle Matter."
 tags: ["egg quality science", "age and egg quality", "lifestyle impact on eggs", "improving egg quality", "fertility and egg health"]
-thumbnail: /img/posts/the-science-of-egg-quality:-how-age-and-lifestyle-matter.png
+thumbnail: /img/posts/the-science-of-egg-quality:-how-age-and-lifestyle-matter.webp
 alt: "Cartoon-style illustration for The Science of Egg Quality: How Age and Lifestyle Matter"
 layout: post.njk
 date: 2025-07-10

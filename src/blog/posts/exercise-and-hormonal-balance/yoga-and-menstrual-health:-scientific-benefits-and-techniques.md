@@ -2,7 +2,7 @@
 title: "Yoga and Menstrual Health: Scientific Benefits and Techniques"
 description: "A detailed article about Yoga and Menstrual Health: Scientific Benefits and Techniques."
 tags: ["yoga for menstrual health", "benefits of yoga during menstruation", "yoga techniques for period pain", "scientific benefits of yoga for menstrual health", "yoga poses for menstrual cycle"]
-thumbnail: /img/posts/yoga-and-menstrual-health:-scientific-benefits-and-techniques.png
+thumbnail: /img/posts/yoga-and-menstrual-health:-scientific-benefits-and-techniques.webp
 alt: "Cartoon-style illustration for Yoga and Menstrual Health: Scientific Benefits and Techniques"
 layout: post.njk
 date: 2025-07-10

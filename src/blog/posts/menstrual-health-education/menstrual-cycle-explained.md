@@ -5,7 +5,7 @@ description: A comprehensive guide to the menstrual cycle, breaking down each ph
   the month.
 layout: post.njk
 date: 2024-06-09
-thumbnail: /img/posts/the-menstrual-cycle-explained:-phases,-hormones,-and-what-to-expect.png
+thumbnail: /img/posts/the-menstrual-cycle-explained:-phases,-hormones,-and-what-to-expect.webp
 alt: 'Illustration for The Menstrual Cycle Explained: Phases, Hormones, and What to
   Expect'
 ---

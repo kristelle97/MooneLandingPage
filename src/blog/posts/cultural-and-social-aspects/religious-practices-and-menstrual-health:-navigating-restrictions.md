@@ -2,7 +2,7 @@
 title: "Religious Practices and Menstrual Health: Navigating Restrictions"
 description: "A detailed article about Religious Practices and Menstrual Health: Navigating Restrictions."
 tags: ["menstrual health and religion", "religious restrictions on menstruation", "navigating menstrual restrictions", "menstrual practices in religion", "faith and menstrual health"]
-thumbnail: /img/posts/religious-practices-and-menstrual-health:-navigating-restrictions.png
+thumbnail: /img/posts/religious-practices-and-menstrual-health:-navigating-restrictions.webp
 alt: "Cartoon-style illustration for Religious Practices and Menstrual Health: Navigating Restrictions"
 layout: post.njk
 date: 2025-07-10

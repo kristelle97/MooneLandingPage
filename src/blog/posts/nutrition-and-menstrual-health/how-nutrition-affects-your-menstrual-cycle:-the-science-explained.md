@@ -2,7 +2,7 @@
 title: "How Nutrition Affects Your Menstrual Cycle: The Science Explained"
 description: "A detailed article about How Nutrition Affects Your Menstrual Cycle: The Science Explained."
 tags: ["Menstrual cycle nutrition", "nutrition and menstrual health", "diet impact on periods", "nutrition menstrual science", "food and menstrual cycle"]
-thumbnail: /img/posts/how-nutrition-affects-your-menstrual-cycle:-the-science-explained.png
+thumbnail: /img/posts/how-nutrition-affects-your-menstrual-cycle:-the-science-explained.webp
 alt: "Cartoon-style illustration for How Nutrition Affects Your Menstrual Cycle: The Science Explained"
 layout: post.njk
 date: 2025-07-10

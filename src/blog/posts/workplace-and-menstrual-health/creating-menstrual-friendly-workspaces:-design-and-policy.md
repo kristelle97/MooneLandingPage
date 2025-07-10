@@ -2,7 +2,7 @@
 title: "Creating Menstrual-Friendly Workspaces: Design and Policy"
 description: "A detailed article about Creating Menstrual-Friendly Workspaces: Design and Policy."
 tags: ["menstrual-friendly workplaces", "office design for menstruation", "workplace menstrual policies", "menstrual health in the workplace", "inclusive office design"]
-thumbnail: /img/posts/creating-menstrual-friendly-workspaces:-design-and-policy.png
+thumbnail: /img/posts/creating-menstrual-friendly-workspaces:-design-and-policy.webp
 alt: "Cartoon-style illustration for Creating Menstrual-Friendly Workspaces: Design and Policy"
 layout: post.njk
 date: 2025-07-10

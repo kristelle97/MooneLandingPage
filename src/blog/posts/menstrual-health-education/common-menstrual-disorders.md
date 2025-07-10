@@ -4,7 +4,7 @@ description: An in-depth look at the most common menstrual disorders, their symp
   underlying causes, and evidence-based treatment options.
 layout: post.njk
 date: 2024-06-09
-thumbnail: /img/posts/common-menstrual-disorders:-symptoms,-causes,-and-treatments.png
+thumbnail: /img/posts/common-menstrual-disorders:-symptoms,-causes,-and-treatments.webp
 alt: 'Illustration for Common Menstrual Disorders: Symptoms, Causes, and Treatments'
 ---
 

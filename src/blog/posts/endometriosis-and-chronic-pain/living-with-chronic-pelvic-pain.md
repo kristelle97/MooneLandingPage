@@ -4,7 +4,7 @@ description: Explore effective coping strategies and the latest medical advances
   managing chronic pelvic pain in women.
 layout: post.njk
 date: 2024-06-09
-thumbnail: /img/posts/living-with-chronic-pelvic-pain:-coping-strategies-and-medical-advances.png
+thumbnail: /img/posts/living-with-chronic-pelvic-pain:-coping-strategies-and-medical-advances.webp
 alt: 'Illustration for Living with Chronic Pelvic Pain: Coping Strategies and Medical
   Advances'
 ---

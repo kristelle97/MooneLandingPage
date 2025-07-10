@@ -2,7 +2,7 @@
 title: "Artificial Ovaries: Research Breakthroughs and Clinical Trials"
 description: "A detailed article about Artificial Ovaries: Research Breakthroughs and Clinical Trials."
 tags: ["artificial ovaries", "research breakthroughs", "clinical trials", "fertility innovation", "reproductive technology"]
-thumbnail: /img/posts/artificial-ovaries:-research-breakthroughs-and-clinical-trials.png
+thumbnail: /img/posts/artificial-ovaries:-research-breakthroughs-and-clinical-trials.webp
 alt: "Cartoon-style illustration for Artificial Ovaries: Research Breakthroughs and Clinical Trials"
 layout: post.njk
 date: 2025-07-10

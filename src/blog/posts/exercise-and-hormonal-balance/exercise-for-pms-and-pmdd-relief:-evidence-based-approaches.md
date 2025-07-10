@@ -2,7 +2,7 @@
 title: "Exercise for PMS and PMDD Relief: Evidence-Based Approaches"
 description: "A detailed article about Exercise for PMS and PMDD Relief: Evidence-Based Approaches."
 tags: ["PMS relief exercises", "PMDD exercise benefits", "exercise for PMS symptoms", "workouts for PMDD relief", "evidence-based PMS exercise"]
-thumbnail: /img/posts/exercise-for-pms-and-pmdd-relief:-evidence-based-approaches.png
+thumbnail: /img/posts/exercise-for-pms-and-pmdd-relief:-evidence-based-approaches.webp
 alt: "Cartoon-style illustration for Exercise for PMS and PMDD Relief: Evidence-Based Approaches"
 layout: post.njk
 date: 2025-07-10

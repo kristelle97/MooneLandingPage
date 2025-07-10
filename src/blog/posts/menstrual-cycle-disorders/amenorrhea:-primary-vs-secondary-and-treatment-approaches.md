@@ -2,7 +2,7 @@
 title: "Amenorrhea: Primary vs Secondary and Treatment Approaches"
 description: "A detailed article about Amenorrhea: Primary vs Secondary and Treatment Approaches."
 tags: ["Amenorrhea causes", "Primary vs secondary amenorrhea", "Amenorrhea treatment options", "Differences in amenorrhea", "Managing amenorrhea symptoms"]
-thumbnail: /img/posts/amenorrhea:-primary-vs-secondary-and-treatment-approaches.png
+thumbnail: /img/posts/amenorrhea:-primary-vs-secondary-and-treatment-approaches.webp
 alt: "Cartoon-style illustration for Amenorrhea: Primary vs Secondary and Treatment Approaches"
 layout: post.njk
 date: 2025-07-10

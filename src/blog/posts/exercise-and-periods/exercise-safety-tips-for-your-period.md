@@ -2,7 +2,7 @@
 title: "Exercise Safety Tips for Your Period"
 description: "A detailed article about Exercise Safety Tips for Your Period."
 tags: ["exercise during period", "period workout safety", "menstrual cycle exercise tips", "safe workouts on period", "exercising on your period"]
-thumbnail: /img/posts/exercise-safety-tips-for-your-period.png
+thumbnail: /img/posts/exercise-safety-tips-for-your-period.webp
 alt: "Cartoon-style illustration for Exercise Safety Tips for Your Period"
 layout: post.njk
 date: 2025-07-10

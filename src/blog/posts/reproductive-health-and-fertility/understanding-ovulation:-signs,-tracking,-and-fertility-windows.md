@@ -2,7 +2,7 @@
 title: "Understanding Ovulation: Signs, Tracking, and Fertility Windows"
 description: "A detailed article about Understanding Ovulation: Signs, Tracking, and Fertility Windows."
 tags: ["ovulation signs", "tracking ovulation", "fertility window", "ovulation symptoms", "understanding ovulation"]
-thumbnail: /img/posts/understanding-ovulation:-signs,-tracking,-and-fertility-windows.png
+thumbnail: /img/posts/understanding-ovulation:-signs,-tracking,-and-fertility-windows.webp
 alt: "Cartoon-style illustration for Understanding Ovulation: Signs, Tracking, and Fertility Windows"
 layout: post.njk
 date: 2025-07-10

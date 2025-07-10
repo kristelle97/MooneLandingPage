@@ -4,7 +4,7 @@ description: Discover evidence-based diet and lifestyle strategies for managing 
   including nutrition, exercise, and self-care tips.
 layout: post.njk
 date: 2024-06-09
-thumbnail: /img/posts/managing-pcos-with-diet-and-lifestyle:-evidence-based-strategies.png
+thumbnail: /img/posts/managing-pcos-with-diet-and-lifestyle:-evidence-based-strategies.webp
 alt: 'Illustration for Managing PCOS with Diet and Lifestyle: Evidence-Based Strategies'
 ---
 

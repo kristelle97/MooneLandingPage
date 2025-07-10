@@ -2,7 +2,7 @@
 title: "Anxiety Disorders and Menstrual Cycle Fluctuations"
 description: "A detailed article about Anxiety Disorders and Menstrual Cycle Fluctuations."
 tags: ["anxiety disorders and menstrual cycle", "menstrual cycle fluctuations anxiety", "anxiety and menstruation", "menstrual cycle mental health", "anxiety symptoms during menstruation"]
-thumbnail: /img/posts/anxiety-disorders-and-menstrual-cycle-fluctuations.png
+thumbnail: /img/posts/anxiety-disorders-and-menstrual-cycle-fluctuations.webp
 alt: "Cartoon-style illustration for Anxiety Disorders and Menstrual Cycle Fluctuations"
 layout: post.njk
 date: 2025-07-10

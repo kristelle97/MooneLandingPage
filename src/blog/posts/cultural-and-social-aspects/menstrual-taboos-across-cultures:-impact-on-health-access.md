@@ -2,7 +2,7 @@
 title: "Menstrual Taboos Across Cultures: Impact on Health Access"
 description: "A detailed article about Menstrual Taboos Across Cultures: Impact on Health Access."
 tags: ["menstrual taboos", "cultural impact on menstruation", "health access and menstruation", "menstruation myths", "period stigma across cultures"]
-thumbnail: /img/posts/menstrual-taboos-across-cultures:-impact-on-health-access.png
+thumbnail: /img/posts/menstrual-taboos-across-cultures:-impact-on-health-access.webp
 alt: "Cartoon-style illustration for Menstrual Taboos Across Cultures: Impact on Health Access"
 layout: post.njk
 date: 2025-07-10

@@ -2,7 +2,7 @@
 title: "Period Poverty in the Workplace: Solutions for Employers"
 description: "A detailed article about Period Poverty in the Workplace: Solutions for Employers."
 tags: ["Period poverty solutions", "workplace menstrual support", "employer menstrual policies", "addressing period poverty", "workplace period initiatives"]
-thumbnail: /img/posts/period-poverty-in-the-workplace:-solutions-for-employers.png
+thumbnail: /img/posts/period-poverty-in-the-workplace:-solutions-for-employers.webp
 alt: "Cartoon-style illustration for Period Poverty in the Workplace: Solutions for Employers"
 layout: post.njk
 date: 2025-07-10

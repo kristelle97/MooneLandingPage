@@ -2,7 +2,7 @@
 title: "Mitochondrial Replacement Therapy: Emerging Fertility Treatments"
 description: "A detailed article about Mitochondrial Replacement Therapy: Emerging Fertility Treatments."
 tags: ["Mitochondrial replacement therapy", "fertility treatments", "emerging fertility technologies", "mitochondrial donation", "reproductive health advancements"]
-thumbnail: /img/posts/mitochondrial-replacement-therapy:-emerging-fertility-treatments.png
+thumbnail: /img/posts/mitochondrial-replacement-therapy:-emerging-fertility-treatments.webp
 alt: "Cartoon-style illustration for Mitochondrial Replacement Therapy: Emerging Fertility Treatments"
 layout: post.njk
 date: 2025-07-10

@@ -12,7 +12,7 @@ alt: 'Illustration for Eating Disorders and Menstrual Health: Recovery Considera
 layout: post.njk
 date: 2025-07-10
 permalink: /eating-disorders-and-menstrual-health:-recovery-considerations/
-thumbnail: /img/posts/eating-disorders-and-menstrual-health:-recovery-considerations.png
+thumbnail: /img/posts/eating-disorders-and-menstrual-health:-recovery-considerations.webp
 ---
 
 # Eating Disorders and Menstrual Health: Recovery Considerations

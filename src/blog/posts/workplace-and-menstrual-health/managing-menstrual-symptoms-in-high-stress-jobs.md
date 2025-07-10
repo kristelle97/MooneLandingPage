@@ -2,7 +2,7 @@
 title: "Managing Menstrual Symptoms in High-Stress Jobs"
 description: "A detailed article about Managing Menstrual Symptoms in High-Stress Jobs."
 tags: ["menstrual symptoms management", "high-stress jobs menstrual health", "managing periods at work", "stress and menstrual cycle", "workplace menstrual wellness"]
-thumbnail: /img/posts/managing-menstrual-symptoms-in-high-stress-jobs.png
+thumbnail: /img/posts/managing-menstrual-symptoms-in-high-stress-jobs.webp
 alt: "Cartoon-style illustration for Managing Menstrual Symptoms in High-Stress Jobs"
 layout: post.njk
 date: 2025-07-10

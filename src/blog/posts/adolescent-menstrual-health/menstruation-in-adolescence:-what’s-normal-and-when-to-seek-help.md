@@ -2,7 +2,7 @@
 title: "Menstruation in Adolescence: What’s Normal and When to Seek Help"
 description: "A detailed article about Menstruation in Adolescence: What’s Normal and When to Seek Help."
 tags: ["adolescent menstruation", "menstrual cycle teens", "normal teenage periods", "puberty menstruation guide", "menstrual health adolescence"]
-thumbnail: /img/posts/menstruation-in-adolescence:-what’s-normal-and-when-to-seek-help.png
+thumbnail: /img/posts/menstruation-in-adolescence:-what’s-normal-and-when-to-seek-help.webp
 alt: "Cartoon-style illustration for Menstruation in Adolescence: What’s Normal and When to Seek Help"
 layout: post.njk
 date: 2025-07-10

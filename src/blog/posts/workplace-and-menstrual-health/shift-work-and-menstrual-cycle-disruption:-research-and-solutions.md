@@ -2,7 +2,7 @@
 title: "Shift Work and Menstrual Cycle Disruption: Research and Solutions"
 description: "A detailed article about Shift Work and Menstrual Cycle Disruption: Research and Solutions."
 tags: ["shift work menstrual cycle", "menstrual cycle disruption", "shift work health effects", "menstrual health solutions", "managing shift work menstrual issues"]
-thumbnail: /img/posts/shift-work-and-menstrual-cycle-disruption:-research-and-solutions.png
+thumbnail: /img/posts/shift-work-and-menstrual-cycle-disruption:-research-and-solutions.webp
 alt: "Cartoon-style illustration for Shift Work and Menstrual Cycle Disruption: Research and Solutions"
 layout: post.njk
 date: 2025-07-10

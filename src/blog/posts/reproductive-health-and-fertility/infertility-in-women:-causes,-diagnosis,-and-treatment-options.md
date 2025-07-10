@@ -2,7 +2,7 @@
 title: "Infertility in Women: Causes, Diagnosis, and Treatment Options"
 description: "A detailed article about Infertility in Women: Causes, Diagnosis, and Treatment Options."
 tags: ["infertility in women", "causes of female infertility", "female infertility diagnosis", "treatment for infertility in women", "women's fertility issues"]
-thumbnail: /img/posts/infertility-in-women:-causes,-diagnosis,-and-treatment-options.png
+thumbnail: /img/posts/infertility-in-women:-causes,-diagnosis,-and-treatment-options.webp
 alt: "Cartoon-style illustration for Infertility in Women: Causes, Diagnosis, and Treatment Options"
 layout: post.njk
 date: 2025-07-10

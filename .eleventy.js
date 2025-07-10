@@ -16,6 +16,10 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/img");
     eleventyConfig.addPassthroughCopy("src/js");
     eleventyConfig.addPassthroughCopy("./dist/output.css");
+    
+    // Copy service worker and manifest for PWA functionality
+    eleventyConfig.addPassthroughCopy("src/sw.js");
+    eleventyConfig.addPassthroughCopy("src/manifest.json");
 
     // Watch CSS files for changes
     eleventyConfig.addWatchTarget("./dist/output.css");

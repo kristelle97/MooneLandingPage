@@ -2,7 +2,7 @@
 title: "Irregular Bleeding Patterns in Perimenopause: When to Worry"
 description: "A detailed article about Irregular Bleeding Patterns in Perimenopause: When to Worry."
 tags: ["irregular bleeding perimenopause", "perimenopause bleeding concerns", "abnormal bleeding patterns menopause", "perimenopause symptoms", "when to worry about bleeding"]
-thumbnail: /img/posts/irregular-bleeding-patterns-in-perimenopause:-when-to-worry.png
+thumbnail: /img/posts/irregular-bleeding-patterns-in-perimenopause:-when-to-worry.webp
 alt: "Cartoon-style illustration for Irregular Bleeding Patterns in Perimenopause: When to Worry"
 layout: post.njk
 date: 2025-07-10

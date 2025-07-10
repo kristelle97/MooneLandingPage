@@ -2,7 +2,7 @@
 title: "Abortion Laws in Europe: Country Differences and Trends"
 description: "A detailed article about Abortion Laws in Europe: Country Differences and Trends."
 tags: ["abortion laws Europe", "European abortion legislation", "country differences abortion laws", "abortion trends Europe", "Europe abortion policy"]
-thumbnail: /img/posts/abortion-laws-in-europe:-country-differences-and-trends.png
+thumbnail: /img/posts/abortion-laws-in-europe:-country-differences-and-trends.webp
 alt: "Cartoon-style illustration for Abortion Laws in Europe: Country Differences and Trends"
 layout: post.njk
 date: 2025-07-10

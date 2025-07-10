@@ -2,7 +2,7 @@
 title: "Hypothyroidism and Menstrual Irregularities: The Hidden Connection"
 description: "A detailed article about Hypothyroidism and Menstrual Irregularities: The Hidden Connection."
 tags: ["hypothyroidism and menstrual cycle", "thyroid and period irregularities", "hypothyroidism effects on menstruation", "menstrual irregularities and thyroid", "thyroid disorders and menstrual health"]
-thumbnail: /img/posts/hypothyroidism-and-menstrual-irregularities:-the-hidden-connection.png
+thumbnail: /img/posts/hypothyroidism-and-menstrual-irregularities:-the-hidden-connection.webp
 alt: "Cartoon-style illustration for Hypothyroidism and Menstrual Irregularities: The Hidden Connection"
 layout: post.njk
 date: 2025-07-10

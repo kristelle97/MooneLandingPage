@@ -4,7 +4,7 @@ description: 'Everything you need to know about Genital Herpes: symptoms, diagno
   treatment, and prevention. Stay informed and protect your sexual health.'
 date: 2025-06-08
 category: Sexually Transmitted Infections
-thumbnail: /img/posts/genital-herpes:-symptoms,-diagnosis,-treatment,-and-prevention.png
+thumbnail: /img/posts/genital-herpes:-symptoms,-diagnosis,-treatment,-and-prevention.webp
 alt: 'Illustration for Genital Herpes: Symptoms, Diagnosis, Treatment, and Prevention'
 layout: post.njk
 ---

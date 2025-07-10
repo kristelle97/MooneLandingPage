@@ -10,7 +10,11 @@ layout: base.njk
         </header>
 
         {% if thumbnail %}
-        <img src="{{ thumbnail }}" alt="{{ alt }}" class="w-full h-64 object-cover rounded-xl mb-8">
+        <img src="{{ thumbnail }}" 
+             alt="{{ alt or title or 'Blog post featured image' }}" 
+             class="w-full h-64 object-cover rounded-xl mb-8"
+             loading="lazy"
+             decoding="async">
         {% endif %}
 
         <div class="prose prose-purple max-w-none">

@@ -2,7 +2,7 @@
 title: "Oligomenorrhea: Understanding Infrequent Periods"
 description: "A detailed article about Oligomenorrhea: Understanding Infrequent Periods."
 tags: ["oligomenorrhea causes", "infrequent periods treatment", "menstrual cycle irregularities", "oligomenorrhea symptoms", "managing infrequent menstruation"]
-thumbnail: /img/posts/oligomenorrhea:-understanding-infrequent-periods.png
+thumbnail: /img/posts/oligomenorrhea:-understanding-infrequent-periods.webp
 alt: "Cartoon-style illustration for Oligomenorrhea: Understanding Infrequent Periods"
 layout: post.njk
 date: 2025-07-10

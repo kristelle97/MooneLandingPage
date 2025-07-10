@@ -2,7 +2,7 @@
 title: "Hormone Replacement Therapy: Benefits, Risks, and Alternatives"
 description: "A detailed article about Hormone Replacement Therapy: Benefits, Risks, and Alternatives."
 tags: ["hormone replacement therapy", "HRT benefits", "HRT risks", "hormone therapy alternatives", "menopause treatment options"]
-thumbnail: /img/posts/hormone-replacement-therapy:-benefits,-risks,-and-alternatives.png
+thumbnail: /img/posts/hormone-replacement-therapy:-benefits,-risks,-and-alternatives.webp
 alt: "Cartoon-style illustration for Hormone Replacement Therapy: Benefits, Risks, and Alternatives"
 layout: post.njk
 date: 2025-07-10

@@ -2,7 +2,7 @@
 title: "How Exercise Can Help With PMS Relief"
 description: "A detailed article about How Exercise Can Help With PMS Relief."
 tags: ["PMS relief exercise", "exercise for menstrual pain", "workout for PMS symptoms", "physical activity PMS relief", "exercise benefits for PMS"]
-thumbnail: /img/posts/how-exercise-can-help-with-pms-relief.png
+thumbnail: /img/posts/how-exercise-can-help-with-pms-relief.webp
 alt: "Cartoon-style illustration for How Exercise Can Help With PMS Relief"
 layout: post.njk
 date: 2025-07-10

@@ -2,7 +2,7 @@
 title: "Occupational Exposures and Reproductive Health Risks"
 description: "A detailed article about Occupational Exposures and Reproductive Health Risks."
 tags: ["occupational exposures", "reproductive health risks", "workplace hazards", "occupational health", "reproductive safety"]
-thumbnail: /img/posts/occupational-exposures-and-reproductive-health-risks.png
+thumbnail: /img/posts/occupational-exposures-and-reproductive-health-risks.webp
 alt: "Cartoon-style illustration for Occupational Exposures and Reproductive Health Risks"
 layout: post.njk
 date: 2025-07-10

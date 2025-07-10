@@ -2,7 +2,7 @@
 title: "Menstrual Equity: Legislative Approaches Worldwide"
 description: "A detailed article about Menstrual Equity: Legislative Approaches Worldwide."
 tags: ["menstrual equity", "legislative approaches", "menstrual legislation worldwide", "period poverty solutions", "global menstrual policies"]
-thumbnail: /img/posts/menstrual-equity:-legislative-approaches-worldwide.png
+thumbnail: /img/posts/menstrual-equity:-legislative-approaches-worldwide.webp
 alt: "Cartoon-style illustration for Menstrual Equity: Legislative Approaches Worldwide"
 layout: post.njk
 date: 2025-07-10

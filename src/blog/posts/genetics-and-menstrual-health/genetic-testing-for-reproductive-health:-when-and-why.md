@@ -2,7 +2,7 @@
 title: "Genetic Testing for Reproductive Health: When and Why"
 description: "A detailed article about Genetic Testing for Reproductive Health: When and Why."
 tags: ["genetic testing for reproductive health", "reproductive health genetic testing benefits", "when to get genetic testing for fertility", "genetic screening for reproductive planning", "fertility genetic testing options"]
-thumbnail: /img/posts/genetic-testing-for-reproductive-health:-when-and-why.png
+thumbnail: /img/posts/genetic-testing-for-reproductive-health:-when-and-why.webp
 alt: "Cartoon-style illustration for Genetic Testing for Reproductive Health: When and Why"
 layout: post.njk
 date: 2025-07-10

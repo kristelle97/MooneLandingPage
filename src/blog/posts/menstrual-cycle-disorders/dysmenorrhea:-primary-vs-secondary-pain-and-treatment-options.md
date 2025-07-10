@@ -2,7 +2,7 @@
 title: "Dysmenorrhea: Primary vs Secondary Pain and Treatment Options"
 description: "A detailed article about Dysmenorrhea: Primary vs Secondary Pain and Treatment Options."
 tags: ["dysmenorrhea treatment", "primary vs secondary dysmenorrhea", "menstrual pain relief", "causes of dysmenorrhea", "managing period pain"]
-thumbnail: /img/posts/dysmenorrhea:-primary-vs-secondary-pain-and-treatment-options.png
+thumbnail: /img/posts/dysmenorrhea:-primary-vs-secondary-pain-and-treatment-options.webp
 alt: "Cartoon-style illustration for Dysmenorrhea: Primary vs Secondary Pain and Treatment Options"
 layout: post.njk
 date: 2025-07-10

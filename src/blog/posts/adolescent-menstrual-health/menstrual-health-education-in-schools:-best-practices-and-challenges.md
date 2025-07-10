@@ -2,7 +2,7 @@
 title: "Menstrual Health Education in Schools: Best Practices and Challenges"
 description: "A detailed article about Menstrual Health Education in Schools: Best Practices and Challenges."
 tags: ["menstrual health education", "menstrual education in schools", "best practices menstrual education", "challenges menstrual health education", "school menstrual health programs"]
-thumbnail: /img/posts/menstrual-health-education-in-schools:-best-practices-and-challenges.png
+thumbnail: /img/posts/menstrual-health-education-in-schools:-best-practices-and-challenges.webp
 alt: "Cartoon-style illustration for Menstrual Health Education in Schools: Best Practices and Challenges"
 layout: post.njk
 date: 2025-07-10

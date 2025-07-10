@@ -2,7 +2,7 @@
 title: "Hereditary Bleeding Disorders and Heavy Menstrual Bleeding"
 description: "A detailed article about Hereditary Bleeding Disorders and Heavy Menstrual Bleeding."
 tags: ["hereditary bleeding disorders", "heavy menstrual bleeding", "bleeding disorders in women", "genetic bleeding conditions", "menstrual bleeding causes"]
-thumbnail: /img/posts/hereditary-bleeding-disorders-and-heavy-menstrual-bleeding.png
+thumbnail: /img/posts/hereditary-bleeding-disorders-and-heavy-menstrual-bleeding.webp
 alt: "Cartoon-style illustration for Hereditary Bleeding Disorders and Heavy Menstrual Bleeding"
 layout: post.njk
 date: 2025-07-10

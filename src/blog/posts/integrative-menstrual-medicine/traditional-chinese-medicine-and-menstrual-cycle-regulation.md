@@ -2,7 +2,7 @@
 title: "Traditional Chinese Medicine and Menstrual Cycle Regulation"
 description: "A detailed article about Traditional Chinese Medicine and Menstrual Cycle Regulation."
 tags: ["Traditional Chinese Medicine", "menstrual cycle regulation", "TCM for menstrual health", "Chinese herbs for periods", "acupuncture for menstrual balance"]
-thumbnail: /img/posts/traditional-chinese-medicine-and-menstrual-cycle-regulation.png
+thumbnail: /img/posts/traditional-chinese-medicine-and-menstrual-cycle-regulation.webp
 alt: "Cartoon-style illustration for Traditional Chinese Medicine and Menstrual Cycle Regulation"
 layout: post.njk
 date: 2025-07-10

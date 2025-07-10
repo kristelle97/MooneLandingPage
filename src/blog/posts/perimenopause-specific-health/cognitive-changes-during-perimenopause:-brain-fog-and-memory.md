@@ -2,7 +2,7 @@
 title: "Cognitive Changes During Perimenopause: Brain Fog and Memory"
 description: "A detailed article about Cognitive Changes During Perimenopause: Brain Fog and Memory."
 tags: ["perimenopause brain fog", "cognitive changes perimenopause", "memory loss perimenopause", "brain function during perimenopause", "perimenopause cognitive symptoms"]
-thumbnail: /img/posts/cognitive-changes-during-perimenopause:-brain-fog-and-memory.png
+thumbnail: /img/posts/cognitive-changes-during-perimenopause:-brain-fog-and-memory.webp
 alt: "Cartoon-style illustration for Cognitive Changes During Perimenopause: Brain Fog and Memory"
 layout: post.njk
 date: 2025-07-10

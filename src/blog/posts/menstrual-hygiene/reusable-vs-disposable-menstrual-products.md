@@ -5,7 +5,7 @@ description: A detailed comparison of reusable and disposable menstrual products
   choice.
 date: 2025-06-08
 category: Menstrual Hygiene
-thumbnail: /img/posts/reusable-vs.-disposable-menstrual-products:-which-is-right-for-you.png
+thumbnail: /img/posts/reusable-vs.-disposable-menstrual-products:-which-is-right-for-you.webp
 alt: 'Illustration for Reusable vs. Disposable Menstrual Products: Which Is Right
   for You?'
 layout: post.njk

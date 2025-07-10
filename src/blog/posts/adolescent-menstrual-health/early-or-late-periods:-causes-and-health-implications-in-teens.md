@@ -2,7 +2,7 @@
 title: "Early or Late Periods: Causes and Health Implications in Teens"
 description: "A detailed article about Early or Late Periods: Causes and Health Implications in Teens."
 tags: ["irregular periods in teens", "early periods causes", "late periods health implications", "menstrual cycle teens", "teenage period health"]
-thumbnail: /img/posts/early-or-late-periods:-causes-and-health-implications-in-teens.png
+thumbnail: /img/posts/early-or-late-periods:-causes-and-health-implications-in-teens.webp
 alt: "Cartoon-style illustration for Early or Late Periods: Causes and Health Implications in Teens"
 layout: post.njk
 date: 2025-07-10

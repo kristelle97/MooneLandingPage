@@ -2,7 +2,7 @@
 title: "Plant-Based Diets and Menstrual Regularity: What Studies Show"
 description: "A detailed article about Plant-Based Diets and Menstrual Regularity: What Studies Show."
 tags: ["plant-based diet menstrual health", "plant-based diet menstrual cycle", "plant-based diet period regularity", "vegan diet menstrual health", "plant-based nutrition menstrual benefits"]
-thumbnail: /img/posts/plant-based-diets-and-menstrual-regularity:-what-studies-show.png
+thumbnail: /img/posts/plant-based-diets-and-menstrual-regularity:-what-studies-show.webp
 alt: "Cartoon-style illustration for Plant-Based Diets and Menstrual Regularity: What Studies Show"
 layout: post.njk
 date: 2025-07-10

@@ -2,7 +2,7 @@
 title: "Polymenorrhea: When Periods Come Too Often"
 description: "A detailed article about Polymenorrhea: When Periods Come Too Often."
 tags: ["polymenorrhea symptoms", "frequent menstrual cycles", "short menstrual cycle causes", "irregular periods treatment", "managing polymenorrhea"]
-thumbnail: /img/posts/polymenorrhea:-when-periods-come-too-often.png
+thumbnail: /img/posts/polymenorrhea:-when-periods-come-too-often.webp
 alt: "Cartoon-style illustration for Polymenorrhea: When Periods Come Too Often"
 layout: post.njk
 date: 2025-07-10

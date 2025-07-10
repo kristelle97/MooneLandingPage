@@ -2,7 +2,7 @@
 title: "Biomarkers for Ovarian Reserve: Beyond AMH Testing"
 description: "A detailed article about Biomarkers for Ovarian Reserve: Beyond AMH Testing."
 tags: ["ovarian reserve biomarkers", "AMH alternatives", "ovarian reserve testing", "fertility biomarkers", "ovarian reserve assessment"]
-thumbnail: /img/posts/biomarkers-for-ovarian-reserve:-beyond-amh-testing.png
+thumbnail: /img/posts/biomarkers-for-ovarian-reserve:-beyond-amh-testing.webp
 alt: "Cartoon-style illustration for Biomarkers for Ovarian Reserve: Beyond AMH Testing"
 layout: post.njk
 date: 2025-07-10

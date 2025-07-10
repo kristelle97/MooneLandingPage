@@ -2,7 +2,7 @@
 title: "Epigenetic Factors Affecting Menstrual Cycle Timing"
 description: "A detailed article about Epigenetic Factors Affecting Menstrual Cycle Timing."
 tags: ["epigenetic factors menstrual cycle", "menstrual cycle timing", "epigenetics and menstruation", "genetic influence on periods", "menstrual cycle regulation"]
-thumbnail: /img/posts/epigenetic-factors-affecting-menstrual-cycle-timing.png
+thumbnail: /img/posts/epigenetic-factors-affecting-menstrual-cycle-timing.webp
 alt: "Cartoon-style illustration for Epigenetic Factors Affecting Menstrual Cycle Timing"
 layout: post.njk
 date: 2025-07-10

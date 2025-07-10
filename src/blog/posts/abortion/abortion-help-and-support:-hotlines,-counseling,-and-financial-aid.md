@@ -2,7 +2,7 @@
 title: "Abortion Help and Support: Hotlines, Counseling, and Financial Aid"
 description: "A detailed article about Abortion Help and Support: Hotlines, Counseling, and Financial Aid."
 tags: ["abortion support hotline", "abortion counseling services", "financial aid for abortion", "abortion help resources", "support for abortion decisions"]
-thumbnail: /img/posts/abortion-help-and-support:-hotlines,-counseling,-and-financial-aid.png
+thumbnail: /img/posts/abortion-help-and-support:-hotlines,-counseling,-and-financial-aid.webp
 alt: "Cartoon-style illustration for Abortion Help and Support: Hotlines, Counseling, and Financial Aid"
 layout: post.njk
 date: 2025-07-10

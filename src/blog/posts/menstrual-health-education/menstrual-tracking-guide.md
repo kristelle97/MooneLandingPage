@@ -4,7 +4,7 @@ description: A practical guide to tracking your menstrual cycle with apps and jo
   and how it can improve your health and self-awareness.
 layout: post.njk
 date: 2024-06-09
-thumbnail: /img/posts/menstrual-tracking:-how-to-use-apps-and-journals-for-better-health.png
+thumbnail: /img/posts/menstrual-tracking:-how-to-use-apps-and-journals-for-better-health.webp
 alt: 'Illustration for Menstrual Tracking: How to Use Apps and Journals for Better
   Health'
 ---

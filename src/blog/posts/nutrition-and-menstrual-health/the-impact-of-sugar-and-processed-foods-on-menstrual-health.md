@@ -2,7 +2,7 @@
 title: "The Impact of Sugar and Processed Foods on Menstrual Health"
 description: "A detailed article about The Impact of Sugar and Processed Foods on Menstrual Health."
 tags: ["sugar and menstrual health", "processed foods and period health", "diet impact on menstrual cycle", "sugar effects on menstruation", "processed foods and menstrual cycle"]
-thumbnail: /img/posts/the-impact-of-sugar-and-processed-foods-on-menstrual-health.png
+thumbnail: /img/posts/the-impact-of-sugar-and-processed-foods-on-menstrual-health.webp
 alt: "Cartoon-style illustration for The Impact of Sugar and Processed Foods on Menstrual Health"
 layout: post.njk
 date: 2025-07-10

@@ -2,7 +2,7 @@
 title: "Ayurvedic Approaches to Menstrual Wellness"
 description: "A detailed article about Ayurvedic Approaches to Menstrual Wellness."
 tags: ["Ayurvedic menstrual wellness", "natural period remedies", "Ayurveda for menstrual health", "herbal treatments for menstruation", "holistic menstrual care"]
-thumbnail: /img/posts/ayurvedic-approaches-to-menstrual-wellness.png
+thumbnail: /img/posts/ayurvedic-approaches-to-menstrual-wellness.webp
 alt: "Cartoon-style illustration for Ayurvedic Approaches to Menstrual Wellness"
 layout: post.njk
 date: 2025-07-10

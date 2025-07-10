@@ -2,7 +2,7 @@
 title: "Best Exercises for Each Phase of Your Menstrual Cycle"
 description: "A detailed article about Best Exercises for Each Phase of Your Menstrual Cycle."
 tags: ["menstrual cycle exercises", "best exercises for menstrual phases", "workout for menstrual cycle", "exercise routine for menstrual cycle", "fitness during menstrual cycle"]
-thumbnail: /img/posts/best-exercises-for-each-phase-of-your-menstrual-cycle.png
+thumbnail: /img/posts/best-exercises-for-each-phase-of-your-menstrual-cycle.webp
 alt: "Cartoon-style illustration for Best Exercises for Each Phase of Your Menstrual Cycle"
 layout: post.njk
 date: 2025-07-10

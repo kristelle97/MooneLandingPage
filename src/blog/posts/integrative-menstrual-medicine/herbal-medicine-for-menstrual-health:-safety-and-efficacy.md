@@ -2,7 +2,7 @@
 title: "Herbal Medicine for Menstrual Health: Safety and Efficacy"
 description: "A detailed article about Herbal Medicine for Menstrual Health: Safety and Efficacy."
 tags: ["herbal medicine menstrual health", "herbal remedies for periods", "menstrual health natural treatments", "herbal supplements for menstrual health", "natural remedies menstrual cycle"]
-thumbnail: /img/posts/herbal-medicine-for-menstrual-health:-safety-and-efficacy.png
+thumbnail: /img/posts/herbal-medicine-for-menstrual-health:-safety-and-efficacy.webp
 alt: "Cartoon-style illustration for Herbal Medicine for Menstrual Health: Safety and Efficacy"
 layout: post.njk
 date: 2025-07-10

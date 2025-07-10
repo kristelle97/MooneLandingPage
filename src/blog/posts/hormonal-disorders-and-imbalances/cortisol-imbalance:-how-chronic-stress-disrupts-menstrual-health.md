@@ -2,7 +2,7 @@
 title: "Cortisol Imbalance: How Chronic Stress Disrupts Menstrual Health"
 description: "A detailed article about Cortisol Imbalance: How Chronic Stress Disrupts Menstrual Health."
 tags: ["cortisol imbalance", "chronic stress menstrual health", "cortisol and menstruation", "stress hormone menstrual cycle", "cortisol levels menstrual health"]
-thumbnail: /img/posts/cortisol-imbalance:-how-chronic-stress-disrupts-menstrual-health.png
+thumbnail: /img/posts/cortisol-imbalance:-how-chronic-stress-disrupts-menstrual-health.webp
 alt: "Cartoon-style illustration for Cortisol Imbalance: How Chronic Stress Disrupts Menstrual Health"
 layout: post.njk
 date: 2025-07-10

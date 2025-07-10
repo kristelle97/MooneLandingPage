@@ -2,7 +2,7 @@
 title: "Safe Sex During Your Period: Myths and Facts"
 description: "A detailed article about Safe Sex During Your Period: Myths and Facts."
 tags: ["safe sex during period", "period sex myths", "period sex facts", "menstrual cycle and safe sex", "sex during menstruation"]
-thumbnail: /img/posts/safe-sex-during-your-period:-myths-and-facts.png
+thumbnail: /img/posts/safe-sex-during-your-period:-myths-and-facts.webp
 alt: "Cartoon-style illustration for Safe Sex During Your Period: Myths and Facts"
 layout: post.njk
 date: 2025-07-10

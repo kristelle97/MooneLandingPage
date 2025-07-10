@@ -4,7 +4,7 @@ description: A science-based look at common menstrual myths, separating fact fro
   fiction to empower you with accurate information.
 layout: post.njk
 date: 2024-06-09
-thumbnail: /img/posts/debunking-menstrual-myths:-what-science-really-says.png
+thumbnail: /img/posts/debunking-menstrual-myths:-what-science-really-says.webp
 alt: 'Illustration for Debunking Menstrual Myths: What Science Really Says'
 ---
 

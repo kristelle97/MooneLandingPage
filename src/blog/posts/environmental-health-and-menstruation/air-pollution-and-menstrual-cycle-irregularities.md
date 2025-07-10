@@ -2,7 +2,7 @@
 title: "Air Pollution and Menstrual Cycle Irregularities"
 description: "A detailed article about Air Pollution and Menstrual Cycle Irregularities."
 tags: ["air pollution menstrual cycle", "menstrual irregularities pollution", "pollution effects on menstruation", "air quality menstrual health", "environmental impact menstrual cycle"]
-thumbnail: /img/posts/air-pollution-and-menstrual-cycle-irregularities.png
+thumbnail: /img/posts/air-pollution-and-menstrual-cycle-irregularities.webp
 alt: "Cartoon-style illustration for Air Pollution and Menstrual Cycle Irregularities"
 layout: post.njk
 date: 2025-07-10

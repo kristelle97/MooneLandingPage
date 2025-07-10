@@ -2,7 +2,7 @@
 title: "Genetic Factors in Early Menarche and Late Menopause"
 description: "A detailed article about Genetic Factors in Early Menarche and Late Menopause."
 tags: ["genetic factors early menarche", "late menopause genetics", "early menarche causes", "menopause timing genetics", "hormonal changes genetics"]
-thumbnail: /img/posts/genetic-factors-in-early-menarche-and-late-menopause.png
+thumbnail: /img/posts/genetic-factors-in-early-menarche-and-late-menopause.webp
 alt: "Cartoon-style illustration for Genetic Factors in Early Menarche and Late Menopause"
 layout: post.njk
 date: 2025-07-10

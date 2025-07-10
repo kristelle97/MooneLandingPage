@@ -2,7 +2,7 @@
 title: "The Vaginal Microbiome: Menstruation, Sex, and Health"
 description: "A detailed article about The Vaginal Microbiome: Menstruation, Sex, and Health."
 tags: ["vaginal microbiome", "menstruation and microbiome", "vaginal health tips", "impact of sex on microbiome", "microbiome and women's health"]
-thumbnail: /img/posts/the-vaginal-microbiome:-menstruation,-sex,-and-health.png
+thumbnail: /img/posts/the-vaginal-microbiome:-menstruation,-sex,-and-health.webp
 alt: "Cartoon-style illustration for The Vaginal Microbiome: Menstruation, Sex, and Health"
 layout: post.njk
 date: 2025-07-10

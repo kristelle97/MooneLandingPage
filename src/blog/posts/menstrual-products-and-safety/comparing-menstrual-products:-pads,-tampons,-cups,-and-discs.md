@@ -2,7 +2,7 @@
 title: "Comparing Menstrual Products: Pads, Tampons, Cups, and Discs"
 description: "A detailed article about Comparing Menstrual Products: Pads, Tampons, Cups, and Discs."
 tags: ["comparing-menstrual-products:-pads,-tampons,-cups,-and-discs"]
-thumbnail: /img/posts/comparing-menstrual-products:-pads,-tampons,-cups,-and-discs.png
+thumbnail: /img/posts/comparing-menstrual-products:-pads,-tampons,-cups,-and-discs.webp
 alt: "Cartoon-style illustration for Comparing Menstrual Products: Pads, Tampons, Cups, and Discs"
 layout: post.njk
 date: 2025-07-10

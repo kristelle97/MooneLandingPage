@@ -2,7 +2,7 @@
 title: "Supporting Adolescent Girls with Menstrual Disorders"
 description: "A detailed article about Supporting Adolescent Girls with Menstrual Disorders."
 tags: ["adolescent girls menstrual health", "menstrual disorders support", "teenage menstrual issues", "menstrual health education", "supporting girls menstruation"]
-thumbnail: /img/posts/supporting-adolescent-girls-with-menstrual-disorders.png
+thumbnail: /img/posts/supporting-adolescent-girls-with-menstrual-disorders.webp
 alt: "Cartoon-style illustration for Supporting Adolescent Girls with Menstrual Disorders"
 layout: post.njk
 date: 2025-07-10

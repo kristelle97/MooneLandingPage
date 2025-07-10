@@ -5,7 +5,7 @@ description: Explore the full range of menstrual products, including pads, tampo
   the right product for your needs.
 date: 2025-06-08
 category: Menstrual Hygiene
-thumbnail: /img/posts/comprehensive-guide-to-menstrual-products:-pads,-tampons,-and-menstrual-cups.png
+thumbnail: /img/posts/comprehensive-guide-to-menstrual-products:-pads,-tampons,-and-menstrual-cups.webp
 alt: 'Illustration for Comprehensive Guide to Menstrual Products: Pads, Tampons, and
   Menstrual Cups'
 layout: post.njk

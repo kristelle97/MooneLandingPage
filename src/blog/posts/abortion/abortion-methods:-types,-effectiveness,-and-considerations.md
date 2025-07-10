@@ -2,7 +2,7 @@
 title: "Abortion Methods: Types, Effectiveness, and Considerations"
 description: "A detailed article about Abortion Methods: Types, Effectiveness, and Considerations."
 tags: ["abortion methods", "types of abortion", "abortion effectiveness", "abortion considerations", "safe abortion options"]
-thumbnail: /img/posts/abortion-methods:-types,-effectiveness,-and-considerations.png
+thumbnail: /img/posts/abortion-methods:-types,-effectiveness,-and-considerations.webp
 alt: "Cartoon-style illustration for Abortion Methods: Types, Effectiveness, and Considerations"
 layout: post.njk
 date: 2025-07-10

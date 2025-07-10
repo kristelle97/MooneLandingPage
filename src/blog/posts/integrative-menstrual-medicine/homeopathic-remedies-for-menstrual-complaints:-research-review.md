@@ -2,7 +2,7 @@
 title: "Homeopathic Remedies for Menstrual Complaints: Research Review"
 description: "A detailed article about Homeopathic Remedies for Menstrual Complaints: Research Review."
 tags: ["homeopathic remedies for menstrual pain", "natural treatments for menstrual complaints", "homeopathy for period symptoms", "alternative medicine for menstruation", "research on homeopathic menstrual relief"]
-thumbnail: /img/posts/homeopathic-remedies-for-menstrual-complaints:-research-review.png
+thumbnail: /img/posts/homeopathic-remedies-for-menstrual-complaints:-research-review.webp
 alt: "Cartoon-style illustration for Homeopathic Remedies for Menstrual Complaints: Research Review"
 layout: post.njk
 date: 2025-07-10

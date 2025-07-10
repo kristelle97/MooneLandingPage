@@ -2,7 +2,7 @@
 title: "The Role of Strength Training in Women’s Hormonal Health"
 description: "A detailed article about The Role of Strength Training in Women’s Hormonal Health."
 tags: ["strength training women's health", "hormonal health benefits of strength training", "women's fitness and hormones", "strength training hormone balance", "women's strength training benefits"]
-thumbnail: /img/posts/the-role-of-strength-training-in-women’s-hormonal-health.png
+thumbnail: /img/posts/the-role-of-strength-training-in-women’s-hormonal-health.webp
 alt: "Cartoon-style illustration for The Role of Strength Training in Women’s Hormonal Health"
 layout: post.njk
 date: 2025-07-10

@@ -2,7 +2,7 @@
 title: "Climate Change and Menstrual Health: Emerging Research"
 description: "A detailed article about Climate Change and Menstrual Health: Emerging Research."
 tags: ["climate change and menstrual health", "menstrual health research", "impact of climate change on menstruation", "emerging research on menstrual health", "climate effects on menstrual cycles"]
-thumbnail: /img/posts/climate-change-and-menstrual-health:-emerging-research.png
+thumbnail: /img/posts/climate-change-and-menstrual-health:-emerging-research.webp
 alt: "Cartoon-style illustration for Climate Change and Menstrual Health: Emerging Research"
 layout: post.njk
 date: 2025-07-10

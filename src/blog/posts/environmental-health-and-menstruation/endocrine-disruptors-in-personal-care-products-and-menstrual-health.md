@@ -2,7 +2,7 @@
 title: "Endocrine Disruptors in Personal Care Products and Menstrual Health"
 description: "A detailed article about Endocrine Disruptors in Personal Care Products and Menstrual Health."
 tags: ["endocrine disruptors", "personal care products", "menstrual health", "hormone disruptors", "toxic beauty products"]
-thumbnail: /img/posts/endocrine-disruptors-in-personal-care-products-and-menstrual-health.png
+thumbnail: /img/posts/endocrine-disruptors-in-personal-care-products-and-menstrual-health.webp
 alt: "Cartoon-style illustration for Endocrine Disruptors in Personal Care Products and Menstrual Health"
 layout: post.njk
 date: 2025-07-10

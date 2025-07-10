@@ -2,7 +2,7 @@
 title: "Mood Swings in Perimenopause: Distinguishing from Depression"
 description: "A detailed article about Mood Swings in Perimenopause: Distinguishing from Depression."
 tags: ["perimenopause mood swings", "mood swings vs depression", "perimenopause symptoms", "distinguishing depression from mood swings", "menopause mental health"]
-thumbnail: /img/posts/mood-swings-in-perimenopause:-distinguishing-from-depression.png
+thumbnail: /img/posts/mood-swings-in-perimenopause:-distinguishing-from-depression.webp
 alt: "Cartoon-style illustration for Mood Swings in Perimenopause: Distinguishing from Depression"
 layout: post.njk
 date: 2025-07-10

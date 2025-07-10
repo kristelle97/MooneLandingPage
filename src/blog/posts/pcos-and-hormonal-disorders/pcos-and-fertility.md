@@ -4,7 +4,7 @@ description: Learn how PCOS affects fertility, treatment options, and tips for o
   reproductive health in women with PCOS.
 layout: post.njk
 date: 2024-06-09
-thumbnail: /img/posts/pcos-and-fertility:-what-you-need-to-know.png
+thumbnail: /img/posts/pcos-and-fertility:-what-you-need-to-know.webp
 alt: 'Illustration for PCOS and Fertility: What You Need to Know'
 ---
 

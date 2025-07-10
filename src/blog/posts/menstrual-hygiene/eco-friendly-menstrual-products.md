@@ -5,7 +5,7 @@ description: Discover sustainable and eco-friendly menstrual products, including
   period.
 date: 2025-06-08
 category: Menstrual Hygiene
-thumbnail: /img/posts/eco-friendly-menstrual-products:-sustainable-choices-for-a-greener-period.png
+thumbnail: /img/posts/eco-friendly-menstrual-products:-sustainable-choices-for-a-greener-period.webp
 alt: 'Illustration for Eco-Friendly Menstrual Products: Sustainable Choices for a
   Greener Period'
 layout: post.njk

@@ -2,7 +2,7 @@
 title: "Mental Health and Abortion: Emotional Wellbeing and Support"
 description: "A detailed article about Mental Health and Abortion: Emotional Wellbeing and Support."
 tags: ["mental health and abortion", "emotional wellbeing after abortion", "abortion support resources", "mental health support post-abortion", "emotional effects of abortion"]
-thumbnail: /img/posts/mental-health-and-abortion:-emotional-wellbeing-and-support.png
+thumbnail: /img/posts/mental-health-and-abortion:-emotional-wellbeing-and-support.webp
 alt: "Cartoon-style illustration for Mental Health and Abortion: Emotional Wellbeing and Support"
 layout: post.njk
 date: 2025-07-10

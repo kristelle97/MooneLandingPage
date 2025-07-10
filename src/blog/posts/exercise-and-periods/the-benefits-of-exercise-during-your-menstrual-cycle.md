@@ -2,7 +2,7 @@
 title: "The Benefits of Exercise During Your Menstrual Cycle"
 description: "A detailed article about The Benefits of Exercise During Your Menstrual Cycle."
 tags: ["exercise during menstrual cycle", "benefits of exercise on period", "workout during menstruation", "exercise and menstrual health", "fitness tips for periods"]
-thumbnail: /img/posts/the-benefits-of-exercise-during-your-menstrual-cycle.png
+thumbnail: /img/posts/the-benefits-of-exercise-during-your-menstrual-cycle.webp
 alt: "Cartoon-style illustration for The Benefits of Exercise During Your Menstrual Cycle"
 layout: post.njk
 date: 2025-07-10

@@ -2,7 +2,7 @@
 title: "Contraception and the Menstrual Cycle: Science-Backed Guidance"
 description: "A detailed article about Contraception and the Menstrual Cycle: Science-Backed Guidance."
 tags: ["contraception and menstrual cycle", "science-backed contraception guidance", "menstrual cycle and birth control", "contraception effects on periods", "menstrual health and contraception"]
-thumbnail: /img/posts/contraception-and-the-menstrual-cycle:-science-backed-guidance.png
+thumbnail: /img/posts/contraception-and-the-menstrual-cycle:-science-backed-guidance.webp
 alt: "Cartoon-style illustration for Contraception and the Menstrual Cycle: Science-Backed Guidance"
 layout: post.njk
 date: 2025-07-10

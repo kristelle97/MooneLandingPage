@@ -2,7 +2,7 @@
 title: "Abortion Laws in the USA: State Differences and Access"
 description: "A detailed article about Abortion Laws in the USA: State Differences and Access."
 tags: ["abortion laws USA", "state abortion differences", "abortion access USA", "US abortion legislation", "abortion rights state comparison"]
-thumbnail: /img/posts/abortion-laws-in-the-usa:-state-differences-and-access.png
+thumbnail: /img/posts/abortion-laws-in-the-usa:-state-differences-and-access.webp
 alt: "Cartoon-style illustration for Abortion Laws in the USA: State Differences and Access"
 layout: post.njk
 date: 2025-07-10

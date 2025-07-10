@@ -1,7 +1,7 @@
 ---
 title: "Are Menstrual Cups Safe? What the Research Says"
 description: "A detailed article about Are Menstrual Cups Safe? What the Research Says."
-thumbnail: /img/posts/are-menstrual-cups-safe.png
+thumbnail: /img/posts/are-menstrual-cups-safe.webp
 tags: ["are-menstrual-cups-safe"]
 alt: Cartoon-style illustration for Are Menstrual Cups Safe? What the Research Says
 layout: post.njk

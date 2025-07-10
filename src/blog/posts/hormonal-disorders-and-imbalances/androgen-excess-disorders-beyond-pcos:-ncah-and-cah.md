@@ -2,7 +2,7 @@
 title: "Androgen Excess Disorders Beyond PCOS: NCAH and CAH"
 description: "A detailed article about Androgen Excess Disorders Beyond PCOS: NCAH and CAH."
 tags: ["androgen excess disorders", "NCAH vs CAH", "non-classic adrenal hyperplasia", "congenital adrenal hyperplasia", "PCOS alternatives"]
-thumbnail: /img/posts/androgen-excess-disorders-beyond-pcos:-ncah-and-cah.png
+thumbnail: /img/posts/androgen-excess-disorders-beyond-pcos:-ncah-and-cah.webp
 alt: "Cartoon-style illustration for Androgen Excess Disorders Beyond PCOS: NCAH and CAH"
 layout: post.njk
 date: 2025-07-10

@@ -1,0 +1,36 @@
+{
+    "name": "Moone - AI Cycle-Sync & Period Tracker",
+    "short_name": "Moone",
+    "description": "Track periods, spot patterns, and get cycle syncing tips for mood, energy and cravings all powered by AI.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#a855f7",
+    "theme_color": "#a855f7",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/img/moon/moon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/moon/moon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "categories": ["health", "lifestyle", "medical"],
+    "lang": "en",
+    "scope": "/",
+    "prefer_related_applications": true,
+    "related_applications": [
+        {
+            "platform": "play",
+            "url": "https://play.google.com/store/apps/details?id=com.moone.app"
+        },
+        {
+            "platform": "itunes",
+            "url": "https://apps.apple.com/en/app/moone-period-cycle-tracker/id6739633389"
+        }
+    ]
+} 

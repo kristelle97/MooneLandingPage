@@ -52,18 +52,37 @@
 <IfModule mod_headers.c>
     # Cache static assets for 1 year
     <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|webp|avif|js|css|swf|woff|woff2|ttf|otf|svg)$">
-        Header set Cache-Control "max-age=31536000, public"
+        Header set Cache-Control "max-age=31536000, public, immutable"
     </FilesMatch>
     
     # Cache HTML for 1 hour
     <FilesMatch "\.(html|htm)$">
         Header set Cache-Control "max-age=3600, public"
     </FilesMatch>
-</IfModule>
-
-# Security headers
-<IfModule mod_headers.c>
+    
+    # Add performance and security headers
     Header always set X-Frame-Options DENY
     Header always set X-Content-Type-Options nosniff
     Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    
+    # Preload key resources
+    <FilesMatch "\.(html|htm)$">
+        Header add Link "</dist/output.css>; rel=preload; as=style"
+        Header add Link "<https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap>; rel=preload; as=style"
+    </FilesMatch>
+</IfModule>
+
+# Performance optimizations
+<IfModule mod_headers.c>
+    # Enable Early Hints for critical resources
+    <FilesMatch "\.(html|htm)$">
+        Header set X-DNS-Prefetch-Control "on"
+    </FilesMatch>
+</IfModule>
+
+# Brotli compression (if available)
+<IfModule mod_brotli.c>
+    AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/xml text/css text/javascript
+    AddOutputFilterByType BROTLI_COMPRESS application/javascript application/json application/xml
+    AddOutputFilterByType BROTLI_COMPRESS font/truetype font/opentype application/font-woff application/font-woff2
 </IfModule> 

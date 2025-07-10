@@ -2,7 +2,7 @@
 title: "Acupuncture for Menstrual Disorders: Evidence-Based Protocols"
 description: "A detailed article about Acupuncture for Menstrual Disorders: Evidence-Based Protocols."
 tags: ["acupuncture for menstrual disorders", "evidence-based acupuncture protocols", "acupuncture treatment for periods", "menstrual health acupuncture", "acupuncture benefits for menstruation"]
-thumbnail: /img/posts/acupuncture-for-menstrual-disorders:-evidence-based-protocols.png
+thumbnail: /img/posts/acupuncture-for-menstrual-disorders:-evidence-based-protocols.webp
 alt: "Cartoon-style illustration for Acupuncture for Menstrual Disorders: Evidence-Based Protocols"
 layout: post.njk
 date: 2025-07-10

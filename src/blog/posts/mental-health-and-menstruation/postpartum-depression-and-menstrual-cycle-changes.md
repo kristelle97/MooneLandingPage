@@ -2,7 +2,7 @@
 title: "Postpartum Depression and Menstrual Cycle Changes"
 description: "A detailed article about Postpartum Depression and Menstrual Cycle Changes."
 tags: ["postpartum depression", "menstrual cycle changes", "postpartum hormonal changes", "mental health after childbirth", "postpartum period adjustments"]
-thumbnail: /img/posts/postpartum-depression-and-menstrual-cycle-changes.png
+thumbnail: /img/posts/postpartum-depression-and-menstrual-cycle-changes.webp
 alt: "Cartoon-style illustration for Postpartum Depression and Menstrual Cycle Changes"
 layout: post.njk
 date: 2025-07-10

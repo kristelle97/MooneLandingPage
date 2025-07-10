@@ -4,7 +4,7 @@ description: 'A complete guide to Syphilis: symptoms, diagnosis, treatment, and 
   Learn how to protect yourself and others from this STI.'
 date: 2025-06-08
 category: Sexually Transmitted Infections
-thumbnail: /img/posts/syphilis:-symptoms,-diagnosis,-treatment,-and-prevention.png
+thumbnail: /img/posts/syphilis:-symptoms,-diagnosis,-treatment,-and-prevention.webp
 alt: 'Illustration for Syphilis: Symptoms, Diagnosis, Treatment, and Prevention'
 layout: post.njk
 ---

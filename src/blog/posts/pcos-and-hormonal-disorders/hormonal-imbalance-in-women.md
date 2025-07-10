@@ -4,7 +4,7 @@ description: Discover the signs, diagnosis, and solutions for hormonal imbalance
   women, including causes, symptoms, and treatment options.
 layout: post.njk
 date: 2024-06-09
-thumbnail: /img/posts/hormonal-imbalance-in-women:-signs,-diagnosis,-and-solutions.png
+thumbnail: /img/posts/hormonal-imbalance-in-women:-signs,-diagnosis,-and-solutions.webp
 alt: 'Illustration for Hormonal Imbalance in Women: Signs, Diagnosis, and Solutions'
 ---
 

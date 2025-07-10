@@ -2,7 +2,7 @@
 title: "Preimplantation Genetic Testing: Options and Considerations"
 description: "A detailed article about Preimplantation Genetic Testing: Options and Considerations."
 tags: ["Preimplantation genetic testing", "genetic testing options", "IVF genetic screening", "embryo testing considerations", "PGT benefits"]
-thumbnail: /img/posts/preimplantation-genetic-testing:-options-and-considerations.png
+thumbnail: /img/posts/preimplantation-genetic-testing:-options-and-considerations.webp
 alt: "Cartoon-style illustration for Preimplantation Genetic Testing: Options and Considerations"
 layout: post.njk
 date: 2025-07-10

@@ -4,7 +4,7 @@ description: Learn about HPV, its symptoms, diagnosis, treatment, and prevention
   A complete guide to understanding this common STI.
 date: 2025-06-08
 category: Sexually Transmitted Infections
-thumbnail: /img/posts/hpv-(human-papillomavirus):-symptoms,-diagnosis,-treatment,-and-prevention.png
+thumbnail: /img/posts/hpv-(human-papillomavirus):-symptoms,-diagnosis,-treatment,-and-prevention.webp
 alt: 'Illustration for HPV (Human Papillomavirus): Symptoms, Diagnosis, Treatment,
   and Prevention'
 layout: post.njk

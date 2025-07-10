@@ -2,7 +2,7 @@
 title: "What is Perimenopause? Symptoms, Timeline, and Management"
 description: "A detailed article about What is Perimenopause? Symptoms, Timeline, and Management."
 tags: ["perimenopause symptoms", "perimenopause timeline", "perimenopause management", "what is perimenopause", "perimenopause treatment"]
-thumbnail: /img/posts/what-is-perimenopause-symptoms-timeline-and-management.png
+thumbnail: /img/posts/what-is-perimenopause-symptoms-timeline-and-management.webp
 alt: "Cartoon-style illustration for What is Perimenopause? Symptoms, Timeline, and Management"
 layout: post.njk
 date: 2025-07-10

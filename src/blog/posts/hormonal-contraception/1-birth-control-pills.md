@@ -4,7 +4,7 @@ description: Learn about combined oral contraceptives, their effectiveness, how 
   get them, side effects, pros and cons, and who should avoid them.
 date: 2025-06-08
 category: Hormonal Contraception
-thumbnail: /img/posts/birth-control-pills:-combined-oral-contraceptives-explained.png
+thumbnail: /img/posts/birth-control-pills:-combined-oral-contraceptives-explained.webp
 alt: 'Illustration for Birth Control Pills: Combined Oral Contraceptives Explained'
 layout: post.njk
 ---

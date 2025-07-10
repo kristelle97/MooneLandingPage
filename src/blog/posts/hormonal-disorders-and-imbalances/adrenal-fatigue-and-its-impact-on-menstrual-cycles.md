@@ -2,7 +2,7 @@
 title: "Adrenal Fatigue and Its Impact on Menstrual Cycles"
 description: "A detailed article about Adrenal Fatigue and Its Impact on Menstrual Cycles."
 tags: ["adrenal fatigue menstrual cycle", "adrenal fatigue women's health", "impact of adrenal fatigue on periods", "adrenal fatigue and menstruation", "hormonal imbalance adrenal fatigue"]
-thumbnail: /img/posts/adrenal-fatigue-and-its-impact-on-menstrual-cycles.png
+thumbnail: /img/posts/adrenal-fatigue-and-its-impact-on-menstrual-cycles.webp
 alt: "Cartoon-style illustration for Adrenal Fatigue and Its Impact on Menstrual Cycles"
 layout: post.njk
 date: 2025-07-10

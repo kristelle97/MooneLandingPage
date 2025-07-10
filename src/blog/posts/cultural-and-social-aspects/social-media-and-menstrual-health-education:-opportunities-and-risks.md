@@ -2,7 +2,7 @@
 title: "Social Media and Menstrual Health Education: Opportunities and Risks"
 description: "A detailed article about Social Media and Menstrual Health Education: Opportunities and Risks."
 tags: ["social media menstrual health", "menstrual health education", "social media health risks", "opportunities menstrual education", "digital platforms menstrual awareness"]
-thumbnail: /img/posts/social-media-and-menstrual-health-education:-opportunities-and-risks.png
+thumbnail: /img/posts/social-media-and-menstrual-health-education:-opportunities-and-risks.webp
 alt: "Cartoon-style illustration for Social Media and Menstrual Health Education: Opportunities and Risks"
 layout: post.njk
 date: 2025-07-10

@@ -8,7 +8,7 @@ alt: 'Illustration for The Environmental Impact of Menstrual Products: Facts and
 layout: post.njk
 date: 2025-07-10
 permalink: /the-environmental-impact-of-menstrual-products:-facts-and-solutions/
-thumbnail: /img/posts/the-environmental-impact-of-menstrual-products:-facts-and-solutions.png
+thumbnail: /img/posts/the-environmental-impact-of-menstrual-products:-facts-and-solutions.webp
 ---
 
 # The Environmental Impact of Menstrual Products: Facts and Solutions

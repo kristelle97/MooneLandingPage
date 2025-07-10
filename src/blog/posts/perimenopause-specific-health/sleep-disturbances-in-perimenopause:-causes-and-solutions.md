@@ -2,7 +2,7 @@
 title: "Sleep Disturbances in Perimenopause: Causes and Solutions"
 description: "A detailed article about Sleep Disturbances in Perimenopause: Causes and Solutions."
 tags: ["perimenopause sleep disturbances", "sleep problems in perimenopause", "causes of sleep issues in perimenopause", "solutions for perimenopausal sleep disturbances", "improving sleep during perimenopause"]
-thumbnail: /img/posts/sleep-disturbances-in-perimenopause:-causes-and-solutions.png
+thumbnail: /img/posts/sleep-disturbances-in-perimenopause:-causes-and-solutions.webp
 alt: "Cartoon-style illustration for Sleep Disturbances in Perimenopause: Causes and Solutions"
 layout: post.njk
 date: 2025-07-10

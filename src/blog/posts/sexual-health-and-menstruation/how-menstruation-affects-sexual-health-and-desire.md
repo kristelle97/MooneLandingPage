@@ -2,7 +2,7 @@
 title: "How Menstruation Affects Sexual Health and Desire"
 description: "A detailed article about How Menstruation Affects Sexual Health and Desire."
 tags: ["menstruation and sexual health", "menstrual cycle and libido", "periods and sexual desire", "menstruation impact on sex drive", "how menstruation affects libido"]
-thumbnail: /img/posts/how-menstruation-affects-sexual-health-and-desire.png
+thumbnail: /img/posts/how-menstruation-affects-sexual-health-and-desire.webp
 alt: "Cartoon-style illustration for How Menstruation Affects Sexual Health and Desire"
 layout: post.njk
 date: 2025-07-10

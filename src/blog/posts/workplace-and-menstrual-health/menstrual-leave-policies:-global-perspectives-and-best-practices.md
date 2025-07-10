@@ -2,7 +2,7 @@
 title: "Menstrual Leave Policies: Global Perspectives and Best Practices"
 description: "A detailed article about Menstrual Leave Policies: Global Perspectives and Best Practices."
 tags: ["menstrual leave policies", "global perspectives on menstrual leave", "best practices for menstrual leave", "menstrual leave benefits", "menstrual leave around the world"]
-thumbnail: /img/posts/menstrual-leave-policies:-global-perspectives-and-best-practices.png
+thumbnail: /img/posts/menstrual-leave-policies:-global-perspectives-and-best-practices.webp
 alt: "Cartoon-style illustration for Menstrual Leave Policies: Global Perspectives and Best Practices"
 layout: post.njk
 date: 2025-07-10

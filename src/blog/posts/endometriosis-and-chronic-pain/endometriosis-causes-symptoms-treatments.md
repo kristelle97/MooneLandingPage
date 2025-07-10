@@ -4,7 +4,7 @@ description: Discover the causes, symptoms, and latest treatments for endometrio
   in this comprehensive, science-backed guide.
 layout: post.njk
 date: 2024-06-09
-thumbnail: /img/posts/endometriosis:-causes,-symptoms,-and-modern-treatments.png
+thumbnail: /img/posts/endometriosis:-causes,-symptoms,-and-modern-treatments.webp
 alt: 'Illustration for Endometriosis: Causes, Symptoms, and Modern Treatments'
 ---
 

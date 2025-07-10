@@ -2,7 +2,7 @@
 title: "Familial Patterns in Menstrual Disorders: Risk Assessment"
 description: "A detailed article about Familial Patterns in Menstrual Disorders: Risk Assessment."
 tags: ["menstrual disorders genetics", "familial menstrual disorders", "menstrual disorder risk factors", "hereditary menstrual conditions", "family history menstrual issues"]
-thumbnail: /img/posts/familial-patterns-in-menstrual-disorders:-risk-assessment.png
+thumbnail: /img/posts/familial-patterns-in-menstrual-disorders:-risk-assessment.webp
 alt: "Cartoon-style illustration for Familial Patterns in Menstrual Disorders: Risk Assessment"
 layout: post.njk
 date: 2025-07-10

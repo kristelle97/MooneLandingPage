@@ -2,7 +2,7 @@
 title: "Talking to Teens About Periods: A Guide for Parents and Educators"
 description: "A detailed article about Talking to Teens About Periods: A Guide for Parents and Educators."
 tags: ["talking to teens about periods", "guide for parents on periods", "educating teens about menstruation", "discussing periods with teenagers", "menstrual education for parents"]
-thumbnail: /img/posts/talking-to-teens-about-periods:-a-guide-for-parents-and-educators.png
+thumbnail: /img/posts/talking-to-teens-about-periods:-a-guide-for-parents-and-educators.webp
 alt: "Cartoon-style illustration for Talking to Teens About Periods: A Guide for Parents and Educators"
 layout: post.njk
 date: 2025-07-10

@@ -2,7 +2,7 @@
 title: "STIs and Menstrual Health: What Every Woman Should Know"
 description: "A detailed article about STIs and Menstrual Health: What Every Woman Should Know."
 tags: ["STIs and menstrual health", "women's health and STIs", "menstrual cycle and STIs", "sexual health education for women", "impact of STIs on menstruation"]
-thumbnail: /img/posts/stis-and-menstrual-health:-what-every-woman-should-know.png
+thumbnail: /img/posts/stis-and-menstrual-health:-what-every-woman-should-know.webp
 alt: "Cartoon-style illustration for STIs and Menstrual Health: What Every Woman Should Know"
 layout: post.njk
 date: 2025-07-10

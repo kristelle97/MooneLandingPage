@@ -2,7 +2,7 @@
 title: "Prolactin Disorders: How High Levels Affect Your Period"
 description: "A detailed article about Prolactin Disorders: How High Levels Affect Your Period."
 tags: ["prolactin disorders", "high prolactin levels", "prolactin and menstruation", "prolactin period effects", "prolactin imbalance symptoms"]
-thumbnail: /img/posts/prolactin-disorders:-how-high-levels-affect-your-period.png
+thumbnail: /img/posts/prolactin-disorders:-how-high-levels-affect-your-period.webp
 alt: "Cartoon-style illustration for Prolactin Disorders: How High Levels Affect Your Period"
 layout: post.njk
 date: 2025-07-10

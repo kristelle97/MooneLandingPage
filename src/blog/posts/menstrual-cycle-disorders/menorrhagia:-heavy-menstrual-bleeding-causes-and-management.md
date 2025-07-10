@@ -2,7 +2,7 @@
 title: "Menorrhagia: Heavy Menstrual Bleeding Causes and Management"
 description: "A detailed article about Menorrhagia: Heavy Menstrual Bleeding Causes and Management."
 tags: ["menorrhagia causes", "heavy menstrual bleeding treatment", "managing menorrhagia", "heavy periods solutions", "menorrhagia management tips"]
-thumbnail: /img/posts/menorrhagia:-heavy-menstrual-bleeding-causes-and-management.png
+thumbnail: /img/posts/menorrhagia:-heavy-menstrual-bleeding-causes-and-management.webp
 alt: "Cartoon-style illustration for Menorrhagia: Heavy Menstrual Bleeding Causes and Management"
 layout: post.njk
 date: 2025-07-10

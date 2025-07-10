@@ -2,7 +2,7 @@
 title: "Menopause: Hormonal Changes, Symptoms, and Health Risks"
 description: "A detailed article about Menopause: Hormonal Changes, Symptoms, and Health Risks."
 tags: ["menopause symptoms", "hormonal changes menopause", "menopause health risks", "menopause and hormones", "menopause effects"]
-thumbnail: /img/posts/menopause:-hormonal-changes,-symptoms,-and-health-risks.png
+thumbnail: /img/posts/menopause:-hormonal-changes,-symptoms,-and-health-risks.webp
 alt: "Cartoon-style illustration for Menopause: Hormonal Changes, Symptoms, and Health Risks"
 layout: post.njk
 date: 2025-07-10

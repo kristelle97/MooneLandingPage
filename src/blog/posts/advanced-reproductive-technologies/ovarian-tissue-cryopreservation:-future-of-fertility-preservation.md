@@ -2,7 +2,7 @@
 title: "Ovarian Tissue Cryopreservation: Future of Fertility Preservation"
 description: "A detailed article about Ovarian Tissue Cryopreservation: Future of Fertility Preservation."
 tags: ["ovarian tissue cryopreservation", "fertility preservation techniques", "future of fertility preservation", "ovarian tissue freezing", "fertility preservation options"]
-thumbnail: /img/posts/ovarian-tissue-cryopreservation:-future-of-fertility-preservation.png
+thumbnail: /img/posts/ovarian-tissue-cryopreservation:-future-of-fertility-preservation.webp
 alt: "Cartoon-style illustration for Ovarian Tissue Cryopreservation: Future of Fertility Preservation"
 layout: post.njk
 date: 2025-07-10

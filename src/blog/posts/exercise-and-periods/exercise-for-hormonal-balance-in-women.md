@@ -2,7 +2,7 @@
 title: "Exercise for Hormonal Balance in Women"
 description: "A detailed article about Exercise for Hormonal Balance in Women."
 tags: ["exercise for hormonal balance", "hormonal balance workouts", "women's hormone health exercise", "fitness for hormone regulation", "balancing hormones with exercise"]
-thumbnail: /img/posts/exercise-for-hormonal-balance-in-women.png
+thumbnail: /img/posts/exercise-for-hormonal-balance-in-women.webp
 alt: "Cartoon-style illustration for Exercise for Hormonal Balance in Women"
 layout: post.njk
 date: 2025-07-10

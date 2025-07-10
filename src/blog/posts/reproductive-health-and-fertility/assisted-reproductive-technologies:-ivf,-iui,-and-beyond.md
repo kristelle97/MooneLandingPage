@@ -2,7 +2,7 @@
 title: "Assisted Reproductive Technologies: IVF, IUI, and Beyond"
 description: "A detailed article about Assisted Reproductive Technologies: IVF, IUI, and Beyond."
 tags: ["Assisted Reproductive Technologies", "IVF process", "IUI treatment", "fertility options", "advanced reproductive techniques"]
-thumbnail: /img/posts/assisted-reproductive-technologies:-ivf,-iui,-and-beyond.png
+thumbnail: /img/posts/assisted-reproductive-technologies:-ivf,-iui,-and-beyond.webp
 alt: "Cartoon-style illustration for Assisted Reproductive Technologies: IVF, IUI, and Beyond"
 layout: post.njk
 date: 2025-07-10

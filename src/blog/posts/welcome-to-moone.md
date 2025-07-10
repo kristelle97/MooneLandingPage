@@ -2,7 +2,8 @@
 title: Welcome to Moone
 date: 2024-03-20
 description: Learn how Moone supports your health with cycle-aware guidance, AI-powered food logging, and expert-backed insights — no calorie counting, just real support tailored to your needs.
-thumbnail: /img/posts/welcome-to-moone.png
+thumbnail: /img/posts/welcome-to-moone.webp
+alt: Welcome to Moone - nutrition app designed for women's health
 layout: post.njk
 ---
 
