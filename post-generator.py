@@ -105,7 +105,7 @@ def generate_image(title, save_path, style, alt):
         return False
 
 def kebab_case(s):
-    return s.lower().replace(' ', '-').replace('&', 'and').replace('--', '-')
+    return s.lower().replace(' ', '-').replace('&', 'and').replace('?', '').replace('#', '').replace('--', '-')
 
 def save_article(folder, title, content, description, tags, thumbnail, alt, date_str, permalink):
     os.makedirs(folder, exist_ok=True)
