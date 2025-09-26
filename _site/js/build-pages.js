@@ -298,7 +298,7 @@ async function buildPages() {
         // Define your Notion page IDs
         const pages = {
             'Privacy Policy': '1d827d4c1901801db3c5f13fd84b061e',
-            'Terms and Conditions': '1d927d4c19018049bf58c1981f97b1ba'
+            'Terms and Conditions': '27a27d4c19018063a627fb87e138e1b2'
         };
 
         for (const [title, pageId] of Object.entries(pages)) {
