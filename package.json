@@ -5,7 +5,9 @@
     "main": "index.html",
     "scripts": {
         "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch & eleventy --serve",
-        "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css && eleventy"
+        "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css && eleventy",
+        "fetch-articles": "./fetch_articles.sh",
+        "fetch-articles-direct": "node notion_article_fetcher.js"
     },
     "keywords": [
         "tailwind",

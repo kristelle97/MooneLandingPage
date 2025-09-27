@@ -1,0 +1,23 @@
+# Example cron job configurations for Notion Article Fetcher
+# 
+# To edit your crontab: crontab -e
+# To list current cron jobs: crontab -l
+# 
+# Format: minute hour day month day-of-week command
+# 
+# Replace /path/to/your/project with the actual path to your MooneLandingPage directory
+
+# Run every hour at minute 0
+0 * * * * /Users/kristellefeghali/Downloads/MooneLandingPage/fetch_articles.sh
+
+# Run every 30 minutes
+# */30 * * * * /Users/kristellefeghali/Downloads/MooneLandingPage/fetch_articles.sh
+
+# Run every 6 hours
+# 0 */6 * * * /Users/kristellefeghali/Downloads/MooneLandingPage/fetch_articles.sh
+
+# Run daily at 9:00 AM
+# 0 9 * * * /Users/kristellefeghali/Downloads/MooneLandingPage/fetch_articles.sh
+
+# Run twice daily (9 AM and 6 PM)
+# 0 9,18 * * * /Users/kristellefeghali/Downloads/MooneLandingPage/fetch_articles.sh

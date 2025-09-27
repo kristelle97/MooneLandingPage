@@ -1,0 +1,38 @@
+Fri Sep 26 17:49:53 CEST 2025: Starting article fetch from Notion...
+🚀 Starting Notion Article Fetcher...
+📊 Loaded tracking data with 0 existing articles
+📅 Last publication date: None
+🔍 Fetching articles from Notion...
+❌ Error: 404 Client Error: Not Found for url: https://api.notion.com/v1/databases/19a27d4c1901815e960cc14341fa827e/query
+Traceback (most recent call last):
+  File "/Users/kristellefeghali/Downloads/MooneLandingPage/notion_article_fetcher.py", line 517, in <module>
+    fetcher.run()
+  File "/Users/kristellefeghali/Downloads/MooneLandingPage/notion_article_fetcher.py", line 456, in run
+    notion_pages = self.fetch_articles_from_notion(after_date=last_date)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kristellefeghali/Downloads/MooneLandingPage/notion_article_fetcher.py", line 90, in fetch_articles_from_notion
+    response.raise_for_status()
+  File "/Users/kristellefeghali/Downloads/MooneLandingPage/venv/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.notion.com/v1/databases/19a27d4c1901815e960cc14341fa827e/query
+Fri Sep 26 17:49:54 CEST 2025: Article fetch failed
+Fri Sep 26 17:49:54 CEST 2025: Cron job completed
+Fri Sep 26 17:50:46 CEST 2025: Starting article fetch from Notion...
+🚀 Starting Notion Article Fetcher...
+📊 Loaded tracking data with 0 existing articles
+📅 Last publication date: None
+🔍 Fetching articles from Notion...
+❌ Error: 404 Client Error: Not Found for url: https://api.notion.com/v1/databases/19a27d4c1901815e960cc14341fa827e/query
+Traceback (most recent call last):
+  File "/Users/kristellefeghali/Downloads/MooneLandingPage/notion_article_fetcher.py", line 517, in <module>
+    fetcher.run()
+  File "/Users/kristellefeghali/Downloads/MooneLandingPage/notion_article_fetcher.py", line 456, in run
+    notion_pages = self.fetch_articles_from_notion(after_date=last_date)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/kristellefeghali/Downloads/MooneLandingPage/notion_article_fetcher.py", line 90, in fetch_articles_from_notion
+    response.raise_for_status()
+  File "/Users/kristellefeghali/Downloads/MooneLandingPage/venv/lib/python3.11/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.notion.com/v1/databases/19a27d4c1901815e960cc14341fa827e/query
+Fri Sep 26 17:50:47 CEST 2025: Article fetch failed
+Fri Sep 26 17:50:47 CEST 2025: Cron job completed

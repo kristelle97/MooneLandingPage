@@ -9,8 +9,9 @@ layout: base.njk
             <div class="text-gray-500">{{ date | dateFilter }}</div>
         </header>
 
-        {% if thumbnail %}
-        <img src="{{ thumbnail }}" 
+        {% set thumbnailUrl = thumbnail or (content | extractFirstImage) %}
+        {% if thumbnailUrl %}
+        <img src="{{ thumbnailUrl }}" 
              alt="{{ alt or title or 'Blog post featured image' }}" 
              class="w-full h-64 object-cover rounded-xl mb-8"
              loading="lazy"
