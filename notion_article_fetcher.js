@@ -121,13 +121,23 @@ class NotionArticleFetcher {
         // Extract publish date
         const publishDate = properties['Publish date']?.date?.start || null;
 
+        // Extract cover image from page cover property
+        let coverImage = null;
+        if (page.cover) {
+            if (page.cover.type === 'external') {
+                coverImage = page.cover.external?.url;
+            } else if (page.cover.type === 'file') {
+                coverImage = page.cover.file?.url;
+            }
+        }
+
         // Extract article content from page blocks (not from properties)
         let content = '';
         try {
             const response = await notion.blocks.children.list({
                 block_id: page.id
             });
-            content = this.convertNotionBlocksToHtml(response.results);
+            content = await this.convertNotionBlocksToHtml(response.results);
         } catch (error) {
             console.log(`⚠️  Could not fetch content for page ${page.id}: ${error.message}`);
             content = '';
@@ -140,6 +150,7 @@ class NotionArticleFetcher {
             slug,
             publishDate,
             content,
+            coverImage,
             url: page.url
         };
     }
@@ -189,7 +200,7 @@ class NotionArticleFetcher {
     }
 
     // Convert Notion blocks to HTML (adapted from build-pages.js)
-    convertNotionBlocksToHtml(blocks) {
+    async convertNotionBlocksToHtml(blocks) {
         let html = '';
         let inList = false; // false, 'bulleted', or 'numbered'
 
@@ -293,8 +304,14 @@ class NotionArticleFetcher {
                         html += this.closeList(inList);
                         inList = false;
                     }
-                    // Skip tables for now as they're complex to handle properly
-                    html += `<div class="mb-4 p-4 bg-gray-100 rounded-lg text-sm text-gray-600">Table content not displayed</div>\n`;
+                    // Handle table blocks
+                    try {
+                        const tableHtml = await this.convertTableToHtml(block);
+                        html += tableHtml;
+                    } catch (error) {
+                        console.log(`⚠️  Could not process table: ${error.message}`);
+                        html += `<div class="mb-4 p-4 bg-gray-100 rounded-lg text-sm text-gray-600">Table content could not be displayed</div>\n`;
+                    }
                     break;
                 case 'embed':
                     if (inList) {
@@ -321,6 +338,58 @@ class NotionArticleFetcher {
         }
 
         return html || "<p>No content available.</p>";
+    }
+
+    async convertTableToHtml(tableBlock) {
+        try {
+            // Fetch table rows from Notion
+            const response = await notion.blocks.children.list({
+                block_id: tableBlock.id
+            });
+            
+            const rows = response.results;
+            if (!rows || rows.length === 0) {
+                return `<div class="mb-4 p-4 bg-gray-100 rounded-lg text-sm text-gray-600">Empty table</div>\n`;
+            }
+
+            let html = '<div class="overflow-x-auto mb-6">\n';
+            html += '<table class="min-w-full border-collapse border border-gray-300">\n';
+
+            const hasHeader = tableBlock.table?.has_column_header || false;
+            const hasRowHeader = tableBlock.table?.has_row_header || false;
+
+            for (let i = 0; i < rows.length; i++) {
+                const row = rows[i];
+                if (row.type !== 'table_row') continue;
+
+                const cells = row.table_row?.cells || [];
+                const isHeaderRow = hasHeader && i === 0;
+
+                html += '  <tr>\n';
+                
+                for (let j = 0; j < cells.length; j++) {
+                    const cell = cells[j];
+                    const isHeaderCell = (isHeaderRow) || (hasRowHeader && j === 0);
+                    const tag = isHeaderCell ? 'th' : 'td';
+                    const cellClass = isHeaderCell 
+                        ? 'px-4 py-2 bg-gray-100 font-semibold border border-gray-300 text-left'
+                        : 'px-4 py-2 border border-gray-300';
+                    
+                    const cellContent = this.convertRichTextToHtml(cell);
+                    html += `    <${tag} class="${cellClass}">${cellContent || ''}</${tag}>\n`;
+                }
+                
+                html += '  </tr>\n';
+            }
+
+            html += '</table>\n';
+            html += '</div>\n';
+
+            return html;
+        } catch (error) {
+            console.log(`⚠️  Error processing table: ${error.message}`);
+            return `<div class="mb-4 p-4 bg-gray-100 rounded-lg text-sm text-gray-600">Table processing error</div>\n`;
+        }
     }
 
     createSlugFromTitle(title) {
@@ -351,13 +420,20 @@ class NotionArticleFetcher {
         const markdownContent = this.convertHtmlToMarkdown(article.content || "No content available.");
 
         // Create frontmatter
-        const frontmatter = `---
+        let frontmatter = `---
 layout: post.njk
 title: "${article.title}"
 description: "${article.metaDescription || ''}"
-date: ${article.publishDate}
-thumbnail: "/img/posts/${slug}.webp"
-alt: "${article.title}"
+date: ${article.publishDate}`;
+
+        // Only add thumbnail if cover image exists
+        if (article.coverImage) {
+            frontmatter += `
+thumbnail: "${article.coverImage}"
+alt: "${article.title}"`;
+        }
+
+        frontmatter += `
 ---
 
 ${markdownContent}`;
@@ -372,6 +448,9 @@ ${markdownContent}`;
 
     // Convert HTML content to markdown-like format
     convertHtmlToMarkdown(html) {
+        // First convert tables to markdown format
+        html = this.convertHtmlTablesToMarkdown(html);
+        
         return html
             // Convert headings
             .replace(/<h2[^>]*>(.*?)<\/h2>/gi, '\n## $1\n')
@@ -398,6 +477,76 @@ ${markdownContent}`;
             // Clean up extra whitespace
             .replace(/\n\s*\n\s*\n/g, '\n\n')
             .trim();
+    }
+
+    // Convert HTML tables to markdown format
+    convertHtmlTablesToMarkdown(html) {
+        return html.replace(/<div class="overflow-x-auto mb-6">\s*<table[^>]*>(.*?)<\/table>\s*<\/div>/gis, (match, tableContent) => {
+            // Extract table rows
+            const rows = [];
+            const rowMatches = tableContent.match(/<tr[^>]*>(.*?)<\/tr>/gis);
+            
+            if (!rowMatches) return match;
+            
+            let isFirstRow = true;
+            let hasHeaders = false;
+            
+            for (const rowMatch of rowMatches) {
+                const cells = [];
+                const cellMatches = rowMatch.match(/<t[hd][^>]*>(.*?)<\/t[hd]>/gis);
+                
+                if (!cellMatches) continue;
+                
+                // Check if this row has header cells
+                const hasHeaderCells = rowMatch.includes('<th');
+                if (isFirstRow && hasHeaderCells) {
+                    hasHeaders = true;
+                }
+                
+                for (const cellMatch of cellMatches) {
+                    // Extract cell content and clean up HTML
+                    let cellContent = cellMatch.replace(/<t[hd][^>]*>(.*?)<\/t[hd]>/is, '$1');
+                    // Remove HTML tags but keep basic formatting
+                    cellContent = cellContent
+                        .replace(/<strong[^>]*>(.*?)<\/strong>/gi, '**$1**')
+                        .replace(/<em[^>]*>(.*?)<\/em>/gi, '*$1*')
+                        .replace(/<code[^>]*>(.*?)<\/code>/gi, '`$1`')
+                        .replace(/<[^>]*>/g, '') // Remove remaining HTML tags
+                        .trim();
+                    
+                    cells.push(cellContent || ' ');
+                }
+                
+                rows.push(cells);
+                isFirstRow = false;
+            }
+            
+            if (rows.length === 0) return match;
+            
+            // Build markdown table
+            let markdownTable = '\n';
+            
+            // Add header row
+            const firstRow = rows[0];
+            markdownTable += '| ' + firstRow.join(' | ') + ' |\n';
+            
+            // Add separator row
+            const separator = firstRow.map(() => '---').join(' | ');
+            markdownTable += '| ' + separator + ' |\n';
+            
+            // Add data rows (skip first row if it was a header)
+            const dataRows = hasHeaders ? rows.slice(1) : rows.slice(1);
+            for (const row of dataRows) {
+                // Ensure row has same number of cells as header
+                while (row.length < firstRow.length) {
+                    row.push(' ');
+                }
+                markdownTable += '| ' + row.join(' | ') + ' |\n';
+            }
+            
+            markdownTable += '\n';
+            return markdownTable;
+        });
     }
 
     async updateSitemap(newArticles) {

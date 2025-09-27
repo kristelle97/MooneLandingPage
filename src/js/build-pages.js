@@ -156,8 +156,11 @@ const pageTemplate = (title, content) => `
                 androidButtons.forEach(btn => {
                     btn.classList.remove('hidden');
                     btn.addEventListener('click', function() {
-                        document.getElementById('google-play-modal').classList.remove('hidden');
-                        document.body.style.overflow = 'hidden';
+                        const modal = document.getElementById('google-play-modal');
+                        if (modal) {
+                            modal.classList.remove('hidden');
+                            document.body.style.overflow = 'hidden';
+                        }
                     });
                 });
             } else {

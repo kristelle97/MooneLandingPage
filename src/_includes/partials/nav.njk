@@ -77,8 +77,11 @@
             androidButtons.forEach(btn => {
                 btn.classList.remove('hidden');
                 btn.addEventListener('click', function() {
-                    document.getElementById('google-play-modal').classList.remove('hidden');
-                    document.body.style.overflow = 'hidden';
+                    const modal = document.getElementById('google-play-modal');
+                    if (modal) {
+                        modal.classList.remove('hidden');
+                        document.body.style.overflow = 'hidden';
+                    }
                 });
             });
         } else {
@@ -89,7 +92,7 @@
     }
 
     const navbar = document.getElementById('navbar');
-    const logoText = navbar.querySelector('span');
+    const logoText = navbar?.querySelector('span');
     // Select desktop nav links using the new class
     const desktopNavLinks = document.querySelectorAll('.nav-link');
     // Select desktop download button using ID
@@ -99,7 +102,7 @@
     const mobileMenuButton = document.getElementById('mobile-menu-button');
     const mobileMenu = document.getElementById('mobile-menu');
     const mobileNavLinks = document.querySelectorAll('.mobile-nav-link'); // Select using class
-    const mobileMenuIcon = mobileMenuButton.querySelector('svg'); // Get the SVG icon
+    const mobileMenuIcon = mobileMenuButton?.querySelector('svg'); // Get the SVG icon
 
     // Define classes for a consistent navbar appearance (always white background)
     const navbarClasses = {
@@ -115,8 +118,8 @@
 
     function updateNavClasses() {
         // Always apply the same classes (white background with shadow)
-        navbar.classList.add(...navbarClasses.nav);
-        logoText.classList.add(...navbarClasses.logo);
+        if (navbar) navbar.classList.add(...navbarClasses.nav);
+        if (logoText) logoText.classList.add(...navbarClasses.logo);
         
         desktopNavLinks.forEach(link => {
             link.classList.add(...navbarClasses.links);
@@ -128,32 +131,40 @@
         if (mobileDownloadButton) {
             mobileDownloadButton.classList.add(...navbarClasses.mobileButton);
         }
-        mobileMenu.classList.add(...navbarClasses.mobileMenuBg);
+        if (mobileMenu) mobileMenu.classList.add(...navbarClasses.mobileMenuBg);
         
         mobileNavLinks.forEach(link => {
             link.classList.add(...navbarClasses.mobileLinks);
         });
         
-        mobileMenuIcon.classList.add(...navbarClasses.hamburgerIcon);
+        if (mobileMenuIcon) mobileMenuIcon.classList.add(...navbarClasses.hamburgerIcon);
     }
 
     // Toggle Mobile Menu
-    mobileMenuButton.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
-        if (mobileMenu.classList.contains('hidden')) {
-            mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`;
-        } else {
-            mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>`;
-        }
-    });
+    if (mobileMenuButton && mobileMenu) {
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            if (mobileMenuIcon) {
+                if (mobileMenu.classList.contains('hidden')) {
+                    mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`;
+                } else {
+                    mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>`;
+                }
+            }
+        });
+    }
 
     // Close mobile menu when a link is clicked
-    mobileMenu.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => {
-            mobileMenu.classList.add('hidden');
-            mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`; // Reset icon
+    if (mobileMenu) {
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                if (mobileMenuIcon) {
+                    mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`; // Reset icon
+                }
+            });
         });
-    });
+    }
 
     // Remove the scroll listener since we want consistent styling
     // The navbar will now always have the white background with shadow
