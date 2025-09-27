@@ -1,0 +1,54 @@
+name: Fetch Notion Articles
+
+on:
+  schedule:
+    # Run every 24 hours at 9 AM UTC
+    - cron: '0 9 * * *'
+  workflow_dispatch: # Allows manual triggering from GitHub UI
+
+jobs:
+  fetch-articles:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Fetch articles from Notion
+        run: node notion_article_fetcher.js
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_BLOGPOST_DATABASE_ID: ${{ secrets.NOTION_BLOGPOST_DATABASE_ID }}
+      
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push changes
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "🤖 Auto-fetch new articles from Notion [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git push
+      
+      - name: No changes found
+        if: steps.verify-changed-files.outputs.changed == 'false'
+        run: echo "No new articles found - no changes to commit"
