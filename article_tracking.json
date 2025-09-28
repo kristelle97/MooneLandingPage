@@ -1,5 +1,5 @@
 {
-  "last_sync": "2025-09-27T13:26:08.641Z",
+  "last_sync": "2025-09-28T09:02:29.598Z",
   "articles": {
     "Symptômes règles douloureuses : reconnaître et soulager_2025-09-26": {
       "title": "Symptômes règles douloureuses : reconnaître et soulager",
@@ -16,6 +16,14 @@
       "meta_description": "Découvrez que faire face à la douleur menstruelle. 8 solutions naturelles pour soulager vos crampes et retrouver du confort rapidement.",
       "notion_id": "27b27d4c-1901-8178-9c01-f00dad03318a",
       "created_at": "2025-09-27T13:26:08.641Z"
+    },
+    "Calculer son cycle menstruel en ligne facilement et rapidement_2025-09-28": {
+      "title": "Calculer son cycle menstruel en ligne facilement et rapidement",
+      "slug": "calculer-son-cycle-menstruel-en-ligne",
+      "publish_date": "2025-09-28",
+      "meta_description": "Apprenez à calculer votre cycle menstruel en ligne avec notre guide complet. Découvrez l'outil idéal pour suivre et comprendre votre cycle facilement.",
+      "notion_id": "27c27d4c-1901-8107-bc13-ee8933e565a9",
+      "created_at": "2025-09-28T09:02:29.598Z"
     }
   }
 }
