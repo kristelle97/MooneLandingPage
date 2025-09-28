@@ -88,6 +88,25 @@ class NotionArticleFetcher {
         return response.results;
     }
 
+    // Helper function to fetch all blocks with pagination
+    async fetchAllBlocks(blockId) {
+        let allBlocks = [];
+        let nextCursor = undefined;
+        
+        do {
+            const response = await notion.blocks.children.list({
+                block_id: blockId,
+                start_cursor: nextCursor,
+                page_size: 100
+            });
+            
+            allBlocks = allBlocks.concat(response.results);
+            nextCursor = response.has_more ? response.next_cursor : undefined;
+        } while (nextCursor);
+        
+        return allBlocks;
+    }
+
     async extractArticleData(page) {
         const properties = page.properties;
 
@@ -134,10 +153,8 @@ class NotionArticleFetcher {
         // Extract article content from page blocks (not from properties)
         let content = '';
         try {
-            const response = await notion.blocks.children.list({
-                block_id: page.id
-            });
-            content = await this.convertNotionBlocksToHtml(response.results);
+            const allBlocks = await this.fetchAllBlocks(page.id);
+            content = await this.convertNotionBlocksToHtml(allBlocks);
         } catch (error) {
             console.log(`⚠️  Could not fetch content for page ${page.id}: ${error.message}`);
             content = '';
@@ -342,12 +359,9 @@ class NotionArticleFetcher {
 
     async convertTableToHtml(tableBlock) {
         try {
-            // Fetch table rows from Notion
-            const response = await notion.blocks.children.list({
-                block_id: tableBlock.id
-            });
+            // Fetch table rows from Notion with pagination
+            const rows = await this.fetchAllBlocks(tableBlock.id);
             
-            const rows = response.results;
             if (!rows || rows.length === 0) {
                 return `<div class="mb-4 p-4 bg-gray-100 rounded-lg text-sm text-gray-600">Empty table</div>\n`;
             }

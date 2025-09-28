@@ -3,6 +3,7 @@ layout: post.njk
 title: "Symptômes règles douloureuses : reconnaître et soulager"
 description: "Découvrez les symptômes règles douloureuses et apprenez comment les identifier pour mieux gérer la douleur. Guide pratique pour votre confort."
 date: 2025-09-26
+thumbnail: "https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-56e763d9-f372-4385-8382-cd4de8415c3f.jpg"
 alt: "Symptômes règles douloureuses : reconnaître et soulager"
 ---
 
@@ -58,7 +59,14 @@ Pour t&#039;aider à y voir plus clair, voici une synthèse des symptômes physi
 
 Ce tableau synthétise les principaux symptômes physiques, leur description et leur fréquence pour t&#039;aider à identifier ce que tu ressens.
 
-<div class="mb-4 p-4 bg-gray-100 rounded-lg text-sm text-gray-600">Table content not displayed</div>
+| Symptôme | Description simple | Fréquence rapportée |
+| --- | --- | --- |
+| **Crampes abdominales** | Douleurs spasmodiques ou continues dans le bas-ventre, pouvant irradier. | **80-90 %** |
+| **Douleurs lombaires** | Sensation de douleur sourde ou de tiraillement dans le bas du dos. | **Environ 60 %** |
+| **Maux de tête/Migraines** | Douleur lancinante, souvent localisée d&#039;un côté de la tête. | **Environ 55 %** |
+| **Fatigue intense** | Sensation d&#039;épuisement physique et mental, difficile à surmonter avec du repos. | **Plus de 70 %** |
+| **Troubles digestifs** | Ballonnements, nausées, diarrhée ou constipation. | **Jusqu&#039;à 50 %** |
+| **Douleurs aux seins** | Sensibilité, gonflement ou douleur au niveau de la poitrine. | **Très fréquent** |
 
 Comme tu peux le voir, tu es loin d&#039;être la seule à ressentir ces douleurs.
 
@@ -196,3 +204,13 @@ C&#039;est LA grande interrogation, et elle est légitime. Une douleur de règle
 Oui, sans aucun doute. Le stress chronique fait grimper ton taux de cortisol, une hormone qui perturbe tout ton équilibre hormonal et amplifie ta perception de la douleur. Ce n&#039;est pas &quot;juste dans ta tête&quot;.
 
 Côté alimentation, c&#039;est le même principe. Une nourriture riche en sucres raffinés ou en produits transformés nourrit l&#039;inflammation dans ton corps. Cela booste la production de prostaglandines, ces molécules qui déclenchent les contractions utérines. Adopter une alimentation anti-inflammatoire et apprendre à gérer ton stress peut vraiment changer la donne.
+
+### Mes douleurs de règles peuvent-elles changer avec l&#039;âge ?
+
+Absolument. Les symptômes évoluent au fil de la vie. La dysménorrhée primaire, par exemple, est souvent bien plus forte à l&#039;adolescence. Elle a tendance à s&#039;adoucir avec les années, et parfois même après une première grossesse.
+
+Par contre, si des douleurs apparaissent ou s&#039;intensifient plus tard, après **25** ou **30 ans**, sois vigilante. Cela pourrait être le signe d&#039;une dysménorrhée secondaire, cachant une autre pathologie comme des fibromes ou de l&#039;adénomyose. Il est crucial d&#039;être à l&#039;écoute de ces changements et d&#039;en discuter avec un professionnel de santé.
+
+Pour t&#039;aider à mieux comprendre et suivre tes symptômes au jour le jour, l&#039;application **Moone** a été pensée comme une véritable alliée. Elle t&#039;aide à décrypter les signaux de ton corps pour enfin trouver des solutions qui te correspondent. [Découvrez comment Moone peut vous accompagner](https://getmoone.com/).
+
+*Article created using *[*Outrank*](https://outrank.so/)

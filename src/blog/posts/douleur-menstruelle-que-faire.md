@@ -191,3 +191,11 @@ Il est temps de consulter un professionnel de santé si :
 Ces signaux peuvent indiquer une pathologie comme l&#039;endométriose. Poser un diagnostic est la première étape pour obtenir un traitement adapté.
 
 ### Prépare ta consultation pour être entendue
+
+Consulter est une étape essentielle. Pour qu&#039;elle soit productive, prépare-toi. Tiens un journal de tes symptômes : note l&#039;intensité de la douleur, sa localisation et les autres symptômes associés.
+
+En te présentant avec des données concrètes, tu deviens actrice de ta santé. Tu fournis des preuves qui aideront à prendre ta situation au sérieux. N&#039;oublie jamais : **ta douleur est réelle, elle est légitime, et elle mérite d&#039;être prise en charge.**
+
+Pour t&#039;aider à suivre tes symptômes et à préparer efficacement tes consultations, découvre **Moone**. Notre application est conçue pour t&#039;accompagner dans la compréhension de ton cycle et la gestion de tes douleurs. Prends le contrôle et transforme tes données en un outil puissant pour ta santé sur [Moone](https://getmoone.com/).
+
+*Article created using *[*Outrank*](https://outrank.so/)
