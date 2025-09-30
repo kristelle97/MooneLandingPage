@@ -159,7 +159,7 @@ Au-delà de l&#039;organisation que demandent les règles, il y a la douleur. Qu
   - **À la maison :** Des gestes aussi simples que faire les courses ou le ménage se transforment en épreuves.
   - **Pour le moral :** Vivre avec une douleur récurrente est épuisant, physiquement comme mentalement. Cela peut facilement entraîner de l&#039;anxiété ou de l&#039;irritabilité.
 
-Il est crucial de ne pas minimiser cet impact. Si tu veux mieux comprendre les mécanismes de la douleur pendant les règles, notre article dédié aux [symptômes des règles douloureuses et comment les identifier](https://moone.app/blog/posts/symptomes-regles-douloureuses/) est là pour t&#039;éclairer.
+Il est crucial de ne pas minimiser cet impact. Si tu veux mieux comprendre les mécanismes de la douleur pendant les règles, notre article dédié aux [symptômes des règles douloureuses et comment les identifier](https://getmoone.com/blog/posts/symptomes-regles-douloureuses/) est là pour t&#039;éclairer.
 
 Prendre conscience que tu n’es pas la seule à devoir adapter ton planning à ton cycle est une étape clé. Cela montre à quel point il est important de parler de santé menstruelle ouvertement, bien au-delà des aspects purement médicaux. Ton expérience compte, et elle mérite d&#039;être entendue.
 
@@ -189,7 +189,7 @@ Voici les infos les plus utiles à consigner au quotidien :
 
 ### L&#039;intérêt concret de ce suivi au quotidien
 
-Tenir ce petit journal de bord menstruel t&#039;apportera rapidement des bénéfices très concrets. Bien sûr, tu pourras prévoir l&#039;arrivée de tes prochaines règles. Mais surtout, tu apprendras à décoder les signaux que ton corps t&#039;envoie. Si tu veux aller plus loin, certaines méthodes permettent de [calculer ton cycle menstruel en ligne](https://moone.app/blog/posts/calculer-son-cycle-menstruel-en-ligne/) pour compléter tes observations personnelles.
+Tenir ce petit journal de bord menstruel t&#039;apportera rapidement des bénéfices très concrets. Bien sûr, tu pourras prévoir l&#039;arrivée de tes prochaines règles. Mais surtout, tu apprendras à décoder les signaux que ton corps t&#039;envoie. Si tu veux aller plus loin, certaines méthodes permettent de [calculer ton cycle menstruel en ligne](https://getmoone.com/blog/posts/calculer-son-cycle-menstruel-en-ligne/) pour compléter tes observations personnelles.
 
 Ce suivi est aussi et surtout un allié précieux lors de tes rendez-vous médicaux. Arriver chez ton médecin ou ta sage-femme avec des données claires sur plusieurs mois, ça change tout. Tu ne dis plus &quot;je crois que mes règles sont plus longues&quot;, mais &quot;**depuis trois mois, mes règles durent 8 jours au lieu de 5**&quot;. Cette précision permet un diagnostic plus rapide et plus juste. C&#039;est une étape clé pour reprendre la main sur ta santé menstruelle.
 
@@ -207,7 +207,7 @@ L&#039;essentiel, c&#039;est d&#039;apprendre à connaître cette norme qui t&#0
 
 L&#039;objectif n&#039;est pas d&#039;atteindre une maîtrise absolue, mais plutôt de savoir décrypter les signaux que ton corps t&#039;envoie. Et si jamais quelque chose t&#039;interpelle ou t&#039;inquiète, n&#039;hésite jamais à en parler à un professionnel de santé.
 
-Si des douleurs intenses accompagnent des règles irrégulières, il est primordial de ne pas rester seule face à cela. Pour creuser le sujet, tu peux d&#039;ailleurs consulter notre guide complet pour savoir [que faire face à une douleur menstruelle](https://moone.app/blog/posts/douleur-menstruelle-que-faire/).
+Si des douleurs intenses accompagnent des règles irrégulières, il est primordial de ne pas rester seule face à cela. Pour creuser le sujet, tu peux d&#039;ailleurs consulter notre guide complet pour savoir [que faire face à une douleur menstruelle](https://getmoone.com/blog/posts/douleur-menstruelle-que-faire/).
 
 Le message à retenir est simple : chaque information que tu collectes sur ton cycle est un pas de plus vers une meilleure connaissance de toi et un plus grand bien-être. Tu as toutes les cartes en main pour devenir la meilleure experte de ton propre corps.
 

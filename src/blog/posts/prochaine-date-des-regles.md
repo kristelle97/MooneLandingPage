@@ -62,7 +62,7 @@ Chacune de ces phases a son importance, mais l&#039;une d&#039;entre elles est p
 
 Cette connaissance est vraiment la pierre angulaire de tout calcul. Savoir que ton cycle n&#039;est pas un mystère insondable mais une séquence logique te donnera les outils pour mieux anticiper ce qui se passe.
 
-Si tu as envie d&#039;aller plus loin sur ce sujet, notre guide sur [la durée des règles chez la femme](https://moone.app/blog/posts/duree-regle-femme/) te donnera encore plus de clés pour comprendre ce phénomène en détail.
+Si tu as envie d&#039;aller plus loin sur ce sujet, notre guide sur [la durée des règles chez la femme](https://getmoone.com/blog/posts/duree-regle-femme/) te donnera encore plus de clés pour comprendre ce phénomène en détail.
 
 ## Estimer ses prochaines règles avec un calendrier
 
@@ -126,7 +126,7 @@ Une fois que tu as trouvé la bonne, la clé du succès est la régularité. Pre
 
 Ce n&#039;est pas un hasard si en France, près de **60 % des femmes** se tournent vers ces applications pour suivre leur cycle. Elles offrent des prévisions fiables, qui prennent en compte les variations naturelles de chaque cycle, dont la durée moyenne est de **28,1 jours**.
 
-Si tu souhaites explorer d&#039;autres méthodes en ligne pour affiner tes calculs, notre article sur comment [calculer ton cycle menstruel en ligne](https://moone.app/blog/posts/calculer-son-cycle-menstruel-en-ligne/) te donnera d&#039;excellentes pistes.
+Si tu souhaites explorer d&#039;autres méthodes en ligne pour affiner tes calculs, notre article sur comment [calculer ton cycle menstruel en ligne](https://getmoone.com/blog/posts/calculer-son-cycle-menstruel-en-ligne/) te donnera d&#039;excellentes pistes.
 
 ## Apprivoiser les retards et les cycles irréguliers
 
@@ -170,6 +170,6 @@ Si, en revanche, tu constates des écarts très importants et répétés, il est
 
 Absolument pas. Il est crucial de ne jamais considérer la douleur comme une chose normale à subir en silence. Si les crampes ou d&#039;autres symptômes t&#039;empêchent de vivre ton quotidien, des solutions existent pour te soulager.
 
-La première étape est de comprendre d&#039;où viennent ces douleurs. Pour aller plus loin sur ce point, n&#039;hésite pas à consulter notre article qui t&#039;explique [que faire en cas de douleur menstruelle](https://moone.app/blog/posts/douleur-menstruelle-que-faire/).
+La première étape est de comprendre d&#039;où viennent ces douleurs. Pour aller plus loin sur ce point, n&#039;hésite pas à consulter notre article qui t&#039;explique [que faire en cas de douleur menstruelle](https://getmoone.com/blog/posts/douleur-menstruelle-que-faire/).
 
 Pour un suivi qui va au-delà des simples dates et t&#039;aide à comprendre les liens entre ton cycle, ton mode de vie et tes douleurs, découvre **Moone**. Notre application est conçue pour t&#039;offrir des conseils personnalisés et bienveillants, afin de t&#039;aider à mieux vivre chaque phase de ton cycle. Pour en savoir plus, visite [https://getmoone.com](https://getmoone.com/).

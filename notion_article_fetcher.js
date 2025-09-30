@@ -574,7 +574,7 @@ ${markdownContent}`;
             for (const article of newArticles) {
                 const slug = article.slug || this.createSlugFromTitle(article.title);
                 newUrls += `  <url>
-    <loc>https://moone.app/blog/posts/${slug}/</loc>
+    <loc>https://getmoone.com/blog/posts/${slug}/</loc>
     <lastmod>${article.publishDate}</lastmod>
   </url>
 `;

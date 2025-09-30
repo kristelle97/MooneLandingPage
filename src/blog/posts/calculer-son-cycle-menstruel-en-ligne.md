@@ -164,7 +164,7 @@ Juste après l&#039;ovulation, c&#039;est au tour de la progestérone de prendre
 
 Tu ressens peut-être une baisse d&#039;énergie, une plus grande sensibilité émotionnelle ou des fringales soudaines. Pas de panique, c’est normal. C&#039;est le signal de ton corps pour ralentir. Accorde-toi plus de douceur en privilégiant des activités comme le yoga, la méditation ou des repas réconfortants et nutritifs.
 
-Si ces manifestations deviennent particulièrement handicapantes, n’hésite pas à consulter notre guide sur les [symptômes des règles douloureuses](https://moone.app/blog/posts/symptomes-regles-douloureuses/) pour trouver des pistes et des solutions.
+Si ces manifestations deviennent particulièrement handicapantes, n’hésite pas à consulter notre guide sur les [symptômes des règles douloureuses](https://getmoone.com/blog/posts/symptomes-regles-douloureuses/) pour trouver des pistes et des solutions.
 
 En comprenant ces différentes phases, ton application de suivi passe du statut de simple calendrier à celui de véritable coach personnel pour ton bien-être.
 
@@ -196,7 +196,7 @@ Une application de suivi, aussi performante soit-elle, reste un outil d&#039;acc
 
 Si tu constates des irrégularités qui s&#039;installent dans la durée, des saignements inhabituels entre tes règles ou des douleurs qui deviennent vraiment difficiles à gérer au quotidien, il est temps de prendre rendez-vous.
 
-Le bon côté des choses, c’est que tout ton historique de suivi deviendra une aide précieuse lors de la consultation. Tu pourras présenter des informations claires et détaillées à ton médecin ou à ta sage-femme, ce qui facilite grandement le diagnostic. Si les douleurs sont au centre de tes préoccupations, notre article sur [comment gérer la douleur menstruelle](https://moone.app/blog/posts/douleur-menstruelle-que-faire/) peut déjà t&#039;apporter quelques pistes.
+Le bon côté des choses, c’est que tout ton historique de suivi deviendra une aide précieuse lors de la consultation. Tu pourras présenter des informations claires et détaillées à ton médecin ou à ta sage-femme, ce qui facilite grandement le diagnostic. Si les douleurs sont au centre de tes préoccupations, notre article sur [comment gérer la douleur menstruelle](https://getmoone.com/blog/posts/douleur-menstruelle-que-faire/) peut déjà t&#039;apporter quelques pistes.
 
 Le suivi en ligne s’inscrit aussi dans une démarche plus large de santé menstruelle. En France, où **1 femme sur 3** est touchée par la précarité menstruelle, ces outils peuvent aussi aider à anticiper et mieux gérer les coûts liés aux protections périodiques. Pour en savoir plus sur ce sujet, tu peux [consulter les informations du gouvernement sur l&#039;hygiène menstruelle](https://www.egalite-femmes-hommes.gouv.fr/28-mai-2025-journee-mondiale-de-lhygiene-menstruelle).
 
