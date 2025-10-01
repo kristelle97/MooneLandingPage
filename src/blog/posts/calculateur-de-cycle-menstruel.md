@@ -28,7 +28,7 @@ Avec ça en main, le calculateur fait tourner ses calculs pour estimer les momen
 
 ### Anticiper tes prochaines règles
 
-Le calcul le plus direct, c&#039;est celui de tes prochaines règles. L&#039;algorithme prend la date de début de tes dernières règles et y ajoute la durée moyenne de ton cycle. Un exemple tout simple : si ton cycle dure **29 jours** et que tes dernières règles ont commencé le 1er du mois, il va logiquement prédire que les prochaines arriveront aux alentours du 30. Si tu veux creuser le sujet, tu peux jeter un œil à notre guide qui explique en détail [comment calculer la date de vos prochaines règles](https://moone.app/blog/posts/prochaine-date-des-regles/).
+Le calcul le plus direct, c&#039;est celui de tes prochaines règles. L&#039;algorithme prend la date de début de tes dernières règles et y ajoute la durée moyenne de ton cycle. Un exemple tout simple : si ton cycle dure **29 jours** et que tes dernières règles ont commencé le 1er du mois, il va logiquement prédire que les prochaines arriveront aux alentours du 30. Si tu veux creuser le sujet, tu peux jeter un œil à notre guide qui explique en détail [comment calculer la date de vos prochaines règles](https://getmoone.com/blog/posts/prochaine-date-des-regles/).
 
 Aujourd&#039;hui, anticiper ses règles est devenu un réflexe pour beaucoup. En France, on observe une vraie tendance : près de **30 % des femmes** en âge de procréer utilisent déjà une application de suivi, que ce soit pour ne pas être prises au dépourvu par leurs règles ou pour suivre leur fertilité.
 
@@ -140,7 +140,7 @@ Pour que le **calculateur de cycle menstruel** de Moone te donne des prévisions
 
 Avec ces deux seules informations, l&#039;application est déjà capable de te proposer une première ébauche de ton calendrier. Tu auras ainsi une estimation de tes prochaines règles, de ta période d&#039;ovulation et de ta fenêtre de fertilité.
 
-D&#039;ailleurs, voici un petit aperçu de l&#039;interface claire et simple que tu retrouveras dans [l&#039;application de suivi menstruel Moone](https://moone.app/).
+D&#039;ailleurs, voici un petit aperçu de l&#039;interface claire et simple que tu retrouveras dans [l&#039;application de suivi menstruel Moone](https://getmoone.com/).
 
 <figure class="mb-6">
   
@@ -186,7 +186,7 @@ Tu peux garder une trace de plein de signaux différents :
   - **Ton humeur** : es-tu d&#039;humeur anxieuse, joyeuse, irritable ou plutôt fatiguée ?
   - **Ton énergie** : as-tu l&#039;impression de pouvoir soulever des montagnes ou, au contraire, d&#039;être complètement à plat ?
   - **Tes sensations physiques** : remarques-tu des maux de tête, des ballonnements, de l&#039;acné ou une sensibilité des seins ?
-  - **Tes douleurs** : ressens-tu des crampes légères ou plus intenses ? Pour mieux comprendre ce qu&#039;elles signifient, n&#039;hésite pas à consulter notre article sur les [symptômes des règles douloureuses](https://moone.app/blog/posts/symptomes-regles-douloureuses/).
+  - **Tes douleurs** : ressens-tu des crampes légères ou plus intenses ? Pour mieux comprendre ce qu&#039;elles signifient, n&#039;hésite pas à consulter notre article sur les [symptômes des règles douloureuses](https://getmoone.com/blog/posts/symptomes-regles-douloureuses/).
 
 En enregistrant ces observations, l&#039;algorithme commence à faire des liens. Il pourrait par exemple remarquer que tes maux de tête apparaissent systématiquement autour de l&#039;ovulation, ou que tu as un pic d&#039;énergie juste avant.
 
