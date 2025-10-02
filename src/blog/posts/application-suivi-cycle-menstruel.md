@@ -23,7 +23,7 @@ Ton cycle menstruel ne se résume pas à la semaine des règles. Il est rythmé 
   - **Phase ovulatoire :** Aux alentours de l&#039;ovulation, tu pourrais te sentir plus sociable, pleine de vie et de confiance.
   - **Phase lutéale :** C&#039;est la période juste avant les règles. L&#039;énergie a tendance à baisser, et c&#039;est là que le fameux syndrome prémenstruel (SPM) peut pointer le bout de son nez.
 
-En prenant conscience de ces variations, tu peux commencer à adapter ton quotidien. Par exemple, planifier tes séances de sport les plus exigeantes durant ta phase folliculaire, ou au contraire, prévoir des moments de détente pendant la phase lutéale pour mieux gérer le SPM. Si tu veux aller plus loin, tu peux apprendre [comment calculer son cycle menstruel en ligne](https://moone.app/blog/posts/calculer-son-cycle-menstruel-en-ligne/) pour mieux visualiser ces étapes.
+En prenant conscience de ces variations, tu peux commencer à adapter ton quotidien. Par exemple, planifier tes séances de sport les plus exigeantes durant ta phase folliculaire, ou au contraire, prévoir des moments de détente pendant la phase lutéale pour mieux gérer le SPM. Si tu veux aller plus loin, tu peux apprendre [comment calculer son cycle menstruel en ligne](https://getmoone.com/blog/posts/calculer-son-cycle-menstruel-en-ligne/) pour mieux visualiser ces étapes.
 
 ### Un véritable atout pour ta santé globale
 
@@ -51,7 +51,7 @@ Mais on le sait toutes, peu de cycles sont réglés comme des horloges. C&#039;e
 
 Petit à petit, il commence à repérer les schémas qui te sont propres. L&#039;application ne se contente plus de faire une simple moyenne ; elle apprend de tes variations personnelles pour rendre ses prédictions beaucoup plus justes.
 
-Cette technologie te permet de faire des liens que tu n&#039;aurais peut-être pas faits seule entre tes symptômes et les phases de ton cycle. Tu pourrais, par exemple, te rendre compte que tu as systématiquement un pic d&#039;énergie autour du **10e jour** de ton cycle, ou que tes fringales de chocolat débarquent toujours deux jours avant tes règles. Pour aller plus loin, notre guide sur le [**calculateur de cycle menstruel**](https://moone.app/blog/posts/calculateur-de-cycle-menstruel/) te donnera d&#039;autres clés de compréhension.
+Cette technologie te permet de faire des liens que tu n&#039;aurais peut-être pas faits seule entre tes symptômes et les phases de ton cycle. Tu pourrais, par exemple, te rendre compte que tu as systématiquement un pic d&#039;énergie autour du **10e jour** de ton cycle, ou que tes fringales de chocolat débarquent toujours deux jours avant tes règles. Pour aller plus loin, notre guide sur le [**calculateur de cycle menstruel**](https://getmoone.com/blog/posts/calculateur-de-cycle-menstruel/) te donnera d&#039;autres clés de compréhension.
 
 ### La température basale, l&#039;indicateur clé pour plus de précision
 
@@ -155,7 +155,7 @@ Pense à ces critères comme à une petite check-list de sécurité. Si l&#039;u
 
 Maintenant que tu connais la théorie, passons à la pratique. Avant même de télécharger une application, prends quelques minutes pour faire ta petite enquête. C&#039;est un tout petit investissement de temps pour une grande tranquillité d&#039;esprit.
 
-Commence par jeter un œil aux avis sur l&#039;App Store ou le Play Store, en portant une attention particulière aux commentaires qui parlent de confidentialité. Ensuite, visite le site web de l&#039;application. Si la politique de confidentialité est introuvable ou difficile d&#039;accès, méfiance. Pour voir à quoi ressemble un document clair et honnête, tu peux par exemple consulter la [politique de confidentialité de Moone](https://moone.app/PrivacyPolicy/), qui détaille ses engagements pour la sécurité de tes données.
+Commence par jeter un œil aux avis sur l&#039;App Store ou le Play Store, en portant une attention particulière aux commentaires qui parlent de confidentialité. Ensuite, visite le site web de l&#039;application. Si la politique de confidentialité est introuvable ou difficile d&#039;accès, méfiance. Pour voir à quoi ressemble un document clair et honnête, tu peux par exemple consulter la [politique de confidentialité de Moone](https://getmoone.com/PrivacyPolicy/), qui détaille ses engagements pour la sécurité de tes données.
 
 Enfin, pose-toi une question toute simple : comment cette application gagne-t-elle de l&#039;argent ? Si elle est gratuite, sans publicité et sans version payante, il est légitime de se demander quel est son modèle économique. Bien souvent, la réponse est simple : le produit, c&#039;est toi. Privilégie les applications avec un modèle clair, comme un abonnement, qui assure que leur seule source de revenus est ta satisfaction, pas la vente de tes données.
 
