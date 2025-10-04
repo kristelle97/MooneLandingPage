@@ -33,7 +33,7 @@ Comprendre ce mécanisme change tout. On ne parle plus d&#039;un &quot;régime&q
 
 Ce lien entre nutrition et symptômes est de plus en plus documenté et reconnu par le monde médical et scientifique. En France, l&#039;endométriose touche environ **2 millions de femmes** en âge d&#039;avoir des enfants. C&#039;est énorme. Face à cette réalité, la recherche s&#039;active pour mieux comprendre les mécanismes en jeu.
 
-Des études scientifiques confirment l&#039;impact positif d&#039;une alimentation de type anti-inflammatoire sur les symptômes de l&#039;endométriose. Adopter cette démarche alimentaire, c&#039;est aussi apprendre à écouter ton corps et à décrypter ses signaux. Les douleurs de règles sont souvent le symptôme le plus parlant, et il est utile de savoir les interpréter. Pour aller plus loin, tu peux lire notre article sur les [symptômes des règles douloureuses](https://moone.app/blog/posts/symptomes-regles-douloureuses/).
+Des études scientifiques confirment l&#039;impact positif d&#039;une alimentation de type anti-inflammatoire sur les symptômes de l&#039;endométriose. Adopter cette démarche alimentaire, c&#039;est aussi apprendre à écouter ton corps et à décrypter ses signaux. Les douleurs de règles sont souvent le symptôme le plus parlant, et il est utile de savoir les interpréter. Pour aller plus loin, tu peux lire notre article sur les [symptômes des règles douloureuses](https://getmoone.com/blog/posts/symptomes-regles-douloureuses/).
 
 En résumé, l&#039;alimentation anti-inflammatoire devient une véritable alliée pour :
 
@@ -175,7 +175,7 @@ Avec ces bases, assembler une salade complète ne prendra pas plus de cinq minut
 
 Les envies de sucre, souvent liées à la fatigue ou aux montagnes russes hormonales, sont redoutables. Plutôt que de les combattre, mieux vaut les anticiper. Aie toujours à portée de main des en-cas sains : une poignée d&#039;amandes, une pomme, quelques carrés de chocolat noir à plus de **70%** de cacao.
 
-L&#039;hydratation, c&#039;est tout aussi essentiel. Boire suffisamment d&#039;eau (**entre 1,5 et 2 litres par jour**) aide le corps à éliminer les toxines. Pour varier, pense aux infusions de gingembre, de camomille ou au thé vert. Ces bonnes habitudes peuvent aussi aider à soulager les crampes, un point que tu peux explorer en lisant nos conseils sur [que faire en cas de douleur menstruelle](https://moone.app/blog/posts/douleur-menstruelle-que-faire/).
+L&#039;hydratation, c&#039;est tout aussi essentiel. Boire suffisamment d&#039;eau (**entre 1,5 et 2 litres par jour**) aide le corps à éliminer les toxines. Pour varier, pense aux infusions de gingembre, de camomille ou au thé vert. Ces bonnes habitudes peuvent aussi aider à soulager les crampes, un point que tu peux explorer en lisant nos conseils sur [que faire en cas de douleur menstruelle](https://getmoone.com/blog/posts/douleur-menstruelle-que-faire/).
 
 En intégrant ces quelques réflexes dans ton quotidien, tu verras que la transition se fera tout en douceur. Tu pourras ainsi commencer à ressentir les bienfaits de cette nouvelle alimentation sur ton bien-être général.
 
@@ -258,7 +258,7 @@ Chaque corps est unique, et ta réaction aux aliments le sera aussi. Les grands 
 
 Note simplement ce que tu manges et, surtout, comment tu te sens après : ton niveau d&#039;énergie, ta digestion, l&#039;intensité des douleurs. Ce réflexe simple t&#039;aidera à repérer tes &quot;aliments gâchettes&quot;, ceux qui, pour toi, semblent systématiquement aggraver les symptômes. C&#039;est une démarche puissante qui te permet de personnaliser ton alimentation bien mieux que n&#039;importe quelle liste générique.
 
-En apprenant à décoder ces signaux, tu comprendras aussi mieux les fluctuations liées à ton cycle. Pour aller plus loin, n&#039;hésite pas à lire notre article qui t&#039;aide à mieux [comprendre votre cycle menstruel](https://moone.app/blog/posts/comprendre-son-cycle-menstruel/).
+En apprenant à décoder ces signaux, tu comprendras aussi mieux les fluctuations liées à ton cycle. Pour aller plus loin, n&#039;hésite pas à lire notre article qui t&#039;aide à mieux [comprendre votre cycle menstruel](https://getmoone.com/blog/posts/comprendre-son-cycle-menstruel/).
 
 ### Sortir et manger dehors sans te prendre la tête
 

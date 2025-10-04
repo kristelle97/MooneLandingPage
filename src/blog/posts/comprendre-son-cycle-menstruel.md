@@ -186,7 +186,7 @@ Pense à noter quotidiennement, si possible :
   - **La qualité de ton sommeil** : As-tu bien dormi ? As-tu eu des réveils nocturnes ?
   - **Tes envies alimentaires** : Des fringales de sucre, de sel, de gras ?
 
-Au bout de trois mois seulement, tu commenceras à voir des schémas très clairs se dessiner. Cette connaissance, c&#039;est un véritable cadeau que tu te fais : celui d&#039;anticiper tes besoins et de vivre enfin en harmonie avec ton corps, plutôt que de lutter contre lui. Pour affiner encore tes prédictions, découvre comment un [calculateur de cycle menstruel](https://moone.app/blog/posts/calculateur-de-cycle-menstruel/) peut t&#039;aider.
+Au bout de trois mois seulement, tu commenceras à voir des schémas très clairs se dessiner. Cette connaissance, c&#039;est un véritable cadeau que tu te fais : celui d&#039;anticiper tes besoins et de vivre enfin en harmonie avec ton corps, plutôt que de lutter contre lui. Pour affiner encore tes prédictions, découvre comment un [calculateur de cycle menstruel](https://getmoone.com/blog/posts/calculateur-de-cycle-menstruel/) peut t&#039;aider.
 
 ## Vivre en harmonie avec son rythme intérieur
 
