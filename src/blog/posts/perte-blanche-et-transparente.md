@@ -74,7 +74,7 @@ Imagine ton cycle comme une histoire en plusieurs chapitres, avec une hormone qu
   - **À l&#039;approche de l&#039;ovulation :** C&#039;est là que tout s&#039;accélère ! Les œstrogènes grimpent en flèche pour préparer ton corps à une éventuelle fécondation. C&#039;est cette hormone qui signale à ton col de l&#039;utérus de produire plus de glaire cervicale.
   - **Après l&#039;ovulation (phase lutéale) :** La progestérone prend le relais. Son rôle ? Préparer l&#039;utérus pour une potentielle grossesse. Sous son influence, la texture des pertes change du tout au tout.
 
-Saisir cette chorégraphie hormonale est la première étape pour vraiment interpréter ce que tes pertes te disent. C&#039;est la clé pour savoir précisément où tu en es dans ton cycle. Pour creuser le sujet, n&#039;hésite pas à consulter notre guide complet pour [mieux comprendre ton cycle menstruel](https://moone.app/blog/posts/comprendre-son-cycle-menstruel/), qui détaille chaque phase.
+Saisir cette chorégraphie hormonale est la première étape pour vraiment interpréter ce que tes pertes te disent. C&#039;est la clé pour savoir précisément où tu en es dans ton cycle. Pour creuser le sujet, n&#039;hésite pas à consulter notre guide complet pour [mieux comprendre ton cycle menstruel](https://getmoone.com/blog/posts/comprendre-son-cycle-menstruel/), qui détaille chaque phase.
 
 L&#039;infographie ci-dessous montre bien comment le pic d&#039;œstrogènes pendant la phase ovulatoire déclenche cette augmentation des sécrétions, faisant de la perte blanche et transparente un indicateur de santé essentiel.
 
@@ -146,7 +146,7 @@ Ce changement peut s&#039;accompagner de certains inconforts, qu&#039;il est uti
   - **Un inconfort ou des douleurs :** Cette sécheresse peut rendre les rapports sexuels moins agréables, voire douloureux.
   - **Une sensibilité accrue aux infections :** L&#039;écosystème vaginal se modifie, ce qui peut le fragiliser un peu.
 
-Sache qu&#039;adapter ton alimentation peut parfois aider à traverser les périodes de fluctuations hormonales. Pour piocher quelques idées, notre article sur [l&#039;alimentation anti-inflammatoire et l&#039;endométriose](https://moone.app/blog/posts/endometriose-alimentation-anti-inflammatoire/) regorge de principes qui peuvent être bénéfiques pour l&#039;équilibre général. Et heureusement, il existe de nombreuses solutions pour soulager la sécheresse : hydratants vaginaux, lubrifiants, ou encore traitements hormonaux locaux. N&#039;hésite jamais à en discuter avec ton professionnel de santé.
+Sache qu&#039;adapter ton alimentation peut parfois aider à traverser les périodes de fluctuations hormonales. Pour piocher quelques idées, notre article sur [l&#039;alimentation anti-inflammatoire et l&#039;endométriose](https://getmoone.com/blog/posts/endometriose-alimentation-anti-inflammatoire/) regorge de principes qui peuvent être bénéfiques pour l&#039;équilibre général. Et heureusement, il existe de nombreuses solutions pour soulager la sécheresse : hydratants vaginaux, lubrifiants, ou encore traitements hormonaux locaux. N&#039;hésite jamais à en discuter avec ton professionnel de santé.
 
 ## Savoir reconnaître les signaux d&#039;alerte
 
@@ -189,7 +189,7 @@ Voici les sensations qui doivent t&#039;inciter à la vigilance :
   - Des **douleurs pendant les rapports sexuels**, alors que tu n&#039;en avais pas avant.
   - Des **douleurs pelviennes ou dans le bas du ventre**, qui peuvent indiquer que l&#039;infection s&#039;étend.
 
-Si tu ressens ce genre de douleurs, il est toujours utile de comprendre d&#039;où elles peuvent venir. Notre article sur les [symptômes des règles douloureuses](https://moone.app/blog/posts/symptomes-regles-douloureuses/) peut t&#039;apporter des éclaircissements sur les douleurs pelviennes en général.
+Si tu ressens ce genre de douleurs, il est toujours utile de comprendre d&#039;où elles peuvent venir. Notre article sur les [symptômes des règles douloureuses](https://getmoone.com/blog/posts/symptomes-regles-douloureuses/) peut t&#039;apporter des éclaircissements sur les douleurs pelviennes en général.
 
 L&#039;association de pertes anormales et d&#039;un ou plusieurs de ces symptômes justifie sans hésiter une consultation.
 
