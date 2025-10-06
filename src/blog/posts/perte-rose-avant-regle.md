@@ -55,7 +55,7 @@ Mais d&#039;autres éléments peuvent venir jouer leur partition et perturber ce
   - **Un changement de contraception** : Commencer ou arrêter une pilule, ou encore se faire poser un stérilet hormonal, c&#039;est un peu comme changer de cheffe d&#039;orchestre. Le temps que ton corps s&#039;habitue à la nouvelle mélodie hormonale, un peu de spotting est tout à fait courant.
   - **Le spotting d&#039;ovulation** : Il arrive aussi qu&#039;un léger saignement survienne au moment de l&#039;ovulation, en plein milieu du cycle. Si tes cycles ne sont pas très réguliers, il est facile de le confondre avec un spotting qui annonce les règles.
 
-Il est bon de te rappeler que tes sécrétions changent de couleur et de texture tout au long de ton cycle, et c&#039;sest normal. Pour décrypter les autres messages de ton corps, n&#039;hésite pas à jeter un œil à notre guide sur [les pertes blanches et transparentes](https://moone.app/blog/posts/perte-blanche-et-transparente/). Mieux comprendre ces variations, c&#039;est un super pouvoir pour être à l&#039;écoute de toi-même.
+Il est bon de te rappeler que tes sécrétions changent de couleur et de texture tout au long de ton cycle, et c&#039;sest normal. Pour décrypter les autres messages de ton corps, n&#039;hésite pas à jeter un œil à notre guide sur [les pertes blanches et transparentes](https://getmoone.com/blog/posts/perte-blanche-et-transparente/). Mieux comprendre ces variations, c&#039;est un super pouvoir pour être à l&#039;écoute de toi-même.
 
 ## Est-ce que ça pourrait être un signe de grossesse ?
 
@@ -155,7 +155,7 @@ En compilant ces informations mois après mois, tu vas vite voir des schémas se
 
 Cette connaissance intime de ton fonctionnement t&#039;apporte un double avantage. D&#039;un côté, tu seras beaucoup plus sereine face à un spotting que tu reconnais comme étant habituel pour toi. De l&#039;autre, si quelque chose change, tu le remarqueras tout de suite.
 
-Ces notes précises seront aussi extrêmement précieuses lors d&#039;une consultation, permettant à ton médecin ou ta sage-femme de comprendre ton historique en un clin d&#039;œil. Pour aller plus loin, notre guide pour [comprendre ton cycle menstruel](https://moone.app/blog/posts/comprendre-son-cycle-menstruel/) te donnera toutes les clés.
+Ces notes précises seront aussi extrêmement précieuses lors d&#039;une consultation, permettant à ton médecin ou ta sage-femme de comprendre ton historique en un clin d&#039;œil. Pour aller plus loin, notre guide pour [comprendre ton cycle menstruel](https://getmoone.com/blog/posts/comprendre-son-cycle-menstruel/) te donnera toutes les clés.
 
 ## Les questions que tu te poses sur les pertes rosées
 
@@ -179,6 +179,6 @@ C&#039;est fort possible. C&#039;est même l&#039;un des effets secondaires les 
 
 Cette muqueuse, devenue plus fine, peut être un peu plus fragile et provoquer de petits saignements irréguliers. Ils se manifestent souvent sous forme de spotting rosé ou marron. C&#039;est généralement le signe que ton corps est en pleine phase d&#039;adaptation.
 
-Si ces saignements te semblent trop importants ou qu&#039;ils continuent bien après cette période d&#039;adaptation, n&#039;hésite surtout pas à en discuter lors de ton rendez-vous de contrôle. Pour mieux anticiper et suivre ces phénomènes, tu peux d&#039;ailleurs apprendre à [calculer votre cycle menstruel en ligne](https://moone.app/blog/posts/calculer-son-cycle-menstruel-en-ligne/) et y noter précisément l&#039;apparition de chaque symptôme.
+Si ces saignements te semblent trop importants ou qu&#039;ils continuent bien après cette période d&#039;adaptation, n&#039;hésite surtout pas à en discuter lors de ton rendez-vous de contrôle. Pour mieux anticiper et suivre ces phénomènes, tu peux d&#039;ailleurs apprendre à [calculer votre cycle menstruel en ligne](https://getmoone.com/blog/posts/calculer-son-cycle-menstruel-en-ligne/) et y noter précisément l&#039;apparition de chaque symptôme.
 
 Apprendre à décoder les signaux de ton corps est la première étape pour vivre ton cycle avec plus de sérénité. Chez **Moone**, nous avons justement conçu une application pour t&#039;aider à suivre tes symptômes au quotidien, à repérer tes propres schémas et à trouver des solutions personnalisées pour apaiser tes douleurs de règles. Télécharge Moone et commence à mieux comprendre ton corps dès aujourd&#039;hui sur [getmoone.com](https://getmoone.com/).
