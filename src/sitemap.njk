@@ -5,28 +5,28 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>{{ site.url or 'https://moone.app' }}/</loc>
+    <loc>{{ site.url or 'https://getmoone.com' }}/</loc>
     <lastmod>{{ "now" | date("YYYY-MM-DD") }}</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>{{ site.url or 'https://moone.app' }}/blog/</loc>
+    <loc>{{ site.url or 'https://getmoone.com' }}/blog/</loc>
     <lastmod>{{ "now" | date("YYYY-MM-DD") }}</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>{{ site.url or 'https://moone.app' }}/PrivacyPolicy/</loc>
+    <loc>{{ site.url or 'https://getmoone.com' }}/PrivacyPolicy/</loc>
     <lastmod>{{ "now" | date("YYYY-MM-DD") }}</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>{{ site.url or 'https://moone.app' }}/TermsandConditions/</loc>
+    <loc>{{ site.url or 'https://getmoone.com' }}/TermsandConditions/</loc>
     <lastmod>{{ "now" | date("YYYY-MM-DD") }}</lastmod>
     <priority>0.5</priority>
   </url>
   {%- for post in collections.posts %}
   <url>
-    <loc>{{ site.url or 'https://moone.app' }}{{ post.url }}</loc>
+    <loc>{{ site.url or 'https://getmoone.com' }}{{ post.url }}</loc>
     <lastmod>{{ post.date | date("YYYY-MM-DD") }}</lastmod>
   </url>
   {%- endfor %}
