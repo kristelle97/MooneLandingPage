@@ -1,5 +1,5 @@
 {
-  "last_sync": "2025-10-29T09:02:41.596Z",
+  "last_sync": "2025-10-30T09:02:19.675Z",
   "articles": {
     "Calculer son cycle menstruel en ligne facilement et rapidement_2025-09-28": {
       "title": "Calculer son cycle menstruel en ligne facilement et rapidement",
@@ -264,6 +264,22 @@
       "meta_description": "Crampe au ventre que faire ? Découvrez nos conseils pratiques et remèdes naturels pour apaiser la douleur abdominale et retrouver votre confort.",
       "notion_id": "29a27d4c-1901-8190-b40c-c9ad7a17f765",
       "created_at": "2025-10-29T09:02:41.596Z"
+    },
+    "Cycle règles calcul : le guide simple pour mieux te comprendre_2025-10-30": {
+      "title": "Cycle règles calcul : le guide simple pour mieux te comprendre",
+      "slug": "cycle-regles-calcul",
+      "publish_date": "2025-10-30",
+      "meta_description": "Notre guide sur le cycle règles calcul vous aide à décoder ses phases, anticiper vos règles et identifier les signes importants pour votre santé.",
+      "notion_id": "29c27d4c-1901-81d7-92f7-cbbd240b2b8f",
+      "created_at": "2025-10-30T09:02:16.365Z"
+    },
+    "Comment soulager tes douleurs de règles : astuces efficaces_2025-10-29": {
+      "title": "Comment soulager tes douleurs de règles : astuces efficaces",
+      "slug": "comment-soulager-douleur-regles",
+      "publish_date": "2025-10-29",
+      "meta_description": "Découvrez comment soulager douleur règles: des remèdes simples et naturels pour un cycle plus apaisé.",
+      "notion_id": "29b27d4c-1901-81f4-bd0b-fa8c5a9797ad",
+      "created_at": "2025-10-30T09:02:19.675Z"
     }
   }
 }
