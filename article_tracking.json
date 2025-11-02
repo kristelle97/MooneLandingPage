@@ -1,5 +1,5 @@
 {
-  "last_sync": "2025-10-31T09:02:20.711Z",
+  "last_sync": "2025-11-02T09:01:55.923Z",
   "articles": {
     "Calculer son cycle menstruel en ligne facilement et rapidement_2025-09-28": {
       "title": "Calculer son cycle menstruel en ligne facilement et rapidement",
@@ -288,6 +288,14 @@
       "meta_description": "La grosse fatigue avant les règles t'épuise ? Découvre pourquoi et apprends des stratégies concrètes pour retrouver ton énergie et mieux vivre ton cycle.",
       "notion_id": "29d27d4c-1901-81f3-999f-d8d98c4e8499",
       "created_at": "2025-10-31T09:02:20.711Z"
+    },
+    "Maux de tête avant les règles : causes et solutions pour agir_2025-11-01": {
+      "title": "Maux de tête avant les règles : causes et solutions pour agir",
+      "slug": "maux-de-tete-avant-regles",
+      "publish_date": "2025-11-01",
+      "meta_description": "Découvre les causes des maux de tête avant règles et des solutions simples pour soulager la douleur et profiter pleinement de ton cycle.",
+      "notion_id": "29e27d4c-1901-8158-a6a0-d70dcd359796",
+      "created_at": "2025-11-02T09:01:55.923Z"
     }
   }
 }
