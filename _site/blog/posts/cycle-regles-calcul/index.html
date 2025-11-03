@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cycle règles calcul : le guide simple pour mieux te comprendre</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-2ZSVEQDDT1');
+    </script>
+
+    <!-- Cookie Banner Script -->
+    <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/bcb8f2d8f394d9e54bf16bef90ad28b4.js"></script>
+
+    <!-- Crisp Chat Widget -->
+    <script type="text/javascript">
+        window.$crisp=[];
+        window.CRISP_WEBSITE_ID="c638e7df-d51a-4454-8b59-69d62961774d";
+        (function(){
+            d=document;
+            s=d.createElement("script");
+            s.src="https://client.crisp.chat/l.js";
+            s.async=1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
+    </script>
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 py-4 transition-all duration-300 ease-in-out glass-nav">
+    <div class="container mx-auto px-6 flex justify-between items-center max-w-6xl">
+        <div class="flex items-center gap-3">
+            <picture>
+                <source srcset="/img/optimized/moon.webp" type="image/webp">
+                <img src="/img/moon/moon.png" alt="Moone Logo" class="h-10 w-10" width="40" height="40">
+            </picture>
+            <div class="w-20 text-moone-purple">
+                <svg viewBox="0 0 8853 1590" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M294.219 1581C204.219 1581 132.219 1555 78.2188 1503C26.2188 1449 0.218756 1383 0.218756 1305V312C0.218756 228 25.2188 157 75.2188 98.9999C127.219 41 200.219 12 294.219 12C386.219 12 455.219 41 501.219 98.9999C547.219 157 570.219 230 570.219 318V468H624.219C624.219 298 660.219 180 732.219 114C804.219 46 893.219 12 999.219 12C1135.22 12 1235.22 54 1299.22 138C1363.22 222 1395.22 332 1395.22 468H1449.22C1449.22 354 1468.22 264 1506.22 198C1544.22 132 1592.22 84.9999 1650.22 57C1710.22 27 1772.22 12 1836.22 12C1966.22 12 2061.22 43 2121.22 105C2183.22 167 2223.22 250 2241.22 354C2259.22 458 2268.22 575 2268.22 705V1305C2268.22 1383 2241.22 1449 2187.22 1503C2135.22 1555 2065.22 1581 1977.22 1581C1889.22 1581 1818.22 1555 1764.22 1503C1710.22 1449 1683.22 1383 1683.22 1305V774C1683.22 702 1674.22 646 1656.22 606C1638.22 566 1602.22 546 1548.22 546C1490.22 546 1452.22 568 1434.22 612C1418.22 656 1410.22 712 1410.22 780V1305C1410.22 1383 1385.22 1449 1335.22 1503C1285.22 1555 1216.22 1581 1128.22 1581C1038.22 1581 966.219 1555 912.219 1503C860.219 1449 834.219 1383 834.219 1305V774C834.219 702 825.219 646 807.219 606C789.219 566 754.219 546 702.219 546C644.219 546 607.219 568 591.219 612C577.219 656 570.219 712 570.219 780V1305C570.219 1383 546.219 1449 498.219 1503C450.219 1555 382.219 1581 294.219 1581ZM3179.35 1587C2945.35 1587 2758.35 1518 2618.35 1380C2480.35 1240 2411.35 1043 2411.35 789C2411.35 633 2443.35 496 2507.35 378C2571.35 260 2660.35 168 2774.35 102C2890.35 33.9999 3025.35 -3.00407e-05 3179.35 -3.00407e-05C3351.35 -3.00407e-05 3494.35 33.9999 3608.35 102C3722.35 168 3807.35 260 3863.35 378C3921.35 496 3950.35 633 3950.35 789C3950.35 1043 3886.35 1240 3758.35 1380C3632.35 1518 3439.35 1587 3179.35 1587ZM2768.35 738C2768.35 800 2799.35 844 2861.35 870C2923.35 894 3029.35 906 3179.35 906C3329.35 906 3435.35 894 3497.35 870C3559.35 844 3590.35 800 3590.35 738C3590.35 678 3559.35 636 3497.35 612C3435.35 588 3329.35 576 3179.35 576C3029.35 576 2923.35 588 2861.35 612C2799.35 636 2768.35 678 2768.35 738ZM4852.2 1587C4618.2 1587 4431.2 1518 4291.2 1380C4153.2 1240 4084.2 1043 4084.2 789C4084.2 633 4116.2 496 4180.2 378C4244.2 260 4333.2 168 4447.2 102C4563.2 33.9999 4698.2 -3.00407e-05 4852.2 -3.00407e-05C5024.2 -3.00407e-05 5167.2 33.9999 5281.2 102C5395.2 168 5480.2 260 5536.2 378C5594.2 496 5623.2 633 5623.2 789C5623.2 1043 5559.2 1240 5431.2 1380C5305.2 1518 5112.2 1587 4852.2 1587ZM4441.2 738C4441.2 800 4472.2 844 4534.2 870C4596.2 894 4702.2 906 4852.2 906C5002.2 906 5108.2 894 5170.2 870C5232.2 844 5263.2 800 5263.2 738C5263.2 678 5232.2 636 5170.2 612C5108.2 588 5002.2 576 4852.2 576C4702.2 576 4596.2 588 4534.2 612C4472.2 636 4441.2 678 4441.2 738ZM6060.05 1581C5972.05 1581 5901.05 1555 5847.05 1503C5795.05 1449 5769.05 1383 5769.05 1305V312C5769.05 228 5794.05 157 5844.05 98.9999C5894.05 41 5966.05 12 6060.05 12C6152.05 12 6222.05 41 6270.05 98.9999C6318.05 157 6342.05 230 6342.05 318V468H6396.05C6396.05 354 6416.05 264 6456.05 198C6498.05 132 6551.05 84.9999 6615.05 57C6679.05 27 6743.05 12 6807.05 12C6961.05 12 7074.05 68 7146.05 180C7218.05 290 7254.05 447 7254.05 651V1305C7254.05 1383 7228.05 1449 7176.05 1503C7124.05 1555 7054.05 1581 6966.05 1581C6876.05 1581 6804.05 1555 6750.05 1503C6698.05 1449 6672.05 1383 6672.05 1305V774C6672.05 702 6658.05 646 6630.05 606C6604.05 566 6565.05 546 6513.05 546C6453.05 546 6409.05 568 6381.05 612C6355.05 656 6342.05 712 6342.05 780V1305C6342.05 1383 6317.05 1449 6267.05 1503C6217.05 1555 6148.05 1581 6060.05 1581ZM7397.68 801C7397.68 643 7428.68 504 7490.68 384C7554.68 264 7644.68 170 7760.68 102C7878.68 33.9999 8018.68 -3.00407e-05 8180.68 -3.00407e-05C8306.68 -3.00407e-05 8419.68 23 8519.68 69C8621.68 115 8701.68 177 8759.68 255C8817.68 331 8846.68 415 8846.68 507C8846.68 603 8818.68 671 8762.68 711C8706.68 751 8623.68 771 8513.68 771H7883.68C7883.68 823 7903.68 866 7943.68 900C7985.68 934 8055.68 951 8153.68 951C8203.68 951 8249.68 946 8291.68 936C8335.68 926 8379.68 917 8423.68 909C8469.68 899 8520.68 894 8576.68 894C8656.68 894 8722.68 923 8774.68 981C8826.68 1037 8852.68 1115 8852.68 1215C8852.68 1333 8791.68 1425 8669.68 1491C8549.68 1557 8391.68 1590 8195.68 1590C8057.68 1590 7927.68 1563 7805.68 1509C7685.68 1455 7587.68 1370 7511.68 1254C7435.68 1136 7397.68 985 7397.68 801ZM8369.68 672C8399.68 672 8409.68 658 8399.68 630C8391.68 602 8367.68 573 8327.68 543C8287.68 513 8229.68 498 8153.68 498C8065.68 498 7999.68 517 7955.68 555C7913.68 593 7892.68 632 7892.68 672H8369.68Z" fill="currentColor"/>
+                </svg>    
+            </div>        
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center space-x-8">
+            <a href="/#features" class="text-slate-600 hover:text-purple-600 transition-colors font-medium">Fonctionnalités</a>
+            <a href="/#pricing" class="text-slate-600 hover:text-purple-600 transition-colors font-medium">Tarifs</a>
+            <a href="/blog/" class="text-slate-600 hover:text-purple-600 transition-colors font-medium">Blog</a>
+            <!-- iOS Download Button -->
+            <a href="https://apps.apple.com/en/app/moone-period-cycle-tracker/id6739633389" id="desktop-download-btn" class="ios-download-btn bg-gradient-to-r from-purple-600 to-purple-700 text-white px-6 py-2.5 rounded-full font-medium hover:from-purple-700 hover:to-purple-800 transition-all duration-300 shadow-lg hover:shadow-xl">Télécharger</a>
+            <!-- Android Download Button -->
+            <button id="desktop-android-btn" class="android-download-btn bg-gradient-to-r from-purple-600 to-purple-700 text-white px-6 py-2.5 rounded-full font-medium hover:from-purple-700 hover:to-purple-800 transition-all duration-300 shadow-lg hover:shadow-xl hidden">Télécharger</button>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden">
+            <button id="mobile-menu-button" class="text-slate-600 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white/90 backdrop-blur-md border-t border-white/20">
+        <div class="px-6 py-4 space-y-3">
+            <a href="/#features" class="block text-slate-600 hover:text-purple-600 transition-colors font-medium">Fonctionnalités</a>
+            <a href="/#pricing" class="block text-slate-600 hover:text-purple-600 transition-colors font-medium">Tarifs</a>
+            <a href="/blog/" class="block text-slate-600 hover:text-purple-600 transition-colors font-medium">Blog</a>
+            <a href="https://apps.apple.com/en/app/moone-period-cycle-tracker/id6739633389" id="mobile-download-btn" class="inline-block bg-gradient-to-r from-purple-600 to-purple-700 text-white px-6 py-2.5 rounded-full font-medium hover:from-purple-700 hover:to-purple-800 transition-all duration-300 shadow-lg">Télécharger</a>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function detectMobileOS() {
+        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        
+        // iOS detection
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            return 'iOS';
+        }
+        
+        // Android detection
+        if (/android/i.test(userAgent)) {
+            return 'Android';
+        }
+        
+        // Default to desktop
+        return 'desktop';
+    }
+
+    // Call this function when the page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        setupDownloadButtons();
+        setupMobileMenu();
+    });
+
+    function setupDownloadButtons() {
+        const os = detectMobileOS();
+        const iosButtons = document.querySelectorAll('.ios-download-btn');
+        const androidButtons = document.querySelectorAll('.android-download-btn');
+        
+        if (os === 'Android') {
+            // Show Android buttons, hide iOS buttons
+            iosButtons.forEach(btn => btn.classList.add('hidden'));
+            androidButtons.forEach(btn => {
+                btn.classList.remove('hidden');
+                btn.addEventListener('click', function() {
+                    const modal = document.getElementById('google-play-modal');
+                    if (modal) {
+                        modal.classList.remove('hidden');
+                        document.body.style.overflow = 'hidden';
+                    }
+                });
+            });
+        } else {
+            // For iOS and desktop, show iOS buttons, hide Android buttons
+            androidButtons.forEach(btn => btn.classList.add('hidden'));
+            iosButtons.forEach(btn => btn.classList.remove('hidden'));
+        }
+    }
+
+    function setupMobileMenu() {
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileMenuIcon = mobileMenuButton?.querySelector('svg');
+
+        // Toggle Mobile Menu
+        if (mobileMenuButton && mobileMenu) {
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+                if (mobileMenuIcon) {
+                    if (mobileMenu.classList.contains('hidden')) {
+                        mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`;
+                    } else {
+                        mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>`;
+                    }
+                }
+            });
+        }
+
+        // Close mobile menu when a link is clicked
+        if (mobileMenu) {
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                    if (mobileMenuIcon) {
+                        mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`;
+                    }
+                });
+            });
+        }
+    }
+</script>
+
+<style>
+    .glass-nav {
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+</style>
+
+    <main class="flex-grow">
+        
+<article class="pt-32 pb-20">
+    <div class="container mx-auto px-4 md:px-6">
+        <header class="mb-8">
+            <h1 class="text-4xl font-bold mb-4 text-gray-800">Cycle règles calcul : le guide simple pour mieux te comprendre</h1>
+            <div class="text-gray-500">October 30, 2025</div>
+        </header>
+
+        
+        
+        <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-b1013f8f-240e-4c84-bab1-e99fecffe7a4.jpg" 
+             alt="Cycle règles calcul : le guide simple pour mieux te comprendre" 
+             class="w-full h-64 object-cover rounded-xl mb-8"
+             loading="lazy"
+             decoding="async">
+        
+
+        <div class="prose prose-purple max-w-none">
+            <p>Pour faire le <strong>calcul du cycle de tes règles</strong>, la méthode est simple : note le premier jour de tes règles (c'est le jour 1) et compte tous les jours jusqu'à la veille de tes prochaines menstruations. En répétant l'exercice sur plusieurs mois, tu obtiendras une moyenne fiable qui te donnera une bien meilleure idée de ton rythme personnel. C'est le point de départ pour apprendre à décoder les signaux que t'envoie ton corps.</p>
+<h2>Pourquoi c’est si important de connaître son cycle menstruel ?</h2>
+<p>Plongeons un peu dans l'univers de ton cycle menstruel. Beaucoup le voient comme une simple contrainte mensuelle, mais je t'assure, comprendre comment il fonctionne est une compétence précieuse pour ton bien-être général. Il ne s'agit pas seulement de deviner quand tes prochaines règles vont débarquer.</p>
+<figure class="mb-6">
+<p><img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/66c8bd53-e8bd-4377-b207-55f2f10e9608.jpg" alt="alt"></p>
+</figure>
+<p>Savoir calculer ton cycle, c'est avant tout un outil puissant pour mieux te connaître. Ça te donne le pouvoir de planifier ta vie avec plus de sérénité, que ce soit pour organiser un voyage, anticiper un événement important ou, bien sûr, si tu as un projet bébé.</p>
+<h3>Un véritable atout pour ta santé et ton bien-être</h3>
+<p>Plus important encore, un suivi régulier te permet de détecter rapidement le moindre changement qui pourrait indiquer un déséquilibre. Un cycle qui s'allonge d'un coup, des symptômes qui s'intensifient... ce sont des informations précieuses à ne pas négliger.</p>
+<p>Ce suivi a un impact direct sur ta santé, tant physique que mentale. En transformant de simples dates en données concrètes sur ton corps, tu commenceras à faire des liens entre les phases de ton cycle et ton niveau d'énergie, ton humeur ou même l'état de ta peau.</p>
+<p>Concrètement, voici quelques avantages à suivre ton cycle de près :</p>
+<ul>
+<li><strong>Anticiper les symptômes prémenstruels</strong> (SPM) pour mieux les apprivoiser et les gérer.</li>
+<li><strong>Identifier ta fenêtre de fertilité</strong> avec beaucoup plus de précision.</li>
+<li><strong>Adapter ton quotidien</strong> (sport, alimentation, repos) à chaque phase pour te sentir au top.</li>
+<li><strong>Avoir des informations claires</strong> à communiquer à un professionnel de santé si tu en ressens le besoin.</li>
+</ul>
+<p>L'objectif final est simple : te donner les clés pour que la connaissance de ton cycle devienne une véritable alliée au quotidien. C'est une démarche proactive pour prendre soin de toi de manière plus consciente et vraiment personnalisée.</p>
+<h2>La méthode simple pour calculer ton cycle</h2>
+<p>Alors, concrètement, comment on s'y prend pour calculer la durée de son cycle ? L'expression « calculer son cycle menstruel » peut sembler un peu intimidante, mais promis, c'est beaucoup plus simple qu'il n'y paraît. Il suffit juste d'un peu de régularité.</p>
+<p>Tout part d'un point de repère essentiel : le premier jour de tes règles est <strong>le Jour 1</strong> de ton cycle. C'est la seule date que tu as besoin de noter chaque mois pour commencer. Peu importe que le flux soit léger, si c'est le début des saignements, c'est ton Jour 1.</p>
+<h3>Noter et compter pour y voir plus clair</h3>
+<p>Une fois que tu as identifié ce premier jour, le calcul est un jeu d'enfant. Il te suffit de compter le nombre de jours qui s'écoulent à partir de ce Jour 1 jusqu'à la veille de tes prochaines règles. Le jour où tes nouvelles règles arrivent, hop, c'est le début d'un nouveau cycle.</p>
+<p>Prenons un exemple pour que ce soit limpide :</p>
+<ul>
+<li>Tes règles commencent le <strong>5 janvier</strong>. C'est donc le <strong>Jour 1</strong> de ton cycle.</li>
+<li>Tes règles suivantes arrivent le <strong>3 février</strong>.</li>
+</ul>
+<p>Pour calculer la durée du cycle qui a commencé en janvier, tu comptes tous les jours du 5 janvier (inclus) jusqu'au 2 février (la veille des règles suivantes). Dans cet exemple, ton cycle a duré <strong>29 jours</strong>. Voilà, c'est tout !</p>
+<p>Pour t'aider à visualiser, voici comment tu pourrais organiser tes notes sur plusieurs mois.</p>
+<h3>Exemple concret pour calculer la durée de ton cycle</h3>
+<p>Ce tableau illustre comment noter les dates de tes règles sur plusieurs mois afin de calculer la durée de chaque cycle et d'établir une moyenne.</p>
+<table>
+<thead>
+<tr>
+<th>Mois</th>
+<th>Date du Jour 1 des règles</th>
+<th>Date du Jour 1 du cycle suivant</th>
+<th>Durée du cycle (en jours)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Janvier</td>
+<td>5 janvier</td>
+<td>3 février</td>
+<td>29</td>
+</tr>
+<tr>
+<td>Février</td>
+<td>3 février</td>
+<td>4 mars</td>
+<td>29</td>
+</tr>
+<tr>
+<td>Mars</td>
+<td>4 mars</td>
+<td>1er avril</td>
+<td>28</td>
+</tr>
+<tr>
+<td>Avril</td>
+<td>1er avril</td>
+<td>30 avril</td>
+<td>29</td>
+</tr>
+</tbody>
+</table>
+<p>Après avoir suivi tes cycles sur quelques mois comme ici, tu peux calculer ta durée moyenne. Pour notre exemple : (29 + 29 + 28 + 29) / 4 = <strong>28,75 jours</strong>. On peut arrondir à <strong>29 jours</strong> pour avoir une idée claire de ton rythme.</p>
+<h3>L'importance d'être régulière dans ton suivi</h3>
+<p>Pour que ce calcul soit fiable, la seule vraie contrainte est la constance. Heureusement, tu as l'embarras du choix pour noter ces informations. L'essentiel est de trouver l'outil qui te convient le mieux, celui que tu n'oublieras pas d'utiliser.</p>
+<ul>
+<li><strong>Le bon vieux carnet :</strong> Un simple agenda ou un joli carnet dédié peut tout à fait faire l'affaire. C'est classique, mais ça marche.</li>
+<li><strong>Le calendrier du téléphone :</strong> Discret et toujours à portée de main. Tu peux y noter « Jour 1 » ou créer un événement pour chaque début de cycle.</li>
+<li><strong>Une application dédiée :</strong> Des outils comme <a href="https://getmoone.com/">Moone</a> sont parfaits pour ça. Ils te permettent de tout centraliser au même endroit : durée des règles, mais aussi symptômes, humeur, douleurs...</li>
+</ul>
+<p>Peu importe la méthode choisie, le plus important est de t'y tenir. Après quelques mois, tu commenceras à voir se dessiner une véritable carte de ton rythme personnel. C'est la première étape, et la plus importante, pour mieux comprendre les signaux que ton corps t'envoie.</p>
+<h2>Décoder les quatre phases clés de ton cycle</h2>
+<p>Ton cycle, c'est bien plus que la semaine de tes règles. Imagine-le plutôt comme une chorégraphie hormonale complexe qui se déroule en quatre temps. Chaque étape influence directement ton corps, ton niveau d'énergie et même tes émotions. Apprendre à reconnaître ces phases, c'est un peu comme obtenir une carte personnalisée pour naviguer plus sereinement au fil du mois.</p>
+<p>Cette infographie te donne une vue d'ensemble pour visualiser le calcul de ton cycle, du tout premier jour des règles jusqu'au dernier.</p>
+<figure class="mb-6">
+<p><img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/da376847-2b88-4d66-9fad-80b760158683.jpg" alt="alt"></p>
+</figure>
+<p>Elle met bien en évidence l'importance de noter précisément ce point de départ pour pouvoir calculer la durée exacte de ton cycle.</p>
+<h3>Phase 1: La menstruation (Jours 1 à 5, en moyenne)</h3>
+<p>Le jour où tes règles arrivent marque le top départ de ton cycle. À ce moment, tes taux d'œstrogènes et de progestérone sont au plus bas. C'est ce qui explique souvent la baisse de régime, la fatigue et ce besoin de te mettre un peu en retrait.</p>
+<p>C'est vraiment le moment idéal pour ralentir, écouter les signaux de ton corps et privilégier des activités plus douces. Pense-y comme à l'hiver de ton cycle : un temps pour te reposer et recharger les batteries avant un nouveau départ.</p>
+<h3>Phase 2: La phase folliculaire (Jours 1 à 13, environ)</h3>
+<p>Cette phase un peu particulière chevauche tes règles, mais elle continue bien après, jusqu'à l'ovulation. Pendant ce temps, ton cerveau travaille à faire mûrir un ovule dans l'un de tes ovaires.</p>
+<p>Ton taux d'œstrogènes remonte doucement mais sûrement. Résultat ? Tu ressens un regain d'énergie, de créativité et de confiance en toi. C'est souvent la période où l'on se sent le plus dynamique et sociable. Le printemps est là !</p>
+<h3>Phase 3: L'ovulation (Jour 14, en moyenne)</h3>
+<p>Voici le pic de fertilité de ton cycle. C'est le grand moment où l'ovaire libère un ovule mature, prêt à être fécondé. Tes œstrogènes sont alors à leur apogée, ce qui peut expliquer une libido en hausse et une humeur au beau fixe.</p>
+<p>Quelques signes physiques peuvent te mettre la puce à l'oreille : une glaire cervicale plus abondante, transparente et élastique, ou une légère pointe de douleur dans le bas-ventre. L'ovule lui-même n'a une durée de vie que de <strong>12 à 24 heures</strong>, mais attention, les spermatozoïdes peuvent patienter dans ton corps jusqu'à 5 jours ! Pour aller plus loin, notre article pour <a href="https://getmoone.com/blog/posts/comprendre-son-cycle-menstruel/">comprendre son cycle menstruel</a> est une excellente ressource.</p>
+<h3>Phase 4: La phase lutéale (Jours 15 à 28, environ)</h3>
+<p>Une fois l'ovulation passée, ton corps se met à produire de la progestérone. Cette hormone a pour mission de préparer l'utérus à une éventuelle grossesse et a aussi un effet naturellement apaisant.</p>
+<p>S'il n'y a pas eu de fécondation, les niveaux d'hormones chutent brutalement à la fin de cette phase. C'est cette chute qui déclenche les fameux symptômes prémenstruels (SPM) que beaucoup connaissent, puis l'arrivée des prochaines règles. C'est l'automne de ton cycle, une période où l'on a souvent envie de se recentrer sur soi.</p>
+<h2>Comprendre les variations de cycle et quand consulter</h2>
+<div class="mb-6">
+  <iframe src="https://www.youtube.com/embed/lrcjdJ5_n_A" class="w-full h-64 rounded-lg" frameborder="0"></iframe>
+</div>
+<p>Le mythe du cycle parfaitement régulier a la vie dure ! Pourtant, dans la réalité, de légères variations sont non seulement fréquentes, mais tout à fait normales. Il faut te rappeler que ton corps n'est pas une horloge et qu'il réagit à tout ce que tu vis.</p>
+<p>Le stress, un voyage à l'autre bout du monde, un nouveau régime alimentaire ou une session de sport un peu trop intense... voilà autant de facteurs qui peuvent bousculer un peu ton rythme habituel. Un cycle qui s'allonge de deux jours après une semaine de partiels ou qui arrive en avance pendant les vacances n'a rien d'inquiétant. Ce sont simplement des fluctuations qui prouvent que ton corps s'adapte.</p>
+<h3>Savoir reconnaître les variations normales</h3>
+<p>Une variation de quelques jours d'un mois sur l'autre est tout à fait acceptable. Par exemple, si ton cycle dure <strong>27</strong> jours un mois, puis <strong>31</strong> le mois suivant, il n'y a généralement pas de raison de paniquer. L'important, c'est de regarder la tendance sur le long terme plutôt que de t'arrêter sur une seule petite irrégularité. Apprendre à faire la part des choses est essentiel, et cela passe par une meilleure connaissance de la <a href="https://getmoone.com/blog/posts/duree-regle-femme/"><strong>durée des règles chez une femme</strong></a> et de ce qui est habituel pour toi.</p>
+<h3>Les signaux qui doivent t'alerter</h3>
+<p>En revanche, certaines situations méritent une attention particulière. Il est temps de prendre rendez-vous avec un professionnel de santé si tu observes un de ces changements de façon répétée :</p>
+<ul>
+<li><strong>Des cycles très irréguliers</strong> : Si leur durée varie de plus de <strong>sept à neuf jours</strong> d'un mois à l'autre, et ce, sur plusieurs mois d'affilée.</li>
+<li><strong>Des saignements inhabituels</strong> : Avoir des saignements entre les règles (le fameux <em>spotting</em>), ou constater que tes règles deviennent soudainement bien plus abondantes ou, au contraire, quasi inexistantes.</li>
+<li><strong>Une absence de règles</strong> : Si tes règles disparaissent pendant plus de trois mois consécutifs (aménorrhée), en dehors de toute grossesse ou ménopause bien sûr.</li>
+<li><strong>Des douleurs invalidantes</strong> : Les douleurs qui te clouent au lit et t'empêchent de vivre normalement ne sont pas une fatalité à accepter.</li>
+</ul>
+<p>Les règles douloureuses sont d'ailleurs un sujet de plus en plus pris au sérieux. Une proposition de loi récente envisage même de créer un congé menstruel. Il faut dire que pour <strong>48 % des femmes en France</strong>, les douleurs sont une réalité mensuelle, et <strong>20 %</strong> d'entre elles ont déjà dû s'absenter du travail pour cette raison. Tu peux en lire plus sur cette avancée pour la santé féminine sur <a href="http://sante-sur-le-net.com">sante-sur-le-net.com</a>.</p>
+<h2>Les outils et applications pour suivre ton cycle en toute sérénité</h2>
+<p>À l’heure du tout numérique, suivre son cycle menstruel n'a jamais été aussi simple. Fini le temps du calendrier papier sur lequel on cochait les jours (même si cette méthode a fait ses preuves !). Aujourd'hui, tu as accès à une panoplie d'outils modernes qui peuvent vraiment te simplifier la vie.</p>
+<figure class="mb-6">
+<p><img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/a0e08444-affe-47c9-a50a-6bda0079d37c.jpg" alt="alt"></p>
+</figure>
+<p>Les applications de suivi de cycle, par exemple, sont devenues de véritables alliées au quotidien. Elles se chargent des calculs pour toi, affinent leurs prédictions au fil des mois et envoient même des petits rappels pour ne jamais être prise au dépourvu. Pratique, n'est-ce pas ?</p>
+<h3>Comment choisir l'application faite pour toi ?</h3>
+<p>Le marché des applications est immense, et le choix est avant tout une question de préférence personnelle. Pour y voir plus clair, demande-toi ce qui compte le plus pour toi.</p>
+<ul>
+<li><strong>Simplicité ou analyse poussée ?</strong> As-tu juste besoin de noter tes règles, ou veux-tu une app complète pour consigner humeur, symptômes, et bien plus ?</li>
+<li><strong>Confidentialité des données ?</strong> C’est un point crucial. Tes données de santé sont précieuses, alors vérifie que l'application choisie garantit leur sécurité et ne les partage pas.</li>
+<li><strong>Quel est ton objectif ?</strong> Anticiper tes prochaines règles, suivre ta fertilité pour un projet bébé, ou simplement mieux comprendre tes douleurs et variations d'humeur ?</li>
+</ul>
+<p>Ces outils digitaux ont aussi le mérite de contribuer à briser le tabou qui entoure encore les règles. En France, le sujet reste parfois délicat. Une enquête a même montré que <strong>33 %</strong> des Français·es ont déjà été confronté·es à des absences au travail à cause de leurs règles. Utiliser des outils pour mieux comprendre et gérer son cycle est une façon de se réapproprier le sujet et de le normaliser.</p>
+<h3>Et si on allait plus loin que les applications ?</h3>
+<p>Si tu cherches une précision digne d'un horloger, surtout pour détecter l'ovulation, il existe d'autres techniques très efficaces.</p>
+<p>Le <strong>thermomètre basal</strong>, par exemple, est un outil formidable. Il s'agit de prendre ta température chaque matin, à la même heure, avant même de poser le pied par terre. Tu remarqueras alors une légère hausse de température juste après l'ovulation. C'est un signe fiable que ton corps t'envoie.</p>
+<p>Cette méthode, souvent combinée à l'observation de la glaire cervicale (oui, oui !), te donne une compréhension incroyablement fine de ton propre rythme, bien au-delà de ce qu'un algorithme peut estimer. C'est une invitation à écouter et à décoder les messages de ton corps.</p>
+<p>Tu as des questions sur le calcul de ton cycle menstruel ? C'est tout à fait normal ! Démêlons ensemble les interrogations les plus fréquentes pour que tu puisses mieux apprivoiser ton propre rythme.</p>
+<h3>Quelle est la durée d'un cycle &quot;normal&quot; ?</h3>
+<p>On entend partout parler du fameux cycle de <strong>28 jours</strong>, mais en réalité, c'est loin d'être une norme universelle. Un cycle en pleine santé peut tout à fait durer entre <strong>21 et 35 jours</strong>.</p>
+<p>Le plus important n'est pas d'atteindre un chiffre magique, mais plutôt d'observer une certaine régularité qui t'est propre. Une petite variation de quelques jours d'un mois à l'autre est tout à fait commune et ne devrait pas t'alarmer. Ton corps a son propre tempo !</p>
+<h3>Comment estimer ma date d'ovulation avec ce calcul ?</h3>
+<p>Pour les cycles assez réguliers, il y a une petite astuce. L'ovulation se produit généralement <strong>14 jours AVANT</strong> le premier jour de tes prochaines règles. C'est ce qu'on appelle la phase lutéale, et elle a tendance à être la partie la plus stable du cycle.</p>
+<p>Prenons un exemple concret : si tes cycles durent en moyenne 30 jours, tu peux estimer que ton ovulation a lieu autour du 16e jour (30 - 14 = 16).</p>
+<h3>Mon cycle est très irrégulier, comment puis-je le calculer ?</h3>
+<p>Quand les cycles n'en font qu'à leur tête, le simple calcul prédictif perd de sa pertinence. La meilleure stratégie est de devenir une observatrice aguerrie. Note les dates de tes règles sur plusieurs mois, au moins six, pour voir si une tendance se dessine, même large (par exemple, &quot;mes cycles varient entre 26 et 40 jours&quot;).</p>
+<p>Dans ce cas de figure, les signaux de ton corps deviennent tes meilleurs alliés :</p>
+<ul>
+<li><strong>L'évolution de ta glaire cervicale</strong> au fil des semaines.</li>
+<li><strong>Ta température basale</strong>, que tu peux prendre chaque matin avant de te lever.</li>
+<li><strong>La position de ton col de l'utérus</strong>, qui change au cours du cycle.</li>
+</ul>
+<p>Si cette irrégularité est nouvelle, particulièrement prononcée, ou si elle s'accompagne de douleurs, n'hésite jamais à en parler avec ton médecin ou gynécologue pour faire le point.</p>
+<h3>Le calcul du cycle est-il une méthode de contraception ?</h3>
+<p>Absolument pas. Il faut être très claire sur ce point : un simple calcul sur calendrier n'est <strong>PAS une méthode de contraception fiable</strong>. Il ne peut pas prévoir les aléas de la vie (stress, voyage, maladie) qui peuvent facilement décaler une ovulation.</p>
+<p>Les méthodes de contraception naturelles, comme la symptothermie, sont bien plus complexes. Elles demandent un suivi quotidien et rigoureux de plusieurs indicateurs combinés (température, glaire, col). Ne compte jamais uniquement sur un calcul pour éviter une grossesse.</p>
+<p>Pour aller plus loin dans la compréhension de tes douleurs et des signaux que t'envoie ton corps, <strong>Moone</strong> te propose un accompagnement personnalisé. Notre application t'aide à faire le lien entre tes habitudes et tes symptômes pour enfin trouver des stratégies de soulagement qui fonctionnent pour toi. Découvre comment reprendre le contrôle sur <a href="https://getmoone.com/">https://getmoone.com</a>.</p>
+
+        </div>
+    </div>
+</article>
+    </main>
+
+    <script src="/js/nav.js"></script>
+    <footer class="bg-slate-50 border-t border-gray-200/50 py-16">
+    <div class="container mx-auto px-6 max-w-6xl">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+            <div class="flex items-center gap-3">
+                <picture>
+                    <source srcset="/img/optimized/moon.webp" type="image/webp">
+                    <img src="/img/moon/moon.png" alt="Moone Logo" class="h-10 w-10" width="40" height="40">
+                </picture>
+                <div class="w-20 text-moone-purple">
+                    <svg viewBox="0 0 8853 1590" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M294.219 1581C204.219 1581 132.219 1555 78.2188 1503C26.2188 1449 0.218756 1383 0.218756 1305V312C0.218756 228 25.2188 157 75.2188 98.9999C127.219 41 200.219 12 294.219 12C386.219 12 455.219 41 501.219 98.9999C547.219 157 570.219 230 570.219 318V468H624.219C624.219 298 660.219 180 732.219 114C804.219 46 893.219 12 999.219 12C1135.22 12 1235.22 54 1299.22 138C1363.22 222 1395.22 332 1395.22 468H1449.22C1449.22 354 1468.22 264 1506.22 198C1544.22 132 1592.22 84.9999 1650.22 57C1710.22 27 1772.22 12 1836.22 12C1966.22 12 2061.22 43 2121.22 105C2183.22 167 2223.22 250 2241.22 354C2259.22 458 2268.22 575 2268.22 705V1305C2268.22 1383 2241.22 1449 2187.22 1503C2135.22 1555 2065.22 1581 1977.22 1581C1889.22 1581 1818.22 1555 1764.22 1503C1710.22 1449 1683.22 1383 1683.22 1305V774C1683.22 702 1674.22 646 1656.22 606C1638.22 566 1602.22 546 1548.22 546C1490.22 546 1452.22 568 1434.22 612C1418.22 656 1410.22 712 1410.22 780V1305C1410.22 1383 1385.22 1449 1335.22 1503C1285.22 1555 1216.22 1581 1128.22 1581C1038.22 1581 966.219 1555 912.219 1503C860.219 1449 834.219 1383 834.219 1305V774C834.219 702 825.219 646 807.219 606C789.219 566 754.219 546 702.219 546C644.219 546 607.219 568 591.219 612C577.219 656 570.219 712 570.219 780V1305C570.219 1383 546.219 1449 498.219 1503C450.219 1555 382.219 1581 294.219 1581ZM3179.35 1587C2945.35 1587 2758.35 1518 2618.35 1380C2480.35 1240 2411.35 1043 2411.35 789C2411.35 633 2443.35 496 2507.35 378C2571.35 260 2660.35 168 2774.35 102C2890.35 33.9999 3025.35 -3.00407e-05 3179.35 -3.00407e-05C3351.35 -3.00407e-05 3494.35 33.9999 3608.35 102C3722.35 168 3807.35 260 3863.35 378C3921.35 496 3950.35 633 3950.35 789C3950.35 1043 3886.35 1240 3758.35 1380C3632.35 1518 3439.35 1587 3179.35 1587ZM2768.35 738C2768.35 800 2799.35 844 2861.35 870C2923.35 894 3029.35 906 3179.35 906C3329.35 906 3435.35 894 3497.35 870C3559.35 844 3590.35 800 3590.35 738C3590.35 678 3559.35 636 3497.35 612C3435.35 588 3329.35 576 3179.35 576C3029.35 576 2923.35 588 2861.35 612C2799.35 636 2768.35 678 2768.35 738ZM4852.2 1587C4618.2 1587 4431.2 1518 4291.2 1380C4153.2 1240 4084.2 1043 4084.2 789C4084.2 633 4116.2 496 4180.2 378C4244.2 260 4333.2 168 4447.2 102C4563.2 33.9999 4698.2 -3.00407e-05 4852.2 -3.00407e-05C5024.2 -3.00407e-05 5167.2 33.9999 5281.2 102C5395.2 168 5480.2 260 5536.2 378C5594.2 496 5623.2 633 5623.2 789C5623.2 1043 5559.2 1240 5431.2 1380C5305.2 1518 5112.2 1587 4852.2 1587ZM4441.2 738C4441.2 800 4472.2 844 4534.2 870C4596.2 894 4702.2 906 4852.2 906C5002.2 906 5108.2 894 5170.2 870C5232.2 844 5263.2 800 5263.2 738C5263.2 678 5232.2 636 5170.2 612C5108.2 588 5002.2 576 4852.2 576C4702.2 576 4596.2 588 4534.2 612C4472.2 636 4441.2 678 4441.2 738ZM6060.05 1581C5972.05 1581 5901.05 1555 5847.05 1503C5795.05 1449 5769.05 1383 5769.05 1305V312C5769.05 228 5794.05 157 5844.05 98.9999C5894.05 41 5966.05 12 6060.05 12C6152.05 12 6222.05 41 6270.05 98.9999C6318.05 157 6342.05 230 6342.05 318V468H6396.05C6396.05 354 6416.05 264 6456.05 198C6498.05 132 6551.05 84.9999 6615.05 57C6679.05 27 6743.05 12 6807.05 12C6961.05 12 7074.05 68 7146.05 180C7218.05 290 7254.05 447 7254.05 651V1305C7254.05 1383 7228.05 1449 7176.05 1503C7124.05 1555 7054.05 1581 6966.05 1581C6876.05 1581 6804.05 1555 6750.05 1503C6698.05 1449 6672.05 1383 6672.05 1305V774C6672.05 702 6658.05 646 6630.05 606C6604.05 566 6565.05 546 6513.05 546C6453.05 546 6409.05 568 6381.05 612C6355.05 656 6342.05 712 6342.05 780V1305C6342.05 1383 6317.05 1449 6267.05 1503C6217.05 1555 6148.05 1581 6060.05 1581ZM7397.68 801C7397.68 643 7428.68 504 7490.68 384C7554.68 264 7644.68 170 7760.68 102C7878.68 33.9999 8018.68 -3.00407e-05 8180.68 -3.00407e-05C8306.68 -3.00407e-05 8419.68 23 8519.68 69C8621.68 115 8701.68 177 8759.68 255C8817.68 331 8846.68 415 8846.68 507C8846.68 603 8818.68 671 8762.68 711C8706.68 751 8623.68 771 8513.68 771H7883.68C7883.68 823 7903.68 866 7943.68 900C7985.68 934 8055.68 951 8153.68 951C8203.68 951 8249.68 946 8291.68 936C8335.68 926 8379.68 917 8423.68 909C8469.68 899 8520.68 894 8576.68 894C8656.68 894 8722.68 923 8774.68 981C8826.68 1037 8852.68 1115 8852.68 1215C8852.68 1333 8791.68 1425 8669.68 1491C8549.68 1557 8391.68 1590 8195.68 1590C8057.68 1590 7927.68 1563 7805.68 1509C7685.68 1455 7587.68 1370 7511.68 1254C7435.68 1136 7397.68 985 7397.68 801ZM8369.68 672C8399.68 672 8409.68 658 8399.68 630C8391.68 602 8367.68 573 8327.68 543C8287.68 513 8229.68 498 8153.68 498C8065.68 498 7999.68 517 7955.68 555C7913.68 593 7892.68 632 7892.68 672H8369.68Z" fill="currentColor"/>
+                    </svg>    
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row items-start md:items-center gap-6">
+                <a href="/PrivacyPolicy/" class="text-slate-600 hover:text-purple-600 transition-colors">Politique de confidentialité</a>
+                <a href="/TermsandConditions/" class="text-slate-600 hover:text-purple-600 transition-colors">Conditions générales</a>
+            </div>
+        </div>
+        <div class="mt-12 pt-8 border-t border-gray-200/50 text-center space-y-2">
+            <p class="text-slate-600">&copy; 2024 Moone. Tous droits réservés.</p>
+            <p class="text-sm text-slate-500">Moone partage des informations éducatives et des outils de soutien. Ce n'est pas un dispositif médical et ne fournit pas de conseils médicaux.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

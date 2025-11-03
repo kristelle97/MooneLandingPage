@@ -10,15 +10,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'moone-purple': '#a854f7',
-        'moone-aubergine': '#4a2c5a',
-        'moone-aubergine-light': '#6b5b7a',
-        'moone-peach-light': '#fff1ec',
-        'moone-peach':'#f8c3a0'
+        'moone-purple': '#a855f7',
+        'moone-lilac': '#c4b5fd',
+        'moone-lilac-light': '#ddd6fe',
+        'moone-slate': '#475569',
+        'moone-slate-light': '#64748b',
       },
       fontFamily: {
-        'sans': ['Quicksand', 'sans-serif'],
-        'quicksand': ['Quicksand', 'sans-serif'],
+        'sans': ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+        'inter': ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

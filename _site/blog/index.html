@@ -35,33 +35,35 @@
     </script>
 </head>
 <body class="bg-gray-50 flex flex-col min-h-screen">
-    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 py-4 transition-colors duration-300 ease-in-out bg-gray-50">
-    <div class="container mx-auto px-4 flex justify-between items-center">
-        <div class="flex items-center gap-4">
-            <img src="/img/moon/moon.png" alt="Moone Logo" class="h-14">
-            <a href="/">
-                <div class="w-20 text-moone-purple">
-                    <svg viewBox="0 0 8853 1590" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M294.219 1581C204.219 1581 132.219 1555 78.2188 1503C26.2188 1449 0.218756 1383 0.218756 1305V312C0.218756 228 25.2188 157 75.2188 98.9999C127.219 41 200.219 12 294.219 12C386.219 12 455.219 41 501.219 98.9999C547.219 157 570.219 230 570.219 318V468H624.219C624.219 298 660.219 180 732.219 114C804.219 46 893.219 12 999.219 12C1135.22 12 1235.22 54 1299.22 138C1363.22 222 1395.22 332 1395.22 468H1449.22C1449.22 354 1468.22 264 1506.22 198C1544.22 132 1592.22 84.9999 1650.22 57C1710.22 27 1772.22 12 1836.22 12C1966.22 12 2061.22 43 2121.22 105C2183.22 167 2223.22 250 2241.22 354C2259.22 458 2268.22 575 2268.22 705V1305C2268.22 1383 2241.22 1449 2187.22 1503C2135.22 1555 2065.22 1581 1977.22 1581C1889.22 1581 1818.22 1555 1764.22 1503C1710.22 1449 1683.22 1383 1683.22 1305V774C1683.22 702 1674.22 646 1656.22 606C1638.22 566 1602.22 546 1548.22 546C1490.22 546 1452.22 568 1434.22 612C1418.22 656 1410.22 712 1410.22 780V1305C1410.22 1383 1385.22 1449 1335.22 1503C1285.22 1555 1216.22 1581 1128.22 1581C1038.22 1581 966.219 1555 912.219 1503C860.219 1449 834.219 1383 834.219 1305V774C834.219 702 825.219 646 807.219 606C789.219 566 754.219 546 702.219 546C644.219 546 607.219 568 591.219 612C577.219 656 570.219 712 570.219 780V1305C570.219 1383 546.219 1449 498.219 1503C450.219 1555 382.219 1581 294.219 1581ZM3179.35 1587C2945.35 1587 2758.35 1518 2618.35 1380C2480.35 1240 2411.35 1043 2411.35 789C2411.35 633 2443.35 496 2507.35 378C2571.35 260 2660.35 168 2774.35 102C2890.35 33.9999 3025.35 -3.00407e-05 3179.35 -3.00407e-05C3351.35 -3.00407e-05 3494.35 33.9999 3608.35 102C3722.35 168 3807.35 260 3863.35 378C3921.35 496 3950.35 633 3950.35 789C3950.35 1043 3886.35 1240 3758.35 1380C3632.35 1518 3439.35 1587 3179.35 1587ZM2768.35 738C2768.35 800 2799.35 844 2861.35 870C2923.35 894 3029.35 906 3179.35 906C3329.35 906 3435.35 894 3497.35 870C3559.35 844 3590.35 800 3590.35 738C3590.35 678 3559.35 636 3497.35 612C3435.35 588 3329.35 576 3179.35 576C3029.35 576 2923.35 588 2861.35 612C2799.35 636 2768.35 678 2768.35 738ZM4852.2 1587C4618.2 1587 4431.2 1518 4291.2 1380C4153.2 1240 4084.2 1043 4084.2 789C4084.2 633 4116.2 496 4180.2 378C4244.2 260 4333.2 168 4447.2 102C4563.2 33.9999 4698.2 -3.00407e-05 4852.2 -3.00407e-05C5024.2 -3.00407e-05 5167.2 33.9999 5281.2 102C5395.2 168 5480.2 260 5536.2 378C5594.2 496 5623.2 633 5623.2 789C5623.2 1043 5559.2 1240 5431.2 1380C5305.2 1518 5112.2 1587 4852.2 1587ZM4441.2 738C4441.2 800 4472.2 844 4534.2 870C4596.2 894 4702.2 906 4852.2 906C5002.2 906 5108.2 894 5170.2 870C5232.2 844 5263.2 800 5263.2 738C5263.2 678 5232.2 636 5170.2 612C5108.2 588 5002.2 576 4852.2 576C4702.2 576 4596.2 588 4534.2 612C4472.2 636 4441.2 678 4441.2 738ZM6060.05 1581C5972.05 1581 5901.05 1555 5847.05 1503C5795.05 1449 5769.05 1383 5769.05 1305V312C5769.05 228 5794.05 157 5844.05 98.9999C5894.05 41 5966.05 12 6060.05 12C6152.05 12 6222.05 41 6270.05 98.9999C6318.05 157 6342.05 230 6342.05 318V468H6396.05C6396.05 354 6416.05 264 6456.05 198C6498.05 132 6551.05 84.9999 6615.05 57C6679.05 27 6743.05 12 6807.05 12C6961.05 12 7074.05 68 7146.05 180C7218.05 290 7254.05 447 7254.05 651V1305C7254.05 1383 7228.05 1449 7176.05 1503C7124.05 1555 7054.05 1581 6966.05 1581C6876.05 1581 6804.05 1555 6750.05 1503C6698.05 1449 6672.05 1383 6672.05 1305V774C6672.05 702 6658.05 646 6630.05 606C6604.05 566 6565.05 546 6513.05 546C6453.05 546 6409.05 568 6381.05 612C6355.05 656 6342.05 712 6342.05 780V1305C6342.05 1383 6317.05 1449 6267.05 1503C6217.05 1555 6148.05 1581 6060.05 1581ZM7397.68 801C7397.68 643 7428.68 504 7490.68 384C7554.68 264 7644.68 170 7760.68 102C7878.68 33.9999 8018.68 -3.00407e-05 8180.68 -3.00407e-05C8306.68 -3.00407e-05 8419.68 23 8519.68 69C8621.68 115 8701.68 177 8759.68 255C8817.68 331 8846.68 415 8846.68 507C8846.68 603 8818.68 671 8762.68 711C8706.68 751 8623.68 771 8513.68 771H7883.68C7883.68 823 7903.68 866 7943.68 900C7985.68 934 8055.68 951 8153.68 951C8203.68 951 8249.68 946 8291.68 936C8335.68 926 8379.68 917 8423.68 909C8469.68 899 8520.68 894 8576.68 894C8656.68 894 8722.68 923 8774.68 981C8826.68 1037 8852.68 1115 8852.68 1215C8852.68 1333 8791.68 1425 8669.68 1491C8549.68 1557 8391.68 1590 8195.68 1590C8057.68 1590 7927.68 1563 7805.68 1509C7685.68 1455 7587.68 1370 7511.68 1254C7435.68 1136 7397.68 985 7397.68 801ZM8369.68 672C8399.68 672 8409.68 658 8399.68 630C8391.68 602 8367.68 573 8327.68 543C8287.68 513 8229.68 498 8153.68 498C8065.68 498 7999.68 517 7955.68 555C7913.68 593 7892.68 632 7892.68 672H8369.68Z" fill="currentColor"/>
-                    </svg>    
-                </div>
-            </a>
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 py-4 transition-all duration-300 ease-in-out glass-nav">
+    <div class="container mx-auto px-6 flex justify-between items-center max-w-6xl">
+        <div class="flex items-center gap-3">
+            <picture>
+                <source srcset="/img/optimized/moon.webp" type="image/webp">
+                <img src="/img/moon/moon.png" alt="Moone Logo" class="h-10 w-10" width="40" height="40">
+            </picture>
+            <div class="w-20 text-moone-purple">
+                <svg viewBox="0 0 8853 1590" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M294.219 1581C204.219 1581 132.219 1555 78.2188 1503C26.2188 1449 0.218756 1383 0.218756 1305V312C0.218756 228 25.2188 157 75.2188 98.9999C127.219 41 200.219 12 294.219 12C386.219 12 455.219 41 501.219 98.9999C547.219 157 570.219 230 570.219 318V468H624.219C624.219 298 660.219 180 732.219 114C804.219 46 893.219 12 999.219 12C1135.22 12 1235.22 54 1299.22 138C1363.22 222 1395.22 332 1395.22 468H1449.22C1449.22 354 1468.22 264 1506.22 198C1544.22 132 1592.22 84.9999 1650.22 57C1710.22 27 1772.22 12 1836.22 12C1966.22 12 2061.22 43 2121.22 105C2183.22 167 2223.22 250 2241.22 354C2259.22 458 2268.22 575 2268.22 705V1305C2268.22 1383 2241.22 1449 2187.22 1503C2135.22 1555 2065.22 1581 1977.22 1581C1889.22 1581 1818.22 1555 1764.22 1503C1710.22 1449 1683.22 1383 1683.22 1305V774C1683.22 702 1674.22 646 1656.22 606C1638.22 566 1602.22 546 1548.22 546C1490.22 546 1452.22 568 1434.22 612C1418.22 656 1410.22 712 1410.22 780V1305C1410.22 1383 1385.22 1449 1335.22 1503C1285.22 1555 1216.22 1581 1128.22 1581C1038.22 1581 966.219 1555 912.219 1503C860.219 1449 834.219 1383 834.219 1305V774C834.219 702 825.219 646 807.219 606C789.219 566 754.219 546 702.219 546C644.219 546 607.219 568 591.219 612C577.219 656 570.219 712 570.219 780V1305C570.219 1383 546.219 1449 498.219 1503C450.219 1555 382.219 1581 294.219 1581ZM3179.35 1587C2945.35 1587 2758.35 1518 2618.35 1380C2480.35 1240 2411.35 1043 2411.35 789C2411.35 633 2443.35 496 2507.35 378C2571.35 260 2660.35 168 2774.35 102C2890.35 33.9999 3025.35 -3.00407e-05 3179.35 -3.00407e-05C3351.35 -3.00407e-05 3494.35 33.9999 3608.35 102C3722.35 168 3807.35 260 3863.35 378C3921.35 496 3950.35 633 3950.35 789C3950.35 1043 3886.35 1240 3758.35 1380C3632.35 1518 3439.35 1587 3179.35 1587ZM2768.35 738C2768.35 800 2799.35 844 2861.35 870C2923.35 894 3029.35 906 3179.35 906C3329.35 906 3435.35 894 3497.35 870C3559.35 844 3590.35 800 3590.35 738C3590.35 678 3559.35 636 3497.35 612C3435.35 588 3329.35 576 3179.35 576C3029.35 576 2923.35 588 2861.35 612C2799.35 636 2768.35 678 2768.35 738ZM4852.2 1587C4618.2 1587 4431.2 1518 4291.2 1380C4153.2 1240 4084.2 1043 4084.2 789C4084.2 633 4116.2 496 4180.2 378C4244.2 260 4333.2 168 4447.2 102C4563.2 33.9999 4698.2 -3.00407e-05 4852.2 -3.00407e-05C5024.2 -3.00407e-05 5167.2 33.9999 5281.2 102C5395.2 168 5480.2 260 5536.2 378C5594.2 496 5623.2 633 5623.2 789C5623.2 1043 5559.2 1240 5431.2 1380C5305.2 1518 5112.2 1587 4852.2 1587ZM4441.2 738C4441.2 800 4472.2 844 4534.2 870C4596.2 894 4702.2 906 4852.2 906C5002.2 906 5108.2 894 5170.2 870C5232.2 844 5263.2 800 5263.2 738C5263.2 678 5232.2 636 5170.2 612C5108.2 588 5002.2 576 4852.2 576C4702.2 576 4596.2 588 4534.2 612C4472.2 636 4441.2 678 4441.2 738ZM6060.05 1581C5972.05 1581 5901.05 1555 5847.05 1503C5795.05 1449 5769.05 1383 5769.05 1305V312C5769.05 228 5794.05 157 5844.05 98.9999C5894.05 41 5966.05 12 6060.05 12C6152.05 12 6222.05 41 6270.05 98.9999C6318.05 157 6342.05 230 6342.05 318V468H6396.05C6396.05 354 6416.05 264 6456.05 198C6498.05 132 6551.05 84.9999 6615.05 57C6679.05 27 6743.05 12 6807.05 12C6961.05 12 7074.05 68 7146.05 180C7218.05 290 7254.05 447 7254.05 651V1305C7254.05 1383 7228.05 1449 7176.05 1503C7124.05 1555 7054.05 1581 6966.05 1581C6876.05 1581 6804.05 1555 6750.05 1503C6698.05 1449 6672.05 1383 6672.05 1305V774C6672.05 702 6658.05 646 6630.05 606C6604.05 566 6565.05 546 6513.05 546C6453.05 546 6409.05 568 6381.05 612C6355.05 656 6342.05 712 6342.05 780V1305C6342.05 1383 6317.05 1449 6267.05 1503C6217.05 1555 6148.05 1581 6060.05 1581ZM7397.68 801C7397.68 643 7428.68 504 7490.68 384C7554.68 264 7644.68 170 7760.68 102C7878.68 33.9999 8018.68 -3.00407e-05 8180.68 -3.00407e-05C8306.68 -3.00407e-05 8419.68 23 8519.68 69C8621.68 115 8701.68 177 8759.68 255C8817.68 331 8846.68 415 8846.68 507C8846.68 603 8818.68 671 8762.68 711C8706.68 751 8623.68 771 8513.68 771H7883.68C7883.68 823 7903.68 866 7943.68 900C7985.68 934 8055.68 951 8153.68 951C8203.68 951 8249.68 946 8291.68 936C8335.68 926 8379.68 917 8423.68 909C8469.68 899 8520.68 894 8576.68 894C8656.68 894 8722.68 923 8774.68 981C8826.68 1037 8852.68 1115 8852.68 1215C8852.68 1333 8791.68 1425 8669.68 1491C8549.68 1557 8391.68 1590 8195.68 1590C8057.68 1590 7927.68 1563 7805.68 1509C7685.68 1455 7587.68 1370 7511.68 1254C7435.68 1136 7397.68 985 7397.68 801ZM8369.68 672C8399.68 672 8409.68 658 8399.68 630C8391.68 602 8367.68 573 8327.68 543C8287.68 513 8229.68 498 8153.68 498C8065.68 498 7999.68 517 7955.68 555C7913.68 593 7892.68 632 7892.68 672H8369.68Z" fill="currentColor"/>
+                </svg>    
+            </div>        
         </div>
 
         <!-- Desktop Menu -->
         <div class="hidden md:flex items-center space-x-8">
-            <a href="/#how-it-works" class="nav-link text-gray-600 hover:text-moone-purple">How It Works</a>
-            <a href="/blog/" class="nav-link text-gray-600 hover:text-moone-purple">Blog</a>
+            <a href="/#features" class="text-slate-600 hover:text-purple-600 transition-colors font-medium">Fonctionnalités</a>
+            <a href="/#pricing" class="text-slate-600 hover:text-purple-600 transition-colors font-medium">Tarifs</a>
+            <a href="/blog/" class="text-slate-600 hover:text-purple-600 transition-colors font-medium">Blog</a>
             <!-- iOS Download Button -->
-            <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="desktop-download-btn" class="ios-download-btn bg-moone-purple text-white px-6 py-2 rounded-full font-medium hover:bg-purple-700 transition duration-300 ml-4">Download</a>
+            <a href="https://apps.apple.com/en/app/moone-period-cycle-tracker/id6739633389" id="desktop-download-btn" class="ios-download-btn bg-gradient-to-r from-purple-600 to-purple-700 text-white px-6 py-2.5 rounded-full font-medium hover:from-purple-700 hover:to-purple-800 transition-all duration-300 shadow-lg hover:shadow-xl">Télécharger</a>
             <!-- Android Download Button -->
-            <button id="desktop-android-btn" class="android-download-btn bg-moone-purple text-white px-6 py-2 rounded-full font-medium hover:bg-purple-700 transition duration-300 ml-4 hidden">Download</button>
+            <button id="desktop-android-btn" class="android-download-btn bg-gradient-to-r from-purple-600 to-purple-700 text-white px-6 py-2.5 rounded-full font-medium hover:from-purple-700 hover:to-purple-800 transition-all duration-300 shadow-lg hover:shadow-xl hidden">Télécharger</button>
         </div>
 
         <!-- Mobile Menu Button -->
-        <div class="md:hidden flex justify-center gap-4 items-center">
-            <button id="mobile-menu-button" class="text-moone-purple focus:outline-none">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <div class="md:hidden">
+            <button id="mobile-menu-button" class="text-slate-600 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
                 </svg>
             </button>
@@ -69,13 +71,12 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div id="mobile-menu" class="hidden md:hidden bg-gray-50 pb-4 flex-1 justify-end">
-        <div class="flex flex-col items-end pr-4">
-            <a href="/#how-it-works" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">How It Works</a>
-            <a href="/blog/" class="mobile-nav-link block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-moone-purple">Blog</a>
-            <div class="px-4 py-2">
-                <a href="https://apps.apple.com/en/app/moone/id6739633389?l=en-US" id="mobile-download-btn" class="bg-moone-purple text-white px-4 py-2 rounded-full font-medium hover:bg-purple-700">Download</a>
-            </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white/90 backdrop-blur-md border-t border-white/20">
+        <div class="px-6 py-4 space-y-3">
+            <a href="/#features" class="block text-slate-600 hover:text-purple-600 transition-colors font-medium">Fonctionnalités</a>
+            <a href="/#pricing" class="block text-slate-600 hover:text-purple-600 transition-colors font-medium">Tarifs</a>
+            <a href="/blog/" class="block text-slate-600 hover:text-purple-600 transition-colors font-medium">Blog</a>
+            <a href="https://apps.apple.com/en/app/moone-period-cycle-tracker/id6739633389" id="mobile-download-btn" class="inline-block bg-gradient-to-r from-purple-600 to-purple-700 text-white px-6 py-2.5 rounded-full font-medium hover:from-purple-700 hover:to-purple-800 transition-all duration-300 shadow-lg">Télécharger</a>
         </div>
     </div>
 </nav>
@@ -101,6 +102,7 @@
     // Call this function when the page loads
     document.addEventListener('DOMContentLoaded', function() {
         setupDownloadButtons();
+        setupMobileMenu();
     });
 
     function setupDownloadButtons() {
@@ -128,108 +130,45 @@
         }
     }
 
-    const navbar = document.getElementById('navbar');
-    const logoText = navbar?.querySelector('span');
-    // Select desktop nav links using the new class
-    const desktopNavLinks = document.querySelectorAll('.nav-link');
-    // Select desktop download button using ID
-    const desktopDownloadButton = document.getElementById('desktop-download-btn');
-    // Select mobile download button using ID
-    const mobileDownloadButton = document.getElementById('mobile-download-btn');
-    const mobileMenuButton = document.getElementById('mobile-menu-button');
-    const mobileMenu = document.getElementById('mobile-menu');
-    const mobileNavLinks = document.querySelectorAll('.mobile-nav-link'); // Select using class
-    const mobileMenuIcon = mobileMenuButton?.querySelector('svg'); // Get the SVG icon
+    function setupMobileMenu() {
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileMenuIcon = mobileMenuButton?.querySelector('svg');
 
-    // Define classes for a consistent navbar appearance (always white background)
-    const navbarClasses = {
-        nav: ['bg-gray-50'],
-        logo: ['text-moone-purple'],
-        links: ['text-gray-600', 'hover:text-moone-purple'],
-        button: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'],
-        mobileMenuBg: ['bg-gray-50'],
-        mobileLinks: ['text-gray-600', 'hover:bg-gray-100', 'hover:text-moone-purple'],
-        mobileButton: ['bg-moone-purple', 'text-white', 'hover:bg-purple-700'],
-        hamburgerIcon: ['text-moone-purple']
-    };
-
-    function updateNavClasses() {
-        // Always apply the same classes (white background with shadow)
-        if (navbar) navbar.classList.add(...navbarClasses.nav);
-        if (logoText) logoText.classList.add(...navbarClasses.logo);
-        
-        desktopNavLinks.forEach(link => {
-            link.classList.add(...navbarClasses.links);
-        });
-        
-        if (desktopDownloadButton) {
-            desktopDownloadButton.classList.add(...navbarClasses.button);
-        }
-        if (mobileDownloadButton) {
-            mobileDownloadButton.classList.add(...navbarClasses.mobileButton);
-        }
-        if (mobileMenu) mobileMenu.classList.add(...navbarClasses.mobileMenuBg);
-        
-        mobileNavLinks.forEach(link => {
-            link.classList.add(...navbarClasses.mobileLinks);
-        });
-        
-        if (mobileMenuIcon) mobileMenuIcon.classList.add(...navbarClasses.hamburgerIcon);
-    }
-
-    // Toggle Mobile Menu
-    if (mobileMenuButton && mobileMenu) {
-        mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-            if (mobileMenuIcon) {
-                if (mobileMenu.classList.contains('hidden')) {
-                    mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`;
-                } else {
-                    mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>`;
-                }
-            }
-        });
-    }
-
-    // Close mobile menu when a link is clicked
-    if (mobileMenu) {
-        mobileMenu.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                mobileMenu.classList.add('hidden');
+        // Toggle Mobile Menu
+        if (mobileMenuButton && mobileMenu) {
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
                 if (mobileMenuIcon) {
-                    mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`; // Reset icon
+                    if (mobileMenu.classList.contains('hidden')) {
+                        mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`;
+                    } else {
+                        mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>`;
+                    }
                 }
             });
-        });
-    }
+        }
 
-    // Remove the scroll listener since we want consistent styling
-    // The navbar will now always have the white background with shadow
-    
-    // Initial setup - apply the consistent navbar styling
-    updateNavClasses();
+        // Close mobile menu when a link is clicked
+        if (mobileMenu) {
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                    if (mobileMenuIcon) {
+                        mobileMenuIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>`;
+                    }
+                });
+            });
+        }
+    }
 </script>
 
 <style>
-    .site-nav {
-        padding: 1rem 0;
-    }
-
-    .site-nav ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        gap: 2rem;
-    }
-
-    .site-nav a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    .site-nav a:hover {
-        text-decoration: underline;
+    .glass-nav {
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     }
 </style>
 
@@ -240,6 +179,741 @@
         <h1 class="text-4xl font-bold mb-8 text-gray-800">Blog</h1>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-5c57c595-30c6-4fbe-a2c8-80a0b5d62b9e.jpg" 
+                     alt="Douleur ovulation que faire pour un soulagement rapide" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/douleur-ovulation-que-faire/" class="text-moone-purple hover:text-purple-700">Douleur ovulation que faire pour un soulagement rapide</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">November 2, 2025</div>
+                    
+                    <p class="text-gray-600">Douleur ovulation que faire ? Découvre des solutions naturelles et des conseils pratiques pour apaiser la gêne et savoir quand consulter un professionnel.</p>
+                    
+                    <a href="/blog/posts/douleur-ovulation-que-faire/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-d99e571d-5669-4f2d-8aab-0096f9e41f10.jpg" 
+                     alt="Maux de tête avant les règles : causes et solutions pour agir" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/maux-de-tete-avant-regles/" class="text-moone-purple hover:text-purple-700">Maux de tête avant les règles : causes et solutions pour agir</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">November 1, 2025</div>
+                    
+                    <p class="text-gray-600">Découvre les causes des maux de tête avant règles et des solutions simples pour soulager la douleur et profiter pleinement de ton cycle.</p>
+                    
+                    <a href="/blog/posts/maux-de-tete-avant-regles/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-124fa0b7-54f4-4112-91fa-9f7b4fda4b24.jpg" 
+                     alt="Grosse fatigue avant les règles : comment la surmonter" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/grosse-fatigue-avant-les-regles/" class="text-moone-purple hover:text-purple-700">Grosse fatigue avant les règles : comment la surmonter</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 31, 2025</div>
+                    
+                    <p class="text-gray-600">La grosse fatigue avant les règles t&#39;épuise ? Découvre pourquoi et apprends des stratégies concrètes pour retrouver ton énergie et mieux vivre ton cycle.</p>
+                    
+                    <a href="/blog/posts/grosse-fatigue-avant-les-regles/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-b1013f8f-240e-4c84-bab1-e99fecffe7a4.jpg" 
+                     alt="Cycle règles calcul : le guide simple pour mieux te comprendre" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/cycle-regles-calcul/" class="text-moone-purple hover:text-purple-700">Cycle règles calcul : le guide simple pour mieux te comprendre</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 30, 2025</div>
+                    
+                    <p class="text-gray-600">Notre guide sur le cycle règles calcul vous aide à décoder ses phases, anticiper vos règles et identifier les signes importants pour votre santé.</p>
+                    
+                    <a href="/blog/posts/cycle-regles-calcul/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-9f7101dd-76de-446a-841d-511028cc5076.jpg" 
+                     alt="Comment soulager tes douleurs de règles : astuces efficaces" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/comment-soulager-douleur-regles/" class="text-moone-purple hover:text-purple-700">Comment soulager tes douleurs de règles : astuces efficaces</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 29, 2025</div>
+                    
+                    <p class="text-gray-600">Découvrez comment soulager douleur règles: des remèdes simples et naturels pour un cycle plus apaisé.</p>
+                    
+                    <a href="/blog/posts/comment-soulager-douleur-regles/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-8dec29bf-3d3e-4ed2-8d4a-5b84ab23a589.jpg" 
+                     alt="Crampe au ventre que faire pour un soulagement rapide" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/crampe-au-ventre-que-faire/" class="text-moone-purple hover:text-purple-700">Crampe au ventre que faire pour un soulagement rapide</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 28, 2025</div>
+                    
+                    <p class="text-gray-600">Crampe au ventre que faire ? Découvrez nos conseils pratiques et remèdes naturels pour apaiser la douleur abdominale et retrouver votre confort.</p>
+                    
+                    <a href="/blog/posts/crampe-au-ventre-que-faire/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-a1d02e53-ee41-4ca1-aaa5-fa760344fc69.jpg" 
+                     alt="Fatigue pendant les règles : comprendre et surmonter" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/fatigue-pendant-les-regles/" class="text-moone-purple hover:text-purple-700">Fatigue pendant les règles : comprendre et surmonter</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 27, 2025</div>
+                    
+                    <p class="text-gray-600">La fatigue pendant les règles t&#39;épuise ? Découvre les causes et des conseils pratiques pour retrouver ton énergie et mieux vivre ton cycle menstruel.</p>
+                    
+                    <a href="/blog/posts/fatigue-pendant-les-regles/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-c21e669b-b5fe-4cac-b1ac-764ab11234cf.jpg" 
+                     alt="Pourquoi j&#39;ai mal aux ovaires et comment me soulager" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/pourquoi-jai-mal-aux-ovaires/" class="text-moone-purple hover:text-purple-700">Pourquoi j&#39;ai mal aux ovaires et comment me soulager</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 26, 2025</div>
+                    
+                    <p class="text-gray-600">Tu te demandes &#39;pourquoi j&#39;ai mal aux ovaires&#39; ? Découvre les causes possibles, du cycle menstruel aux signes à surveiller, et trouve des solutions.</p>
+                    
+                    <a href="/blog/posts/pourquoi-jai-mal-aux-ovaires/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-340a9658-bed3-450c-a9ad-c3c33613949c.jpg" 
+                     alt="8 Remèdes Efficaces Contre les Règles Douloureuses Pour 2025" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/remedes-regles-douloureuses/" class="text-moone-purple hover:text-purple-700">8 Remèdes Efficaces Contre les Règles Douloureuses Pour 2025</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 25, 2025</div>
+                    
+                    <p class="text-gray-600">Fatiguée des crampes ? Découvre notre liste complète de remèdes règles douloureuses, des solutions naturelles aux options médicales, pour un soulagement rapide.</p>
+                    
+                    <a href="/blog/posts/remedes-regles-douloureuses/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-b7372343-bcc8-41a0-b240-dcda2f8c3e86.jpg" 
+                     alt="Thym et grossesse : le guide pour une consommation sans risque" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/thym-et-grossesse/" class="text-moone-purple hover:text-purple-700">Thym et grossesse : le guide pour une consommation sans risque</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 24, 2025</div>
+                    
+                    <p class="text-gray-600">Découvrez tout sur thym et grossesse: sécurité, tisanes, huiles essentielles et dosages pour maman et bébé.</p>
+                    
+                    <a href="/blog/posts/thym-et-grossesse/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-d0d1430b-adba-46ee-8653-602a6b645c92.jpg" 
+                     alt="Calcul des prochaines règles: guide rapide et fiable" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/calcul-des-prochaines-regles/" class="text-moone-purple hover:text-purple-700">Calcul des prochaines règles: guide rapide et fiable</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 23, 2025</div>
+                    
+                    <p class="text-gray-600">Découvrez le calcul des prochaines règles, même avec cycles irréguliers. Guide pratique et fiable pour prévoir vos dates facilement.</p>
+                    
+                    <a href="/blog/posts/calcul-des-prochaines-regles/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-7eb8bf73-7542-4ff2-901d-18e9f19695be.jpg" 
+                     alt="Calcul prochaine règle : ton guide rapide et facile" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/calcul-prochaine-regle/" class="text-moone-purple hover:text-purple-700">Calcul prochaine règle : ton guide rapide et facile</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 22, 2025</div>
+                    
+                    <p class="text-gray-600">calcul prochaine regle: découvrez des méthodes simples pour prévoir votre prochain cycle et mieux le suivre.</p>
+                    
+                    <a href="/blog/posts/calcul-prochaine-regle/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-34cc65c2-54f0-4564-bfcf-508728b7b760.jpg" 
+                     alt="Glaire cervicale début grossesse : Ton guide essentiel et conseils pratiques" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/glaire-cervicale-debut-grossesse/" class="text-moone-purple hover:text-purple-700">Glaire cervicale début grossesse : Ton guide essentiel et conseils pratiques</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 21, 2025</div>
+                    
+                    <p class="text-gray-600">Découvrez tout sur la glaire cervicale début grossesse, ses changements, leur signification, et ce qu&#39;il faut surveiller pour mieux comprendre votre corps.</p>
+                    
+                    <a href="/blog/posts/glaire-cervicale-debut-grossesse/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-4354ecde-c8dd-4d0e-9096-2d0fd04dacdd.jpg" 
+                     alt="Combien de temps pour tomber enceinte ? Conseils et Décryptage" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/combien-de-temps-pour-tomber-enceinte/" class="text-moone-purple hover:text-purple-700">Combien de temps pour tomber enceinte ? Conseils et Décryptage</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 20, 2025</div>
+                    
+                    <p class="text-gray-600">Vous vous demandez combien de temps pour tomber enceinte ? Découvrez les délais, facteurs clés et astuces pour optimiser vos chances rapidement.</p>
+                    
+                    <a href="/blog/posts/combien-de-temps-pour-tomber-enceinte/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-cbdbe5c9-0b64-4e00-9e77-f8a837f90872.jpg" 
+                     alt="Comment soulager tes douleurs de règles naturellement | Conseils efficaces" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/soulager-douleurs-regles-naturellement/" class="text-moone-purple hover:text-purple-700">Comment soulager tes douleurs de règles naturellement | Conseils efficaces</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 19, 2025</div>
+                    
+                    <p class="text-gray-600">Découvrez comment soulager douleurs règles naturellement avec des astuces simples, alimentation et remèdes naturels pour un confort optimal.</p>
+                    
+                    <a href="/blog/posts/soulager-douleurs-regles-naturellement/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-4ac199cd-f82c-4e2c-9c0e-7a27e0934f73.jpg" 
+                     alt="Soulager tes Douleurs de Règles Naturellement et Facilement" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/soulager-douleurs-de-regles/" class="text-moone-purple hover:text-purple-700">Soulager tes Douleurs de Règles Naturellement et Facilement</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 18, 2025</div>
+                    
+                    <p class="text-gray-600">Découvre comment soulager douleurs de règles avec des astuces naturelles efficaces. Guide pratique pour un cycle plus apaisé et confortable.</p>
+                    
+                    <a href="/blog/posts/soulager-douleurs-de-regles/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-5318f9b1-73b5-40b4-989c-f521aa20c719.jpg" 
+                     alt="Comment Soulager Tes Règles Douloureuses Facilement et Naturellement" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/comment-soulager-regles-douloureuses/" class="text-moone-purple hover:text-purple-700">Comment Soulager Tes Règles Douloureuses Facilement et Naturellement</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 17, 2025</div>
+                    
+                    <p class="text-gray-600">Découvrez comment soulager règles douloureuses avec nos astuces naturelles. Apprenez comment soulager règles douloureuses pour un cycle plus serein.</p>
+                    
+                    <a href="/blog/posts/comment-soulager-regles-douloureuses/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-2c8ae164-4dea-46d2-b067-f08515dfc6a5.jpg" 
+                     alt="Symptome premiere semaine de grossesse : les signes clés à connaître" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/symptome-premiere-semaine-de-grossesse/" class="text-moone-purple hover:text-purple-700">Symptome premiere semaine de grossesse : les signes clés à connaître</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 16, 2025</div>
+                    
+                    <p class="text-gray-600">Vous vous demandez quels sont les symptomes premiere semaine de grossesse ? Notre guide vous aide à reconnaître les signes fiables dès le début.</p>
+                    
+                    <a href="/blog/posts/symptome-premiere-semaine-de-grossesse/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-90916af9-d7e4-49b3-91a0-4e7618c99a90.jpg" 
+                     alt="Reconnaître les signes de fausse couche" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/signes-de-fausse-couche/" class="text-moone-purple hover:text-purple-700">Reconnaître les signes de fausse couche</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 15, 2025</div>
+                    
+                    <p class="text-gray-600">Apprends à identifier les signes de fausse couche. Notre guide t&#39;explique les symptômes clés, quand consulter et comment trouver du soutien.</p>
+                    
+                    <a href="/blog/posts/signes-de-fausse-couche/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-65c293b9-0754-47bc-9b98-b5a3b9973598.jpg" 
+                     alt="Soulager des courbatures : le guide pratique" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/soulager-des-courbatures/" class="text-moone-purple hover:text-purple-700">Soulager des courbatures : le guide pratique</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 14, 2025</div>
+                    
+                    <p class="text-gray-600">Découvre comment soulager des courbatures avec des conseils pratiques. Hydratation, nutrition, étirements : le guide complet pour une récupération rapide.</p>
+                    
+                    <a href="/blog/posts/soulager-des-courbatures/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-e884851b-08cd-44d9-9760-e9b54a134c84.jpg" 
+                     alt="Alimentation contre la constipation pour un transit sain" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/alimentation-contre-la-constipation/" class="text-moone-purple hover:text-purple-700">Alimentation contre la constipation pour un transit sain</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 13, 2025</div>
+                    
+                    <p class="text-gray-600">Découvre comment l&#39;alimentation contre la constipation peut transformer ton bien-être. Guide pratique avec menus et conseils pour un transit optimal.</p>
+                    
+                    <a href="/blog/posts/alimentation-contre-la-constipation/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-dcbe22fa-60be-4fbd-9da0-2eb9e0dfa156.jpg" 
+                     alt="Comment bien digérer : tes astuces simples pour une digestion optimale" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/comment-bien-digerer/" class="text-moone-purple hover:text-purple-700">Comment bien digérer : tes astuces simples pour une digestion optimale</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 12, 2025</div>
+                    
+                    <p class="text-gray-600">Découvrez comment bien digérer avec nos conseils pratiques. Améliorez votre digestion facilement dès aujourd&#39;hui !</p>
+                    
+                    <a href="/blog/posts/comment-bien-digerer/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-6bc3dc90-a921-4cd3-8bc9-3285a5d3e524.jpg" 
+                     alt="Moyen de contraception sans hormones : Ton guide complet" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/moyen-de-contraception-sans-hormones/" class="text-moone-purple hover:text-purple-700">Moyen de contraception sans hormones : Ton guide complet</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 11, 2025</div>
+                    
+                    <p class="text-gray-600">Découvrez tous les moyens de contraception sans hormones, leurs avantages et inconvénients pour choisir celui qui vous convient le mieux.</p>
+                    
+                    <a href="/blog/posts/moyen-de-contraception-sans-hormones/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-5f347a7a-10a7-4bee-af23-359d5f020204.jpg" 
+                     alt="Contraception femme sans hormones : le guide pour choisir la solution qui te convient" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/contraception-femme-sans-hormones/" class="text-moone-purple hover:text-purple-700">Contraception femme sans hormones : le guide pour choisir la solution qui te convient</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 10, 2025</div>
+                    
+                    <p class="text-gray-600">Explore la contraception femme sans hormones avec stérilet cuivre, méthodes barrières et naturelles pour choisir la solution idéale en toute sécurité.</p>
+                    
+                    <a href="/blog/posts/contraception-femme-sans-hormones/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-7b0f1b76-cbdd-4282-8ad3-f30854845f0e.jpg" 
+                     alt="Oubli de pilule : le guide pratique pour réagir vite et bien" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/oubli-de-pilule/" class="text-moone-purple hover:text-purple-700">Oubli de pilule : le guide pratique pour réagir vite et bien</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 9, 2025</div>
+                    
+                    <p class="text-gray-600">Oubli de pilule ? Découvre les étapes exactes à suivre selon ta situation. Des conseils clairs et pratiques pour réagir vite et éviter une grossesse.</p>
+                    
+                    <a href="/blog/posts/oubli-de-pilule/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-5998b34a-bdb0-4510-a56c-711d827a489d.jpg" 
+                     alt="Le dispositif intra utérin Mirena expliqué simplement" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/dispositif-intra-uterin-mirena/" class="text-moone-purple hover:text-purple-700">Le dispositif intra utérin Mirena expliqué simplement</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 8, 2025</div>
+                    
+                    <p class="text-gray-600">Tout savoir sur le dispositif intra utérin Mirena. Notre guide complet aborde son fonctionnement, ses avantages et les effets secondaires pour un choix éclairé.</p>
+                    
+                    <a href="/blog/posts/dispositif-intra-uterin-mirena/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-6c34a9af-167c-4562-a76c-22e9f3d0b53f.jpg" 
+                     alt="Absence de perte blanche : signification et solutions" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/absence-de-perte-blanche-signification/" class="text-moone-purple hover:text-purple-700">Absence de perte blanche : signification et solutions</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 7, 2025</div>
+                    
+                    <p class="text-gray-600">L&#39;absence de perte blanche signification : explore les causes hormonales, le lien avec ton cycle et quand il est important de consulter un spécialiste.</p>
+                    
+                    <a href="/blog/posts/absence-de-perte-blanche-signification/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-818a4e7f-2691-435a-9a94-709572377296.jpg" 
+                     alt="Perte rose avant règle : causes et conseils pratiques" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/perte-rose-avant-regle/" class="text-moone-purple hover:text-purple-700">Perte rose avant règle : causes et conseils pratiques</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 6, 2025</div>
+                    
+                    <p class="text-gray-600">Inquiète de la perte rose avant règle ? Découvrez ses causes possibles et quand consulter un médecin pour mieux comprendre cette phase.</p>
+                    
+                    <a href="/blog/posts/perte-rose-avant-regle/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-9919d1e1-584e-4bd3-bfab-0c691c987813.jpg" 
+                     alt="Perte blanche et transparente : le guide pour tout comprendre" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/perte-blanche-et-transparente/" class="text-moone-purple hover:text-purple-700">Perte blanche et transparente : le guide pour tout comprendre</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 5, 2025</div>
+                    
+                    <p class="text-gray-600">Un guide complet sur la perte blanche et transparente. Apprends à comprendre ton corps, à décoder les signes de ton cycle et à savoir quand consulter.</p>
+                    
+                    <a href="/blog/posts/perte-blanche-et-transparente/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-5e321dd0-380e-4634-a111-f2cd58e8ace2.jpg" 
+                     alt="Endométriose Alimentation Anti-Inflammatoire : Ton Guide Essentiel" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/endometriose-alimentation-anti-inflammatoire/" class="text-moone-purple hover:text-purple-700">Endométriose Alimentation Anti-Inflammatoire : Ton Guide Essentiel</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 4, 2025</div>
+                    
+                    <p class="text-gray-600">Découvrez comment l&#39;endométriose alimentation anti inflammatoire peut soulager vos douleurs. Guide complet avec conseils, menus et aliments clés pour votre santé.</p>
+                    
+                    <a href="/blog/posts/endometriose-alimentation-anti-inflammatoire/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-03a0430e-e0b0-41db-a925-164a2af39816.jpg" 
+                     alt="Comment comprendre ton cycle menstruel en 6 étapes" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/comprendre-son-cycle-menstruel/" class="text-moone-purple hover:text-purple-700">Comment comprendre ton cycle menstruel en 6 étapes</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 3, 2025</div>
+                    
+                    <p class="text-gray-600">Apprends à comprendre son cycle menstruel, de ses phases à ses hormones. Un guide pratique pour te reconnecter à ton corps et améliorer ton bien-être.</p>
+                    
+                    <a href="/blog/posts/comprendre-son-cycle-menstruel/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-97cacdde-85f0-4600-ba28-0785e40aa842.jpg" 
+                     alt="Comment choisir la meilleure application suivi cycle menstruel" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/application-suivi-cycle-menstruel/" class="text-moone-purple hover:text-purple-700">Comment choisir la meilleure application suivi cycle menstruel</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 2, 2025</div>
+                    
+                    <p class="text-gray-600">Découvrez l&#39;application suivi cycle menstruel idéale avec notre guide comparatif, fonctionnalités clés et conseils pour une utilisation optimale.</p>
+                    
+                    <a href="/blog/posts/application-suivi-cycle-menstruel/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-92582f7f-2a1a-4ae6-a5b2-74b91b304df5.jpg" 
+                     alt="Le guide du calculateur de cycle menstruel" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/calculateur-de-cycle-menstruel/" class="text-moone-purple hover:text-purple-700">Le guide du calculateur de cycle menstruel</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">October 1, 2025</div>
+                    
+                    <p class="text-gray-600">Apprends à utiliser un calculateur de cycle menstruel pour mieux comprendre ton corps, anticiper tes règles et suivre ta fertilité. Guide pratique et conseils.</p>
+                    
+                    <a href="/blog/posts/calculateur-de-cycle-menstruel/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-f2fc2a8c-1200-404c-9109-8632fdea6c9b.jpg" 
+                     alt="Comment facilement calculer la prochaine date de tes règles" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/prochaine-date-des-regles/" class="text-moone-purple hover:text-purple-700">Comment facilement calculer la prochaine date de tes règles</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">September 30, 2025</div>
+                    
+                    <p class="text-gray-600">Découvrez comment connaître la prochaine date des règles avec nos conseils. Anticipez votre cycle menstruel en toute simplicité.</p>
+                    
+                    <a href="/blog/posts/prochaine-date-des-regles/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
+                
+                
+                <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-6ed8efbe-5b1c-440f-8822-57fd73504887.jpg" 
+                     alt="Durée des règles : Quelle est la durée normale pour toi ?" 
+                     class="w-full h-48 object-cover"
+                     loading="lazy"
+                     decoding="async">
+                
+                <div class="p-6">
+                    <h2 class="text-xl font-semibold mb-2">
+                        <a href="/blog/posts/duree-regle-femme/" class="text-moone-purple hover:text-purple-700">Durée des règles : Quelle est la durée normale pour toi ?</a>
+                    </h2>
+                    <div class="text-sm text-gray-500 mb-4">September 29, 2025</div>
+                    
+                    <p class="text-gray-600">Découvre tout sur la durée règle femme, les variations possibles, et quand consulter pour un cycle régulier. Guide complet pour mieux comprendre ton cycle.</p>
+                    
+                    <a href="/blog/posts/duree-regle-femme/" class="inline-block mt-4 text-moone-purple hover:text-purple-700 font-medium">
+                        Read more →
+                    </a>
+                </div>
+            </article><article class="bg-white rounded-xl shadow-md overflow-hidden">
                 
                 
                 <img src="https://cdn.outrank.so/3782dc94-700e-49c9-980c-6cd43908b878/featured-image-e526d7bf-0119-4b54-88dd-0188b31ed5c8.jpg" 
@@ -308,20 +982,28 @@
     </main>
 
     <script src="/js/nav.js"></script>
-    <footer class="bg-gradient-to-br from-purple-600 via-purple-500 to-purple-700 text-white py-8">
-    <div class="container mx-auto px-4 md:px-6 py-4">
-        <div class="flex flex-col md:flex-row justify-between items-center">
-            <div class="flex items-center mb-6 md:mb-0">
-                <img src="/img/moon/moon.png" alt="Moone Logo" class="h-14">
-                <span class="ml-2 text-lg font-semibold">Moone</span>
+    <footer class="bg-slate-50 border-t border-gray-200/50 py-16">
+    <div class="container mx-auto px-6 max-w-6xl">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+            <div class="flex items-center gap-3">
+                <picture>
+                    <source srcset="/img/optimized/moon.webp" type="image/webp">
+                    <img src="/img/moon/moon.png" alt="Moone Logo" class="h-10 w-10" width="40" height="40">
+                </picture>
+                <div class="w-20 text-moone-purple">
+                    <svg viewBox="0 0 8853 1590" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M294.219 1581C204.219 1581 132.219 1555 78.2188 1503C26.2188 1449 0.218756 1383 0.218756 1305V312C0.218756 228 25.2188 157 75.2188 98.9999C127.219 41 200.219 12 294.219 12C386.219 12 455.219 41 501.219 98.9999C547.219 157 570.219 230 570.219 318V468H624.219C624.219 298 660.219 180 732.219 114C804.219 46 893.219 12 999.219 12C1135.22 12 1235.22 54 1299.22 138C1363.22 222 1395.22 332 1395.22 468H1449.22C1449.22 354 1468.22 264 1506.22 198C1544.22 132 1592.22 84.9999 1650.22 57C1710.22 27 1772.22 12 1836.22 12C1966.22 12 2061.22 43 2121.22 105C2183.22 167 2223.22 250 2241.22 354C2259.22 458 2268.22 575 2268.22 705V1305C2268.22 1383 2241.22 1449 2187.22 1503C2135.22 1555 2065.22 1581 1977.22 1581C1889.22 1581 1818.22 1555 1764.22 1503C1710.22 1449 1683.22 1383 1683.22 1305V774C1683.22 702 1674.22 646 1656.22 606C1638.22 566 1602.22 546 1548.22 546C1490.22 546 1452.22 568 1434.22 612C1418.22 656 1410.22 712 1410.22 780V1305C1410.22 1383 1385.22 1449 1335.22 1503C1285.22 1555 1216.22 1581 1128.22 1581C1038.22 1581 966.219 1555 912.219 1503C860.219 1449 834.219 1383 834.219 1305V774C834.219 702 825.219 646 807.219 606C789.219 566 754.219 546 702.219 546C644.219 546 607.219 568 591.219 612C577.219 656 570.219 712 570.219 780V1305C570.219 1383 546.219 1449 498.219 1503C450.219 1555 382.219 1581 294.219 1581ZM3179.35 1587C2945.35 1587 2758.35 1518 2618.35 1380C2480.35 1240 2411.35 1043 2411.35 789C2411.35 633 2443.35 496 2507.35 378C2571.35 260 2660.35 168 2774.35 102C2890.35 33.9999 3025.35 -3.00407e-05 3179.35 -3.00407e-05C3351.35 -3.00407e-05 3494.35 33.9999 3608.35 102C3722.35 168 3807.35 260 3863.35 378C3921.35 496 3950.35 633 3950.35 789C3950.35 1043 3886.35 1240 3758.35 1380C3632.35 1518 3439.35 1587 3179.35 1587ZM2768.35 738C2768.35 800 2799.35 844 2861.35 870C2923.35 894 3029.35 906 3179.35 906C3329.35 906 3435.35 894 3497.35 870C3559.35 844 3590.35 800 3590.35 738C3590.35 678 3559.35 636 3497.35 612C3435.35 588 3329.35 576 3179.35 576C3029.35 576 2923.35 588 2861.35 612C2799.35 636 2768.35 678 2768.35 738ZM4852.2 1587C4618.2 1587 4431.2 1518 4291.2 1380C4153.2 1240 4084.2 1043 4084.2 789C4084.2 633 4116.2 496 4180.2 378C4244.2 260 4333.2 168 4447.2 102C4563.2 33.9999 4698.2 -3.00407e-05 4852.2 -3.00407e-05C5024.2 -3.00407e-05 5167.2 33.9999 5281.2 102C5395.2 168 5480.2 260 5536.2 378C5594.2 496 5623.2 633 5623.2 789C5623.2 1043 5559.2 1240 5431.2 1380C5305.2 1518 5112.2 1587 4852.2 1587ZM4441.2 738C4441.2 800 4472.2 844 4534.2 870C4596.2 894 4702.2 906 4852.2 906C5002.2 906 5108.2 894 5170.2 870C5232.2 844 5263.2 800 5263.2 738C5263.2 678 5232.2 636 5170.2 612C5108.2 588 5002.2 576 4852.2 576C4702.2 576 4596.2 588 4534.2 612C4472.2 636 4441.2 678 4441.2 738ZM6060.05 1581C5972.05 1581 5901.05 1555 5847.05 1503C5795.05 1449 5769.05 1383 5769.05 1305V312C5769.05 228 5794.05 157 5844.05 98.9999C5894.05 41 5966.05 12 6060.05 12C6152.05 12 6222.05 41 6270.05 98.9999C6318.05 157 6342.05 230 6342.05 318V468H6396.05C6396.05 354 6416.05 264 6456.05 198C6498.05 132 6551.05 84.9999 6615.05 57C6679.05 27 6743.05 12 6807.05 12C6961.05 12 7074.05 68 7146.05 180C7218.05 290 7254.05 447 7254.05 651V1305C7254.05 1383 7228.05 1449 7176.05 1503C7124.05 1555 7054.05 1581 6966.05 1581C6876.05 1581 6804.05 1555 6750.05 1503C6698.05 1449 6672.05 1383 6672.05 1305V774C6672.05 702 6658.05 646 6630.05 606C6604.05 566 6565.05 546 6513.05 546C6453.05 546 6409.05 568 6381.05 612C6355.05 656 6342.05 712 6342.05 780V1305C6342.05 1383 6317.05 1449 6267.05 1503C6217.05 1555 6148.05 1581 6060.05 1581ZM7397.68 801C7397.68 643 7428.68 504 7490.68 384C7554.68 264 7644.68 170 7760.68 102C7878.68 33.9999 8018.68 -3.00407e-05 8180.68 -3.00407e-05C8306.68 -3.00407e-05 8419.68 23 8519.68 69C8621.68 115 8701.68 177 8759.68 255C8817.68 331 8846.68 415 8846.68 507C8846.68 603 8818.68 671 8762.68 711C8706.68 751 8623.68 771 8513.68 771H7883.68C7883.68 823 7903.68 866 7943.68 900C7985.68 934 8055.68 951 8153.68 951C8203.68 951 8249.68 946 8291.68 936C8335.68 926 8379.68 917 8423.68 909C8469.68 899 8520.68 894 8576.68 894C8656.68 894 8722.68 923 8774.68 981C8826.68 1037 8852.68 1115 8852.68 1215C8852.68 1333 8791.68 1425 8669.68 1491C8549.68 1557 8391.68 1590 8195.68 1590C8057.68 1590 7927.68 1563 7805.68 1509C7685.68 1455 7587.68 1370 7511.68 1254C7435.68 1136 7397.68 985 7397.68 801ZM8369.68 672C8399.68 672 8409.68 658 8399.68 630C8391.68 602 8367.68 573 8327.68 543C8287.68 513 8229.68 498 8153.68 498C8065.68 498 7999.68 517 7955.68 555C7913.68 593 7892.68 632 7892.68 672H8369.68Z" fill="currentColor"/>
+                    </svg>    
+                </div>
             </div>
-            <div class="flex flex-col md:flex-row items-center gap-4">
-                <a href="/PrivacyPolicy" class="text-purple-200 hover:text-white">Privacy Policy</a>
-                <a href="/TermsandConditions" class="text-purple-200 hover:text-white">Terms and Conditions</a>
+            <div class="flex flex-col md:flex-row items-start md:items-center gap-6">
+                <a href="/PrivacyPolicy/" class="text-slate-600 hover:text-purple-600 transition-colors">Politique de confidentialité</a>
+                <a href="/TermsandConditions/" class="text-slate-600 hover:text-purple-600 transition-colors">Conditions générales</a>
             </div>
         </div>
-        <div class="mt-8 text-center text-purple-200 text-sm">
-            <p>&copy; 2024 Moone. All rights reserved.</p>
+        <div class="mt-12 pt-8 border-t border-gray-200/50 text-center space-y-2">
+            <p class="text-slate-600">&copy; 2024 Moone. Tous droits réservés.</p>
+            <p class="text-sm text-slate-500">Moone partage des informations éducatives et des outils de soutien. Ce n'est pas un dispositif médical et ne fournit pas de conseils médicaux.</p>
         </div>
     </div>
 </footer>
