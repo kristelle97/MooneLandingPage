@@ -1,5 +1,5 @@
 {
-  "last_sync": "2025-11-15T09:01:44.337Z",
+  "last_sync": "2025-11-16T09:01:57.377Z",
   "articles": {
     "Calculer son cycle menstruel en ligne facilement et rapidement_2025-09-28": {
       "title": "Calculer son cycle menstruel en ligne facilement et rapidement",
@@ -392,6 +392,22 @@
       "meta_description": "kyste ovaire douleur? Découvrez les signes, causes et solutions concrètes pour soulager efficacement et prendre en charge votre douleur.",
       "notion_id": "2ab27d4c-1901-8163-9ec5-efdad02cff0b",
       "created_at": "2025-11-15T09:01:44.337Z"
+    },
+    "Perte blanche cycle : le guide pour comprendre ton corps_2025-11-16": {
+      "title": "Perte blanche cycle : le guide pour comprendre ton corps",
+      "slug": "perte-blanche-cycle",
+      "publish_date": "2025-11-16",
+      "meta_description": "Décode le langage de ton corps. Ce guide sur la perte blanche cycle t'aide à comprendre ses variations, à identifier les signes et à prendre soin de ta santé.",
+      "notion_id": "2ad27d4c-1901-8175-8f97-c524504caad4",
+      "created_at": "2025-11-16T09:01:52.250Z"
+    },
+    "Soulager les douleurs menstruelles naturellement_2025-11-15": {
+      "title": "Soulager les douleurs menstruelles naturellement",
+      "slug": "soulager-les-douleurs-menstruelles",
+      "publish_date": "2025-11-15",
+      "meta_description": "Découvre comment soulager les douleurs menstruelles avec des stratégies concrètes. Un guide pratique pour t'aider à mieux vivre tes règles.",
+      "notion_id": "2ac27d4c-1901-81cc-85ee-f06c1144a1d5",
+      "created_at": "2025-11-16T09:01:57.377Z"
     }
   }
 }
