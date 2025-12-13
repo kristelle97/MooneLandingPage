@@ -1,5 +1,5 @@
 {
-  "last_sync": "2025-12-12T09:03:56.673Z",
+  "last_sync": "2025-12-13T09:01:45.295Z",
   "articles": {
     "Calculer son cycle menstruel en ligne facilement et rapidement_2025-09-28": {
       "title": "Calculer son cycle menstruel en ligne facilement et rapidement",
@@ -600,6 +600,14 @@
       "meta_description": "Découvre comment éviter les infections urinaires grâce à des conseils pratiques et actionnables sur l'hydratation, l'hygiène intime et les habitudes de vie.",
       "notion_id": "2c627d4c-1901-816a-98ff-c69c466a9f24",
       "created_at": "2025-12-12T09:03:56.673Z"
+    },
+    "Le guide complet des graines de psyllium pour ta digestion_2025-12-12": {
+      "title": "Le guide complet des graines de psyllium pour ta digestion",
+      "slug": "graines-de-psyllium",
+      "publish_date": "2025-12-12",
+      "meta_description": "Découvre comment les graines de psyllium peuvent apaiser ta digestion, réduire les ballonnements et améliorer ton confort. Un guide pratique et simple.",
+      "notion_id": "2c727d4c-1901-815f-a3f4-ca545ad4afe4",
+      "created_at": "2025-12-13T09:01:45.295Z"
     }
   }
 }
