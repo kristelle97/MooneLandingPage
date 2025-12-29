@@ -1,5 +1,5 @@
 {
-  "last_sync": "2025-12-28T09:02:24.148Z",
+  "last_sync": "2025-12-29T09:04:35.956Z",
   "articles": {
     "Calculer son cycle menstruel en ligne facilement et rapidement_2025-09-28": {
       "title": "Calculer son cycle menstruel en ligne facilement et rapidement",
@@ -728,6 +728,14 @@
       "meta_description": "J'ai pas eu mes règles ce mois ci ? Ne panique pas. Découvre les causes possibles, les actions à entreprendre et quand consulter pour comprendre ton corps.",
       "notion_id": "2d627d4c-1901-81e9-8d22-c02b8fc79858",
       "created_at": "2025-12-28T09:02:24.148Z"
+    },
+    "Comment gérer tes règles et ton cycle après la pilule du lendemain_2025-12-28": {
+      "title": "Comment gérer tes règles et ton cycle après la pilule du lendemain",
+      "slug": "regles-apres-pilule-du-lendemain",
+      "publish_date": "2025-12-28",
+      "meta_description": "Découvrez pourquoi les règles après pilule du lendemain peuvent varier et comment gérer les symptômes avec sérénité, sans panique.",
+      "notion_id": "2d727d4c-1901-8187-8403-c2e6eb7a8d41",
+      "created_at": "2025-12-29T09:04:35.956Z"
     }
   }
 }
