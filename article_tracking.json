@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-01-03T09:02:12.661Z",
+  "last_sync": "2026-01-04T09:02:09.818Z",
   "articles": {
     "Calculer son cycle menstruel en ligne facilement et rapidement_2025-09-28": {
       "title": "Calculer son cycle menstruel en ligne facilement et rapidement",
@@ -776,6 +776,14 @@
       "meta_description": "Pilule optimizette saignement: découvrez pourquoi cela arrive, comment le gérer au quotidien et quand consulter un médecin.",
       "notion_id": "2dc27d4c-1901-8176-b861-dc4bd1df338a",
       "created_at": "2026-01-03T09:02:12.661Z"
+    },
+    "Saignement sous pilule : causes et solutions pratiques_2026-01-03": {
+      "title": "Saignement sous pilule : causes et solutions pratiques",
+      "slug": "saignement-sous-pilule",
+      "publish_date": "2026-01-03",
+      "meta_description": "Le saignement sous pilule peut arriver. Découvrez pourquoi, quand consulter et des conseils pratiques pour le gérer.",
+      "notion_id": "2dd27d4c-1901-8103-aab9-ccf67bc1061d",
+      "created_at": "2026-01-04T09:02:09.818Z"
     }
   }
 }
