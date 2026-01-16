@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-01-15T09:04:24.531Z",
+  "last_sync": "2026-01-16T09:03:56.125Z",
   "articles": {
     "Calculer son cycle menstruel en ligne facilement et rapidement_2025-09-28": {
       "title": "Calculer son cycle menstruel en ligne facilement et rapidement",
@@ -880,6 +880,14 @@
       "meta_description": "Tu as des saignements sous pilule ? Découvre pourquoi cela arrive, comment gérer le spotting au quotidien et quand il est essentiel de consulter un spécialiste.",
       "notion_id": "2e827d4c-1901-8196-9f32-c4855b9ce1c5",
       "created_at": "2026-01-15T09:04:24.530Z"
+    },
+    "Comment calculer ton cycle menstruel : guide pratique et fiable_2026-01-16": {
+      "title": "Comment calculer ton cycle menstruel : guide pratique et fiable",
+      "slug": "comment-calculer-un-cycle-menstruel",
+      "publish_date": "2026-01-16",
+      "meta_description": "Découvrez comment calculer un cycle menstruel avec précision et simplicité. Guide pratique pour suivre tes cycles et comprendre ton corps.",
+      "notion_id": "2ea27d4c-1901-816c-b865-fee756a5cb28",
+      "created_at": "2026-01-16T09:03:56.124Z"
     }
   }
 }
